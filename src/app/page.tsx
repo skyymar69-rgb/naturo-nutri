@@ -1,312 +1,553 @@
+import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowRight, Leaf, FlaskConical, Sparkles, BookOpen, Sprout, Pill } from 'lucide-react';
-import { Container } from '@/components/ui/Container';
-import { ButtonLink } from '@/components/ui/Button';
-import { Card, CardContent } from '@/components/ui/Card';
-import { Badge } from '@/components/ui/Badge';
+import {
+  ArrowRight, Leaf, FlaskConical, BookOpen, Sprout,
+  CheckCircle2, Droplets, Wind, Star, ChevronRight,
+} from 'lucide-react';
 
 export default function HomePage() {
   return (
     <>
       <Hero />
+      <WaveDown fill="white" />
       <TwoDomains />
-      <WhySite />
-      <Highlights />
+      <StatsBand />
+      <WaveDown fill="#f2fbf4" />
+      <WhySection />
+      <WaveDown fill="white" />
+      <TopicsGrid />
+      <WaveDown fill="#f2fbf4" />
+      <CtaBanner />
     </>
   );
 }
 
+/* ─────────────────────────────────────────
+   WAVE DIVIDERS
+───────────────────────────────────────── */
+function WaveDown({ fill }: { fill: string }) {
+  return (
+    <div className="w-full overflow-hidden leading-[0] -my-px">
+      <svg
+        viewBox="0 0 1440 60"
+        preserveAspectRatio="none"
+        className="w-full h-[50px] sm:h-[60px]"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M0,0 C480,60 960,60 1440,0 L1440,60 L0,60 Z" fill={fill} />
+      </svg>
+    </div>
+  );
+}
+
+/* ─────────────────────────────────────────
+   HERO
+───────────────────────────────────────── */
 function Hero() {
   return (
-    <section className="relative overflow-hidden grain-bg">
-      <div className="absolute inset-0 -z-10">
-        <div className="absolute top-0 right-0 h-96 w-96 rounded-full bg-sage-200/30 blur-3xl" />
-        <div className="absolute bottom-0 left-0 h-96 w-96 rounded-full bg-earth-100/40 blur-3xl" />
-      </div>
+    <section className="hero-bg pb-0 pt-12 sm:pt-16 lg:pt-20 overflow-hidden">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
-      <Container className="py-20 sm:py-28 text-center">
-        <Badge variant="earth" className="mb-6">
-          <Sparkles className="h-3 w-3" /> Portail de référence francophone
-        </Badge>
+          {/* ── Left column ── */}
+          <div className="max-w-xl">
+            {/* Eyebrow */}
+            <div className="inline-flex items-center gap-2 bg-white/70 border border-sage-200 text-sage-700 text-xs font-bold uppercase tracking-[0.15em] px-4 py-2 rounded-full mb-7 shadow-sm">
+              <span className="h-2 w-2 rounded-full bg-sage-500 animate-pulse" />
+              Portail de référence francophone
+            </div>
 
-        <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl text-forest-900 leading-[1.05] tracking-tight text-balance max-w-5xl mx-auto">
-          La santé naturelle,
-          <span className="block italic text-earth-600">en profondeur</span>
-        </h1>
+            {/* Headline */}
+            <h1 className="font-display text-[3.2rem] sm:text-[4rem] lg:text-[4.5rem] xl:text-[5rem] text-forest-900 leading-[1.0] mb-6">
+              Mangez mieux.
+              <br />
+              <span className="text-sage-500">Vivez mieux.</span>
+              <br />
+              Durablement.
+            </h1>
 
-        <p className="mt-6 text-lg sm:text-xl text-forest-700/85 leading-relaxed max-w-3xl mx-auto text-balance">
-          Deux disciplines complémentaires pour reprendre votre santé en main : la naturopathie, qui
-          travaille le terrain, et la nutrithérapie, qui apporte au corps ce dont il a besoin avec
-          précision.
-        </p>
+            {/* Body */}
+            <p className="text-lg sm:text-xl text-forest-700/85 leading-relaxed mb-9">
+              Deux disciplines complémentaires pour reprendre votre santé en main :
+              la <strong className="text-forest-900 font-semibold">naturopathie</strong> qui rééquilibre
+              le terrain, et la <strong className="text-forest-900 font-semibold">nutrithérapie</strong>{' '}
+              qui nourrit avec précision.
+            </p>
 
-        <div className="mt-10 flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm text-forest-700/70">
-          <div className="flex items-center gap-2">
-            <span className="h-2 w-2 rounded-full bg-sage-500" /> Guides détaillés
+            {/* CTA buttons */}
+            <div className="flex flex-wrap gap-3 mb-10">
+              <Link
+                href="/naturopathie"
+                className="inline-flex items-center gap-2 bg-sage-500 hover:bg-sage-600 text-white font-semibold px-7 py-3.5 rounded-full transition-all shadow-md hover:shadow-lg"
+              >
+                <Leaf className="h-4 w-4" />
+                Naturopathie
+              </Link>
+              <Link
+                href="/nutritherapie"
+                className="inline-flex items-center gap-2 border-2 border-earth-500 text-earth-600 hover:bg-earth-50 font-semibold px-7 py-3.5 rounded-full transition-all"
+              >
+                <FlaskConical className="h-4 w-4" />
+                Nutrithérapie
+              </Link>
+            </div>
+
+            {/* Trust stats */}
+            <div className="grid grid-cols-3 gap-4 border-t border-forest-100 pt-7">
+              {[
+                { val: '163+', lbl: 'Guides & articles' },
+                { val: '100%', lbl: 'Indépendant' },
+                { val: 'Gratuit', lbl: 'Accès libre' },
+              ].map((s) => (
+                <div key={s.lbl}>
+                  <p className="font-display text-2xl sm:text-3xl text-forest-900">{s.val}</p>
+                  <p className="text-xs sm:text-sm text-forest-600 mt-0.5">{s.lbl}</p>
+                </div>
+              ))}
+            </div>
           </div>
-          <div className="flex items-center gap-2">
-            <span className="h-2 w-2 rounded-full bg-earth-500" /> Protocoles complets
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="h-2 w-2 rounded-full bg-forest-500" /> Information vérifiée
+
+          {/* ── Right column — circular food photo ── */}
+          <div className="relative flex justify-center lg:justify-end pb-0">
+            {/* Outer ring decoration */}
+            <div className="relative w-[360px] h-[360px] sm:w-[420px] sm:h-[420px] lg:w-[480px] lg:h-[480px]">
+
+              {/* Background circle */}
+              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-sage-200 to-sage-100 shadow-inner" />
+
+              {/* Photo circle */}
+              <div className="absolute inset-5 rounded-full overflow-hidden shadow-2xl">
+                <Image
+                  src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
+                  alt="Assiette santé colorée"
+                  fill
+                  className="object-cover"
+                  priority
+                  sizes="480px"
+                />
+              </div>
+
+              {/* Floating badge — top left */}
+              <div className="absolute -top-4 -left-4 sm:-left-8 bg-white rounded-2xl shadow-lg px-4 py-3 flex items-center gap-3 animate-float">
+                <div className="w-10 h-10 bg-sage-100 rounded-xl grid place-items-center flex-shrink-0">
+                  <Sprout className="h-5 w-5 text-sage-600" />
+                </div>
+                <div>
+                  <p className="text-xs font-bold text-forest-900">Naturopathie</p>
+                  <p className="text-xs text-forest-500">11 thèmes</p>
+                </div>
+              </div>
+
+              {/* Floating badge — bottom right */}
+              <div className="absolute -bottom-4 -right-4 sm:-right-8 bg-white rounded-2xl shadow-lg px-4 py-3 flex items-center gap-3 animate-float" style={{ animationDelay: '2s' }}>
+                <div className="w-10 h-10 bg-earth-100 rounded-xl grid place-items-center flex-shrink-0">
+                  <FlaskConical className="h-5 w-5 text-earth-600" />
+                </div>
+                <div>
+                  <p className="text-xs font-bold text-forest-900">Nutrithérapie</p>
+                  <p className="text-xs text-forest-500">9 catégories</p>
+                </div>
+              </div>
+
+              {/* Leaf decoration — top right */}
+              <svg
+                className="absolute -top-6 right-8 w-16 h-16 text-sage-400 opacity-80 rotate-[25deg] animate-float"
+                style={{ animationDelay: '1s' }}
+                viewBox="0 0 64 64"
+                fill="currentColor"
+              >
+                <path d="M32 4 C32 4, 58 16, 58 38 C58 52, 46 60, 32 60 C32 60, 32 38, 32 4Z" opacity="0.8" />
+                <path d="M32 4 C32 4, 6 16, 6 38 C6 52, 18 60, 32 60 C32 60, 32 38, 32 4Z" opacity="0.5" />
+              </svg>
+
+              {/* Leaf decoration — bottom left */}
+              <svg
+                className="absolute bottom-4 -left-8 w-12 h-12 text-sage-500 opacity-70 rotate-[-40deg] animate-float"
+                style={{ animationDelay: '3s' }}
+                viewBox="0 0 64 64"
+                fill="currentColor"
+              >
+                <path d="M32 4 C32 4, 58 16, 58 38 C58 52, 46 60, 32 60 C32 60, 32 38, 32 4Z" />
+              </svg>
+            </div>
           </div>
         </div>
-      </Container>
+      </div>
     </section>
   );
 }
 
+/* ─────────────────────────────────────────
+   TWO DOMAINS
+───────────────────────────────────────── */
 function TwoDomains() {
   return (
-    <section className="py-12 sm:py-16 -mt-8">
-      <Container>
-        <div className="grid lg:grid-cols-2 gap-6 lg:gap-8">
-          <Link href="/naturopathie" className="group">
-            <Card hoverable className="overflow-hidden h-full">
-              <div className="p-8 lg:p-12 bg-gradient-to-br from-forest-700 via-forest-800 to-forest-900 text-cream-50 relative">
-                <div className="absolute -top-6 -right-6 text-[10rem] opacity-10 leading-none select-none">🌿</div>
-                <div className="relative">
-                  <Badge className="bg-white/20 text-cream-50 ring-white/30 mb-6">
-                    <Leaf className="h-3 w-3" /> Naturopathie
-                  </Badge>
-                  <h2 className="font-display text-4xl lg:text-5xl mb-4 leading-tight">
-                    Soigner par le terrain
-                  </h2>
-                  <p className="text-cream-50/90 leading-relaxed mb-8">
-                    Jeûnes, cures de drainage, alimentation vivante, plantes médicinales,
-                    hydrothérapie. La médecine du vivant qui agit en amont du symptôme — en
-                    rééquilibrant les grandes fonctions du corps.
-                  </p>
-                  <div className="grid grid-cols-2 gap-3 mb-8 text-sm">
-                    <div className="flex items-center gap-2 text-cream-50/80">
-                      <Sprout className="h-4 w-4 text-sage-300" /> Jeûnes & monodiètes
-                    </div>
-                    <div className="flex items-center gap-2 text-cream-50/80">
-                      <Sprout className="h-4 w-4 text-sage-300" /> Purges & drainages
-                    </div>
-                    <div className="flex items-center gap-2 text-cream-50/80">
-                      <Sprout className="h-4 w-4 text-sage-300" /> Plantes médicinales
-                    </div>
-                    <div className="flex items-center gap-2 text-cream-50/80">
-                      <Sprout className="h-4 w-4 text-sage-300" /> Alimentation vivante
-                    </div>
-                    <div className="flex items-center gap-2 text-cream-50/80">
-                      <Sprout className="h-4 w-4 text-sage-300" /> Hydrothérapie
-                    </div>
-                    <div className="flex items-center gap-2 text-cream-50/80">
-                      <Sprout className="h-4 w-4 text-sage-300" /> Aromathérapie
-                    </div>
-                  </div>
-                  <span className="inline-flex items-center gap-2 text-cream-50 font-medium group-hover:gap-3 transition-all">
-                    Entrer en naturopathie <ArrowRight className="h-5 w-5" />
-                  </span>
-                </div>
+    <section className="bg-white py-16 sm:py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div className="text-center mb-14">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-sage-600 mb-3">Nos deux piliers</p>
+          <h2 className="font-display text-4xl sm:text-5xl text-forest-900">
+            Choisissez votre approche
+          </h2>
+        </div>
+
+        <div className="grid lg:grid-cols-2 gap-8">
+
+          {/* Naturopathie */}
+          <Link href="/naturopathie" className="group block">
+            <div className="bg-forest-50 hover:bg-forest-100 rounded-3xl p-8 lg:p-10 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl border border-forest-100">
+              {/* Icon */}
+              <div className="w-16 h-16 bg-forest-700 rounded-2xl grid place-items-center mb-6 shadow-md group-hover:bg-forest-600 transition-colors">
+                <Leaf className="h-8 w-8 text-white" />
               </div>
-            </Card>
+
+              <div className="flex items-start justify-between mb-3">
+                <h3 className="font-display text-3xl sm:text-4xl text-forest-900">Naturopathie</h3>
+                <span className="text-xs font-bold uppercase tracking-widest text-forest-500 bg-forest-100 px-3 py-1.5 rounded-full mt-1">
+                  Terrain
+                </span>
+              </div>
+
+              <p className="text-forest-700/85 leading-relaxed mb-7">
+                La médecine du vivant — rééquilibrer, drainer, régénérer. Agit en amont du symptôme
+                par la nature et le mode de vie.
+              </p>
+
+              <ul className="space-y-2.5 mb-8">
+                {[
+                  'Jeûnes & monodiètes',
+                  'Purges & drainages',
+                  'Plantes médicinales',
+                  'Hydrothérapie & aromathérapie',
+                  'Alimentation vivante',
+                  'Cures saisonnières',
+                ].map((item) => (
+                  <li key={item} className="flex items-center gap-3 text-sm text-forest-800">
+                    <CheckCircle2 className="h-4 w-4 text-sage-500 flex-shrink-0" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+
+              <div className="inline-flex items-center gap-2 bg-forest-700 group-hover:bg-forest-600 text-white font-semibold text-sm px-6 py-3 rounded-full transition-all">
+                Explorer la naturopathie
+                <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </div>
           </Link>
 
-          <Link href="/nutritherapie" className="group">
-            <Card hoverable className="overflow-hidden h-full">
-              <div className="p-8 lg:p-12 bg-gradient-to-br from-earth-500 via-earth-600 to-earth-800 text-cream-50 relative">
-                <div className="absolute -top-6 -right-6 text-[10rem] opacity-10 leading-none select-none">⚗️</div>
-                <div className="relative">
-                  <Badge className="bg-white/20 text-cream-50 ring-white/30 mb-6">
-                    <FlaskConical className="h-3 w-3" /> Nutrithérapie
-                  </Badge>
-                  <h2 className="font-display text-4xl lg:text-5xl mb-4 leading-tight">
-                    Nourrir avec précision
-                  </h2>
-                  <p className="text-cream-50/90 leading-relaxed mb-8">
-                    Vitamines, minéraux, oligoéléments, acides gras, antioxydants, adaptogènes. La
-                    science des micronutriments pour combler ce que nos aliments modernes n'apportent
-                    plus en quantité suffisante.
-                  </p>
-                  <div className="grid grid-cols-2 gap-3 mb-8 text-sm">
-                    <div className="flex items-center gap-2 text-cream-50/80">
-                      <Pill className="h-4 w-4 text-cream-200" /> 13 vitamines
-                    </div>
-                    <div className="flex items-center gap-2 text-cream-50/80">
-                      <Pill className="h-4 w-4 text-cream-200" /> 15 minéraux
-                    </div>
-                    <div className="flex items-center gap-2 text-cream-50/80">
-                      <Pill className="h-4 w-4 text-cream-200" /> Acides aminés
-                    </div>
-                    <div className="flex items-center gap-2 text-cream-50/80">
-                      <Pill className="h-4 w-4 text-cream-200" /> Acides gras
-                    </div>
-                    <div className="flex items-center gap-2 text-cream-50/80">
-                      <Pill className="h-4 w-4 text-cream-200" /> Microbiote
-                    </div>
-                    <div className="flex items-center gap-2 text-cream-50/80">
-                      <Pill className="h-4 w-4 text-cream-200" /> Compléments ciblés
-                    </div>
-                  </div>
-                  <span className="inline-flex items-center gap-2 text-cream-50 font-medium group-hover:gap-3 transition-all">
-                    Entrer en nutrithérapie <ArrowRight className="h-5 w-5" />
-                  </span>
-                </div>
+          {/* Nutrithérapie */}
+          <Link href="/nutritherapie" className="group block">
+            <div className="bg-earth-50 hover:bg-earth-100 rounded-3xl p-8 lg:p-10 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl border border-earth-100">
+              {/* Icon */}
+              <div className="w-16 h-16 bg-earth-500 rounded-2xl grid place-items-center mb-6 shadow-md group-hover:bg-earth-400 transition-colors">
+                <FlaskConical className="h-8 w-8 text-white" />
               </div>
-            </Card>
+
+              <div className="flex items-start justify-between mb-3">
+                <h3 className="font-display text-3xl sm:text-4xl text-forest-900">Nutrithérapie</h3>
+                <span className="text-xs font-bold uppercase tracking-widest text-earth-600 bg-earth-100 px-3 py-1.5 rounded-full mt-1">
+                  Précision
+                </span>
+              </div>
+
+              <p className="text-forest-700/85 leading-relaxed mb-7">
+                La science des micronutriments — vitamines, minéraux, acides gras, adaptogènes.
+                Combler ce que l'alimentation moderne n'apporte plus.
+              </p>
+
+              <ul className="space-y-2.5 mb-8">
+                {[
+                  '13 vitamines décryptées',
+                  '15 minéraux & oligoéléments',
+                  'Acides gras essentiels',
+                  'Probiotiques & microbiote',
+                  'Adaptogènes & antioxydants',
+                  'Compléments par objectif',
+                ].map((item) => (
+                  <li key={item} className="flex items-center gap-3 text-sm text-forest-800">
+                    <CheckCircle2 className="h-4 w-4 text-earth-500 flex-shrink-0" />
+                    {item}
+                  </li>
+                ))}
+              </ul>
+
+              <div className="inline-flex items-center gap-2 bg-earth-500 group-hover:bg-earth-400 text-white font-semibold text-sm px-6 py-3 rounded-full transition-all">
+                Explorer la nutrithérapie
+                <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+              </div>
+            </div>
           </Link>
         </div>
-      </Container>
+      </div>
     </section>
   );
 }
 
-function WhySite() {
+/* ─────────────────────────────────────────
+   STATS BAND
+───────────────────────────────────────── */
+function StatsBand() {
+  const stats = [
+    { value: '163+',    label: 'Articles & guides',     icon: BookOpen },
+    { value: '2',       label: 'Domaines complets',     icon: Star },
+    { value: '4',       label: 'Profils tempéraments',  icon: Sprout },
+    { value: '8',       label: 'Principes de qualité',  icon: CheckCircle2 },
+  ];
+
   return (
-    <section className="py-20 sm:py-24">
-      <Container>
-        <div className="max-w-3xl mx-auto text-center">
-          <p className="text-xs font-medium uppercase tracking-[0.18em] text-earth-600 mb-3">
-            Notre démarche
-          </p>
-          <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl text-balance text-forest-900 leading-tight">
-            Une connaissance accessible,
+    <section className="bg-forest-700 py-12 sm:py-14">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+          {stats.map(({ value, label, icon: Icon }) => (
+            <div key={label} className="text-center">
+              <div className="w-12 h-12 bg-white/10 rounded-2xl grid place-items-center mx-auto mb-3">
+                <Icon className="h-6 w-6 text-sage-300" />
+              </div>
+              <p className="font-display text-4xl sm:text-5xl text-white">{value}</p>
+              <p className="text-sm text-forest-200 mt-1">{label}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ─────────────────────────────────────────
+   WHY SECTION
+───────────────────────────────────────── */
+function WhySection() {
+  const features = [
+    {
+      icon: BookOpen,
+      bg: 'bg-sage-500',
+      title: 'Guides thématiques',
+      desc: 'Plus de 163 articles organisés par thème. Du jeûne hydrique aux formes biodisponibles des minéraux.',
+    },
+    {
+      icon: Droplets,
+      bg: 'bg-forest-700',
+      title: 'Protocoles détaillés',
+      desc: 'Pour chaque méthode : préparation, déroulé, sortie de cure, contre-indications et fréquence.',
+    },
+    {
+      icon: FlaskConical,
+      bg: 'bg-earth-500',
+      title: 'Dosages précis',
+      desc: 'AJR vs dose optimale, formes chélatées vs oxydes, interactions et profils de population.',
+    },
+  ];
+
+  return (
+    <section className="bg-cream-50 py-16 sm:py-24">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        {/* Header */}
+        <div className="max-w-2xl mx-auto text-center mb-14">
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-sage-600 mb-3">Notre démarche</p>
+          <h2 className="font-display text-4xl sm:text-5xl text-forest-900 text-balance">
+            Information sérieuse,
             <br />
             sans dogmatisme
           </h2>
-          <p className="mt-6 text-base sm:text-lg text-forest-700/85 leading-relaxed text-balance">
+          <p className="mt-5 text-lg text-forest-700/80 leading-relaxed text-balance">
             Loin des modes et des protocoles miracles, nous compilons ce que la naturopathie et la
-            nutrithérapie ont de meilleur à offrir : des principes éprouvés, des protocoles
-            détaillés, des dosages précis, des indications et des contre-indications honnêtes.
+            nutrithérapie ont de meilleur : des principes éprouvés, des dosages précis, des
+            indications et contre-indications honnêtes.
           </p>
         </div>
 
-        <div className="mt-16 grid sm:grid-cols-3 gap-6">
-          {[
-            {
-              icon: BookOpen,
-              title: 'Guides thématiques',
-              desc: 'Plus de 200 articles classés par thèmes. Du jeûne hydrique aux dosages personnalisés.',
-            },
-            {
-              icon: Sprout,
-              title: 'Protocoles détaillés',
-              desc: 'Pour chaque méthode : préparation, déroulé, sortie de cure, fréquence recommandée.',
-            },
-            {
-              icon: FlaskConical,
-              title: 'Dosages précis',
-              desc: 'Formes biodisponibles, AJR vs dosage optimal, interactions, contre-indications.',
-            },
-          ].map(({ icon: Icon, title, desc }) => (
-            <Card key={title} hoverable accent="forest">
-              <CardContent>
-                <div className="grid h-12 w-12 place-items-center rounded-2xl bg-forest-700 text-cream-50 mb-4">
-                  <Icon className="h-6 w-6" />
-                </div>
-                <h3 className="font-display text-xl text-forest-900 mb-2">{title}</h3>
-                <p className="text-sm text-forest-700/85 leading-relaxed">{desc}</p>
-              </CardContent>
-            </Card>
+        {/* Feature cards */}
+        <div className="grid sm:grid-cols-3 gap-6">
+          {features.map(({ icon: Icon, bg, title, desc }) => (
+            <div
+              key={title}
+              className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow border border-forest-50"
+            >
+              <div className={`w-14 h-14 ${bg} rounded-2xl grid place-items-center mb-5 shadow-md`}>
+                <Icon className="h-7 w-7 text-white" />
+              </div>
+              <h3 className="font-display text-2xl text-forest-900 mb-2">{title}</h3>
+              <p className="text-sm text-forest-700/80 leading-relaxed">{desc}</p>
+            </div>
           ))}
         </div>
-      </Container>
+      </div>
     </section>
   );
 }
 
-function Highlights() {
-  return (
-    <section className="py-20 bg-forest-50/30">
-      <Container>
-        <div className="grid lg:grid-cols-2 gap-8 items-center">
-          <div>
-            <p className="text-xs font-medium uppercase tracking-[0.18em] text-earth-600 mb-3">
-              Pour commencer
-            </p>
-            <h2 className="font-display text-3xl sm:text-4xl text-forest-900 leading-tight">
-              Trois portes d'entrée
-            </h2>
-            <p className="mt-4 text-forest-700/85 leading-relaxed">
-              Trois façons d'aborder le portail selon votre intuition du moment :
-            </p>
-            <ul className="mt-6 space-y-3 text-forest-800">
-              <li className="flex gap-3">
-                <span className="text-sage-600 font-bold mt-0.5">1.</span>
-                <span>
-                  <Link href="/naturopathie/jeunes" className="font-medium underline underline-offset-2 hover:text-forest-900">
-                    Comprendre le jeûne
-                  </Link> — la voie royale du repos digestif et de la régénération cellulaire.
-                </span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-sage-600 font-bold mt-0.5">2.</span>
-                <span>
-                  <Link href="/nutritherapie/vitamines" className="font-medium underline underline-offset-2 hover:text-forest-900">
-                    Découvrir les vitamines essentielles
-                  </Link> — vitamine D, magnésium, oméga-3 : les piliers de la santé moderne.
-                </span>
-              </li>
-              <li className="flex gap-3">
-                <span className="text-sage-600 font-bold mt-0.5">3.</span>
-                <span>
-                  <Link href="/naturopathie/temperaments" className="font-medium underline underline-offset-2 hover:text-forest-900">
-                    Identifier votre tempérament
-                  </Link> — la connaissance hippocratique au service de votre profil unique.
-                </span>
-              </li>
-            </ul>
-          </div>
+/* ─────────────────────────────────────────
+   TOPICS GRID (replaces Highlights — no emojis)
+───────────────────────────────────────── */
+function TopicsGrid() {
+  const topics = [
+    {
+      href: '/naturopathie/jeunes',
+      icon: Droplets,
+      iconBg: 'bg-forest-700',
+      category: 'Naturopathie',
+      title: 'Jeûnes & monodiètes',
+      desc: 'Jeûne hydrique, Buchinger, intermittent, jus, monodiètes — protocoles complets de préparation et de sortie.',
+    },
+    {
+      href: '/nutritherapie/vitamines',
+      icon: Star,
+      iconBg: 'bg-earth-500',
+      category: 'Nutrithérapie',
+      title: 'Vitamines essentielles',
+      desc: 'De la vitamine D3 à la B12 : formes biodisponibles, dosages optimaux, signes de déficit.',
+    },
+    {
+      href: '/naturopathie/temperaments',
+      icon: Sprout,
+      iconBg: 'bg-sage-500',
+      category: 'Naturopathie',
+      title: 'Les 4 tempéraments',
+      desc: 'Sanguin, bilieux, nerveux, lymphatique — profil personnalisé avec alimentation et compléments adaptés.',
+    },
+    {
+      href: '/naturopathie/stress-emotions',
+      icon: Wind,
+      iconBg: 'bg-forest-500',
+      category: 'Naturopathie',
+      title: 'Stress & sommeil',
+      desc: 'Cohérence cardiaque, adaptogènes, plantes et rituels du soir pour retrouver un sommeil profond.',
+    },
+    {
+      href: '/naturopathie/purges',
+      icon: Droplets,
+      iconBg: 'bg-forest-600',
+      category: 'Naturopathie',
+      title: 'Purges & drainages',
+      desc: "Huile de ricin, lavement, brossage à sec, argile, bentonite — les grandes méthodes de détox.",
+    },
+    {
+      href: '/nutritherapie/mineraux',
+      icon: FlaskConical,
+      iconBg: 'bg-earth-600',
+      category: 'Nutrithérapie',
+      title: 'Minéraux & oligoéléments',
+      desc: 'Magnésium, zinc, sélénium, iode — formes chélatées vs oxydes, dosages et interactions.',
+    },
+    {
+      href: '/nutritherapie/objectifs',
+      icon: CheckCircle2,
+      iconBg: 'bg-sage-600',
+      category: 'Nutrithérapie',
+      title: 'Compléments par objectif',
+      desc: 'Fatigue, anxiété, immunité, articulations, cognition — les bonnes associations par besoin.',
+    },
+    {
+      href: '/naturopathie/temperaments/quiz',
+      icon: Star,
+      iconBg: 'bg-forest-700',
+      category: 'Quiz',
+      title: 'Découvrir mon tempérament',
+      desc: '20 questions pour identifier votre profil hippocratique et obtenir un protocole personnalisé.',
+    },
+  ];
 
-          <div className="grid grid-cols-2 gap-4">
-            <Card hoverable accent="sage" className="aspect-square">
-              <CardContent className="flex flex-col justify-between h-full">
-                <span className="text-5xl">🌿</span>
-                <div>
-                  <p className="text-xs uppercase tracking-wider text-forest-500/70 mb-1">
-                    Naturopathie
-                  </p>
-                  <Link href="/naturopathie" className="font-display text-xl text-forest-900 hover:text-forest-700">
-                    Explorer →
-                  </Link>
+  return (
+    <section className="bg-white py-16 sm:py-24">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        <div className="flex items-end justify-between mb-12">
+          <div>
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-sage-600 mb-3">Explorer</p>
+            <h2 className="font-display text-4xl sm:text-5xl text-forest-900">
+              Thèmes populaires
+            </h2>
+          </div>
+          <Link
+            href="/naturopathie"
+            className="hidden sm:inline-flex items-center gap-2 text-sm font-semibold text-forest-700 hover:text-forest-900 transition-colors"
+          >
+            Tout voir <ChevronRight className="h-4 w-4" />
+          </Link>
+        </div>
+
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          {topics.map(({ href, icon: Icon, iconBg, category, title, desc }) => (
+            <Link key={href} href={href} className="group">
+              <div className="bg-cream-50 hover:bg-forest-50 rounded-3xl p-6 h-full flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-md border border-forest-50 group-hover:border-forest-100">
+                {/* Icon */}
+                <div className={`w-12 h-12 ${iconBg} rounded-2xl grid place-items-center mb-4 shadow-sm`}>
+                  <Icon className="h-6 w-6 text-white" />
                 </div>
-              </CardContent>
-            </Card>
-            <Card hoverable accent="earth" className="aspect-square translate-y-8">
-              <CardContent className="flex flex-col justify-between h-full">
-                <span className="text-5xl">💊</span>
-                <div>
-                  <p className="text-xs uppercase tracking-wider text-earth-600/70 mb-1">
-                    Nutrithérapie
-                  </p>
-                  <Link href="/nutritherapie" className="font-display text-xl text-forest-900 hover:text-earth-700">
-                    Explorer →
-                  </Link>
-                </div>
-              </CardContent>
-            </Card>
-            <Card hoverable accent="cream" className="aspect-square -translate-y-4">
-              <CardContent className="flex flex-col justify-between h-full">
-                <span className="text-5xl">⚖️</span>
-                <div>
-                  <p className="text-xs uppercase tracking-wider text-forest-500/70 mb-1">
-                    Tempéraments
-                  </p>
-                  <Link href="/naturopathie/temperaments" className="font-display text-xl text-forest-900 hover:text-forest-700">
-                    Explorer →
-                  </Link>
-                </div>
-              </CardContent>
-            </Card>
-            <Card hoverable accent="forest" className="aspect-square translate-y-4">
-              <CardContent className="flex flex-col justify-between h-full">
-                <span className="text-5xl">🧘</span>
-                <div>
-                  <p className="text-xs uppercase tracking-wider text-forest-500/70 mb-1">
-                    Stress & sommeil
-                  </p>
-                  <Link href="/naturopathie/stress-emotions" className="font-display text-xl text-forest-900 hover:text-forest-700">
-                    Explorer →
-                  </Link>
-                </div>
-              </CardContent>
-            </Card>
+                {/* Category label */}
+                <p className="text-xs font-bold uppercase tracking-widest text-forest-500/70 mb-1.5">
+                  {category}
+                </p>
+                {/* Title */}
+                <h3 className="font-display text-lg text-forest-900 mb-2 leading-snug group-hover:text-forest-700 transition-colors">
+                  {title}
+                </h3>
+                {/* Description */}
+                <p className="text-sm text-forest-600/80 leading-relaxed flex-1">{desc}</p>
+                {/* CTA link */}
+                <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-sage-600 mt-4 group-hover:gap-2.5 transition-all">
+                  Explorer <ArrowRight className="h-3.5 w-3.5" />
+                </span>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+/* ─────────────────────────────────────────
+   CTA BANNER
+───────────────────────────────────────── */
+function CtaBanner() {
+  return (
+    <section className="bg-cream-50 py-16 sm:py-20">
+      <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="bg-forest-700 rounded-3xl overflow-hidden shadow-2xl">
+          <div className="relative px-8 sm:px-14 py-14 sm:py-16">
+            {/* Background decoration */}
+            <div className="absolute top-0 right-0 w-64 h-64 bg-forest-600/40 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2" />
+            <div className="absolute bottom-0 left-0 w-48 h-48 bg-sage-400/20 rounded-full blur-2xl -translate-x-1/4 translate-y-1/4" />
+
+            <div className="relative grid lg:grid-cols-2 gap-8 items-center">
+              <div>
+                <p className="text-sage-300 text-xs font-bold uppercase tracking-[0.18em] mb-3">
+                  Quiz gratuit
+                </p>
+                <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl text-white leading-tight">
+                  Quel est votre
+                  <br />
+                  tempérament ?
+                </h2>
+                <p className="mt-4 text-forest-200 leading-relaxed">
+                  Sanguin, bilieux, nerveux ou lymphatique — 20 questions pour identifier votre
+                  profil hippocratique et recevoir un protocole personnalisé.
+                </p>
+              </div>
+
+              <div className="flex flex-col sm:flex-row lg:flex-col xl:flex-row gap-3 lg:items-start xl:items-center">
+                <Link
+                  href="/naturopathie/temperaments/quiz"
+                  className="inline-flex items-center justify-center gap-2 bg-sage-400 hover:bg-sage-300 text-forest-900 font-bold px-8 py-4 rounded-full transition-all shadow-lg hover:shadow-xl text-base"
+                >
+                  Faire le quiz
+                  <ArrowRight className="h-5 w-5" />
+                </Link>
+                <Link
+                  href="/naturopathie/temperaments"
+                  className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white hover:bg-white/10 font-semibold px-8 py-4 rounded-full transition-all text-base"
+                >
+                  Voir les 4 profils
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
-      </Container>
+      </div>
     </section>
   );
 }

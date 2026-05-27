@@ -1,29 +1,30 @@
 import type { Metadata } from 'next';
-import { Inter, Playfair_Display } from 'next/font/google';
+import { Fjalla_One, DM_Sans } from 'next/font/google';
 import './globals.css';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
 
-const inter = Inter({
+const fjallaOne = Fjalla_One({
   subsets: ['latin'],
-  variable: '--font-inter',
+  weight: ['400'],
+  variable: '--font-fjalla',
   display: 'swap',
 });
 
-const playfair = Playfair_Display({
+const dmSans = DM_Sans({
   subsets: ['latin'],
-  variable: '--font-playfair',
+  variable: '--font-dm-sans',
   display: 'swap',
 });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://naturo-nutri.vercel.app'),
   title: {
-    default: 'Naturo·Nutri — Le portail de référence en naturopathie et nutrithérapie',
-    template: '%s · Naturo·Nutri',
+    default: 'NaturoNutri — Portail de référence en naturopathie et nutrithérapie',
+    template: '%s · NaturoNutri',
   },
   description:
-    "Le portail de référence francophone en naturopathie et nutrithérapie. Guides exhaustifs sur le jeûne, les cures, les plantes médicinales, les vitamines, les minéraux, les compléments alimentaires et les protocoles santé.",
+    "Le portail de référence francophone en naturopathie et nutrithérapie. Guides exhaustifs sur le jeûne, les cures, les plantes médicinales, les vitamines, les minéraux et les protocoles santé.",
   keywords: [
     'naturopathie',
     'nutrithérapie',
@@ -40,12 +41,12 @@ export const metadata: Metadata = {
     'détox',
     'drainage',
   ],
-  authors: [{ name: 'Naturo·Nutri' }],
+  authors: [{ name: 'NaturoNutri' }],
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
-    siteName: 'Naturo·Nutri',
-    title: 'Naturo·Nutri — Le portail de référence en naturopathie et nutrithérapie',
+    siteName: 'NaturoNutri',
+    title: 'NaturoNutri — Portail de référence en naturopathie et nutrithérapie',
     description:
       "Guides exhaustifs : jeûnes, cures, plantes, vitamines, minéraux, compléments alimentaires, protocoles santé.",
   },
@@ -57,7 +58,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="fr" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="fr" className={`${fjallaOne.variable} ${dmSans.variable}`}>
       <body className="min-h-screen flex flex-col antialiased">
         <Navigation />
         <main className="flex-1">{children}</main>
