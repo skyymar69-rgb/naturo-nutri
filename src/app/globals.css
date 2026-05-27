@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 30 33% 95%;
+    --foreground: 140 35% 14%;
+    --primary: 137 56% 24%;
+    --primary-foreground: 30 33% 97%;
+    --accent: 22 64% 47%;
+    --muted: 30 25% 92%;
+    --border: 140 15% 85%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    @apply bg-cream-50 text-forest-800 font-sans;
+    font-feature-settings: 'ss01', 'cv11';
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display tracking-tight text-forest-900;
+  }
+
+  ::selection {
+    @apply bg-sage-200 text-forest-900;
+  }
+}
+
+@layer components {
+  .container-prose {
+    @apply mx-auto max-w-3xl px-4 sm:px-6;
+  }
+
+  .container-wide {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .prose-natural h1,
+  .prose-natural h2,
+  .prose-natural h3,
+  .prose-natural h4 {
+    @apply font-display text-forest-900;
+  }
+  .prose-natural p {
+    @apply text-forest-800/90 leading-relaxed mb-4;
+  }
+  .prose-natural ul {
+    @apply list-disc pl-6 space-y-1.5 my-4 text-forest-800/90 marker:text-sage-600;
+  }
+  .prose-natural a {
+    @apply text-forest-700 underline underline-offset-4 hover:text-forest-900;
+  }
+  .prose-natural strong {
+    @apply text-forest-900 font-semibold;
+  }
+  .prose-natural em {
+    @apply italic;
+  }
+  .prose-natural blockquote {
+    @apply border-l-4 border-earth-400 pl-4 italic text-forest-700;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-forest-700 px-6 py-3
+           text-sm font-medium text-cream-50 transition-all
+           hover:bg-forest-800 hover:shadow-lg active:scale-95
+           focus:outline-none focus-visible:ring-2 focus-visible:ring-forest-500 focus-visible:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-forest-700/30
+           bg-transparent px-6 py-3 text-sm font-medium text-forest-800 transition-all
+           hover:bg-forest-50 hover:border-forest-700/60 active:scale-95;
+  }
+
+  .btn-earth {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-earth-500 px-6 py-3
+           text-sm font-medium text-cream-50 transition-all
+           hover:bg-earth-600 hover:shadow-lg active:scale-95;
+  }
+
+  .card-natural {
+    @apply rounded-2xl border border-forest-100/60 bg-white/80 backdrop-blur-sm
+           shadow-sm transition-all hover:shadow-md hover:border-forest-200;
+  }
+
+  .grain-bg {
+    background-image:
+      radial-gradient(at 27% 37%, hsla(140, 50%, 90%, 0.4) 0px, transparent 50%),
+      radial-gradient(at 97% 21%, hsla(80, 50%, 92%, 0.4) 0px, transparent 50%),
+      radial-gradient(at 52% 99%, hsla(40, 50%, 92%, 0.4) 0px, transparent 50%);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
