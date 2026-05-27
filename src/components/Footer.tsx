@@ -3,36 +3,41 @@ import { Leaf } from 'lucide-react';
 
 const FOOTER_NAV = [
   {
-    title: 'Tempéraments',
+    title: 'Naturopathie',
     links: [
-      { label: 'Sanguin', href: '/temperaments/sanguin' },
-      { label: 'Bilieux', href: '/temperaments/bilieux' },
-      { label: 'Nerveux', href: '/temperaments/nerveux' },
-      { label: 'Lymphatique', href: '/temperaments/lymphatique' },
-    ],
-  },
-  {
-    title: 'Méthodes',
-    links: [
-      { label: 'Jeûne hydrique', href: '/methodes/jeune-hydrique' },
-      { label: 'Jeûne aux jus', href: '/methodes/jeune-jus' },
-      { label: 'Monodiètes', href: '/methodes/monodietes' },
-      { label: 'Purge à l\'huile de ricin', href: '/methodes/purge-ricin' },
-      { label: 'Alimentation vivante', href: '/methodes/alimentation-vivante' },
+      { label: 'Vue d\'ensemble', href: '/naturopathie' },
+      { label: 'Jeûnes', href: '/naturopathie/jeunes' },
+      { label: 'Purges & drainages', href: '/naturopathie/purges' },
+      { label: 'Plantes médicinales', href: '/naturopathie/plantes' },
+      { label: 'Alimentation', href: '/naturopathie/alimentation' },
+      { label: 'Hydrothérapie', href: '/naturopathie/hydrotherapie' },
+      { label: 'Aromathérapie', href: '/naturopathie/aromatherapie' },
+      { label: 'Tempéraments', href: '/naturopathie/temperaments' },
     ],
   },
   {
     title: 'Nutrithérapie',
     links: [
-      { label: 'Micronutriments', href: '/nutritherapie/micronutriments' },
-      { label: '8 règles d\'or Curtay', href: '/nutritherapie/regles-curtay' },
-      { label: 'Vitamines essentielles', href: '/nutritherapie/micronutriments' },
+      { label: 'Vue d\'ensemble', href: '/nutritherapie' },
+      { label: 'Vitamines', href: '/nutritherapie/vitamines' },
+      { label: 'Minéraux', href: '/nutritherapie/mineraux' },
+      { label: 'Acides gras', href: '/nutritherapie/acides-gras' },
+      { label: 'Antioxydants', href: '/nutritherapie/antioxydants' },
+      { label: 'Probiotiques', href: '/nutritherapie/probiotiques' },
+      { label: 'Adaptogènes', href: '/nutritherapie/adaptogenes' },
+      { label: 'Par objectif', href: '/nutritherapie/objectifs' },
     ],
   },
   {
-    title: 'À propos',
+    title: 'Outils',
     links: [
-      { label: 'Quiz tempérament', href: '/quiz-temperament' },
+      { label: 'Quiz tempérament', href: '/naturopathie/temperaments/quiz' },
+      { label: 'Principes de qualité', href: '/nutritherapie/principes' },
+    ],
+  },
+  {
+    title: 'Le site',
+    links: [
       { label: 'Mentions légales', href: '/mentions-legales' },
       { label: 'Contre-indications', href: '/contre-indications' },
       { label: 'Confidentialité', href: '/confidentialite' },
@@ -57,8 +62,7 @@ export function Footer() {
               </span>
             </div>
             <p className="mt-4 text-sm text-cream-100/70 leading-relaxed max-w-xs">
-              Le site de référence dédié à la santé naturelle selon les enseignements d'Irène
-              Grosjean et du Dr Jean-Paul Curtay.
+              Portail de référence francophone en naturopathie et nutrithérapie. Guides, protocoles et fiches santé.
             </p>
           </div>
 
@@ -85,12 +89,7 @@ export function Footer() {
 
         <div className="mt-12 pt-8 border-t border-forest-700/50 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <p className="text-xs text-cream-100/60">
-            © {new Date().getFullYear()} Naturo·Nutri · Site éducatif. Informations à visée
-            pédagogique uniquement, ne remplaçant aucun avis médical.
-          </p>
-          <p className="text-xs text-cream-100/60">
-            Inspiré de l'enseignement d'<strong className="text-cream-50/90">Irène Grosjean</strong>{' '}
-            & du <strong className="text-cream-50/90">Dr Jean-Paul Curtay</strong>
+            © {new Date().getFullYear()} Naturo·Nutri · Informations à visée pédagogique uniquement, ne remplaçant aucun avis médical.
           </p>
         </div>
       </div>

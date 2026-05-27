@@ -17,34 +17,37 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://naturo-nutri.example'),
+  metadataBase: new URL('https://naturo-nutri.vercel.app'),
   title: {
-    default: 'Naturo·Nutri — Le site de référence en naturopathie et nutrithérapie',
+    default: 'Naturo·Nutri — Le portail de référence en naturopathie et nutrithérapie',
     template: '%s · Naturo·Nutri',
   },
   description:
-    "Découvrez votre tempérament hippocratique et recevez un protocole de santé personnalisé inspiré d'Irène Grosjean et du Dr Jean-Paul Curtay : alimentation vivante, jeûnes, purges, compléments alimentaires, micronutriments.",
+    "Le portail de référence francophone en naturopathie et nutrithérapie. Guides exhaustifs sur le jeûne, les cures, les plantes médicinales, les vitamines, les minéraux, les compléments alimentaires et les protocoles santé.",
   keywords: [
     'naturopathie',
     'nutrithérapie',
-    'Irène Grosjean',
-    'Jean-Paul Curtay',
-    'tempérament hippocratique',
-    'jeûne',
-    'alimentation vivante',
-    'micronutriments',
-    'sanguin bilieux nerveux lymphatique',
-    'purge ricin',
+    'jeûne hydrique',
     'monodiète',
+    'alimentation vivante',
+    'plantes médicinales',
+    'vitamines',
+    'minéraux',
+    'compléments alimentaires',
+    'magnésium',
+    'vitamine D',
+    'oméga-3',
+    'détox',
+    'drainage',
   ],
   authors: [{ name: 'Naturo·Nutri' }],
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
     siteName: 'Naturo·Nutri',
-    title: 'Naturo·Nutri — Le site de référence en naturopathie et nutrithérapie',
+    title: 'Naturo·Nutri — Le portail de référence en naturopathie et nutrithérapie',
     description:
-      "Quiz tempérament + protocoles personnalisés combinant l'enseignement d'Irène Grosjean et du Dr Jean-Paul Curtay.",
+      "Guides exhaustifs : jeûnes, cures, plantes, vitamines, minéraux, compléments alimentaires, protocoles santé.",
   },
   robots: {
     index: true,

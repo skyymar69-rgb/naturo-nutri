@@ -1,10 +1,10 @@
 export type TemperamentSlug = 'sanguin' | 'bilieux' | 'nerveux' | 'lymphatique';
 
-export type Source = 'grosjean' | 'curtay' | 'les_deux' | 'tradition';
-
 export type Niveau = 'debutant' | 'intermediaire' | 'avance';
 
 export type Saison = 'printemps' | 'ete' | 'automne' | 'hiver';
+
+export type DomainSlug = 'naturopathie' | 'nutritherapie';
 
 export interface Temperament {
   slug: TemperamentSlug;
@@ -23,12 +23,12 @@ export interface Temperament {
     principes: string[];
     favoris: string[];
     a_eviter: string[];
-    notes_grosjean: string;
+    note: string;
   };
   nutritherapie: {
     priorites: { nom: string; raison: string; forme?: string }[];
     a_eviter: string[];
-    notes_curtay: string;
+    note: string;
   };
   jeunes: {
     type: string;
@@ -56,39 +56,49 @@ export interface QuizQuestion {
   options: QuizOption[];
 }
 
-export interface Methode {
+export interface Section {
+  heading: string;
+  body: string;
+}
+
+export interface Article {
   slug: string;
+  domain: DomainSlug;
+  category: string;
+  title: string;
+  excerpt: string;
+  readingTime: number;
+  intro: string;
+  sections: Section[];
+  keyPoints?: string[];
+  protocole?: string[];
+  contre_indications?: string[];
+  faq?: { question: string; answer: string }[];
+  tags?: string[];
+}
+
+export interface Category {
+  slug: string;
+  domain: DomainSlug;
   nom: string;
-  source: Source;
-  resume: string;
-  duree: string;
-  niveau: Niveau;
-  saisons: Saison[];
-  temperaments_recommandes: TemperamentSlug[];
-  contre_indications: string[];
-  benefices: string[];
+  description: string;
+  icon: string;
+  order: number;
 }
 
 export interface Micronutriment {
   slug: string;
   nom: string;
-  categorie: 'vitamine' | 'mineral' | 'acide_amine' | 'antioxydant' | 'acide_gras' | 'autre';
+  categorie: 'vitamine' | 'mineral' | 'acide_amine' | 'antioxydant' | 'acide_gras' | 'probiotique' | 'adaptogene' | 'autre';
   formes_recommandees: string[];
   formes_a_eviter?: string[];
   ajr_officiel?: string;
-  dosage_curtay?: string;
+  dosage_optimal?: string;
   roles: string[];
   signes_carence: string[];
   sources_alimentaires: string[];
   interactions?: string[];
   contre_indications?: string[];
   temperaments_prioritaires: TemperamentSlug[];
-  note_curtay?: string;
-}
-
-export interface RegleCurtay {
-  numero: number;
-  titre: string;
-  description: string;
-  exemple?: string;
+  note?: string;
 }

@@ -1,0 +1,160 @@
+import type { Article } from '../types';
+
+const a = (slug: string, title: string, excerpt: string, intro: string, sections: { heading: string; body: string }[], tags: string[]): Article => ({
+  slug, domain: 'nutritherapie', category: 'vitamines', title, excerpt, readingTime: 5, intro, sections, tags,
+});
+
+export const NUTRI_VITAMINES: Article[] = [
+  a('vitamine-a',
+    "Vitamine A : la vitamine des muqueuses et de la vision",
+    "Rôle dans la vision, les muqueuses, l'immunité, la croissance. Bêta-carotène ou rétinol ? Dosages et formes optimales.",
+    "La vitamine A désigne en réalité une famille de molécules : le rétinol (forme animale active) et les caroténoïdes (provitamine A, surtout le bêta-carotène, convertis selon les besoins). Essentielle à la vision nocturne, à l'intégrité des muqueuses, à l'immunité et à la croissance cellulaire, c'est l'une des vitamines les plus anciennement connues. Mais sa supplémentation demande prudence.",
+    [
+      { heading: "Rôles physiologiques", body: "Vision (formation du pigment rhodopsine). Intégrité des muqueuses (yeux, voies respiratoires, digestives, génito-urinaires). Immunité (différenciation lymphocytaire). Croissance et différenciation cellulaire. Régulation hormonale. Antioxydant (caroténoïdes)." },
+      { heading: "Signes de carence", body: "Héméralopie (mauvaise vision nocturne). Sécheresse oculaire, conjonctivites à répétition. Peau sèche, ridée. Infections ORL à répétition. Cheveux ternes. Acné. Cicatrisation lente. Carence rare en France mais fréquente chez les vegans stricts sans complémentation." },
+      { heading: "Formes recommandées", body: "Bêta-carotène naturel (Dunaliella salina) : précurseur sûr, le corps convertit selon besoins. PAS de risque de surdosage. Rétinol (huile de foie de morue, foies animaux) : forme active mais risque de toxicité au-dessus de 3000 µg/jour. À RÉSERVER aux carences avérées et sous suivi. Mélange caroténoïdes pour les > 60 ans (lycopène + lutéine + zéaxanthine + bêta-carotène)." },
+      { heading: "Dosages et précautions", body: "AJR : 800 µg équivalents rétinol/jour. Dosage optimal en supplémentation : 5-10 mg de bêta-carotène/jour. ATTENTION : rétinol synthétique à haute dose = tératogène (déconseillé pendant grossesse). Bêta-carotène isolé à haute dose chez fumeurs = risque accru de cancer pulmonaire (étude CARET 1996) — privilégier toujours un mélange de caroténoïdes." },
+      { heading: "Sources alimentaires", body: "Provitamine A : carottes (β-carotène, ~8000 µg/100g), patate douce, courge, kale, épinards, mangue, papaye. Vitamine A directe : foie de morue, foie de bœuf/agneau, jaune d'œuf bio, beurre cru d'animaux nourris à l'herbe. Une cuillère à café d'huile de foie de morue par jour couvre les besoins." },
+    ],
+    ['vitamine A', 'rétinol', 'bêta-carotène', 'vision']
+  ),
+  a('vitamine-b1',
+    "Vitamine B1 (thiamine) : la vitamine de l'énergie",
+    "Métabolisme du glucose, fonction nerveuse, cœur. Carence fréquente chez gros consommateurs d'alcool et d'aliments raffinés.",
+    "La vitamine B1 (thiamine) est le cofacteur indispensable du métabolisme des glucides : sans elle, le glucose ne peut être utilisé efficacement pour produire de l'énergie. C'est aussi un nutriment central pour le système nerveux et le muscle cardiaque. Sa carence (béri-béri) reste fréquente chez les gros consommateurs d'alcool et de glucides raffinés (qui consomment de la B1 pour être digérés sans en apporter).",
+    [
+      { heading: "Rôles physiologiques", body: "Cofacteur du métabolisme du glucose (PDH, α-cétoglutarate déshydrogénase). Synthèse de l'acétylcholine (neurotransmetteur). Fonction du myocarde. Métabolisme des acides aminés branchés. Fonctionnement du système nerveux central et périphérique." },
+      { heading: "Signes de carence", body: "Fatigue généralisée, faiblesse musculaire. Paresthésies (fourmillements) extrémités. Troubles cardiaques (tachycardie, insuffisance cardiaque dans formes graves). Troubles cognitifs (mémoire, irritabilité). Anorexie, perte de poids. Beri-béri (forme grave avec atteinte cardiaque/neurologique). Encéphalopathie de Wernicke chez l'alcoolique chronique." },
+      { heading: "Dosages", body: "AJR : 1,1 mg/jour. Dosage thérapeutique : 50 à 100 mg/jour en cure (fatigue chronique, alcoolisme en sevrage). Forme : préférer la benfotiamine (forme liposoluble, plus stable, mieux absorbée). Sécurité : très large fenêtre (peu de toxicité)." },
+      { heading: "Sources alimentaires", body: "Levure de bière (top source : 10 mg/100g). Germe de blé. Légumineuses (lentilles, haricots). Céréales complètes. Porc maigre. Noix (Brésil, pacanes). Tournesol. Le raffinage des céréales détruit 80% de la B1 — favoriser le complet. La cuisson à l'eau perd 30-40% (cuissons douces et utilisation de l'eau de cuisson)." },
+    ],
+    ['vitamine B1', 'thiamine', 'énergie']
+  ),
+  a('vitamine-b6',
+    "Vitamine B6 (P5P) : la vitamine du système nerveux",
+    "Cofacteur de plus de 100 enzymes. Synthèse des neurotransmetteurs (sérotonine, GABA, dopamine). Précieuse pour le profil nerveux.",
+    "La vitamine B6 sous sa forme active (Pyridoxal-5-Phosphate, P5P) est l'un des cofacteurs les plus polyvalents de l'organisme. Indispensable à la synthèse des neurotransmetteurs apaisants (GABA, sérotonine), elle permet aussi l'entrée du magnésium dans la cellule. C'est la vitamine de référence du profil nerveux anxieux.",
+    [
+      { heading: "Rôles physiologiques", body: "Cofacteur de 100+ enzymes. Synthèse neurotransmetteurs : GABA (calme), sérotonine (humeur), dopamine (motivation). Entrée du magnésium intracellulaire. Métabolisme des protéines et acides aminés. Métabolisme homocystéine (avec B9 et B12). Synthèse hémoglobine. Modulation immunitaire." },
+      { heading: "Signes de carence", body: "Anxiété, irritabilité, dépression légère. Insomnies. Crampes musculaires (souvent avec carence magnésium associée). Anémie microcytaire. Glossite, chéilite (langue et lèvres enflammées). Convulsions (rare, sévère). Syndrome prémenstruel marqué." },
+      { heading: "Formes recommandées", body: "P5P (Pyridoxal-5-Phosphate) : forme active directement utilisable. La supérieure pour les carences ou besoins thérapeutiques. Pyridoxine HCl : forme synthétique courante, nécessite conversion hépatique (souvent défaillante). À haute dose chronique : risque de neuropathie sensitive — préférer P5P à dose modérée." },
+      { heading: "Dosages", body: "AJR : 1,4 mg/jour. Dosage thérapeutique : 25 à 50 mg de P5P/jour (équivalent à 100 mg de pyridoxine). À associer impérativement au magnésium dans tout protocole anti-stress. Prise le matin idéale (effet activateur sur les neurotransmetteurs)." },
+      { heading: "Sources alimentaires", body: "Foie, abats (10 mg/100g). Saumon, thon. Volaille. Pois chiches, lentilles. Pommes de terre (peau). Banane (0,5 mg/100g). Avocat. Pistaches. Choux-fleurs. Disponibilité bonne. Cuisson à haute température détruit jusqu'à 50% de la B6." },
+    ],
+    ['B6', 'P5P', 'GABA', 'sérotonine']
+  ),
+  a('vitamine-b9',
+    "Vitamine B9 (méthylfolate) : essentielle, surtout pour les mutations MTHFR",
+    "30-50% de la population a une mutation MTHFR qui rend l'acide folique synthétique inefficace. Pourquoi le 5-MTHF s'impose.",
+    "La vitamine B9 (folate) est essentielle à la synthèse de l'ADN, à la méthylation, à la formation des globules rouges, et au développement neural fœtal. Mais 30 à 50% de la population porte une mutation MTHFR qui rend la conversion de l'acide folique synthétique en forme active très inefficace. Pour eux (et pour la sécurité de tous), la forme bioactive 5-MTHF (L-méthylfolate) est nettement supérieure.",
+    [
+      { heading: "Rôles physiologiques", body: "Synthèse ADN et division cellulaire. Cycle de méthylation (en duo avec B12). Métabolisme homocystéine (réduit le risque cardiovasculaire). Formation des globules rouges (avec B12). Développement neural fœtal (prévention spina-bifida). Synthèse des neurotransmetteurs." },
+      { heading: "Mutation MTHFR : ce qu'il faut savoir", body: "Le gène MTHFR code pour l'enzyme convertissant l'acide folique en forme active (5-MTHF). 30 à 50% de la population porte une variation (C677T ou A1298C) qui réduit cette conversion de 30-70%. Conséquence : la prise d'acide folique synthétique (présent dans la plupart des compléments, aliments enrichis) peut être inefficace voire délétère pour ces personnes — l'acide folique non métabolisé s'accumule et perturbe d'autres fonctions." },
+      { heading: "Formes recommandées", body: "5-MTHF (L-méthylfolate, aussi appelé Quatrefolic ou Metafolin) : forme directement bioactive, contourne la mutation MTHFR, efficace pour tous. Acide folique : à EVITER en complément (préférer pour cuisine si aliments enrichis). Folate naturel (légumes verts crus) : excellent, sans conversion nécessaire." },
+      { heading: "Dosages", body: "AJR : 300 µg/jour. Grossesse : 500-800 µg/jour. Dosage optimal supplémentation : 400 à 800 µg de 5-MTHF/jour, en complexe B. Toujours avec B12 méthylcobalamine (méthylation indissociable)." },
+      { heading: "Sources alimentaires", body: "Légumes verts feuillus crus (épinards, mâche, salade) : top source. Foie, abats. Légumineuses (lentilles, haricots). Asperges. Brocoli. Avocat. Levure de bière. La cuisson détruit 50-90% du folate naturel — préférer cru ou cuissons très douces." },
+    ],
+    ['B9', 'méthylfolate', 'MTHFR']
+  ),
+  a('vitamine-b12',
+    "Vitamine B12 : la cyanocobalamine est obsolète",
+    "Méthylcobalamine vs cyanocobalamine : pourquoi le choix change tout. Sources, dosages, profils à risque de carence.",
+    "La vitamine B12 est indispensable à la synthèse de la myéline (gaine des nerfs), à la formation des globules rouges, au cycle de méthylation. Sa carence est sournoise : elle progresse silencieusement pendant des années. Les formes synthétiques courantes (cyanocobalamine) sont obsolètes — la science a démontré que la méthylcobalamine et l'adénosylcobalamine sont nettement supérieures.",
+    [
+      { heading: "Rôles physiologiques", body: "Synthèse de la myéline (protège les nerfs). Cycle de méthylation (avec B9). Synthèse ADN. Hématopoïèse (globules rouges). Métabolisme des acides gras. Régulation homocystéine. Fonctions cognitives et mémoire. Énergie cellulaire." },
+      { heading: "Pourquoi la cyanocobalamine est dépassée", body: "La cyanocobalamine est la forme synthétique la plus produite (synthétisée par bactéries). Pour être utilisée, elle doit libérer son groupe cyanure (à détoxifier !) et être convertie en formes actives. Cette conversion est partiellement défaillante chez beaucoup. La méthylcobalamine et l'adénosylcobalamine sont les formes naturellement actives — directement utilisables par les cellules." },
+      { heading: "Profils à risque de carence", body: "Végétariens et vegans (B12 absente des végétaux — la spiruline et le tempeh ne contiennent que des analogues inactifs). Personnes de plus de 60 ans (absorption diminuée, atrophie gastrique). Patients sous IPP (oméprazole, etc.) : empêchent l'absorption. Patients sous metformine (diabète) : pillage de B12. Maladie de Crohn, chirurgie bariatrique, atrophie de l'iléon : absorption compromise." },
+      { heading: "Dosages et formes", body: "AJR : 2,5 µg/jour. Dosage thérapeutique : 500 à 1000 µg/jour en sublingual (contourne les problèmes d'absorption gastrique). Forme : méthylcobalamine (en complexe avec adénosylcobalamine pour optimal). Cure de 3-6 mois minimum si carence. Dosage sanguin (B12 sérique + acide méthylmalonique urinaire) recommandé. En cas de carence sévère : injections intramusculaires." },
+      { heading: "Sources alimentaires", body: "Foie (top source : 80 µg/100g). Abats. Coquillages (huîtres, palourdes). Poissons (sardine, hareng). Œufs (0,5-1 µg/œuf). Pas de source végétale FIABLE. Pour les vegans : supplémentation OBLIGATOIRE à long terme." },
+    ],
+    ['B12', 'méthylcobalamine', 'vegan']
+  ),
+  a('vitamine-c',
+    "Vitamine C : bien plus qu'un anti-rhume",
+    "Antioxydant, synthèse collagène, immunité, neurotransmetteurs. Acérola ou ascorbate ? Dosages thérapeutiques.",
+    "La vitamine C (acide ascorbique) est probablement la vitamine la plus connue — et pourtant souvent mal utilisée. Hydrosoluble, non stockée (besoin d'apports réguliers), elle est indispensable à la synthèse du collagène, au métabolisme du fer, à l'immunité, à la synthèse de neurotransmetteurs. Les besoins varient énormément selon l'état (stress, infection, sport).",
+    [
+      { heading: "Rôles physiologiques", body: "Antioxydant hydrosoluble majeur. Synthèse du collagène (peau, vaisseaux, os, cartilages). Absorption du fer non héminique (multiplie par 3). Immunité (phagocytose, anticorps). Synthèse neurotransmetteurs (noradrénaline, dopamine). Régénération de la vitamine E oxydée. Détoxification hépatique." },
+      { heading: "Signes de carence", body: "Fatigue, baisse du moral. Saignements gencives (gingivite). Bleus faciles, fragilité capillaire. Cicatrisation lente. Susceptibilité accrue aux infections. Cheveux ternes, ongles cassants. Carence sévère = scorbut (rare aujourd'hui mais existe encore : alcooliques, personnes isolées, alimentation très pauvre)." },
+      { heading: "Formes recommandées", body: "Acérola : forme naturelle accompagnée de bioflavonoïdes (synergie). 1500 mg de vit C pour 100 g d'acérola. Ascorbate de magnésium ou de potassium : forme tamponnée (non acidifiante, mieux tolérée). Acide ascorbique : la moins chère, acidifiante en grande quantité (irritation gastrique). Liposomale : enveloppe lipidique pour absorption maximale (haut de gamme)." },
+      { heading: "Dosages selon état", body: "AJR : 110 mg/jour (sous-estimé). Maintien quotidien : 500 à 1000 mg en 2-3 prises (la vit C ne se stocke pas). Stress chronique : 1500-2000 mg/jour. Infection aiguë : jusqu'à 3-5 g/jour répartis. Sport intensif : 1000-2000 mg/jour. Test de tolérance digestive : monter jusqu'au seuil de selles molles, puis réduire de 25%." },
+      { heading: "Sources alimentaires", body: "Acérola fraîche (1500 mg/100g, irréaliste en pratique mais existe en poudre). Camu-camu. Cassis (200 mg/100g). Poivron rouge cru (130 mg). Kiwi (90 mg). Orange (50 mg). Persil frais. Brocoli, chou-fleur crus. La cuisson détruit 30-100% de la vit C — préférer cru et fraîchement coupé." },
+    ],
+    ['vitamine C', 'ascorbate', 'collagène']
+  ),
+  a('vitamine-d',
+    "Vitamine D3 : la vitamine-hormone de l'hiver",
+    "Carence quasi universelle en France l'hiver. Dosage 25-OH-D, supplémentation hivernale, prise du soir.",
+    "La vitamine D est en fait une hormone (synthétisée par la peau sous l'action du soleil). Elle régule l'immunité, l'humeur, le métabolisme phosphocalcique, l'inflammation. En France, plus de 80% de la population est en déficit (taux sanguin < 30 ng/mL), particulièrement entre octobre et avril. La supplémentation hivernale est aujourd'hui un standard de santé.",
+    [
+      { heading: "Rôles physiologiques", body: "Hormone (récepteurs nucléaires VDR dans tous les tissus). Immunité innée et adaptative (réduit infections respiratoires). Métabolisme phosphocalcique (santé osseuse). Modulation inflammation. Neuroprotection. Régulation tension. Régulation insuline. Régulation thyroïdienne." },
+      { heading: "Signes de carence", body: "Fatigue chronique inexpliquée. Infections ORL à répétition. Douleurs musculaires diffuses. Tendance dépressive saisonnière. Fragilité osseuse (ostéopénie, ostéoporose). Troubles du sommeil. Chez l'enfant : rachitisme. Carence chronique = facteur de risque cardiovasculaire, neurodégénératif, cancer." },
+      { heading: "Dosages", body: "AJR officiel : 200 UI/jour (largement insuffisant). Maintien estival (avec soleil) : 1000-2000 UI/jour. Cure hivernale (octobre-avril) : 4000 UI/jour, prise au repas du soir. Carence sévère : 10000-50000 UI/semaine sur 2-3 mois, puis maintenance. Dosage sanguin 25-OH-D : cible 50-70 ng/mL (l'OMS dit 30 mais c'est trop bas)." },
+      { heading: "Pourquoi le soir au repas", body: "La conversion hépatique en 25-OH-D s'effectue principalement la nuit. La prise au repas du soir (besoin de matière grasse pour absorption, vit D liposoluble) optimise cette conversion. Toujours en huileuse (gouttes ou capsules huileuses), jamais en comprimé sec sans graisse." },
+      { heading: "Synergies indispensables", body: "Vitamine K2 (MK-7) : oriente le calcium absorbé vers les os (et pas les artères). Magnésium : cofacteur d'activation de la vit D. Ne JAMAIS supplémenter en vit D haute dose sans K2 (risque de calcifications vasculaires). Formule idéale : D3 4000 UI + K2 100-200 µg + magnésium 400 mg par jour en cure hivernale." },
+    ],
+    ['vitamine D', 'soleil', 'K2']
+  ),
+  a('vitamine-e',
+    "Vitamine E naturelle : oui, synthétique : non",
+    "RRR-d-alpha tocophérol + gamma + delta. Antioxydant des membranes. Pourquoi la forme synthétique est contre-productive.",
+    "La vitamine E est en réalité une famille de 8 molécules : 4 tocophérols (alpha, bêta, gamma, delta) et 4 tocotriénols. La plupart des compléments contiennent uniquement alpha-tocophérol, et souvent sous forme synthétique (dl-alpha-tocophérol) — qui n'a pas du tout les mêmes effets que la forme naturelle. Ce détail change tout.",
+    [
+      { heading: "Rôles physiologiques", body: "Antioxydant majeur des membranes cellulaires (lipophile). Protection des AGPI (acides gras polyinsaturés) contre la peroxydation. Modulation immunitaire. Anti-inflammatoire. Fonction vasculaire. Protection du LDL contre oxydation. Synergie avec vitamine C (régénérée) et sélénium." },
+      { heading: "Naturel vs synthétique : ça change tout", body: "Forme naturelle : RRR-d-alpha-tocophérol (un seul isomère). Forme synthétique : all-rac-α-tocopherol ou dl-alpha-tocophérol (mélange de 8 isomères dont seulement 12,5% biologiquement actifs). Les autres isomères synthétiques peuvent même bloquer les transporteurs naturels. Une supplémentation isolée en alpha-tocophérol fait BAISSER les gamma et delta-tocophérols, qui sont les plus protecteurs cardiovasculaires." },
+      { heading: "Forme idéale", body: "Mélange de tocophérols naturels : RRR-d-alpha + gamma + delta tocophérols (et idéalement quelques tocotriénols). Cette synergie est ce qu'on trouve dans les huiles naturelles. Étiquettes : 'tocophérols mixtes naturels' ou 'd-alpha-tocophérol + tocophérols mixtes'. Évitez : 'dl-alpha-tocophérol' (synthétique)." },
+      { heading: "Dosages", body: "AJR : 12 mg/jour. Dosage optimal : 15 à 30 mg/jour de mélange naturel. Toujours associer aux oméga-3 (protection contre oxydation). Cure de 3-6 mois en accompagnement de cures oméga-3 ou anti-âge." },
+      { heading: "Sources alimentaires", body: "Huile de germe de blé (top source). Huile de tournesol non raffinée. Amandes (25 mg/100g). Noisettes. Graines de tournesol. Avocat. Épinards. La cuisson et l'oxydation des huiles détruisent rapidement la vit E — privilégier huiles fraîches, première pression à froid, conservation au frais." },
+    ],
+    ['vitamine E', 'tocophérols', 'naturel']
+  ),
+  a('vitamine-k2',
+    "Vitamine K2 (MK-7) : la vitamine méconnue",
+    "Active l'ostéocalcine, oriente le calcium vers les os et hors des artères. Indissociable de la vitamine D.",
+    "La vitamine K2 est probablement la vitamine la moins connue et l'une des plus importantes. Elle active l'ostéocalcine (protéine qui fixe le calcium dans les os) et la MGP (protéine qui empêche le calcium de se déposer dans les artères). En d'autres termes : elle dit au calcium où aller. Sans K2, la supplémentation en vitamine D peut paradoxalement favoriser les calcifications artérielles.",
+    [
+      { heading: "Pourquoi MK-7 et pas MK-4", body: "Il existe plusieurs formes de vitamine K2. La MK-4 a une demi-vie courte (1-2 heures) — multiples prises quotidiennes nécessaires. La MK-7 (issue de la fermentation du soja, notamment natto japonais) a une demi-vie de 24-72 heures — une seule prise quotidienne suffit. La MK-7 est aujourd'hui le standard. Préférer la MK-7 trans-isomère (forme biologiquement active)." },
+      { heading: "La synergie avec la vitamine D", body: "Vitamine D : augmente l'absorption du calcium. Vitamine K2 : oriente ce calcium vers les bons endroits (os, dents) et hors des mauvais (artères, reins). Sans K2, le surplus de calcium absorbé par la D peut se déposer dans les vaisseaux (athérosclérose) ou les reins (lithiase). Toute supplémentation en vit D devrait être accompagnée de K2." },
+      { heading: "Indications", body: "Ostéoporose, ostéopénie. Calcifications vasculaires. Prévention cardiovasculaire chez les seniors. Caries récurrentes. Toute supplémentation en vit D. Sportifs avec fractures de stress. Pré et post-ménopause." },
+      { heading: "Dosages", body: "Maintenance : 90 à 100 µg/jour de MK-7. Prévention ostéoporose : 150 à 200 µg/jour. Avec haute dose de vit D : ajuster jusqu'à 200 µg. À prendre avec une source de graisses (liposoluble). Cure de 6 mois minimum pour effets sur les os." },
+      { heading: "Sources alimentaires", body: "Natto japonais (1000 µg/100g — top mondial). Fromages affinés (gouda, brie : 50-75 µg/100g). Jaunes d'œuf de poules au pâturage. Foie d'oie (cher). Beurre de vaches au pâturage. Sources rares — supplémentation souvent justifiée." },
+    ],
+    ['K2', 'MK-7', 'ostéoporose']
+  ),
+  a('vitamine-b2',
+    "Vitamine B2 (riboflavine) : énergie et migraines",
+    "Cofacteur énergétique, traitement validé des migraines à 400 mg/jour. Carence fréquente, peu visible.",
+    "La vitamine B2 (riboflavine) est un cofacteur central de la production d'énergie cellulaire (chaîne respiratoire mitochondriale). Sa carence est rarement spectaculaire mais entraîne fatigue chronique, troubles cutanéo-muqueux, et a un usage thérapeutique remarquable dans la prévention des migraines.",
+    [
+      { heading: "Rôles physiologiques", body: "Cofacteur enzymatique sous forme FAD et FMN. Chaîne respiratoire mitochondriale (production d'ATP). Métabolisme des autres B (B3, B6, B9 nécessitent la B2 pour activation). Antioxydant (régénération glutathion). Fonction des muqueuses. Santé oculaire." },
+      { heading: "Migraines : dosage validé", body: "Études (Schoenen 1998, Maizels 2004) : 400 mg de riboflavine par jour pendant 3 mois réduit de 50% la fréquence des migraines chez 59% des patients. Mécanisme : amélioration du métabolisme énergétique mitochondrial des neurones (dont les migraineux ont un défaut). Effet visible à partir de 4-8 semaines. Effets secondaires : urines jaune fluo (normal, pas d'inquiétude)." },
+      { heading: "Signes de carence", body: "Fissures aux commissures des lèvres (chéilite). Langue rouge et douloureuse (glossite). Yeux sensibles à la lumière, larmoyants. Peau séborrhéique. Fatigue. Anémie. Sensibilité accrue aux migraines." },
+      { heading: "Sources et dosages", body: "AJR : 1,6 mg/jour. Cure migraine : 400 mg/jour. Sources : foie (5 mg/100g), levure de bière, amandes, œufs, fromages, légumes verts feuillus. Détruite par la lumière — conserver à l'abri." },
+    ],
+    ['B2', 'riboflavine', 'migraines']
+  ),
+  a('vitamine-b3',
+    "Vitamine B3 (niacine) : énergie et cholestérol",
+    "Forme nicotinamide (NAM) ou acide nicotinique : usages différents. Niacinamide pour la peau, NA pour le cholestérol.",
+    "La vitamine B3 existe sous deux formes : l'acide nicotinique (NA, ou niacine) et le nicotinamide (NAM). Toutes deux convertissent en NAD+ (coenzyme énergétique majeur), mais leurs effets pharmacologiques diffèrent. L'acide nicotinique provoque des bouffées vasomotrices et baisse efficacement le cholestérol. Le nicotinamide est mieux toléré et soutient les fonctions générales.",
+    [
+      { heading: "Rôles physiologiques", body: "Précurseur du NAD+ et NADP (cofacteurs énergétiques majeurs). Métabolisme énergétique cellulaire. Réparation de l'ADN. Synthèse hormonale. Fonction nerveuse. Santé cutanée. Synthèse acides gras et cholestérol." },
+      { heading: "Acide nicotinique : usage thérapeutique cardio", body: "À 500-2000 mg/jour : baisse LDL de 10-25%, augmente HDL de 15-35%, baisse triglycérides 20-50%. Effet historique connu, alternative aux statines pour certains. Effet secondaire : bouffées vasomotrices (flush). Forme à libération prolongée moins intense. Hépatotoxicité possible à haute dose : surveillance médicale." },
+      { heading: "Nicotinamide (NAM) : usage doux", body: "À 500-1000 mg/jour : soutien général sans flush. Anti-âge cutané (intégré dans cosmétiques). Soutien anti-inflammatoire. Précurseur du NAD+ (qui décline avec l'âge). Plus récemment, NMN et NR (précurseurs du NAD+) gagnent en popularité pour la longévité." },
+      { heading: "Sources alimentaires", body: "AJR : 16 mg/jour. Sources : foie, viandes blanches, poissons, levure, cacahuètes, légumineuses, céréales complètes. Le tryptophane (acide aminé) est convertit en niacine — donc apport protéique suffit souvent." },
+    ],
+    ['B3', 'niacine', 'NAD+']
+  ),
+  a('vitamine-b5',
+    "Vitamine B5 (acide pantothénique) : la vitamine du stress",
+    "Cofacteur de la coenzyme A. Soutien surrénalien majeur. Souvent sous-dosée dans les complexes B.",
+    "La vitamine B5 (acide pantothénique) est le précurseur de la Coenzyme A (CoA), molécule centrale du métabolisme énergétique et de la synthèse hormonale. Précieuse pour les surrénales (synthèse cortisol, DHEA), elle est souvent sous-dosée dans les complexes B alors qu'elle joue un rôle crucial en stress chronique.",
+    [
+      { heading: "Rôles physiologiques", body: "Précurseur de la CoA (Coenzyme A) : participe à la synthèse des acides gras, du cholestérol, des hormones stéroïdes (cortisol, sex steroids), de l'acétylcholine. Métabolisme énergétique (Krebs). Synthèse de l'hémoglobine. Soutien surrénalien." },
+      { heading: "Indications", body: "Stress chronique (soutient les surrénales épuisées). Fatigue surrénale (cortisol bas du matin). Allergies (modulation immunitaire). Acné (régulation séborrhée). Récupération sportive. Soutien de la fertilité (synthèse hormonale)." },
+      { heading: "Dosages", body: "AJR : 6 mg/jour. Dosage thérapeutique : 500 à 1000 mg/jour en cure de 3 mois (fatigue surrénale). Bien tolérée même à hautes doses. Forme : panthotenate de calcium ou panthethine." },
+      { heading: "Sources alimentaires", body: "Foie (8 mg/100g). Champignons. Avocat. Levure de bière. Saumon. Œufs. Yaourt. Patate douce. Largement répandue mais en faibles concentrations." },
+    ],
+    ['B5', 'pantothénique', 'surrénales']
+  ),
+];
