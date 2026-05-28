@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
+import Image from 'next/image';
 import Link from 'next/link';
-import { Clock, ArrowLeft } from 'lucide-react';
+import { Clock, ArrowLeft, ChevronRight } from 'lucide-react';
 import { Container } from '@/components/ui/Container';
 import { Card, CardContent, CardTitle } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
@@ -9,6 +10,7 @@ import { WarningBox, MedicalDisclaimer } from '@/components/ui/WarningBox';
 import { ButtonLink } from '@/components/ui/Button';
 import { getCategory } from '@/lib/categories';
 import { getArticle, getArticlesByCategory, ALL_ARTICLES } from '@/lib/articles';
+import { getArticleImage } from '@/lib/article-images';
 
 export function generateStaticParams() {
   return ALL_ARTICLES
@@ -23,9 +25,15 @@ interface PageProps {
 export function generateMetadata({ params }: PageProps): Metadata {
   const article = getArticle('nutritherapie', params.category, params.slug);
   if (!article) return {};
+  const img = getArticleImage(article.slug, article.category);
   return {
     title: article.title,
     description: article.excerpt,
+    openGraph: {
+      title: article.title,
+      description: article.excerpt,
+      images: [{ url: img.src, alt: img.alt, width: 1200, height: 630 }],
+    },
   };
 }
 
@@ -33,6 +41,7 @@ export default function ArticlePage({ params }: PageProps) {
   const article = getArticle('nutritherapie', params.category, params.slug);
   if (!article) notFound();
   const cat = getCategory('nutritherapie', params.category);
+  const heroImg = getArticleImage(article.slug, article.category);
 
   const related = getArticlesByCategory('nutritherapie', params.category)
     .filter((a) => a.slug !== article.slug)
@@ -40,23 +49,29 @@ export default function ArticlePage({ params }: PageProps) {
 
   return (
     <>
-      <section className="grain-bg py-12 sm:py-16">
+      {/* ── Hero header ──────────────────────────────────────── */}
+      <section className="hero-bg py-10 sm:py-14 border-b border-forest-100">
         <Container size="prose">
-          <div className="flex items-center gap-2 text-sm text-forest-700/80 mb-6">
-            <Link href="/nutritherapie" className="hover:text-forest-900">Nutrithérapie</Link>
-            <span>/</span>
-            <Link href={`/nutritherapie/${cat?.slug}`} className="hover:text-forest-900">
-              {cat?.nom}
+          {/* Breadcrumb */}
+          <nav aria-label="Fil d'Ariane" className="flex items-center gap-1.5 text-sm text-forest-600 mb-6 flex-wrap">
+            <Link href="/nutritherapie" className="hover:text-forest-900 transition-colors">Nutrithérapie</Link>
+            <ChevronRight className="h-3.5 w-3.5 text-forest-400 flex-shrink-0" />
+            <Link href={`/nutritherapie/${cat?.slug}`} className="hover:text-forest-900 transition-colors capitalize">
+              {cat?.nom ?? params.category}
             </Link>
-          </div>
+            <ChevronRight className="h-3.5 w-3.5 text-forest-400 flex-shrink-0" />
+            <span className="text-forest-400 truncate max-w-[160px]">{article.title}</span>
+          </nav>
 
           <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl text-forest-900 leading-tight text-balance">
             {article.title}
           </h1>
           <p className="mt-4 text-lg text-forest-700/85 leading-relaxed">{article.excerpt}</p>
-          <div className="mt-6 flex flex-wrap items-center gap-3">
-            <span className="inline-flex items-center gap-1 text-sm text-forest-700/70">
-              <Clock className="h-4 w-4" /> {article.readingTime} min de lecture
+
+          <div className="mt-5 flex flex-wrap items-center gap-3">
+            <span className="inline-flex items-center gap-1.5 text-sm text-forest-600 bg-white/70 border border-forest-100 rounded-full px-3 py-1">
+              <Clock className="h-3.5 w-3.5 text-earth-500" aria-hidden="true" />
+              {article.readingTime} min de lecture
             </span>
             {article.tags?.map((t) => (
               <Badge key={t} variant="earth" className="text-[10px]">{t}</Badge>
@@ -65,14 +80,46 @@ export default function ArticlePage({ params }: PageProps) {
         </Container>
       </section>
 
+      {/* ── Hero image ───────────────────────────────────────── */}
+      <div className="w-full bg-earth-50/30">
+        <Container size="prose" className="pt-8 pb-0">
+          <figure className="relative w-full overflow-hidden rounded-2xl shadow-lg">
+            <div className="relative aspect-[16/9] sm:aspect-[21/9]">
+              <Image
+                src={heroImg.src}
+                alt={heroImg.alt}
+                fill
+                priority
+                sizes="(max-width: 768px) 100vw, 768px"
+                className="object-cover img-food"
+              />
+              {/* Subtle gradient overlay */}
+              <div className="absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-black/20 to-transparent" />
+            </div>
+            {/* Category badge on image */}
+            <figcaption className="absolute top-3 left-3">
+              <span className="inline-flex items-center gap-1 bg-white/90 backdrop-blur-sm text-earth-800 text-xs font-semibold px-3 py-1.5 rounded-full shadow-sm capitalize">
+                {cat?.nom ?? params.category}
+              </span>
+            </figcaption>
+          </figure>
+        </Container>
+      </div>
+
+      {/* ── Article content ───────────────────────────────────── */}
       <Container size="prose" className="py-12 space-y-10">
+
+        {/* Intro */}
         <div className="prose-natural">
-          <p className="text-lg leading-relaxed text-forest-800">{article.intro}</p>
+          <p className="text-lg leading-relaxed text-forest-800 border-l-4 border-earth-300 pl-5 py-1 bg-earth-50/50 rounded-r-xl">
+            {article.intro}
+          </p>
         </div>
 
+        {/* Sections */}
         {article.sections.map((s, i) => (
           <section key={i}>
-            <h2 className="font-display text-2xl sm:text-3xl text-forest-900 mb-4 leading-tight">
+            <h2 className="font-display text-2xl sm:text-3xl text-forest-900 mb-4 leading-tight pb-2 border-b border-forest-100">
               {s.heading}
             </h2>
             <div className="prose-natural">
@@ -81,6 +128,7 @@ export default function ArticlePage({ params }: PageProps) {
           </section>
         ))}
 
+        {/* Key points */}
         {article.keyPoints && article.keyPoints.length > 0 && (
           <Card accent="sage">
             <CardContent>
@@ -88,7 +136,7 @@ export default function ArticlePage({ params }: PageProps) {
               <ul className="space-y-2">
                 {article.keyPoints.map((k) => (
                   <li key={k} className="flex gap-2.5 text-forest-800/90 text-sm">
-                    <span className="text-sage-600 font-bold mt-0.5">▸</span>
+                    <span className="text-earth-500 font-bold mt-0.5 flex-shrink-0">▸</span>
                     <span>{k}</span>
                   </li>
                 ))}
@@ -97,19 +145,21 @@ export default function ArticlePage({ params }: PageProps) {
           </Card>
         )}
 
+        {/* Protocole */}
         {article.protocole && article.protocole.length > 0 && (
           <Card accent="earth">
             <CardContent>
               <CardTitle className="text-lg mb-4">Protocole pas à pas</CardTitle>
               <ol className="space-y-2 list-decimal pl-4">
-                {article.protocole.map((p, i) => (
-                  <li key={i} className="text-forest-800/90 text-sm leading-relaxed pl-2">{p}</li>
+                {article.protocole.map((step, i) => (
+                  <li key={i} className="text-forest-800/90 text-sm leading-relaxed pl-2">{step}</li>
                 ))}
               </ol>
             </CardContent>
           </Card>
         )}
 
+        {/* Contre-indications */}
         {article.contre_indications && article.contre_indications.length > 0 && (
           <WarningBox variant="danger" title="Contre-indications">
             <ul className="space-y-1">
@@ -120,6 +170,7 @@ export default function ArticlePage({ params }: PageProps) {
           </WarningBox>
         )}
 
+        {/* FAQ */}
         {article.faq && article.faq.length > 0 && (
           <section>
             <h2 className="font-display text-2xl sm:text-3xl text-forest-900 mb-6">Questions fréquentes</h2>
@@ -138,20 +189,34 @@ export default function ArticlePage({ params }: PageProps) {
 
         <MedicalDisclaimer />
 
+        {/* Related articles */}
         {related.length > 0 && (
           <section>
             <h2 className="font-display text-2xl text-forest-900 mb-6">À lire aussi</h2>
             <div className="grid sm:grid-cols-3 gap-4">
-              {related.map((r) => (
-                <Link key={r.slug} href={`/nutritherapie/${r.category}/${r.slug}`} className="group">
-                  <Card hoverable accent="cream">
-                    <CardContent className="p-5">
-                      <CardTitle className="text-sm leading-tight">{r.title}</CardTitle>
-                      <p className="text-xs text-forest-700/70 mt-2 line-clamp-2">{r.excerpt}</p>
-                    </CardContent>
-                  </Card>
-                </Link>
-              ))}
+              {related.map((r) => {
+                const rImg = getArticleImage(r.slug, r.category);
+                return (
+                  <Link key={r.slug} href={`/nutritherapie/${r.category}/${r.slug}`} className="group">
+                    <Card hoverable accent="cream" className="overflow-hidden">
+                      <div className="relative h-32 overflow-hidden">
+                        <Image
+                          src={rImg.src}
+                          alt={rImg.alt}
+                          fill
+                          sizes="240px"
+                          className="object-cover img-food group-hover:scale-105 transition-transform duration-500"
+                          loading="lazy"
+                        />
+                      </div>
+                      <CardContent className="p-4">
+                        <CardTitle className="text-sm leading-tight">{r.title}</CardTitle>
+                        <p className="text-xs text-forest-700/70 mt-1.5 line-clamp-2">{r.excerpt}</p>
+                      </CardContent>
+                    </Card>
+                  </Link>
+                );
+              })}
             </div>
           </section>
         )}
