@@ -185,6 +185,139 @@ export const ARTICLE_PHOTOS: Record<string, PhotoMeta> = {
   'sauge-officinale':      px('5852277', 'jpeg', 'Sauge officinale — feuilles'),
   thym:                    px('4198139', 'jpeg', 'Thym frais'),
   valeriane:               px('27240244','jpeg', 'Valériane — racine et fleurs roses'),
+
+  /* ── NATUROPATHIE — ALIMENTATION ── */
+  'alimentation-vivante':          px('36346265','jpeg', 'Légumes frais et germinations — alimentation vivante'),
+  'graines-germees':               px('11579272','jpeg', 'Graines germées en bocal'),
+  'lacto-fermentation':            px('6823261', 'jpeg', 'Choucroute et légumes lacto-fermentés en bocal'),
+  'associations-alimentaires':     px('5966432', 'jpeg', 'Assiette équilibrée — groupes alimentaires'),
+  'chrono-nutrition-naturopathique': px('19917466','jpeg', 'Petit-déjeuner sain — chrono-nutrition'),
+  mastication:                     px('30692940','jpeg', 'Mastication consciente — repas attentif'),
+  'hydratation-naturopathique':    px('33743597','jpeg', 'Verre d\'eau pure versée — hydratation'),
+  'gluten-laitages':               px('37377279','jpeg', 'Pain et produits laitiers — gluten et laitages'),
+  'sucres-additifs-perturbateurs': px('6823676', 'jpeg', 'Sucres et additifs à éviter'),
+  'mind-diet-cognition':           px('8286759', 'jpeg', 'Bol méditerranéen — MIND diet et cognition'),
+  'meal-timing-circadien-metabolique': px('1194234','jpeg', 'Horloge et assiette — fenêtre alimentaire'),
+  'cacao-flavanols-cognition':     px('4113347', 'jpeg', 'Chocolat noir et cacao — flavanols'),
+
+  /* ── NATUROPATHIE — CURES SAISONNIÈRES ── */
+  'cure-printemps':                px('37016164','jpeg', 'Fleurs de printemps — cure printanière'),
+  'cure-ete':                      px('8093448', 'jpeg', "Fruits d'été colorés — cure estivale"),
+  'cure-automne':                  px('13885791','jpeg', "Légumes d'automne et citrouilles"),
+  'cure-hiver':                    px('35650189','jpeg', "Thé chaud et neige — cure hivernale"),
+  'luminotherapie-depression-saisonniere': px('6940346','jpeg', 'Luminothérapie — lampe du matin'),
+
+  /* ── NATUROPATHIE — HYDROTHÉRAPIE ── */
+  'douche-ecossaise':               px('161502',  'jpeg', "Douche écossaise — eau chaude et froide"),
+  'bain-chaud-detox':               px('6724375', 'jpeg', "Bain chaud relaxant aux sels"),
+  'bains-pieds':                    px('19695967','jpeg', "Bain de pieds aux herbes"),
+  'compresse-chaude-foie':          px('5833316', 'jpeg', "Compresse chaude thérapeutique"),
+  'hydrotherapie-colon':            px('4499400', 'jpeg', "Eau pure — hydrothérapie du côlon"),
+  'exposition-froid-immersion':     px('14815629','jpeg', "Immersion en eau froide"),
+  'sauna-finlandais-cardiovasculaire': px('36818206','jpeg', "Sauna finlandais en bois"),
+
+  /* ── NATUROPATHIE — JEÛNES (additionnels) ── */
+  'crises-guerison':               px('33340473','jpeg', "Guérison et renouveau"),
+  'monodiete-pasteque':            px('3429784', 'jpeg', "Tranches de pastèque fraîche"),
+  'monodiete-carotte':             px('4193418', 'jpeg', "Carottes oranges en botte"),
+  'jeune-court-vs-long':           px('8573370', 'jpeg', "Sablier — durée du jeûne"),
+  'restriction-calorique-autophagie': px('11516492','jpeg', "Cellules et longévité — autophagie"),
+
+  /* ── NATUROPATHIE — PURGES (additionnels) ── */
+  'fumeterre-cure-printemps':      px('37268815','jpeg', "Fumeterre — plante de printemps drainante"),
+  'drainage-lymphatique-manuel':   px('4599428', 'jpeg', "Drainage lymphatique manuel — massage"),
+  'sauna-hammam':                  px('7598363', 'jpeg', "Sauna en bois — séance détoxifiante"),
+
+  /* ── NATUROPATHIE — PLANTES (additionnels — articles sourcés batch 2) ── */
+  'millepertuis-hypericum-depression': px('16975103','jpeg', "Millepertuis — Hypericum perforatum"),
+  '5-htp-griffonia-serotonine':       px('28200604','jpeg', "Griffonia simplicifolia — source de 5-HTP"),
+  'safran-crocus-depression':         px('33654800','jpeg', "Safran — stigmates rouges du Crocus"),
+
+  /* ── NATUROPATHIE — AROMATHÉRAPIE ── */
+  'huiles-essentielles-introduction': px('5682924', 'jpeg', "Flacons d'huiles essentielles ambrés"),
+  'he-lavande-vraie':                 px('128883',  'jpeg', "Champ de lavande violette"),
+  'he-arbre-a-the':                   px('6187185', 'jpeg', "Feuilles de tea tree Melaleuca"),
+  'he-eucalyptus-radie':              px('6168330', 'jpeg', "Eucalyptus — branche et feuilles"),
+  'he-ravintsara':                    px('4091215', 'jpeg', "Feuilles tropicales — ravintsara"),
+  'he-menthe-poivree':                px('9893134', 'jpeg', "Menthe poivrée — feuilles vert vif"),
+  'he-helichryse-italienne':          px('10382454','jpeg', "Hélichryse — fleurs jaunes immortelle"),
+  'he-niaouli':                       px('36576265','jpeg', "Niaouli — feuilles tropicales"),
+  'synergies-aromatherapeutiques':    px('7321710', 'jpeg', "Mélange d'huiles essentielles au compte-gouttes"),
+  'silexan-lavande-anxiete':          px('17604908','jpeg', "Capsules de lavande — extrait Silexan"),
+  'aromatherapie-post-operatoire':    px('6129491', 'jpeg', "Aromathérapie en soins hospitaliers"),
+
+  /* ── NATUROPATHIE — RESPIRATION & SOMMEIL ── */
+  'respiration-abdominale':         px('4534858', 'jpeg', "Respiration abdominale relaxante"),
+  'respiration-4-7-8':              px('8795388', 'jpeg', "Respiration consciente en méditation"),
+  // 'hygiene-sommeil' refactor — photo dédiée
+  'hygiene-sommeil':                px('9911439', 'jpeg', "Chambre sombre et paisible — sommeil"),
+  // 'coherence-cardiaque' refactor — photo dédiée
+  'coherence-cardiaque':            px('7500709', 'jpeg', "Cohérence cardiaque — respiration"),
+  'insomnie-naturelle':             px('6944018', 'jpeg', "Insomnie nocturne"),
+  'melatonine-naturelle':           px('32088272','jpeg', "Lune et étoiles — mélatonine"),
+  'tryptophane-sommeil':            px('29802845','jpeg', "Aliments riches en tryptophane"),
+
+  /* ── NATUROPATHIE — STRESS & ÉMOTIONS ── */
+  'stress-chronique-causes':            px('4226215', 'jpeg', "Femme en burnout — stress chronique"),
+  // 'meditation-pleine-conscience' refactor
+  'meditation-pleine-conscience':       px('24801656','jpeg', "Méditation de pleine conscience"),
+  'fleurs-de-bach':                     px('17579364','jpeg', "Fleurs sauvages — fleurs de Bach"),
+  'ecriture-cathartique':               px('159538',  'jpeg', "Stylo et carnet — écriture cathartique"),
+  // 'bain-foret-shinrin-yoku' refactor
+  'bain-foret-shinrin-yoku':            px('2380827', 'jpeg', "Forêt avec lumière entre les arbres"),
+  'yoga-anti-stress':                   px('2529365', 'jpeg', "Posture de yoga en pleine nature"),
+  'acceptance-commitment-therapie-act': px('6255599', 'jpeg', "Thérapie ACT — écoute bienveillante"),
+  'ecriture-expressive-immunite':       px('6711843', 'jpeg', "Écriture expressive — journal"),
+
+  /* ── ACTUALITÉS — sujets supplémentaires (curcuma, reishi, maca…) ── */
+  'curcuma-piperine-biodisponibilite':              px('6220710', 'jpeg', "Curcuma en poudre dorée — pipérine"),
+  'reishi-ganoderma-immunite-cancer':               px('28430922','jpeg', "Reishi — Ganoderma lucidum"),
+  'maca-lepidium-meyenii-fonction-sexuelle':        px('27392066','jpeg', "Maca — Lepidium meyenii andin"),
+  'astragale-membranaceus-immunite':                px('16122304','jpeg', "Astragale — racine séchée"),
+  'bacopa-monnieri-memoire-cognition':              px('32761885','jpeg', "Bacopa monnieri — Brahmi"),
+  'regime-cetogene-epilepsie-pediatrique':          px('1305063', 'jpeg', "Régime cétogène — avocat et œufs"),
+  'nmn-nad-anti-vieillissement':                    px('29107595','jpeg', "NMN / NAD+ — anti-vieillissement"),
+
+  /* ── ACTUALITÉS — VITAMINES (réutilise les photos par-thème) ── */
+  'vitamine-c-non-toxicite-limites':                  px('7676963', 'jpeg', 'Agrumes et kiwi — vitamine C'),
+  'vitamine-d-supplementation-infections-respiratoires': px('13849252','jpeg', 'Lumière du soleil — vitamine D'),
+  'vitamine-b12-vegetariens-deficit':                 px('20571455','jpeg', 'Saumon et œufs — vitamine B12'),
+  'folates-methylfolate-depression':                  px('7456546', 'jpeg', 'Légumes verts feuillus — folates B9'),
+  'vitamine-k2-arteres-os':                           px('30874699','jpeg', 'Aliments fermentés et fromage — vitamine K2'),
+  'vitamine-a-toxicite-retinol':                      px('24031498','jpeg', 'Carottes oranges — vitamine A'),
+  'vitamine-e-alpha-gamma-tocopherol':                px('7420735', 'jpeg', 'Noix et graines — vitamine E'),
+  'vitamine-b6-neuropathie-dose-elevee':              px('36021103','jpeg', 'Bananes et légumineuses — vitamine B6'),
+  'niacine-vitamine-b3-flush-lipides':                px('8112380', 'jpeg', 'Viande et protéines — niacine B3'),
+  'thiamine-wernicke-alcool':                         px('5114289', 'jpeg', 'Céréales complètes — thiamine B1'),
+
+  /* ── ACTUALITÉS — MINÉRAUX ── */
+  'magnesium-formes-biodisponibilite':                px('8524288', 'jpeg', 'Chocolat noir et amandes — magnésium'),
+  'zinc-immunite-infections-respiratoires':           px('7772003', 'jpeg', 'Graines de courge — zinc'),
+  'fer-bisglycinate-vs-sulfate':                      px('6824475', 'jpeg', 'Épinards et lentilles — fer'),
+  'iode-thyroide-carence':                            px('13677969','jpeg', 'Algues marines — iode'),
+  'selenium-hashimoto-thyroidite':                    px('25067701','jpeg', 'Noix du Brésil — sélénium'),
+  'calcium-supplementation-cardiovasculaire-controverse': px('6585008','jpeg','Produits laitiers et brocoli — calcium'),
+  'potassium-tension-arterielle-meta-analyses':       px('108059',  'jpeg', 'Bananes et avocat — potassium'),
+  'manganese-neurotoxicite-exposition':               px('7421448', 'jpeg', 'Noix et céréales — manganèse'),
+  'cuivre-zinc-equilibre-ratio':                      px('18606644','jpeg', 'Fruits de mer — cuivre'),
+  'chrome-picolinate-diabete-type-2':                 px('7676045', 'jpeg', 'Brocoli — chrome'),
+
+  /* ── ACTUALITÉS — ADAPTOGÈNES & PLANTES (réutilise quand possible) ── */
+  'ashwagandha-stress-cortisol':                      px('10902685','jpeg', 'Racine d\'ashwagandha'),
+  'rhodiole-fatigue-performance-mentale':             px('19499716','jpeg', 'Rhodiola en milieu rocheux'),
+  'ginseng-fatigue-meta-analyses':                    px('16122465','jpeg', 'Racine de ginseng'),
+  'cordyceps-performance-sportive':                   px('13383491','jpeg', 'Champignons médicinaux'),
+  'ginkgo-biloba-cognition-dementia':                 px('35090160','jpeg', 'Feuilles de ginkgo dorées'),
+
+  /* ── ACTUALITÉS — MICROBIOTE & NUTRITION ── */
+  'probiotiques-axe-intestin-cerveau':                px('6823321', 'jpeg', 'Microbiote — yaourt'),
+  'omega-3-epa-dha-cardiovasculaire':                 px('3029526', 'jpeg', 'Saumon riche en oméga-3'),
+  'jeune-intermittent-autophagie-metabolisme':        px('2950325', 'jpeg', 'Horloge et assiette — jeûne intermittent'),
+  'polyphenols-regime-mediterraneen-cardiovasculaire': px('6004723','jpeg', 'Fruits rouges — polyphénols'),
+  'fibres-prebiotiques-acides-gras-chaine-courte':    px('33654488','jpeg', 'Fibres prébiotiques — artichaut'),
+  'probiotiques-prevention-diarrhee-antibiotiques':   px('6823321', 'jpeg', 'Microbiote — yaourt'),
+  'resveratrol-sirtuines-vieillissement':             px('7657243', 'jpeg', 'Raisins rouges — resvératrol'),
+  'coq10-myopathie-statines':                         px('992816',  'jpeg', 'Cœur — CoQ10'),
 };
 
 /**
