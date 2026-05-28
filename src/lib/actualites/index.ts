@@ -1,14 +1,22 @@
 import type { Actualite, ActualiteCategory } from '../types';
 import { ACTUALITES_VITAMINES } from './vitamines';
+import { ACTUALITES_VITAMINES_2 } from './vitamines-2';
 import { ACTUALITES_MINERAUX } from './mineraux';
+import { ACTUALITES_MINERAUX_2 } from './mineraux-2';
 import { ACTUALITES_ADAPTOGENES } from './adaptogenes-plantes';
+import { ACTUALITES_ADAPTOGENES_2 } from './adaptogenes-plantes-2';
 import { ACTUALITES_MICROBIOTE } from './microbiote-nutrition';
+import { ACTUALITES_MICROBIOTE_2 } from './microbiote-nutrition-2';
 
 export const ALL_ACTUALITES: Actualite[] = [
   ...ACTUALITES_VITAMINES,
+  ...ACTUALITES_VITAMINES_2,
   ...ACTUALITES_MINERAUX,
+  ...ACTUALITES_MINERAUX_2,
   ...ACTUALITES_ADAPTOGENES,
+  ...ACTUALITES_ADAPTOGENES_2,
   ...ACTUALITES_MICROBIOTE,
+  ...ACTUALITES_MICROBIOTE_2,
 ].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 
 export const ACTUALITE_CATEGORIES: { slug: ActualiteCategory; nom: string; icon: string; description: string }[] = [
