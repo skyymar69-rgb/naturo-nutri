@@ -1,16 +1,20 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { Clock, ArrowLeft, ChevronRight, ChevronLeft } from 'lucide-react';
+import { Clock, ArrowLeft, ChevronRight, ChevronLeft, FileText } from 'lucide-react';
 import { Container } from '@/components/ui/Container';
 import { Card, CardContent, CardTitle } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
-import { WarningBox, MedicalDisclaimer } from '@/components/ui/WarningBox';
+import { Alert } from '@/components/ui/Alert';
+import { WarningBox } from '@/components/ui/WarningBox';
 import { ButtonLink } from '@/components/ui/Button';
 import { ArticleHero } from '@/components/ArticleHero';
 import { ReadingProgress } from '@/components/ReadingProgress';
 import { TableOfContents } from '@/components/TableOfContents';
 import { ArticleShare } from '@/components/ArticleShare';
+import { EvidenceBadge } from '@/components/EvidenceBadge';
+import { NaturopathieDisclaimer, TraditionNotice, BottomLegalNotice } from '@/components/LegalNotice';
+import { SourcedParagraph, SourcesList } from '@/components/Sources';
 import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd } from '@/components/JsonLd';
 import { getCategory } from '@/lib/categories';
 import { getArticle, getArticlesByCategory, ALL_ARTICLES } from '@/lib/articles';
@@ -72,12 +76,19 @@ export default function ArticlePage({ params }: PageProps) {
   const url = `${SITE}/naturopathie/${params.category}/${params.slug}`;
   const ogImage = `${SITE}${getArticleOgImage(article.slug, article.category)}`;
 
+  // Default evidence level pour les articles non encore enrichis :
+  // "tradition" → reflète honnêtement la situation (naturopathie traditionnelle, non validée).
+  const evidenceLevel = article.evidence_level ?? 'tradition';
+  const sources = article.sources ?? [];
+  const hasSources = sources.length > 0;
+
   return (
     <>
       <ReadingProgress />
       <ArticleJsonLd
         title={article.title}
         description={article.excerpt}
+        datePublished={article.updatedAt}
         url={url}
         imageUrl={ogImage}
         authorName="Nutriéa"
@@ -118,6 +129,13 @@ export default function ArticlePage({ params }: PageProps) {
               <Clock className="h-3.5 w-3.5 text-sage-500" aria-hidden="true" />
               {article.readingTime} min de lecture
             </span>
+            <EvidenceBadge level={evidenceLevel} compact />
+            {hasSources && (
+              <span className="inline-flex items-center gap-1.5 text-sm text-sage-700 bg-sage-50 border border-sage-200 rounded-full px-3 py-1 font-semibold">
+                <FileText className="h-3.5 w-3.5" aria-hidden="true" />
+                {sources.length} source{sources.length > 1 ? 's' : ''}
+              </span>
+            )}
             {article.tags?.map((t) => (
               <Badge key={t} variant="sage" className="text-[10px]">{t}</Badge>
             ))}
@@ -147,23 +165,51 @@ export default function ArticlePage({ params }: PageProps) {
       <Container size="wide" className="py-12">
         <div className="grid lg:grid-cols-[1fr_220px] gap-12">
           <article className="max-w-3xl mx-auto lg:mx-0 w-full space-y-10">
+
+            {/* Disclaimer juridique en tête */}
+            <NaturopathieDisclaimer />
+
+            {/* Notice tradition si applicable */}
+            {(evidenceLevel === 'tradition' || evidenceLevel === 'no-data') && <TraditionNotice />}
+
+            {/* Niveau de preuve détaillé */}
+            <EvidenceBadge level={evidenceLevel} />
+
+            {/* Note État des connaissances */}
+            {article.evidence_note && (
+              <Alert variant="info" title="État actuel des connaissances">
+                {article.evidence_note}
+              </Alert>
+            )}
+
+            {/* Intro */}
             <div className="prose-natural">
               <p className="text-lg leading-relaxed text-forest-800 border-l-4 border-sage-300 pl-5 py-1 bg-sage-50/50 rounded-r-xl drop-cap">
                 {article.intro}
               </p>
             </div>
 
+            {/* Sections — avec rendu sourcé si sources présentes */}
             {article.sections.map((s, i) => (
               <section key={i} id={slugify(s.heading)} className="scroll-mt-24">
                 <h2 className="font-display text-2xl sm:text-3xl text-forest-900 mb-4 leading-tight pb-2 border-b border-forest-100">
                   {s.heading}
                 </h2>
-                <div className="prose-natural">
-                  <p className="text-forest-800/90 leading-relaxed">{s.body}</p>
-                </div>
+                {hasSources ? (
+                  <SourcedParagraph
+                    text={s.body}
+                    sources={sources}
+                    className="text-forest-800/90 leading-relaxed"
+                  />
+                ) : (
+                  <div className="prose-natural">
+                    <p className="text-forest-800/90 leading-relaxed">{s.body}</p>
+                  </div>
+                )}
               </section>
             ))}
 
+            {/* Key points */}
             {article.keyPoints && article.keyPoints.length > 0 && (
               <Card accent="sage">
                 <CardContent>
@@ -180,6 +226,7 @@ export default function ArticlePage({ params }: PageProps) {
               </Card>
             )}
 
+            {/* Protocole */}
             {article.protocole && article.protocole.length > 0 && (
               <Card accent="forest">
                 <CardContent>
@@ -193,6 +240,7 @@ export default function ArticlePage({ params }: PageProps) {
               </Card>
             )}
 
+            {/* Contre-indications */}
             {article.contre_indications && article.contre_indications.length > 0 && (
               <WarningBox variant="danger" title="Contre-indications">
                 <ul className="space-y-1">
@@ -203,6 +251,7 @@ export default function ArticlePage({ params }: PageProps) {
               </WarningBox>
             )}
 
+            {/* FAQ */}
             {article.faq && article.faq.length > 0 && (
               <section id="faq" className="scroll-mt-24">
                 <h2 className="font-display text-2xl sm:text-3xl text-forest-900 mb-6">Questions fréquentes</h2>
@@ -220,7 +269,11 @@ export default function ArticlePage({ params }: PageProps) {
               </section>
             )}
 
-            <MedicalDisclaimer />
+            {/* Bibliographie si sources */}
+            {hasSources && <SourcesList sources={sources} />}
+
+            {/* Notice juridique pied d'article */}
+            <BottomLegalNotice />
 
             <ArticleShare title={article.title} />
 
@@ -266,6 +319,11 @@ export default function ArticlePage({ params }: PageProps) {
                           <CardContent className="p-4 flex-1">
                             <CardTitle className="text-sm leading-tight">{r.title}</CardTitle>
                             <p className="text-xs text-forest-700/70 mt-1.5 line-clamp-2">{r.excerpt}</p>
+                            {r.evidence_level && (
+                              <div className="mt-2">
+                                <EvidenceBadge level={r.evidence_level} compact />
+                              </div>
+                            )}
                           </CardContent>
                         </Card>
                       </Link>

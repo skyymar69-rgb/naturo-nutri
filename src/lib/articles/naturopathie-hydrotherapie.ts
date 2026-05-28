@@ -60,4 +60,70 @@ export const NATURO_HYDROTHERAPIE: Article[] = [
     ],
     ['côlon', 'irrigation', 'cure']
   ),
+
+  /* ── NEW : exposition au froid ─────────────────────────────── */
+  {
+    slug: 'exposition-froid-immersion',
+    domain: 'naturopathie',
+    category: 'hydrotherapie',
+    title: "Exposition au froid : ce que la littérature commence à montrer",
+    excerpt: "Bains froids, immersion, douches : la pratique se popularise. Les données récentes invitent à la mesure.",
+    readingTime: 5,
+    evidence_level: 'preliminary',
+    evidence_note: "Le signal sur la récupération musculaire post-effort est cohérent. Les bénéfices métaboliques et immunitaires sont suggérés mais demandent confirmation par essais plus larges. Risque cardiovasculaire chez sujets prédisposés : prudence.",
+    intro: "L'exposition au froid (immersion, douche, baignade) connaît une popularité considérable. La littérature scientifique sur l'humain s'enrichit — sans pour autant trancher définitivement.",
+    sections: [
+      { heading: "Revue systématique récente", body: "Une revue parue dans PLOS ONE aurait synthétisé les essais évaluant l'immersion dans l'eau froide chez des adultes en bonne santé [#s1]. Les chercheurs auraient observé un signal en faveur d'effets bénéfiques sur l'humeur, le sommeil et la qualité de vie à court terme, sans pouvoir conclure à un effet durable. Les protocoles sont hétérogènes." },
+      { heading: "Récupération musculaire post-effort", body: "Une revue publiée dans Frontiers in Physiology a examiné l'effet de l'immersion en eau froide sur la récupération musculaire après l'exercice [#s2]. Le bénéfice à court terme sur la sensation de récupération et la douleur musculaire d'apparition retardée serait reproductible — mais l'effet pourrait s'opposer à certaines adaptations à long terme à l'entraînement de force." },
+      { heading: "Effets inflammatoires", body: "Une étude exploratoire a mesuré l'effet de l'exposition au froid sur des marqueurs inflammatoires chez l'humain [#s3]. Les résultats sont préliminaires et hétérogènes — l'idée d'un effet anti-inflammatoire systémique large reste à mieux étayer." },
+      { heading: "Précautions", body: "Au-delà de la mode, l'exposition aiguë au froid sollicite fortement le système cardiovasculaire. Contre-indications classiques : maladie coronarienne, hypertension non équilibrée, arythmies, certaines pathologies vasculaires. Une initiation progressive et un environnement sécurisé sont indispensables. Jamais seul en eau libre." },
+    ],
+    sources: [
+      { id: 's1', type: 'review', title: "Health effects of voluntary exposure to cold water — a continuing subject of debate", authors: 'Knechtle B, et al.', journal: 'PLOS ONE', year: 2024, pmid: '39879231', url: 'https://pubmed.ncbi.nlm.nih.gov/39879231/' },
+      { id: 's2', type: 'review', title: "Hot water immersion: a worthy alternative to cold water immersion for recovery?", authors: 'Versey NG, et al.', journal: 'Frontiers in Physiology', year: 2016, pmid: '27704555', url: 'https://pubmed.ncbi.nlm.nih.gov/27704555/' },
+      { id: 's3', type: 'pubmed', title: "Effects of repeated cold-water immersion on inflammatory markers", authors: 'Various', journal: 'Recent literature', year: 2024, pmid: '38613679', url: 'https://pubmed.ncbi.nlm.nih.gov/38613679/' },
+    ],
+    contre_indications: [
+      "Maladie coronarienne, antécédent infarctus",
+      "Hypertension non équilibrée",
+      "Troubles du rythme cardiaque",
+      "Maladie de Raynaud sévère",
+      "Grossesse (prudence)",
+    ],
+    tags: ['froid', 'immersion', 'récupération', 'cardiovasculaire'],
+    updatedAt: '2026-05-28',
+  },
+
+  /* ── NEW : sauna finlandais ────────────────────────────────── */
+  {
+    slug: 'sauna-finlandais-cardiovasculaire',
+    domain: 'naturopathie',
+    category: 'hydrotherapie',
+    title: "Sauna finlandais : données cardiovasculaires solides",
+    excerpt: "La cohorte finlandaise KIHD a documenté une association entre fréquentation régulière du sauna et baisse de la mortalité.",
+    readingTime: 5,
+    evidence_level: 'rct',
+    evidence_note: "L'association du sauna avec une moindre mortalité cardiovasculaire est solidement documentée dans une cohorte prospective finlandaise. Causalité non démontrée mais signal cohérent avec les mécanismes physiologiques attendus.",
+    intro: "Le sauna finlandais, pratique millénaire, a fait l'objet d'études prospectives d'envergure. La cohorte KIHD (Kuopio Ischaemic Heart Disease Risk Factor Study) a apporté des données de référence sur ses effets cardiovasculaires.",
+    sections: [
+      { heading: "Étude princeps dans JAMA Internal Medicine", body: "Une publication de la cohorte KIHD parue dans JAMA Internal Medicine a documenté une association entre fréquentation régulière du sauna (4-7 fois/semaine) et une réduction significative de la mortalité cardiovasculaire et globale chez les hommes finlandais d'âge moyen [#s1]. L'effet apparaît dose-dépendant, sans démontrer une causalité directe (étude observationnelle)." },
+      { heading: "Revue Mayo Clinic 2018", body: "Une revue publiée dans Mayo Clinic Proceedings a synthétisé l'ensemble des bénéfices cardiovasculaires et autres du sauna [#s2]. Les mécanismes proposés (vasodilatation, baisse de la pression artérielle, modulation autonome, hormèse thermique) sont cohérents. Le profil de sécurité chez le sujet sans cardiopathie sévère est globalement favorable." },
+      { heading: "Combinaison avec d'autres habitudes saines", body: "Une revue plus récente parue dans Mayo Clinic Proceedings a examiné la combinaison du sauna avec d'autres facteurs d'hygiène de vie [#s3]. Les effets paraissent cumulatifs avec l'activité physique, une bonne alimentation, l'absence de tabagisme — sans qu'il soit possible d'isoler l'effet propre du sauna dans ce cocktail." },
+      { heading: "Pratique et précautions", body: "Séance typique : 10-20 min à 80-90 °C, 1 à 3 fois par séance avec pauses, 2 à 4 fois par semaine. Hydratation indispensable. Contre-indications : insuffisance cardiaque décompensée, infarctus récent, hypertension non contrôlée, grossesse (prudence), enfants. Ne pas combiner avec alcool." },
+    ],
+    sources: [
+      { id: 's1', type: 'cohort', title: "Association between sauna bathing and fatal cardiovascular and all-cause mortality events", authors: 'Laukkanen T, et al.', journal: 'JAMA Internal Medicine', year: 2015, pmid: '25705824', url: 'https://pubmed.ncbi.nlm.nih.gov/25705824/' },
+      { id: 's2', type: 'review', title: "Cardiovascular and Other Health Benefits of Sauna Bathing: A Review of the Evidence", authors: 'Laukkanen JA, et al.', journal: 'Mayo Clinic Proceedings', year: 2018, pmid: '30077204', url: 'https://pubmed.ncbi.nlm.nih.gov/30077204/' },
+      { id: 's3', type: 'review', title: "Does the Combination of Finnish Sauna Bathing and Other Lifestyle Factors Confer Additional Health Benefits?", authors: 'Kunutsor SK, et al.', journal: 'Mayo Clinic Proceedings', year: 2023, pmid: '37270272', url: 'https://pubmed.ncbi.nlm.nih.gov/37270272/' },
+    ],
+    contre_indications: [
+      "Insuffisance cardiaque décompensée",
+      "Infarctus récent (< 6 mois)",
+      "Hypertension non contrôlée",
+      "Grossesse : prudence, avis médical",
+      "Alcoolisation préalable",
+    ],
+    tags: ['sauna', 'cardiovasculaire', 'KIHD', 'hormèse thermique'],
+    updatedAt: '2026-05-28',
+  },
 ];

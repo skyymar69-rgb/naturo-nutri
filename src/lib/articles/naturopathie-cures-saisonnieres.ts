@@ -53,4 +53,36 @@ export const NATURO_CURES_SAISONNIERES: Article[] = [
     ],
     ['hiver', 'soupes', 'épices']
   ),
+
+  /* ── NEW : luminothérapie / SAD ─────────────────────────────── */
+  {
+    slug: 'luminotherapie-depression-saisonniere',
+    domain: 'naturopathie',
+    category: 'cures-saisonnieres',
+    title: "Luminothérapie et trouble affectif saisonnier : un traitement validé",
+    excerpt: "Le trouble affectif saisonnier (SAD) répond bien à l'exposition à une lumière vive le matin. Méta-analyse 2020.",
+    readingTime: 5,
+    evidence_level: 'meta-analysis',
+    evidence_note: "C'est l'une des interventions « naturelles » avec le niveau de preuve le plus élevé : méta-analyse robuste, recommandation officielle. À ne pas confondre avec une luminothérapie « bien-être » sans cadre.",
+    intro: "Le trouble affectif saisonnier (Seasonal Affective Disorder, SAD) — dépression hivernale liée à la baisse de luminosité — répond favorablement à la luminothérapie. Les méta-analyses récentes confirment cette indication avec un niveau de preuve solide.",
+    sections: [
+      { heading: "Méta-analyse 2020 dans Psychotherapy and Psychosomatics", body: "Une méta-analyse parue dans Psychotherapy and Psychosomatics a évalué l'efficacité de la luminothérapie dans le trouble affectif saisonnier [#s1]. Les chercheurs auraient observé une amélioration cliniquement significative comparable, voire supérieure, à celle des antidépresseurs classiques dans cette indication précise." },
+      { heading: "Comparaison réseau des traitements", body: "Une méta-analyse en réseau publiée dans Journal of Affective Disorders aurait comparé l'ensemble des traitements disponibles pour le SAD : luminothérapie, antidépresseurs, psychothérapies [#s2]. La luminothérapie matinale ressortirait avec un excellent rapport bénéfice-risque. Le combiné lumière + antidépresseur paraît également intéressant dans les formes sévères." },
+      { heading: "Dépression non saisonnière", body: "Une méta-analyse parue dans Psychiatry Research a évalué la luminothérapie dans la dépression non saisonnière [#s3]. Les chercheurs auraient observé un effet plus modeste qu'en SAD, mais détectable — la luminothérapie pourrait constituer un appoint utile dans certaines dépressions chroniques résistantes." },
+      { heading: "Protocole standard", body: "Lampe de luminothérapie certifiée délivrant 10 000 lux, exposition de 20-30 minutes le matin (idéalement dans l'heure suivant le réveil), à 30-50 cm du visage, pendant la saison hivernale (octobre à mars). Réponse habituellement perceptible en 1-2 semaines. Contre-indications : pathologies oculaires sévères, certains traitements photosensibilisants, trouble bipolaire (risque de virage maniaque)." },
+    ],
+    sources: [
+      { id: 's1', type: 'meta-analysis', title: "The Efficacy of Light Therapy in the Treatment of Seasonal Affective Disorder: A Meta-Analysis of Randomized Controlled Trials", authors: 'Pjrek E, et al.', journal: 'Psychotherapy and Psychosomatics', year: 2020, pmid: '31574513', url: 'https://pubmed.ncbi.nlm.nih.gov/31574513/' },
+      { id: 's2', type: 'meta-analysis', title: "Treatment measures for seasonal affective disorder: A network meta-analysis", authors: 'Chen ZW, et al.', journal: 'Journal of Affective Disorders', year: 2024, pmid: '38220102', url: 'https://pubmed.ncbi.nlm.nih.gov/38220102/' },
+      { id: 's3', type: 'meta-analysis', title: "Light therapy in non-seasonal depression: An update meta-analysis", authors: 'Tao L, et al.', journal: 'Psychiatry Research', year: 2020, pmid: '32622169', url: 'https://pubmed.ncbi.nlm.nih.gov/32622169/' },
+    ],
+    contre_indications: [
+      "Trouble bipolaire (risque de virage maniaque)",
+      "Pathologies ophtalmologiques sévères (dégénérescence rétinienne)",
+      "Traitements photosensibilisants (avis médical)",
+      "Lupus érythémateux disséminé (prudence)",
+    ],
+    tags: ['luminothérapie', 'SAD', 'dépression saisonnière', 'lumière'],
+    updatedAt: '2026-05-28',
+  },
 ];

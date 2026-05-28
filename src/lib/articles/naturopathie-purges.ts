@@ -404,4 +404,36 @@ export const NATURO_PURGES: Article[] = [
     ],
     tags: ['fumeterre', 'foie', 'printemps', 'plante dépurative'],
   },
+
+  /* ── NEW : drainage lymphatique manuel ─────────────────────── */
+  {
+    slug: 'drainage-lymphatique-manuel',
+    domain: 'naturopathie',
+    category: 'purges',
+    title: "Drainage lymphatique manuel : preuves et limites",
+    excerpt: "Technique populaire en naturopathie, le drainage lymphatique a fait l'objet de revues Cochrane et systématiques récentes.",
+    readingTime: 5,
+    evidence_level: 'rct',
+    evidence_note: "L'efficacité est documentée dans le contexte spécifique du lymphœdème post-cancer du sein. Hors de cette indication, les preuves restent limitées et l'usage relève de l'accompagnement plutôt que d'un traitement validé.",
+    intro: "Le drainage lymphatique manuel, codifié dès les années 1930 par les Vodder, fait partie du paysage de la naturopathie et de la kinésithérapie. Plusieurs revues récentes permettent de distinguer ses indications les mieux étayées des usages plus traditionnels.",
+    sections: [
+      { heading: "Cochrane sur le lymphœdème post-cancer du sein", body: "Une revue Cochrane a évalué le drainage lymphatique manuel comme traitement du lymphœdème après cancer du sein [#s1]. Les auteurs auraient observé des bénéfices modestes en ajout d'autres mesures (compression élastique), sans pouvoir conclure à un effet supérieur à la compression seule. C'est l'indication la mieux étayée." },
+      { heading: "Revue systématique 2020", body: "Une revue systématique publiée dans Journal of Cancer Survivorship a confirmé ces conclusions tout en élargissant aux autres lymphœdèmes [#s2]. Le drainage lymphatique manuel ferait partie d'une prise en charge globale (compression + exercices + soins cutanés) plutôt qu'une thérapie isolée." },
+      { heading: "Autres usages : prudence", body: "Les usages traditionnels en naturopathie (jambes lourdes, fatigue, drainage « détox » général) ne disposent pas d'essais cliniques robustes. Une revue dans Journal of Manual & Manipulative Therapy a évalué l'efficacité de la thérapie manuelle après fracture du poignet — sans rapport direct avec le drainage lymphatique « détoxifiant » au sens naturopathique [#s3]." },
+      { heading: "Indications et précautions", body: "Le drainage lymphatique se positionne légitimement en accompagnement post-chirurgical et oncologique, par un professionnel formé. Les contre-indications classiques (infections actives, insuffisance cardiaque décompensée, thrombose veineuse, cancer actif non avisé) doivent être strictement respectées." },
+    ],
+    sources: [
+      { id: 's1', type: 'review', title: "Manual lymphatic drainage for lymphedema following breast cancer treatment", authors: 'Ezzo J, et al.', journal: 'Cochrane Database of Systematic Reviews', year: 2015, pmid: '25994425', url: 'https://pubmed.ncbi.nlm.nih.gov/25994425/' },
+      { id: 's2', type: 'review', title: "Manual lymphatic drainage treatment for lymphedema: a systematic review of the literature", authors: 'Thompson B, et al.', journal: 'Journal of Cancer Survivorship', year: 2021, pmid: '32803533', url: 'https://pubmed.ncbi.nlm.nih.gov/32803533/' },
+      { id: 's3', type: 'meta-analysis', title: "Effectiveness of manual therapy in patients with distal radius fracture: a systematic review and meta-analysis", authors: 'Gutiérrez-Espinoza H, et al.', journal: 'Journal of Manual & Manipulative Therapy', year: 2022, pmid: '34668847', url: 'https://pubmed.ncbi.nlm.nih.gov/34668847/' },
+    ],
+    contre_indications: [
+      "Cancer actif sans avis spécialisé",
+      "Thrombose veineuse profonde",
+      "Infection cutanée ou systémique aiguë",
+      "Insuffisance cardiaque décompensée",
+    ],
+    tags: ['drainage lymphatique', 'lymphœdème', 'Vodder'],
+    updatedAt: '2026-05-28',
+  },
 ];

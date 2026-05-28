@@ -221,17 +221,29 @@ export const NATURO_PLANTES: Article[] = [
     ["Allergie aux Lamiacées (rare)", "Grossesse 1er trimestre (huile essentielle)"],
     ['lavande', 'anxiété', 'sommeil', 'huile essentielle']
   ),
-  plante(
-    'melisse',
-    'Mélisse',
-    "L'anti-stress digestif. Apaise les nerfs et les viscères en même temps. Idéale pour enfants.",
-    "La mélisse (Melissa officinalis), au parfum citronné délicat, est l'une des plantes médicinales les plus polyvalentes et les mieux tolérées. Elle agit simultanément sur le système nerveux et le système digestif — ce qui en fait l'alliée des digestions nerveuses, des spasmes émotionnels, des troubles psychosomatiques.",
-    "Antispasmodique digestif. Sédative douce. Anxiolytique légère. Antivirale (contre herpès en application). Digestive. Carminative. Stomachique. Antimigraineuse.",
-    "Anxiété digestive. Côlon irritable. Migraine digestive. Insomnie d'endormissement. Palpitations émotionnelles. Herpès labial (application locale). Trouble du sommeil de l'enfant. Stress avec retentissement digestif.",
-    "Infusion : 1 c. à soupe de feuilles fraîches ou 1 c. à café sèche pour 250 ml d'eau bouillante, 5-10 min. 2-3 tasses/jour, dont une le soir. Teinture mère : 30 gouttes 3 fois/jour. Hydrolat : 1 c. à café dans un verre d'eau.",
-    ["Hypothyroïdie sévère (effet thyréostatique léger)", "Sous traitement thyroïdien : avis médical"],
-    ['mélisse', 'anxiété', 'digestion', 'enfant']
-  ),
+  {
+    slug: 'melisse',
+    domain: 'naturopathie',
+    category: 'plantes',
+    title: 'Mélisse (Melissa officinalis) : ce que confirment les revues récentes',
+    excerpt: "L'anti-stress digestif. Plusieurs revues récentes confirment ses propriétés anxiolytiques et apaisantes.",
+    readingTime: 5,
+    evidence_level: 'rct',
+    evidence_note: "Les essais cliniques disponibles soutiennent un effet apaisant et un soutien du sommeil. Les indications digestives restent principalement traditionnelles.",
+    intro: "La mélisse (Melissa officinalis), au parfum citronné, agit simultanément sur le système nerveux et le système digestif. Plusieurs revues récentes ont fait le point sur ses propriétés cliniques.",
+    sections: [
+      { heading: "Synthèse 2024 — bien-être psychologique", body: "Une revue clinique parue dans Nutrients aurait synthétisé les essais sur la mélisse pour le bien-être psychologique [#s1]. Les chercheurs auraient observé une amélioration mesurable de l'anxiété et de la qualité du sommeil dans plusieurs essais randomisés, avec un profil de tolérance favorable. Les effets sur la cognition seraient également suggérés." },
+      { heading: "Propriétés au-delà de l'anxiolyse", body: "Une revue parue dans Frontiers in Bioscience aurait souligné que les propriétés de la mélisse ne se limitent pas à l'anti-anxiété [#s2]. Effets antioxydants, antimicrobiens et neuroprotecteurs y figurent comme axes d'investigation, sans validation clinique au même niveau." },
+      { heading: "Modes d'utilisation et posologie", body: "Infusion : 1 c. à soupe de feuilles fraîches ou 1 c. à café sèche pour 250 ml d'eau bouillante, 5-10 min. 2-3 tasses/jour, dont une le soir. Teinture mère : 30 gouttes 3 fois/jour. Extraits standardisés : doses recommandées variables selon les essais (souvent 300-600 mg/jour)." },
+    ],
+    sources: [
+      { id: 's1', type: 'review', title: "Clinical Efficacy and Tolerability of Lemon Balm (Melissa officinalis L.) in Psychological Well-Being: A Review", authors: 'Mathews IM, et al.', journal: 'Nutrients', year: 2024, pmid: '39458539', url: 'https://pubmed.ncbi.nlm.nih.gov/39458539/' },
+      { id: 's2', type: 'review', title: "An Updated Review on The Properties of Melissa officinalis L.: Not Exclusively Anti-anxiety", authors: 'Zam W', journal: 'Frontiers in Bioscience (Scholar Edition)', year: 2022, pmid: '35730441', url: 'https://pubmed.ncbi.nlm.nih.gov/35730441/' },
+    ],
+    contre_indications: ["Hypothyroïdie sévère (effet thyréostatique léger rapporté in vitro)", "Sous traitement thyroïdien : avis médical"],
+    tags: ['mélisse', 'anxiété', 'digestion'],
+    updatedAt: '2026-05-28',
+  },
   plante(
     'menthe-poivree',
     'Menthe poivrée',
@@ -342,15 +354,115 @@ export const NATURO_PLANTES: Article[] = [
     ["Grossesse et allaitement (HE)", "Enfants de moins de 6 ans (HE)", "Hypothyroïdie (effet stimulant)"],
     ['thym', 'infection', 'respiratoire', 'immunité']
   ),
-  plante(
-    'valeriane',
-    'Valériane',
-    "L'anxiolytique-hypnotique végétal de référence. Action rapide sur l'insomnie aiguë.",
-    "La valériane (Valeriana officinalis) est la plante du sommeil par excellence. Ses valépotriates et son acide valérique agissent sur le GABA, comme les benzodiazépines, mais sans accoutumance ni dépendance. Action rapide sur l'insomnie d'endormissement et l'anxiété aiguë.",
-    "Anxiolytique. Hypnotique. Sédative. Spasmolytique. Action GABAergique. Pas d'effet 'gueule de bois' au réveil. Pas d'accoutumance ni de dépendance.",
-    "Insomnie aiguë (endormissement et maintien). Anxiété aiguë, attaques de panique. Stress avant événement (examen, voyage en avion). Sevrage de benzodiazépines (en accompagnement). Spasmes musculaires d'origine nerveuse.",
-    "Pour le sommeil : 400 à 600 mg d'extrait standardisé 30-60 min avant le coucher. Pour l'anxiété : 200 à 400 mg, 2-3 fois/jour. Teinture mère : 60 gouttes le soir. Goût et odeur déplaisants : préférer les gélules.",
-    ["Grossesse, allaitement (par précaution)", "Avant conduite (somnolence)", "Sous benzodiazépines : avis médical", "Pas d'usage chronique > 1-2 mois sans pause"],
-    ['valériane', 'sommeil', 'anxiété', 'GABA']
-  ),
+  {
+    slug: 'valeriane',
+    domain: 'naturopathie',
+    category: 'plantes',
+    title: "Valériane (Valeriana officinalis) : méta-analyse sur l'insomnie",
+    excerpt: "L'une des plantes du sommeil les mieux étudiées. La méta-analyse 2020 fait le point sur ses effets cliniques.",
+    readingTime: 5,
+    evidence_level: 'meta-analysis',
+    evidence_note: "La direction de l'effet est cohérente entre essais, mais la qualité méthodologique varie. Le bénéfice est plus net sur la qualité subjective du sommeil que sur les paramètres polysomnographiques.",
+    intro: "La valériane est une plante du sommeil et de l'anxiété parmi les plus utilisées en Europe. Sa pharmacologie (action GABAergique partielle) explique son intérêt. Plusieurs synthèses récentes ont permis de mesurer l'ampleur réelle de ses effets.",
+    sections: [
+      { heading: "Méta-analyse 2020", body: "Une méta-analyse parue dans Journal of Evidence-Based Integrative Medicine aurait synthétisé les essais sur la valériane dans les troubles du sommeil et apparentés [#s1]. Les chercheurs auraient observé une amélioration significative de la qualité subjective du sommeil, surtout en cas d'utilisation prolongée (> 2 semaines). L'effet sur les paramètres polysomnographiques objectifs serait plus modeste." },
+      { heading: "Revue antérieure sur l'anxiété", body: "Une revue parue dans Acta Medica Portuguesa aurait évalué l'usage de la valériane dans l'anxiété et les troubles du sommeil [#s2]. Les auteurs auraient relevé une efficacité documentée mais hétérogène, avec une qualité méthodologique inégale des essais disponibles." },
+      { heading: "Modes d'utilisation et posologie", body: "Pour le sommeil : 400 à 600 mg d'extrait standardisé 30-60 min avant le coucher. Pour l'anxiété : 200 à 400 mg, 2-3 fois/jour. Teinture mère : 60 gouttes le soir. Goût et odeur déplaisants : préférer les gélules ou comprimés." },
+    ],
+    sources: [
+      { id: 's1', type: 'meta-analysis', title: "Valerian Root in Treating Sleep Problems and Associated Disorders — A Systematic Review and Meta-Analysis", authors: 'Shinjyo N, et al.', journal: 'Journal of Evidence-Based Integrative Medicine', year: 2020, pmid: '33086877', url: 'https://pubmed.ncbi.nlm.nih.gov/33086877/' },
+      { id: 's2', type: 'review', title: "Use of valerian in anxiety and sleep disorders: what is the best evidence?", authors: 'Nunes A, Sousa M', journal: 'Acta Medica Portuguesa', year: 2011, pmid: '22863505', url: 'https://pubmed.ncbi.nlm.nih.gov/22863505/' },
+    ],
+    contre_indications: ["Grossesse, allaitement (par précaution)", "Avant conduite (somnolence possible)", "Sous benzodiazépines : avis médical", "Pas d'usage chronique > 1-2 mois sans pause"],
+    tags: ['valériane', 'sommeil', 'anxiété', 'GABA'],
+    updatedAt: '2026-05-28',
+  },
+
+  /* ── NEW : Millepertuis (Hypericum perforatum) ─────────────── */
+  {
+    slug: 'millepertuis-hypericum-depression',
+    domain: 'naturopathie',
+    category: 'plantes',
+    title: 'Millepertuis (Hypericum perforatum) : antidépresseur naturel reconnu',
+    excerpt: "L'une des plantes médicinales les mieux validées par méta-analyses dans la dépression légère à modérée.",
+    readingTime: 5,
+    evidence_level: 'meta-analysis',
+    evidence_note: "Le niveau de preuve est élevé pour la dépression légère à modérée — comparable aux ISRS dans plusieurs méta-analyses, avec une tolérance souvent meilleure. Interactions médicamenteuses fréquentes : prudence indispensable.",
+    intro: "Le millepertuis (Hypericum perforatum) est la plante anti-dépressive la mieux étudiée. Plusieurs méta-analyses récentes en confirment l'efficacité dans la dépression légère à modérée, à un niveau comparable aux antidépresseurs de synthèse.",
+    sections: [
+      { heading: "Méta-analyse 2017", body: "Une méta-analyse publiée dans Journal of Affective Disorders aurait conclu à un effet antidépresseur du millepertuis comparable à celui des ISRS dans les dépressions légères à modérées, avec un profil de tolérance globalement meilleur [#s1]. Les essais inclus sont nombreux ; la qualité méthodologique est variable mais la convergence des résultats est notable." },
+      { heading: "Méta-analyse 2022 vs ISRS", body: "Une méta-analyse plus récente parue dans Advances in Clinical and Experimental Medicine a directement comparé le millepertuis aux ISRS chez l'adulte [#s2]. Les auteurs auraient observé une efficacité non inférieure dans les dépressions de gravité légère à modérée, avec moins d'effets indésirables. Le recul reste insuffisant pour les dépressions sévères, où les antidépresseurs de synthèse demeurent la référence." },
+      { heading: "Posologie et précautions", body: "Extraits standardisés à 0,3 % hypéricine : 600 à 900 mg/jour, en 2-3 prises. Délai d'action : 2 à 6 semaines. Le millepertuis est un inducteur enzymatique puissant (CYP3A4) : il diminue l'efficacité de la pilule contraceptive, des anticoagulants, des immunosuppresseurs, de nombreux psychotropes — ces interactions médicamenteuses doivent être discutées avec un médecin avant tout usage." },
+    ],
+    sources: [
+      { id: 's1', type: 'meta-analysis', title: "Clinical use of Hypericum perforatum (St John's wort) in depression: A meta-analysis", authors: 'Ng QX, et al.', journal: 'Journal of Affective Disorders', year: 2017, pmid: '28064110', url: 'https://pubmed.ncbi.nlm.nih.gov/28064110/' },
+      { id: 's2', type: 'meta-analysis', title: "The efficacy and safety of St. John's wort extract in depression therapy compared to SSRIs in adults: A meta-analysis", authors: 'Zhao X, et al.', journal: 'Advances in Clinical and Experimental Medicine', year: 2023, pmid: '36226689', url: 'https://pubmed.ncbi.nlm.nih.gov/36226689/' },
+    ],
+    contre_indications: [
+      "Interactions médicamenteuses majeures (pilule, anticoagulants, immunosuppresseurs, ISRS — RISQUE de syndrome sérotoninergique)",
+      "Photosensibilisation à dose élevée",
+      "Trouble bipolaire (risque de virage maniaque)",
+      "Grossesse et allaitement",
+    ],
+    tags: ['millepertuis', 'hypericum', 'dépression', 'ISRS'],
+    updatedAt: '2026-05-28',
+  },
+
+  /* ── NEW : 5-HTP / Griffonia ───────────────────────────────── */
+  {
+    slug: '5-htp-griffonia-serotonine',
+    domain: 'naturopathie',
+    category: 'plantes',
+    title: '5-HTP (Griffonia simplicifolia) : précurseur de la sérotonine',
+    excerpt: "Extrait des graines de Griffonia, le 5-HTP est un précurseur direct de la sérotonine. Synthèse honnête des données.",
+    readingTime: 4,
+    evidence_level: 'preliminary',
+    evidence_note: "Le 5-HTP a fait l'objet d'essais positifs mais limités en taille et en durée. Le niveau de preuve reste préliminaire pour les indications principales (humeur, sommeil, appétit).",
+    intro: "Le 5-HTP (5-hydroxytryptophane) est un intermédiaire métabolique entre le tryptophane et la sérotonine. Extrait des graines de Griffonia simplicifolia, il est commercialisé comme complément. Ce qu'en dit la littérature mérite d'être lu avec prudence.",
+    sections: [
+      { heading: "Mécanisme et essais cliniques", body: "Une revue parue dans Pharmacology and Therapeutics aurait synthétisé les données disponibles sur la supplémentation en 5-HTP comme précurseur de la sérotonine [#s1]. Les essais positifs sont nombreux mais souvent de petite taille et de durée limitée. Les indications les plus étudiées sont la dépression légère, certains troubles du sommeil et la fibromyalgie." },
+      { heading: "Synthèse historique", body: "Une revue plus ancienne parue dans Alternative Medicine Review a passé en revue le 5-HTP en tant que précurseur cliniquement efficace de la sérotonine [#s2]. Les conclusions étaient enthousiastes, mais le recul de la communauté scientifique est aujourd'hui plus mesuré, notamment en raison du risque d'interactions avec les antidépresseurs." },
+      { heading: "Précautions essentielles", body: "Contre-indication majeure : association avec un antidépresseur sérotoninergique (ISRS, IRSN, IMAO) — risque de syndrome sérotoninergique. La grossesse et l'allaitement sont des situations de prudence. Les doses utilisées dans les essais vont généralement de 100 à 300 mg/jour, fractionnées. Une initiation médicale est préférable." },
+    ],
+    sources: [
+      { id: 's1', type: 'review', title: "Serotonin a la carte: supplementation with the serotonin precursor 5-hydroxytryptophan", authors: 'Turner EH, et al.', journal: 'Pharmacology and Therapeutics', year: 2006, pmid: '16023217', url: 'https://pubmed.ncbi.nlm.nih.gov/16023217/' },
+      { id: 's2', type: 'review', title: "5-Hydroxytryptophan: a clinically-effective serotonin precursor", authors: 'Birdsall TC', journal: 'Alternative Medicine Review', year: 1998, pmid: '9727088', url: 'https://pubmed.ncbi.nlm.nih.gov/9727088/' },
+    ],
+    contre_indications: [
+      "Traitements antidépresseurs (RISQUE de syndrome sérotoninergique)",
+      "Grossesse et allaitement",
+      "Trouble bipolaire (prudence)",
+      "Trisomie 21 (controversé : prudence)",
+    ],
+    tags: ['5-HTP', 'griffonia', 'sérotonine', 'humeur'],
+    updatedAt: '2026-05-28',
+  },
+
+  /* ── NEW : Safran (Crocus sativus) ─────────────────────────── */
+  {
+    slug: 'safran-crocus-depression',
+    domain: 'naturopathie',
+    category: 'plantes',
+    title: 'Safran (Crocus sativus) : antidépresseur naturel émergent',
+    excerpt: "Plusieurs méta-analyses récentes ont évalué le safran dans la dépression légère à modérée. Niveau de preuve : RCT.",
+    readingTime: 4,
+    evidence_level: 'meta-analysis',
+    evidence_note: "Les essais randomisés s'accumulent depuis 15 ans. La méta-analyse 2019 confirme un effet antidépresseur modéré, comparable à de faibles doses d'antidépresseurs de synthèse dans certaines études.",
+    intro: "Le safran (Crocus sativus), épice précieuse, fait l'objet d'études cliniques croissantes pour la dépression légère à modérée. Plusieurs essais et une méta-analyse en confirment l'intérêt thérapeutique.",
+    sections: [
+      { heading: "Méta-analyse 2019 dans Planta Medica", body: "Une méta-analyse parue dans Planta Medica aurait évalué l'efficacité du safran dans la dépression légère à modérée à partir des essais randomisés disponibles [#s1]. Les chercheurs auraient observé une amélioration significative des scores dépressifs comparé au placebo, et une efficacité comparable à de faibles doses de fluoxétine ou d'imipramine dans certains essais ciblés." },
+      { heading: "Mécanisme et formulations", body: "Les caroténoïdes du safran (crocines, crocétine, safranal) auraient des effets neuromodulateurs documentés in vitro (sérotonine, dopamine). Les essais cliniques utilisent généralement 30 mg/jour d'extrait standardisé. Les formulations galéniques (gélules, comprimés) varient — la standardisation en safranal/crocines est un critère de qualité." },
+      { heading: "Précautions", body: "Doses utilisées dans les essais : 30 mg/jour pendant 6 à 12 semaines. Des doses très élevées (> 1,5 g/jour) seraient toxiques. Le safran reste à éviter pendant la grossesse (action utérotonique à fortes doses). Quelques cas d'interaction avec les antidépresseurs ont été rapportés." },
+    ],
+    sources: [
+      { id: 's1', type: 'meta-analysis', title: "The Efficacy of Saffron in the Treatment of Mild to Moderate Depression: A Meta-analysis", authors: 'Tóth B, et al.', journal: 'Planta Medica', year: 2019, pmid: '30036891', url: 'https://pubmed.ncbi.nlm.nih.gov/30036891/' },
+    ],
+    contre_indications: [
+      "Grossesse (action utérotonique à forte dose)",
+      "Trouble bipolaire (prudence générale anti-dépresseurs)",
+      "Sous antidépresseurs : avis médical recommandé",
+    ],
+    tags: ['safran', 'Crocus sativus', 'dépression', 'humeur'],
+    updatedAt: '2026-05-28',
+  },
 ];

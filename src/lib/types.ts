@@ -61,6 +61,19 @@ export interface Section {
   body: string;
 }
 
+/**
+ * Niveau de preuve d'un article — 5 paliers.
+ * Affiché en badge en haut de l'article.
+ * Indispensable pour la sécurité juridique : on n'attribue jamais à une
+ * pratique traditionnelle un niveau de preuve qu'elle n'a pas.
+ */
+export type EvidenceLevel =
+  | 'meta-analysis'  // synthèses Cochrane / méta-analyses majeures
+  | 'rct'            // un ou plusieurs essais randomisés solides
+  | 'preliminary'    // données expérimentales / cohortes / essais de faible puissance
+  | 'tradition'      // pratique traditionnelle, peu ou pas d'essais cliniques
+  | 'no-data';       // absence de données scientifiques exploitables
+
 export interface Article {
   slug: string;
   domain: DomainSlug;
@@ -75,6 +88,18 @@ export interface Article {
   contre_indications?: string[];
   faq?: { question: string; answer: string }[];
   tags?: string[];
+
+  /** Niveau de preuve global de l'article — affiché en badge. */
+  evidence_level?: EvidenceLevel;
+  /** Bibliographie : sources cliquables référencées par [#sX] dans les sections. */
+  sources?: Source[];
+  /**
+   * Encadré spécifique « État des connaissances » — résumé honnête
+   * de ce qui est démontré, suggéré ou seulement traditionnel.
+   */
+  evidence_note?: string;
+  /** Date de dernière révision éditoriale (ISO). */
+  updatedAt?: string;
 }
 
 export interface Category {

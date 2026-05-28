@@ -637,4 +637,30 @@ export const NATURO_JEUNES: Article[] = [
     ],
     tags: ['jeûne', 'durée', 'stratégie', 'planification'],
   },
+
+  /* ── NEW : restriction calorique et autophagie ─────────────── */
+  {
+    slug: 'restriction-calorique-autophagie',
+    domain: 'naturopathie',
+    category: 'jeunes',
+    title: "Restriction calorique et autophagie : ce que disent les données",
+    excerpt: "L'autophagie est très populaire dans les discours sur le jeûne. La littérature scientifique sur l'humain mérite une lecture mesurée.",
+    readingTime: 5,
+    evidence_level: 'preliminary',
+    evidence_note: "Les mécanismes d'autophagie sont solidement démontrés chez l'animal et in vitro. Chez l'humain, leur quantification reste indirecte, et l'association à des bénéfices cliniques durables nécessite encore des études à long terme.",
+    intro: "L'autophagie cellulaire, ce mécanisme de recyclage cellulaire activé par le jeûne, est devenue un argument majeur du discours « longevity ». Que dit vraiment la littérature scientifique sur sa stimulation par la restriction calorique chez l'humain ?",
+    sections: [
+      { heading: "Revue de référence", body: "Une revue publiée dans Ageing Research Reviews aurait synthétisé les données existantes sur l'induction de l'autophagie par le jeûne ou la restriction calorique [#s1]. L'essentiel des preuves directes provient de modèles cellulaires et animaux ; les marqueurs humains (LC3, p62) ne sont pas systématiquement mesurés et les interpretations restent indirectes." },
+      { heading: "Mécanismes moléculaires partagés", body: "Une publication récente dans Nature Cell Biology a montré que la spermidine — molécule produite naturellement lors du jeûne — serait essentielle à l'autophagie médiée par le jeûne et à la longévité chez la souris [#s2]. Cette donnée illustre la complexité des voies impliquées : le jeûne n'agit pas par un mécanisme unique." },
+      { heading: "Stratégies anti-vieillissement", body: "Une revue parue dans Cell Communication and Signaling aurait mis l'autophagie dans le cadre plus large des mécanismes du vieillissement et des stratégies anti-âge [#s3]. La restriction calorique et le jeûne intermittent y figurent parmi les interventions prometteuses, mais sans démonstration robuste d'effets cliniques durables sur la longévité humaine." },
+      { heading: "Lecture honnête pour la pratique", body: "Il semblerait abusif de présenter le jeûne intermittent ou la restriction calorique comme un « activateur d'autophagie cliniquement validé » pour la longévité humaine. Les bénéfices métaboliques (sensibilité à l'insuline, marqueurs inflammatoires) sont mieux étayés ; les bénéfices anti-âge restent, à ce stade, davantage extrapolés que démontrés chez l'humain." },
+    ],
+    sources: [
+      { id: 's1', type: 'review', title: "The effect of fasting or calorie restriction on autophagy induction: A review of the literature", authors: 'Bagherniya M, et al.', journal: 'Ageing Research Reviews', year: 2018, pmid: '30172870', url: 'https://pubmed.ncbi.nlm.nih.gov/30172870/' },
+      { id: 's2', type: 'pubmed', title: "Spermidine is essential for fasting-mediated autophagy and longevity", authors: 'Hofer SJ, et al.', journal: 'Nature Cell Biology', year: 2024, pmid: '39117797', url: 'https://pubmed.ncbi.nlm.nih.gov/39117797/' },
+      { id: 's3', type: 'review', title: "Molecular mechanisms of aging and anti-aging strategies", authors: 'Li Y, et al.', journal: 'Cell Communication and Signaling', year: 2024, pmid: '38790068', url: 'https://pubmed.ncbi.nlm.nih.gov/38790068/' },
+    ],
+    tags: ['autophagie', 'restriction calorique', 'jeûne', 'longévité'],
+    updatedAt: '2026-05-28',
+  },
 ];
