@@ -32,8 +32,12 @@ const FOOTER_NAV = [
   {
     title: 'Outils & Accès',
     links: [
+      { label: 'Actualités sourcées',   href: '/actualites' },
       { label: 'Quiz tempérament',      href: '/naturopathie/temperaments/quiz' },
       { label: 'Principes de qualité',  href: '/nutritherapie/principes' },
+      { label: 'Notre démarche',        href: '/notre-demarche' },
+      { label: 'Tous les tags',         href: '/tags' },
+      { label: 'Flux RSS',              href: '/feed.xml' },
       { label: 'Contact',               href: '/contact' },
     ],
   },

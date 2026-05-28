@@ -83,6 +83,29 @@ export function FAQJsonLd({ faq }: { faq: { question: string; answer: string }[]
   );
 }
 
+export function WebSiteJsonLd() {
+  const data = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Nutriéa',
+    url: 'https://naturo-nutri.vercel.app',
+    inLanguage: 'fr-FR',
+    description: "Portail de référence francophone en naturopathie et nutrithérapie.",
+    publisher: { '@type': 'Organization', name: 'Nutriéa', '@id': 'https://naturo-nutri.vercel.app/#org' },
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://naturo-nutri.vercel.app/tags/{search_term_string}',
+      'query-input': 'required name=search_term_string',
+    },
+  };
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+    />
+  );
+}
+
 export function OrganizationJsonLd() {
   const data = {
     '@context': 'https://schema.org',

@@ -12,6 +12,9 @@ import { getArticleImage } from '@/lib/article-images';
 import { ReadingProgress } from '@/components/ReadingProgress';
 import { TableOfContents } from '@/components/TableOfContents';
 import { ArticleShare } from '@/components/ArticleShare';
+import { ArticleFeedback } from '@/components/ArticleFeedback';
+import { CiteArticle } from '@/components/CiteArticle';
+import { LastUpdated } from '@/components/LastUpdated';
 import { SourcedParagraph, SourcesList, ToneNotice } from '@/components/Sources';
 import { ArticleJsonLd, BreadcrumbJsonLd } from '@/components/JsonLd';
 import {
@@ -132,8 +135,9 @@ export default function ActualitePage({ params }: PageProps) {
             ))}
           </div>
 
-          <div className="mt-5">
+          <div className="mt-5 flex flex-wrap items-center gap-4">
             <ArticleShare title={a.title} />
+            <LastUpdated date={a.updatedAt ?? a.publishedAt} />
           </div>
         </Container>
       </section>
@@ -189,8 +193,11 @@ export default function ActualitePage({ params }: PageProps) {
               </Alert>
             </div>
 
-            <div className="mt-10">
+            <ArticleFeedback slug={a.slug} />
+
+            <div className="mt-10 flex flex-wrap items-center gap-3">
               <ArticleShare title={a.title} />
+              <CiteArticle title={a.title} url={url} updatedAt={a.updatedAt ?? a.publishedAt} />
             </div>
 
             {otherInCat.length > 0 && (

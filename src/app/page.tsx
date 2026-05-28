@@ -264,10 +264,10 @@ function TwoDomains() {
 ───────────────────────────────────────── */
 function StatsBand() {
   const stats = [
-    { value: '163+', label: 'Articles & guides',    icon: BookOpen },
-    { value: '2',    label: 'Domaines complets',    icon: Star },
-    { value: '4',    label: 'Profils tempéraments', icon: Sprout },
-    { value: '8',    label: 'Principes de qualité', icon: CheckCircle2 },
+    { value: '200+', label: 'Articles & guides',    icon: BookOpen },
+    { value: '40',   label: 'Actualités sourcées',  icon: Star },
+    { value: '113',  label: 'PMID vérifiés',        icon: Sprout },
+    { value: '0',    label: 'Cookies tiers',        icon: CheckCircle2 },
   ];
 
   return (

@@ -11,6 +11,9 @@ import { ArticlePhoto } from '@/components/ArticlePhoto';
 import { ReadingProgress } from '@/components/ReadingProgress';
 import { TableOfContents } from '@/components/TableOfContents';
 import { ArticleShare } from '@/components/ArticleShare';
+import { ArticleFeedback } from '@/components/ArticleFeedback';
+import { CiteArticle } from '@/components/CiteArticle';
+import { LastUpdated } from '@/components/LastUpdated';
 import { ArticleJsonLd, BreadcrumbJsonLd, FAQJsonLd } from '@/components/JsonLd';
 import { getCategory } from '@/lib/categories';
 import { getArticle, getArticlesByCategory, ALL_ARTICLES } from '@/lib/articles';
@@ -123,8 +126,9 @@ export default function ArticlePage({ params }: PageProps) {
             ))}
           </div>
 
-          <div className="mt-5">
+          <div className="mt-5 flex flex-wrap items-center gap-4">
             <ArticleShare title={article.title} />
+            <LastUpdated date={article.updatedAt} />
           </div>
         </Container>
       </section>
@@ -220,9 +224,14 @@ export default function ArticlePage({ params }: PageProps) {
               </section>
             )}
 
+            <ArticleFeedback slug={article.slug} />
+
             <MedicalDisclaimer />
 
-            <ArticleShare title={article.title} />
+            <div className="flex flex-wrap items-center gap-3">
+              <ArticleShare title={article.title} />
+              <CiteArticle title={article.title} url={url} />
+            </div>
 
             {(prev || next) && (
               <nav aria-label="Article précédent et suivant" className="grid sm:grid-cols-2 gap-4 pt-2 border-t border-forest-100">

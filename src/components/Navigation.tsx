@@ -5,6 +5,7 @@ import { useState, useRef, useEffect } from 'react';
 import { Menu, X, ChevronDown, Leaf, FlaskConical } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Logo } from '@/components/Logo';
+import { SearchDialog } from '@/components/SearchDialog';
 
 const NATURO_LINKS = [
   { href: '/naturopathie',                     label: "Vue d'ensemble" },
@@ -152,7 +153,7 @@ export function Navigation() {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <nav
-            className="flex h-16 items-center justify-between"
+            className="flex h-[68px] items-center justify-between"
             aria-label="Navigation principale"
           >
 
@@ -202,8 +203,9 @@ export function Navigation() {
               </li>
             </ul>
 
-            {/* Desktop CTA */}
+            {/* Desktop CTA + search */}
             <div className="hidden md:flex items-center gap-3">
+              <SearchDialog />
               <Link
                 href="/naturopathie/temperaments/quiz"
                 className="inline-flex items-center gap-2 bg-sage-500 hover:bg-sage-600 text-white text-sm font-bold px-5 py-2.5 rounded-full transition-all shadow-sm hover:shadow-md"

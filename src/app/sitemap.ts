@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 import { ALL_ARTICLES } from '@/lib/articles';
 import { CATEGORIES } from '@/lib/categories';
 import { ALL_ACTUALITES, ACTUALITE_CATEGORIES } from '@/lib/actualites';
+import { slugify } from '@/lib/utils';
 
 const SITE = 'https://naturo-nutri.vercel.app';
 
@@ -13,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/naturopathie',
     '/nutritherapie',
     '/actualites',
+    '/tags',
     '/contact',
     '/naturopathie/temperaments',
     '/naturopathie/temperaments/quiz',
@@ -56,11 +58,31 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.75,
   }));
 
+  // Tag pages — only tags with ≥ 2 articles
+  const tagCounts = new Map<string, number>();
+  for (const a of ALL_ARTICLES) for (const t of a.tags ?? []) {
+    const s = slugify(t);
+    tagCounts.set(s, (tagCounts.get(s) ?? 0) + 1);
+  }
+  for (const a of ALL_ACTUALITES) for (const t of a.tags ?? []) {
+    const s = slugify(t);
+    tagCounts.set(s, (tagCounts.get(s) ?? 0) + 1);
+  }
+  const tagPages = Array.from(tagCounts.entries())
+    .filter(([, count]) => count >= 2)
+    .map(([slug]) => ({
+      url: `${SITE}/tags/${slug}`,
+      lastModified: now,
+      changeFrequency: 'monthly' as const,
+      priority: 0.5,
+    }));
+
   return [
     ...staticPages,
     ...categoryPages,
     ...articlePages,
     ...actualiteCategoryPages,
     ...actualitePages,
+    ...tagPages,
   ];
 }

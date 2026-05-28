@@ -273,7 +273,59 @@
     -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
             mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
   }
+  .mask-fade-r {
+    -webkit-mask-image: linear-gradient(to right, black 70%, transparent 100%);
+            mask-image: linear-gradient(to right, black 70%, transparent 100%);
+  }
   .text-shadow-soft { text-shadow: 0 1px 2px rgba(0,0,0,0.12); }
+  .line-clamp-1 { display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden; }
+  .scroll-snap-x { scroll-snap-type: x mandatory; }
+  .scroll-snap-start { scroll-snap-align: start; }
+  .gradient-text {
+    background: linear-gradient(135deg, #0f5e37, #33a85f);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .ring-focus {
+    @apply ring-2 ring-sage-500 ring-offset-2 ring-offset-white;
+  }
+}
+
+/* ─── New animations ─── */
+@keyframes subtleScale {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.02); }
+}
+.subtle-pulse { animation: subtleScale 3s ease-in-out infinite; }
+
+@keyframes slideUpFade {
+  0%   { opacity: 0; transform: translateY(10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.slide-up-fade { animation: slideUpFade 0.4s ease-out both; }
+
+/* Custom selection per surface */
+.bg-forest-900 ::selection,
+.bg-forest-700 ::selection { background: #58c47f; color: #0c4a2c; }
+
+/* Image with subtle zoom-on-hover (for clickable cards) */
+.zoom-on-hover { overflow: hidden; }
+.zoom-on-hover img { transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1); }
+.zoom-on-hover:hover img { transform: scale(1.04); }
+
+/* Better tap targets on links inside paragraphs (mobile) */
+@media (pointer: coarse) {
+  .prose-natural a { padding: 0.1em 0.05em; }
+}
+
+/* Better external link indicator in prose */
+.prose-natural a[target="_blank"]::after {
+  content: ' ↗';
+  font-size: 0.75em;
+  vertical-align: super;
+  margin-left: 0.05em;
+  opacity: 0.7;
 }
 
 /* ─────────────────────────────────────────

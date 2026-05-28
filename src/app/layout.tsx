@@ -4,7 +4,7 @@ import './globals.css';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
 import { CookieBanner } from '@/components/CookieBanner';
-import { OrganizationJsonLd } from '@/components/JsonLd';
+import { OrganizationJsonLd, WebSiteJsonLd } from '@/components/JsonLd';
 import { BackToTop } from '@/components/BackToTop';
 
 const fjallaOne = Fjalla_One({
@@ -103,7 +103,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="alternate" type="application/rss+xml" title="Nutriéa — derniers articles" href="/feed.xml" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://images.pexels.com" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://images.pexels.com" />
         <OrganizationJsonLd />
+        <WebSiteJsonLd />
       </head>
       <body className="min-h-screen flex flex-col antialiased">
         {/* Skip-to-main — accessibilité WCAG 2.1 SC 2.4.1 */}
