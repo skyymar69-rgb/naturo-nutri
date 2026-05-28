@@ -292,10 +292,14 @@ export function Navigation() {
                 </Link>
               </div>
 
-              <div className="mt-4 px-4">
+              <div className="mt-4 px-4 space-y-2">
                 <Link href="/naturopathie/temperaments/quiz" onClick={() => setMobileOpen(false)}
                   className="w-full flex justify-center bg-sage-500 hover:bg-sage-600 text-white font-bold text-sm py-3 rounded-full transition-all">
                   Faire le quiz tempérament
+                </Link>
+                <Link href="/notre-demarche" onClick={() => setMobileOpen(false)}
+                  className="block text-center text-xs text-forest-600 hover:text-forest-900 py-2">
+                  Notre démarche éditoriale
                 </Link>
               </div>
             </div>

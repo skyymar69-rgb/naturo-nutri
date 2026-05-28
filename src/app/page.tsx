@@ -5,6 +5,7 @@ import {
   CheckCircle2, Droplets, Wind, Star, ChevronRight,
 } from 'lucide-react';
 import { AnimatedSection, StaggerChildren } from '@/components/AnimatedSection';
+import { NewsletterCard } from '@/components/NewsletterCard';
 
 export default function HomePage() {
   return (
@@ -19,6 +20,11 @@ export default function HomePage() {
       <TopicsGrid />
       <WaveDown fill="#f2fbf4" />
       <CtaBanner />
+      <section className="bg-cream-50 pb-16">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <NewsletterCard />
+        </div>
+      </section>
     </>
   );
 }
@@ -330,6 +336,12 @@ function WhySection() {
             nutrithérapie ont de meilleur : des principes éprouvés, des dosages précis, des
             indications et contre-indications honnêtes.
           </p>
+          <Link
+            href="/notre-demarche"
+            className="inline-flex items-center gap-1.5 mt-5 text-sm font-semibold text-sage-700 hover:text-sage-900 underline-offset-4 hover:underline"
+          >
+            Voir notre démarche éditoriale détaillée <ArrowRight className="h-3.5 w-3.5" />
+          </Link>
         </AnimatedSection>
 
         {/* Feature cards — staggered */}
