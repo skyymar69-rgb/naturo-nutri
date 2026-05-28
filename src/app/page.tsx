@@ -118,8 +118,8 @@ function Hero() {
               {/* Photo circle */}
               <div className="absolute inset-5 rounded-full overflow-hidden shadow-2xl">
                 <Image
-                  src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
-                  alt="Assiette santé colorée"
+                  src="https://images.pexels.com/photos/842545/pexels-photo-842545.jpeg?auto=compress&cs=tinysrgb&w=900&q=80"
+                  alt="Assiette santé colorée avec viande et légumes"
                   fill
                   className="object-cover img-food"
                   priority

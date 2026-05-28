@@ -3,7 +3,8 @@ import Link from 'next/link';
 import { Container } from '@/components/ui/Container';
 import { Card, CardContent, CardTitle } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
-import { ArticleHero } from '@/components/ArticleHero';
+import { ArticlePhoto } from '@/components/ArticlePhoto';
+import { getArticleImage } from '@/lib/article-images';
 import { ALL_ACTUALITES, ACTUALITE_CATEGORIES, countByActualiteCategory } from '@/lib/actualites';
 import { BookOpen, FileText, Calendar, Clock, ArrowRight } from 'lucide-react';
 
@@ -111,7 +112,7 @@ export default function ActualitesPage() {
                 <Link key={a.slug} href={`/actualites/${a.slug}`} className="group block">
                   <Card hoverable className="h-full overflow-hidden flex flex-col">
                     <div className="relative h-36 overflow-hidden">
-                      <ArticleHero category={heroCat} slug={a.slug} alt={a.title} ratio="16/9" compact />
+                      <ArticlePhoto src={getArticleImage(a.slug, heroCat).src} alt={a.title} ratio="16/9" compact />
                       <span className="absolute top-2.5 left-2.5 inline-flex items-center gap-1 bg-white/90 backdrop-blur-sm text-forest-800 text-[10px] font-semibold px-2 py-1 rounded-full shadow-sm">
                         {cat?.icon} {cat?.nom}
                       </span>

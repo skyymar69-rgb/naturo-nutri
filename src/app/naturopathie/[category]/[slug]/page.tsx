@@ -8,7 +8,7 @@ import { Badge } from '@/components/ui/Badge';
 import { Alert } from '@/components/ui/Alert';
 import { WarningBox } from '@/components/ui/WarningBox';
 import { ButtonLink } from '@/components/ui/Button';
-import { ArticleHero } from '@/components/ArticleHero';
+import { ArticlePhoto } from '@/components/ArticlePhoto';
 import { ReadingProgress } from '@/components/ReadingProgress';
 import { TableOfContents } from '@/components/TableOfContents';
 import { ArticleShare } from '@/components/ArticleShare';
@@ -151,7 +151,7 @@ export default function ArticlePage({ params }: PageProps) {
       <div className="w-full bg-forest-50">
         <Container size="prose" className="pt-8 pb-0">
           <figure className="relative w-full overflow-hidden rounded-2xl shadow-lg ring-1 ring-forest-100">
-            <ArticleHero category={article.category} slug={article.slug} alt={heroImg.alt} ratio="21/9" />
+            <ArticlePhoto src={heroImg.src} alt={heroImg.alt} ratio="21/9" priority />
             <figcaption className="absolute top-3 left-3">
               <span className="inline-flex items-center gap-1 bg-white/90 backdrop-blur-sm text-forest-800 text-xs font-semibold px-3 py-1.5 rounded-full shadow-sm">
                 {cat?.icon} {cat?.nom ?? params.category}
@@ -314,7 +314,7 @@ export default function ArticlePage({ params }: PageProps) {
                       <Link key={r.slug} href={`/naturopathie/${r.category}/${r.slug}`} className="group">
                         <Card hoverable accent="cream" className="overflow-hidden h-full flex flex-col">
                           <div className="relative h-32 overflow-hidden">
-                            <ArticleHero category={r.category} slug={r.slug} alt={rImg.alt} ratio="16/9" compact />
+                            <ArticlePhoto src={rImg.src} alt={rImg.alt} ratio="16/9" compact />
                           </div>
                           <CardContent className="p-4 flex-1">
                             <CardTitle className="text-sm leading-tight">{r.title}</CardTitle>

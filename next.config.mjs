@@ -4,13 +4,13 @@ const nextConfig = {
   poweredByHeader: false,
   compress: true,
   images: {
-    // Le hero accueil reste sur Unsplash pour une assiette générique.
-    // Les heroes article sont des illustrations SVG locales (composant ArticleHero).
+    // Photos hero issues de Pexels (licence gratuite usage commercial sans
+    // attribution obligatoire — https://www.pexels.com/license/).
     remotePatterns: [
-      { protocol: 'https', hostname: 'images.unsplash.com' },
+      { protocol: 'https', hostname: 'images.pexels.com' },
     ],
     formats: ['image/avif', 'image/webp'],
-    minimumCacheTTL: 60 * 60 * 24 * 7, // 1 semaine
+    minimumCacheTTL: 60 * 60 * 24 * 30, // 30 jours
   },
   async headers() {
     return [

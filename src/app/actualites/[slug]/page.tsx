@@ -7,7 +7,8 @@ import { Card, CardContent, CardTitle } from '@/components/ui/Card';
 import { Badge } from '@/components/ui/Badge';
 import { Alert } from '@/components/ui/Alert';
 import { ButtonLink } from '@/components/ui/Button';
-import { ArticleHero } from '@/components/ArticleHero';
+import { ArticlePhoto } from '@/components/ArticlePhoto';
+import { getArticleImage } from '@/lib/article-images';
 import { ReadingProgress } from '@/components/ReadingProgress';
 import { TableOfContents } from '@/components/TableOfContents';
 import { ArticleShare } from '@/components/ArticleShare';
@@ -141,7 +142,7 @@ export default function ActualitePage({ params }: PageProps) {
       <div className="w-full bg-forest-50">
         <Container size="prose" className="pt-8 pb-0">
           <figure className="relative w-full overflow-hidden rounded-2xl shadow-lg ring-1 ring-forest-100">
-            <ArticleHero category={heroCat} slug={a.slug} alt={a.title} ratio="21/9" />
+            <ArticlePhoto src={getArticleImage(a.slug, heroCat).src} alt={a.title} ratio="21/9" priority />
             <figcaption className="absolute top-3 left-3">
               <span className="inline-flex items-center gap-1 bg-white/90 backdrop-blur-sm text-forest-800 text-xs font-semibold px-3 py-1.5 rounded-full shadow-sm">
                 {cat?.icon} {cat?.nom}
@@ -202,7 +203,7 @@ export default function ActualitePage({ params }: PageProps) {
                     <Link key={o.slug} href={`/actualites/${o.slug}`} className="group">
                       <Card hoverable className="overflow-hidden h-full flex flex-col">
                         <div className="relative h-32 overflow-hidden">
-                          <ArticleHero category={heroCat} slug={o.slug} alt={o.title} ratio="16/9" compact />
+                          <ArticlePhoto src={getArticleImage(o.slug, heroCat).src} alt={o.title} ratio="16/9" compact />
                         </div>
                         <CardContent className="p-4 flex-1">
                           <CardTitle className="text-sm leading-tight">{o.title}</CardTitle>
