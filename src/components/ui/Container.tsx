@@ -2,7 +2,7 @@ import { cn } from '@/lib/utils';
 import type { HTMLAttributes } from 'react';
 
 interface ContainerProps extends HTMLAttributes<HTMLDivElement> {
-  size?: 'prose' | 'default' | 'wide';
+  size?: 'prose' | 'default' | 'lg' | 'wide';
   as?: keyof JSX.IntrinsicElements;
 }
 
@@ -18,7 +18,8 @@ export function Container({
       className={cn(
         'mx-auto px-4 sm:px-6 lg:px-8',
         size === 'prose' && 'max-w-3xl',
-        size === 'default' && 'max-w-6xl',
+        size === 'default' && 'max-w-5xl',
+        size === 'lg' && 'max-w-6xl',
         size === 'wide' && 'max-w-7xl',
         className,
       )}

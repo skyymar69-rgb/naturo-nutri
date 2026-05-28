@@ -4,6 +4,7 @@ import {
   ArrowRight, Leaf, FlaskConical, BookOpen, Sprout,
   CheckCircle2, Droplets, Wind, Star, ChevronRight,
 } from 'lucide-react';
+import { AnimatedSection, StaggerChildren } from '@/components/AnimatedSection';
 
 export default function HomePage() {
   return (
@@ -50,7 +51,7 @@ function Hero() {
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
 
           {/* ── Left column ── */}
-          <div className="max-w-xl">
+          <AnimatedSection animation="fade-up" duration={800} className="max-w-xl">
             {/* Eyebrow */}
             <div className="inline-flex items-center gap-2 bg-white/70 border border-sage-200 text-sage-700 text-xs font-bold uppercase tracking-[0.15em] px-4 py-2 rounded-full mb-7 shadow-sm">
               <span className="h-2 w-2 rounded-full bg-sage-500 animate-pulse" />
@@ -105,11 +106,10 @@ function Hero() {
                 </div>
               ))}
             </div>
-          </div>
+          </AnimatedSection>
 
           {/* ── Right column — circular food photo ── */}
-          <div className="relative flex justify-center lg:justify-end pb-0">
-            {/* Outer ring decoration */}
+          <AnimatedSection animation="scale-up" delay={200} duration={900} className="relative flex justify-center lg:justify-end pb-0">
             <div className="relative w-[360px] h-[360px] sm:w-[420px] sm:h-[420px] lg:w-[480px] lg:h-[480px]">
 
               {/* Background circle */}
@@ -121,7 +121,7 @@ function Hero() {
                   src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80"
                   alt="Assiette santé colorée"
                   fill
-                  className="object-cover"
+                  className="object-cover img-food"
                   priority
                   sizes="480px"
                 />
@@ -149,7 +149,7 @@ function Hero() {
                 </div>
               </div>
 
-              {/* Leaf decoration — top right */}
+              {/* Leaf — top right */}
               <svg
                 className="absolute -top-6 right-8 w-16 h-16 text-sage-400 opacity-80 rotate-[25deg] animate-float"
                 style={{ animationDelay: '1s' }}
@@ -160,7 +160,7 @@ function Hero() {
                 <path d="M32 4 C32 4, 6 16, 6 38 C6 52, 18 60, 32 60 C32 60, 32 38, 32 4Z" opacity="0.5" />
               </svg>
 
-              {/* Leaf decoration — bottom left */}
+              {/* Leaf — bottom left */}
               <svg
                 className="absolute bottom-4 -left-8 w-12 h-12 text-sage-500 opacity-70 rotate-[-40deg] animate-float"
                 style={{ animationDelay: '3s' }}
@@ -170,7 +170,7 @@ function Hero() {
                 <path d="M32 4 C32 4, 58 16, 58 38 C58 52, 46 60, 32 60 C32 60, 32 38, 32 4Z" />
               </svg>
             </div>
-          </div>
+          </AnimatedSection>
         </div>
       </div>
     </section>
@@ -185,100 +185,74 @@ function TwoDomains() {
     <section className="bg-white py-16 sm:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div className="text-center mb-14">
+        <AnimatedSection animation="fade-up" className="text-center mb-14">
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-sage-600 mb-3">Nos deux piliers</p>
           <h2 className="font-display text-4xl sm:text-5xl text-forest-900">
             Choisissez votre approche
           </h2>
-        </div>
+        </AnimatedSection>
 
         <div className="grid lg:grid-cols-2 gap-8">
 
           {/* Naturopathie */}
-          <Link href="/naturopathie" className="group block">
-            <div className="bg-forest-50 hover:bg-forest-100 rounded-3xl p-8 lg:p-10 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl border border-forest-100">
-              {/* Icon */}
-              <div className="w-16 h-16 bg-forest-700 rounded-2xl grid place-items-center mb-6 shadow-md group-hover:bg-forest-600 transition-colors">
-                <Leaf className="h-8 w-8 text-white" />
+          <AnimatedSection animation="slide-left" delay={100}>
+            <Link href="/naturopathie" className="group block">
+              <div className="bg-forest-50 hover:bg-forest-100 rounded-3xl p-8 lg:p-10 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl border border-forest-100">
+                <div className="w-16 h-16 bg-forest-700 rounded-2xl grid place-items-center mb-6 shadow-md group-hover:bg-forest-600 transition-colors">
+                  <Leaf className="h-8 w-8 text-white" />
+                </div>
+                <div className="flex items-start justify-between mb-3">
+                  <h3 className="font-display text-3xl sm:text-4xl text-forest-900">Naturopathie</h3>
+                  <span className="text-xs font-bold uppercase tracking-widest text-forest-500 bg-forest-100 px-3 py-1.5 rounded-full mt-1">Terrain</span>
+                </div>
+                <p className="text-forest-700/85 leading-relaxed mb-7">
+                  La médecine du vivant — rééquilibrer, drainer, régénérer. Agit en amont du symptôme par la nature et le mode de vie.
+                </p>
+                <ul className="space-y-2.5 mb-8">
+                  {['Jeûnes & monodiètes', 'Purges & drainages', 'Plantes médicinales', 'Hydrothérapie & aromathérapie', 'Alimentation vivante', 'Cures saisonnières'].map((item) => (
+                    <li key={item} className="flex items-center gap-3 text-sm text-forest-800">
+                      <CheckCircle2 className="h-4 w-4 text-sage-500 flex-shrink-0" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+                <div className="inline-flex items-center gap-2 bg-forest-700 group-hover:bg-forest-600 text-white font-semibold text-sm px-6 py-3 rounded-full transition-all">
+                  Explorer la naturopathie
+                  <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                </div>
               </div>
-
-              <div className="flex items-start justify-between mb-3">
-                <h3 className="font-display text-3xl sm:text-4xl text-forest-900">Naturopathie</h3>
-                <span className="text-xs font-bold uppercase tracking-widest text-forest-500 bg-forest-100 px-3 py-1.5 rounded-full mt-1">
-                  Terrain
-                </span>
-              </div>
-
-              <p className="text-forest-700/85 leading-relaxed mb-7">
-                La médecine du vivant — rééquilibrer, drainer, régénérer. Agit en amont du symptôme
-                par la nature et le mode de vie.
-              </p>
-
-              <ul className="space-y-2.5 mb-8">
-                {[
-                  'Jeûnes & monodiètes',
-                  'Purges & drainages',
-                  'Plantes médicinales',
-                  'Hydrothérapie & aromathérapie',
-                  'Alimentation vivante',
-                  'Cures saisonnières',
-                ].map((item) => (
-                  <li key={item} className="flex items-center gap-3 text-sm text-forest-800">
-                    <CheckCircle2 className="h-4 w-4 text-sage-500 flex-shrink-0" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-
-              <div className="inline-flex items-center gap-2 bg-forest-700 group-hover:bg-forest-600 text-white font-semibold text-sm px-6 py-3 rounded-full transition-all">
-                Explorer la naturopathie
-                <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </div>
-            </div>
-          </Link>
+            </Link>
+          </AnimatedSection>
 
           {/* Nutrithérapie */}
-          <Link href="/nutritherapie" className="group block">
-            <div className="bg-earth-50 hover:bg-earth-100 rounded-3xl p-8 lg:p-10 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl border border-earth-100">
-              {/* Icon */}
-              <div className="w-16 h-16 bg-earth-500 rounded-2xl grid place-items-center mb-6 shadow-md group-hover:bg-earth-400 transition-colors">
-                <FlaskConical className="h-8 w-8 text-white" />
+          <AnimatedSection animation="slide-right" delay={200}>
+            <Link href="/nutritherapie" className="group block">
+              <div className="bg-earth-50 hover:bg-earth-100 rounded-3xl p-8 lg:p-10 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl border border-earth-100">
+                <div className="w-16 h-16 bg-earth-500 rounded-2xl grid place-items-center mb-6 shadow-md group-hover:bg-earth-400 transition-colors">
+                  <FlaskConical className="h-8 w-8 text-white" />
+                </div>
+                <div className="flex items-start justify-between mb-3">
+                  <h3 className="font-display text-3xl sm:text-4xl text-forest-900">Nutrithérapie</h3>
+                  <span className="text-xs font-bold uppercase tracking-widest text-earth-600 bg-earth-100 px-3 py-1.5 rounded-full mt-1">Précision</span>
+                </div>
+                <p className="text-forest-700/85 leading-relaxed mb-7">
+                  La science des micronutriments — vitamines, minéraux, acides gras, adaptogènes. Combler ce que l&apos;alimentation moderne n&apos;apporte plus.
+                </p>
+                <ul className="space-y-2.5 mb-8">
+                  {['13 vitamines décryptées', '15 minéraux & oligoéléments', 'Acides gras essentiels', 'Probiotiques & microbiote', 'Adaptogènes & antioxydants', 'Compléments par objectif'].map((item) => (
+                    <li key={item} className="flex items-center gap-3 text-sm text-forest-800">
+                      <CheckCircle2 className="h-4 w-4 text-earth-500 flex-shrink-0" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+                <div className="inline-flex items-center gap-2 bg-earth-500 group-hover:bg-earth-400 text-white font-semibold text-sm px-6 py-3 rounded-full transition-all">
+                  Explorer la nutrithérapie
+                  <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                </div>
               </div>
-
-              <div className="flex items-start justify-between mb-3">
-                <h3 className="font-display text-3xl sm:text-4xl text-forest-900">Nutrithérapie</h3>
-                <span className="text-xs font-bold uppercase tracking-widest text-earth-600 bg-earth-100 px-3 py-1.5 rounded-full mt-1">
-                  Précision
-                </span>
-              </div>
-
-              <p className="text-forest-700/85 leading-relaxed mb-7">
-                La science des micronutriments — vitamines, minéraux, acides gras, adaptogènes.
-                Combler ce que l'alimentation moderne n'apporte plus.
-              </p>
-
-              <ul className="space-y-2.5 mb-8">
-                {[
-                  '13 vitamines décryptées',
-                  '15 minéraux & oligoéléments',
-                  'Acides gras essentiels',
-                  'Probiotiques & microbiote',
-                  'Adaptogènes & antioxydants',
-                  'Compléments par objectif',
-                ].map((item) => (
-                  <li key={item} className="flex items-center gap-3 text-sm text-forest-800">
-                    <CheckCircle2 className="h-4 w-4 text-earth-500 flex-shrink-0" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-
-              <div className="inline-flex items-center gap-2 bg-earth-500 group-hover:bg-earth-400 text-white font-semibold text-sm px-6 py-3 rounded-full transition-all">
-                Explorer la nutrithérapie
-                <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-              </div>
-            </div>
-          </Link>
+            </Link>
+          </AnimatedSection>
         </div>
       </div>
     </section>
@@ -290,26 +264,26 @@ function TwoDomains() {
 ───────────────────────────────────────── */
 function StatsBand() {
   const stats = [
-    { value: '163+',    label: 'Articles & guides',     icon: BookOpen },
-    { value: '2',       label: 'Domaines complets',     icon: Star },
-    { value: '4',       label: 'Profils tempéraments',  icon: Sprout },
-    { value: '8',       label: 'Principes de qualité',  icon: CheckCircle2 },
+    { value: '163+', label: 'Articles & guides',    icon: BookOpen },
+    { value: '2',    label: 'Domaines complets',    icon: Star },
+    { value: '4',    label: 'Profils tempéraments', icon: Sprout },
+    { value: '8',    label: 'Principes de qualité', icon: CheckCircle2 },
   ];
 
   return (
     <section className="bg-forest-700 py-12 sm:py-14">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+        <StaggerChildren staggerMs={120} baseDelay={0} className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {stats.map(({ value, label, icon: Icon }) => (
-            <div key={label} className="text-center">
+            <AnimatedSection key={label} animation="fade-up" threshold={0.05} className="text-center">
               <div className="w-12 h-12 bg-white/10 rounded-2xl grid place-items-center mx-auto mb-3">
                 <Icon className="h-6 w-6 text-sage-300" />
               </div>
               <p className="font-display text-4xl sm:text-5xl text-white">{value}</p>
               <p className="text-sm text-forest-200 mt-1">{label}</p>
-            </div>
+            </AnimatedSection>
           ))}
-        </div>
+        </StaggerChildren>
       </div>
     </section>
   );
@@ -344,8 +318,7 @@ function WhySection() {
     <section className="bg-cream-50 py-16 sm:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        {/* Header */}
-        <div className="max-w-2xl mx-auto text-center mb-14">
+        <AnimatedSection animation="fade-up" className="max-w-2xl mx-auto text-center mb-14">
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-sage-600 mb-3">Notre démarche</p>
           <h2 className="font-display text-4xl sm:text-5xl text-forest-900 text-balance">
             Information sérieuse,
@@ -357,21 +330,20 @@ function WhySection() {
             nutrithérapie ont de meilleur : des principes éprouvés, des dosages précis, des
             indications et contre-indications honnêtes.
           </p>
-        </div>
+        </AnimatedSection>
 
-        {/* Feature cards */}
+        {/* Feature cards — staggered */}
         <div className="grid sm:grid-cols-3 gap-6">
-          {features.map(({ icon: Icon, bg, title, desc }) => (
-            <div
-              key={title}
-              className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow border border-forest-50"
-            >
-              <div className={`w-14 h-14 ${bg} rounded-2xl grid place-items-center mb-5 shadow-md`}>
-                <Icon className="h-7 w-7 text-white" />
+          {features.map(({ icon: Icon, bg, title, desc }, i) => (
+            <AnimatedSection key={title} animation="fade-up" delay={i * 120}>
+              <div className="bg-white rounded-3xl p-8 shadow-sm hover:shadow-md transition-shadow border border-forest-50 h-full card-glow">
+                <div className={`w-14 h-14 ${bg} rounded-2xl grid place-items-center mb-5 shadow-md`}>
+                  <Icon className="h-7 w-7 text-white" />
+                </div>
+                <h3 className="font-display text-2xl text-forest-900 mb-2">{title}</h3>
+                <p className="text-sm text-forest-700/80 leading-relaxed">{desc}</p>
               </div>
-              <h3 className="font-display text-2xl text-forest-900 mb-2">{title}</h3>
-              <p className="text-sm text-forest-700/80 leading-relaxed">{desc}</p>
-            </div>
+            </AnimatedSection>
           ))}
         </div>
       </div>
@@ -380,7 +352,7 @@ function WhySection() {
 }
 
 /* ─────────────────────────────────────────
-   TOPICS GRID (replaces Highlights — no emojis)
+   TOPICS GRID
 ───────────────────────────────────────── */
 function TopicsGrid() {
   const topics = [
@@ -454,7 +426,7 @@ function TopicsGrid() {
     <section className="bg-white py-16 sm:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div className="flex items-end justify-between mb-12">
+        <AnimatedSection animation="fade-up" className="flex items-end justify-between mb-12">
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.18em] text-sage-600 mb-3">Explorer</p>
             <h2 className="font-display text-4xl sm:text-5xl text-forest-900">
@@ -467,32 +439,25 @@ function TopicsGrid() {
           >
             Tout voir <ChevronRight className="h-4 w-4" />
           </Link>
-        </div>
+        </AnimatedSection>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
-          {topics.map(({ href, icon: Icon, iconBg, category, title, desc }) => (
-            <Link key={href} href={href} className="group">
-              <div className="bg-cream-50 hover:bg-forest-50 rounded-3xl p-6 h-full flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-md border border-forest-50 group-hover:border-forest-100">
-                {/* Icon */}
-                <div className={`w-12 h-12 ${iconBg} rounded-2xl grid place-items-center mb-4 shadow-sm`}>
-                  <Icon className="h-6 w-6 text-white" />
+          {topics.map(({ href, icon: Icon, iconBg, category, title, desc }, i) => (
+            <AnimatedSection key={href} animation="fade-up" delay={Math.floor(i / 4) * 80 + (i % 4) * 80}>
+              <Link href={href} className="group block h-full">
+                <div className="bg-cream-50 hover:bg-forest-50 rounded-3xl p-6 h-full flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-md border border-forest-50 group-hover:border-forest-100 card-glow">
+                  <div className={`w-12 h-12 ${iconBg} rounded-2xl grid place-items-center mb-4 shadow-sm`}>
+                    <Icon className="h-6 w-6 text-white" />
+                  </div>
+                  <p className="text-xs font-bold uppercase tracking-widest text-forest-500/70 mb-1.5">{category}</p>
+                  <h3 className="font-display text-lg text-forest-900 mb-2 leading-snug group-hover:text-forest-700 transition-colors">{title}</h3>
+                  <p className="text-sm text-forest-600/80 leading-relaxed flex-1">{desc}</p>
+                  <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-sage-600 mt-4 group-hover:gap-2.5 transition-all">
+                    Explorer <ArrowRight className="h-3.5 w-3.5" />
+                  </span>
                 </div>
-                {/* Category label */}
-                <p className="text-xs font-bold uppercase tracking-widest text-forest-500/70 mb-1.5">
-                  {category}
-                </p>
-                {/* Title */}
-                <h3 className="font-display text-lg text-forest-900 mb-2 leading-snug group-hover:text-forest-700 transition-colors">
-                  {title}
-                </h3>
-                {/* Description */}
-                <p className="text-sm text-forest-600/80 leading-relaxed flex-1">{desc}</p>
-                {/* CTA link */}
-                <span className="inline-flex items-center gap-1.5 text-sm font-semibold text-sage-600 mt-4 group-hover:gap-2.5 transition-all">
-                  Explorer <ArrowRight className="h-3.5 w-3.5" />
-                </span>
-              </div>
-            </Link>
+              </Link>
+            </AnimatedSection>
           ))}
         </div>
       </div>
@@ -507,46 +472,46 @@ function CtaBanner() {
   return (
     <section className="bg-cream-50 py-16 sm:py-20">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="bg-forest-700 rounded-3xl overflow-hidden shadow-2xl">
-          <div className="relative px-8 sm:px-14 py-14 sm:py-16">
-            {/* Background decoration */}
-            <div className="absolute top-0 right-0 w-64 h-64 bg-forest-600/40 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2" />
-            <div className="absolute bottom-0 left-0 w-48 h-48 bg-sage-400/20 rounded-full blur-2xl -translate-x-1/4 translate-y-1/4" />
+        <AnimatedSection animation="scale-up">
+          <div className="bg-forest-700 rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative px-8 sm:px-14 py-14 sm:py-16">
+              {/* Background decoration */}
+              <div className="absolute top-0 right-0 w-64 h-64 bg-forest-600/40 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2" />
+              <div className="absolute bottom-0 left-0 w-48 h-48 bg-sage-400/20 rounded-full blur-2xl -translate-x-1/4 translate-y-1/4" />
 
-            <div className="relative grid lg:grid-cols-2 gap-8 items-center">
-              <div>
-                <p className="text-sage-300 text-xs font-bold uppercase tracking-[0.18em] mb-3">
-                  Quiz gratuit
-                </p>
-                <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl text-white leading-tight">
-                  Quel est votre
-                  <br />
-                  tempérament ?
-                </h2>
-                <p className="mt-4 text-forest-200 leading-relaxed">
-                  Sanguin, bilieux, nerveux ou lymphatique — 20 questions pour identifier votre
-                  profil hippocratique et recevoir un protocole personnalisé.
-                </p>
-              </div>
+              <div className="relative grid lg:grid-cols-2 gap-8 items-center">
+                <div>
+                  <p className="text-sage-300 text-xs font-bold uppercase tracking-[0.18em] mb-3">Quiz gratuit</p>
+                  <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl text-white leading-tight">
+                    Quel est votre
+                    <br />
+                    tempérament&nbsp;?
+                  </h2>
+                  <p className="mt-4 text-forest-200 leading-relaxed">
+                    Sanguin, bilieux, nerveux ou lymphatique — 20 questions pour identifier votre
+                    profil hippocratique et recevoir un protocole personnalisé.
+                  </p>
+                </div>
 
-              <div className="flex flex-col sm:flex-row lg:flex-col xl:flex-row gap-3 lg:items-start xl:items-center">
-                <Link
-                  href="/naturopathie/temperaments/quiz"
-                  className="inline-flex items-center justify-center gap-2 bg-sage-400 hover:bg-sage-300 text-forest-900 font-bold px-8 py-4 rounded-full transition-all shadow-lg hover:shadow-xl text-base"
-                >
-                  Faire le quiz
-                  <ArrowRight className="h-5 w-5" />
-                </Link>
-                <Link
-                  href="/naturopathie/temperaments"
-                  className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white hover:bg-white/10 font-semibold px-8 py-4 rounded-full transition-all text-base"
-                >
-                  Voir les 4 profils
-                </Link>
+                <div className="flex flex-col sm:flex-row lg:flex-col xl:flex-row gap-3 lg:items-start xl:items-center">
+                  <Link
+                    href="/naturopathie/temperaments/quiz"
+                    className="inline-flex items-center justify-center gap-2 bg-sage-400 hover:bg-sage-300 text-forest-900 font-bold px-8 py-4 rounded-full transition-all shadow-lg hover:shadow-xl text-base"
+                  >
+                    Faire le quiz
+                    <ArrowRight className="h-5 w-5" />
+                  </Link>
+                  <Link
+                    href="/naturopathie/temperaments"
+                    className="inline-flex items-center justify-center gap-2 border-2 border-white/30 text-white hover:bg-white/10 font-semibold px-8 py-4 rounded-full transition-all text-base"
+                  >
+                    Voir les 4 profils
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
-        </div>
+        </AnimatedSection>
       </div>
     </section>
   );

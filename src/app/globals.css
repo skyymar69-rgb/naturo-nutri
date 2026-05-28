@@ -12,10 +12,7 @@
     --border:       142 20% 87%;
   }
 
-  html {
-    scroll-behavior: smooth;
-    -webkit-font-smoothing: antialiased;
-  }
+  html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; }
 
   body {
     @apply bg-cream-50 text-forest-900 font-sans;
@@ -27,80 +24,210 @@
     letter-spacing: -0.01em;
   }
 
-  ::selection {
-    @apply bg-sage-200 text-forest-900;
+  /* Focus visible — WCAG 2.4.11 */
+  :focus-visible {
+    outline: 3px solid #33a85f;
+    outline-offset: 3px;
+    border-radius: 4px;
   }
+
+  ::selection { @apply bg-sage-200 text-forest-900; }
 }
 
 @layer components {
 
-  .container-prose {
-    @apply mx-auto max-w-3xl px-4 sm:px-6;
-  }
-  .container-wide {
-    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
-  }
+  /* ─── Layout ─── */
+  .container-prose { @apply mx-auto max-w-3xl px-4 sm:px-6; }
+  .container-wide  { @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8; }
 
+  /* ─── Prose ─── */
   .prose-natural h1,
   .prose-natural h2,
   .prose-natural h3,
-  .prose-natural h4 {
-    @apply font-display text-forest-900;
-  }
-  .prose-natural p {
-    @apply text-forest-800/90 leading-relaxed mb-4;
-  }
-  .prose-natural ul {
-    @apply list-disc pl-6 space-y-1.5 my-4 text-forest-800/90 marker:text-sage-500;
-  }
-  .prose-natural a {
-    @apply text-forest-700 underline underline-offset-4 hover:text-forest-900;
-  }
-  .prose-natural strong {
-    @apply text-forest-900 font-semibold;
-  }
-  .prose-natural em {
-    @apply italic;
-  }
-  .prose-natural blockquote {
-    @apply border-l-4 border-earth-400 pl-4 italic text-forest-700;
-  }
+  .prose-natural h4  { @apply font-display text-forest-900; }
+  .prose-natural p   { @apply text-forest-800/90 leading-relaxed mb-4; }
+  .prose-natural ul  { @apply list-disc pl-6 space-y-1.5 my-4 text-forest-800/90 marker:text-sage-500; }
+  .prose-natural a   { @apply text-forest-700 underline underline-offset-4 hover:text-forest-900; }
+  .prose-natural strong { @apply text-forest-900 font-semibold; }
+  .prose-natural blockquote { @apply border-l-4 border-earth-400 pl-4 italic text-forest-700; }
 
+  /* ─── Buttons ─── */
   .btn-primary {
     @apply inline-flex items-center justify-center gap-2 rounded-full bg-sage-500 px-6 py-3
-           text-sm font-semibold text-white transition-all
-           hover:bg-sage-600 hover:shadow-lg active:scale-95
-           focus:outline-none focus-visible:ring-2 focus-visible:ring-sage-400 focus-visible:ring-offset-2;
+           text-sm font-bold text-white transition-all hover:bg-sage-600 hover:shadow-lg
+           active:scale-95 focus-visible:ring-2 focus-visible:ring-sage-400 focus-visible:ring-offset-2;
   }
   .btn-secondary {
     @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-forest-700
-           bg-transparent px-6 py-3 text-sm font-semibold text-forest-800 transition-all
+           bg-transparent px-6 py-3 text-sm font-bold text-forest-800 transition-all
            hover:bg-forest-50 active:scale-95;
   }
   .btn-earth {
     @apply inline-flex items-center justify-center gap-2 rounded-full bg-earth-500 px-6 py-3
-           text-sm font-semibold text-white transition-all
-           hover:bg-earth-600 hover:shadow-lg active:scale-95;
+           text-sm font-bold text-white transition-all hover:bg-earth-600 hover:shadow-lg active:scale-95;
   }
 
+  /* ─── Cards ─── */
   .card-natural {
     @apply rounded-3xl border border-forest-100 bg-white shadow-sm transition-all hover:shadow-md;
   }
 
+  /* ─── Backgrounds ─── */
   .hero-bg {
     background: linear-gradient(135deg, #eef9f2 0%, #e2f5e7 45%, #eef9f2 100%);
   }
-
   .grain-bg {
     background-image:
-      radial-gradient(at 20% 30%, hsla(145, 60%, 90%, 0.5) 0px, transparent 55%),
-      radial-gradient(at 85% 10%, hsla(142, 50%, 93%, 0.4) 0px, transparent 50%),
-      radial-gradient(at 60% 95%, hsla(145, 40%, 91%, 0.35) 0px, transparent 50%);
+      radial-gradient(at 20% 30%, hsla(145,60%,90%,0.5) 0px, transparent 55%),
+      radial-gradient(at 85% 10%, hsla(142,50%,93%,0.4) 0px, transparent 50%),
+      radial-gradient(at 60% 95%, hsla(145,40%,91%,0.35) 0px, transparent 50%);
+  }
+
+  /* ─── Image polish ─── */
+  .img-cover {
+    @apply w-full h-full object-cover;
+    image-rendering: auto;
+  }
+  /* Photoshop-style treatment for food photos */
+  .img-food {
+    filter: saturate(1.12) contrast(1.04) brightness(1.01);
+    transition: filter 0.4s ease;
+  }
+  .img-food:hover {
+    filter: saturate(1.18) contrast(1.06) brightness(1.02);
+  }
+  /* Blur-up placeholder */
+  .img-blur-up {
+    filter: blur(8px);
+    transition: filter 0.6s ease;
+  }
+  .img-blur-up.loaded {
+    filter: none;
+  }
+
+  /* ─── Lazy load fade ─── */
+  .lazy-img {
+    opacity: 0;
+    transition: opacity 0.6s ease;
+  }
+  .lazy-img.loaded {
+    opacity: 1;
   }
 }
 
+/* ─────────────────────────────────────────
+   ANIMATION SYSTEM
+   All scroll-triggered animations via AnimatedSection component
+───────────────────────────────────────── */
+
+/* Shimmer skeleton */
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+.shimmer {
+  background: linear-gradient(90deg, #f0faf2 25%, #d4f0da 50%, #f0faf2 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+/* Counter pulsate */
+@keyframes countPulse {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.06); }
+  100% { transform: scale(1); }
+}
+.count-pulse { animation: countPulse 0.4s ease-out; }
+
+/* Gradient text animation */
+@keyframes gradientShift {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+.text-gradient-animate {
+  background: linear-gradient(90deg, #0f5e37, #33a85f, #0f5e37);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: gradientShift 4s ease infinite;
+}
+
+/* Glow on hover — premium card effect */
+.card-glow {
+  transition: box-shadow 0.35s ease, transform 0.35s ease;
+}
+.card-glow:hover {
+  box-shadow:
+    0 0 0 1px rgba(51,168,95,0.15),
+    0 20px 60px -10px rgba(15,94,55,0.2),
+    0 4px 16px rgba(0,0,0,0.06);
+  transform: translateY(-3px);
+}
+
+/* Pulsing green dot */
+@keyframes greenPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(51,168,95,0.5); }
+  50%       { box-shadow: 0 0 0 8px rgba(51,168,95,0); }
+}
+.dot-pulse {
+  animation: greenPulse 2s cubic-bezier(0.4,0,0.6,1) infinite;
+}
+
+/* Floating leaves */
+@keyframes leafFloat1 {
+  0%, 100% { transform: translateY(0px) rotate(25deg); }
+  33%      { transform: translateY(-14px) rotate(28deg); }
+  66%      { transform: translateY(-6px) rotate(22deg); }
+}
+@keyframes leafFloat2 {
+  0%, 100% { transform: translateY(0px) rotate(-40deg); }
+  50%      { transform: translateY(-18px) rotate(-36deg); }
+}
+@keyframes leafFloat3 {
+  0%, 100% { transform: translateY(0px) rotate(12deg); }
+  40%      { transform: translateY(-10px) rotate(16deg); }
+}
+.leaf-1 { animation: leafFloat1 7s ease-in-out infinite; }
+.leaf-2 { animation: leafFloat2 9s ease-in-out infinite; animation-delay: -3s; }
+.leaf-3 { animation: leafFloat3 6s ease-in-out infinite; animation-delay: -1.5s; }
+
+/* Badge float */
+@keyframes badgeFloat {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-8px); }
+}
+.badge-float-1 { animation: badgeFloat 5s ease-in-out infinite; }
+.badge-float-2 { animation: badgeFloat 5s ease-in-out infinite; animation-delay: -2.5s; }
+
+/* Underline expand on hover */
+.hover-underline {
+  position: relative;
+}
+.hover-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #33a85f;
+  transition: width 0.3s ease;
+}
+.hover-underline:hover::after { width: 100%; }
+
+/* Stagger children animation via CSS */
+.stagger-children > *:nth-child(1) { animation-delay: 0ms; }
+.stagger-children > *:nth-child(2) { animation-delay: 100ms; }
+.stagger-children > *:nth-child(3) { animation-delay: 200ms; }
+.stagger-children > *:nth-child(4) { animation-delay: 300ms; }
+.stagger-children > *:nth-child(5) { animation-delay: 400ms; }
+.stagger-children > *:nth-child(6) { animation-delay: 500ms; }
+.stagger-children > *:nth-child(7) { animation-delay: 600ms; }
+.stagger-children > *:nth-child(8) { animation-delay: 700ms; }
+
+/* Built-in Next.js utilities */
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  .text-balance { text-wrap: balance; }
 }
