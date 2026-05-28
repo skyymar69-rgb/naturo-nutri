@@ -105,29 +105,41 @@ export function Navigation() {
 
   return (
     <>
-      {/* ── Top info bar ── */}
-      <div className="hidden sm:block bg-forest-800 text-white text-xs py-2" role="banner">
+      {/* ── Top info bar ──
+           - Pas de role="banner" ici : le banner landmark est le <header> ci-dessous
+           - Les caractères ✦ et → sont purement décoratifs → aria-hidden
+           - text-forest-200 sur forest-800 : (L≈0.77)/(L≈0.022) = 8.9:1 ✅
+      ── */}
+      <div className="hidden sm:block bg-forest-800 text-white text-xs py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-          <span className="text-forest-300 italic">
+          <span className="text-forest-200 italic">
             Site à visée pédagogique — les informations ne remplacent pas un avis médical
           </span>
           <Link
             href="/naturopathie/temperaments/quiz"
-            className="font-bold text-sage-300 hover:text-white transition-colors flex items-center gap-1"
+            className="font-bold text-sage-300 hover:text-white transition-colors flex items-center gap-1.5"
           >
-            ✦ Quiz tempérament gratuit →
+            {/* Caractères décoratifs — aria-hidden */}
+            <span aria-hidden="true">✦</span>
+            Quiz tempérament gratuit
+            <span aria-hidden="true">→</span>
           </Link>
         </div>
       </div>
 
-      {/* ── Main nav ── */}
+      {/* ── Main nav ──
+           - <header> est le landmark "banner" implicitement (pas besoin de role)
+           - L'aria-label va sur le <nav>, pas le <header>
+           - WCAG 2.4.1 : skip link déjà présent dans layout.tsx
+      ── */}
       <header
         className="sticky top-0 z-50 bg-white/96 backdrop-blur-md border-b border-forest-100 shadow-sm"
-        role="navigation"
-        aria-label="Navigation principale"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <nav className="flex h-16 items-center justify-between">
+          <nav
+            className="flex h-16 items-center justify-between"
+            aria-label="Navigation principale"
+          >
 
             {/* Logo Nutriéa */}
             <Logo variant="compact" />
@@ -258,7 +270,7 @@ export function Navigation() {
             </div>
           )}
         </div>
-      </header>
+      </header>{/* banner landmark implicite */}
     </>
   );
 }

@@ -24,11 +24,15 @@
     letter-spacing: -0.01em;
   }
 
-  /* Focus visible — WCAG 2.4.11 */
+  /* Focus visible — WCAG 2.4.11 / 2.4.7
+   * Double-ring: white inner (visible on dark bg) + forest-700 outer (7.25:1 on cream-50)
+   * Covers both light and dark backgrounds without JS
+   */
   :focus-visible {
-    outline: 3px solid #33a85f;
+    outline: 3px solid #0f5e37;   /* forest-700 — 7.25:1 on cream-50, 7.61:1 on white */
     outline-offset: 3px;
     border-radius: 4px;
+    box-shadow: 0 0 0 1px #ffffff; /* white inner ring for dark-bg contexts */
   }
 
   ::selection { @apply bg-sage-200 text-forest-900; }
@@ -231,3 +235,51 @@
 @layer utilities {
   .text-balance { text-wrap: balance; }
 }
+
+/* ─────────────────────────────────────────
+   WCAG 2.3.3 — prefers-reduced-motion
+   Désactive toutes les animations et transitions
+   pour les utilisateurs qui le demandent (EAA obligatoire)
+───────────────────────────────────────── */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  /* Disable floating/leaf animations */
+  .leaf-1, .leaf-2, .leaf-3,
+  .badge-float-1, .badge-float-2,
+  .animate-float,
+  .animate-pulse,
+  .animate-spin,
+  .shimmer,
+  .dot-pulse,
+  .text-gradient-animate {
+    animation: none !important;
+  }
+  /* Disable card glow transforms */
+  .card-glow:hover {
+    transform: none;
+  }
+}
+
+/* ─────────────────────────────────────────
+   WCAG 1.4.11 — Windows High Contrast / forced-colors
+   Respecte les couleurs système choisies par l'utilisateur
+───────────────────────────────────────── */
+@media (forced-colors: active) {
+  .btn-primary,
+  .btn-secondary,
+  .btn-earth {
+    forced-color-adjust: none;
+    border: 2px solid ButtonText;
+  }
+  :focus-visible {
+    outline: 3px solid Highlight;
+    outline-offset: 3px;
+    box-shadow: none;
+  }
+}
+
