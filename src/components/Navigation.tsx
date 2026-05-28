@@ -103,6 +103,21 @@ export function Navigation() {
   const [mobileNaturo, setMobileNaturo] = useState(false);
   const [mobileNutri, setMobileNutri] = useState(false);
 
+  // ESC ferme le menu mobile + lock body scroll
+  useEffect(() => {
+    if (!mobileOpen) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setMobileOpen(false);
+    };
+    const prev = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    document.addEventListener('keydown', onKey);
+    return () => {
+      document.body.style.overflow = prev;
+      document.removeEventListener('keydown', onKey);
+    };
+  }, [mobileOpen]);
+
   return (
     <>
       {/* ── Top info bar ──

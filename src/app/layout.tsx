@@ -1,9 +1,11 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Fjalla_One, DM_Sans } from 'next/font/google';
 import './globals.css';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
 import { CookieBanner } from '@/components/CookieBanner';
+import { OrganizationJsonLd } from '@/components/JsonLd';
+import { BackToTop } from '@/components/BackToTop';
 
 const fjallaOne = Fjalla_One({
   subsets: ['latin'],
@@ -18,14 +20,28 @@ const dmSans = DM_Sans({
   display: 'swap',
 });
 
+const SITE = 'https://naturo-nutri.vercel.app';
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#f2fbf4' },
+    { media: '(prefers-color-scheme: dark)',  color: '#0f5e37' },
+  ],
+  colorScheme: 'light',
+};
+
 export const metadata: Metadata = {
-  metadataBase: new URL('https://naturo-nutri.vercel.app'),
+  metadataBase: new URL(SITE),
   title: {
     default: 'Nutriéa — L\'alliance de la nature et de la nutrition',
     template: '%s · Nutriéa',
   },
   description:
     "Nutriéa — portail de référence francophone en naturopathie et nutrithérapie. Guides exhaustifs sur le jeûne, les cures, les plantes médicinales, les vitamines, les minéraux et les protocoles santé.",
+  applicationName: 'Nutriéa',
+  generator: 'Next.js',
   keywords: [
     'naturopathie',
     'nutrithérapie',
@@ -46,6 +62,10 @@ export const metadata: Metadata = {
   authors: [{ name: 'Nutriéa — KAYZEN LYON' }],
   creator: 'KAYZEN LYON',
   publisher: 'KAYZEN LYON',
+  alternates: {
+    canonical: '/',
+    types: { 'application/rss+xml': '/feed.xml' },
+  },
   openGraph: {
     type: 'website',
     locale: 'fr_FR',
@@ -53,15 +73,27 @@ export const metadata: Metadata = {
     title: 'Nutriéa — L\'alliance de la nature et de la nutrition',
     description:
       "Guides exhaustifs : jeûnes, cures, plantes, vitamines, minéraux, compléments alimentaires, protocoles santé. Portail éducatif gratuit.",
+    images: [{ url: '/api/og', width: 1200, height: 630, alt: 'Nutriéa — naturopathie et nutrithérapie' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Nutriéa — L\'alliance de la nature et de la nutrition',
+    description:
+      "Guides exhaustifs en naturopathie et nutrithérapie. Portail éducatif gratuit.",
+    images: ['/api/og'],
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: { index: true, follow: true, 'max-image-preview': 'large', 'max-snippet': -1 },
   },
-  // RGPD / accessibility
-  other: {
-    'theme-color': '#0f5e37',
-    'color-scheme': 'light',
+  formatDetection: { telephone: false, email: false, address: false },
+  icons: {
+    icon: [
+      { url: '/logo-nutriea.svg', type: 'image/svg+xml' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+    ],
+    apple: [{ url: '/logo-nutriea.svg' }],
   },
 };
 
@@ -69,8 +101,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="fr" className={`${fjallaOne.variable} ${dmSans.variable}`}>
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" type="image/svg+xml" href="/logo-nutriea.svg" />
+        <link rel="alternate" type="application/rss+xml" title="Nutriéa — derniers articles" href="/feed.xml" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <OrganizationJsonLd />
       </head>
       <body className="min-h-screen flex flex-col antialiased">
         {/* Skip-to-main — accessibilité WCAG 2.1 SC 2.4.1 */}
@@ -86,6 +119,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
         </main>
         <Footer />
+        <BackToTop />
         <CookieBanner />
       </body>
     </html>
