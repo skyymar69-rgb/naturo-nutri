@@ -185,6 +185,15 @@ export function Navigation() {
               </li>
               <li>
                 <Link
+                  href="/actualites"
+                  className="px-4 py-2 text-sm font-semibold text-forest-800 hover:text-forest-600 transition-colors rounded-full hover:bg-forest-50 inline-flex items-center gap-1.5"
+                >
+                  Actualités
+                  <span className="text-[10px] font-bold bg-sage-100 text-sage-700 px-1.5 py-0.5 rounded">Sourcé</span>
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/contact"
                   className="px-4 py-2 text-sm font-semibold text-forest-800 hover:text-forest-600 transition-colors rounded-full hover:bg-forest-50"
                 >
@@ -269,6 +278,11 @@ export function Navigation() {
                 <Link href="/naturopathie/temperaments" onClick={() => setMobileOpen(false)}
                   className="block px-4 py-2.5 text-sm font-semibold text-forest-800 hover:bg-forest-50 rounded-xl">
                   Tempéraments
+                </Link>
+                <Link href="/actualites" onClick={() => setMobileOpen(false)}
+                  className="flex items-center gap-2 px-4 py-2.5 text-sm font-semibold text-forest-800 hover:bg-forest-50 rounded-xl">
+                  Actualités
+                  <span className="text-[10px] font-bold bg-sage-100 text-sage-700 px-1.5 py-0.5 rounded">Sourcé</span>
                 </Link>
                 <Link href="/contact" onClick={() => setMobileOpen(false)}
                   className="block px-4 py-2.5 text-sm font-semibold text-forest-800 hover:bg-forest-50 rounded-xl">

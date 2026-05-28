@@ -86,6 +86,60 @@ export interface Category {
   order: number;
 }
 
+/* ─────────────────────────────────────────
+   ACTUALITÉS / Blog scientifique sourcé
+───────────────────────────────────────── */
+
+export type SourceType =
+  | 'pubmed'        // article PubMed avec PMID
+  | 'review'        // revue systématique
+  | 'meta-analysis' // méta-analyse
+  | 'rct'           // essai contrôlé randomisé
+  | 'cohort'        // étude de cohorte
+  | 'guideline'     // recommandations officielles (EFSA, ANSES, OMS)
+  | 'book'          // NCBI Bookshelf / ouvrage de référence
+  | 'web';          // article web vérifié
+
+export interface Source {
+  id: string;             // identifiant unique dans l'article (s1, s2…)
+  type: SourceType;
+  title: string;          // titre exact tel que renvoyé par NCBI
+  authors?: string;       // premier auteur ou liste
+  journal?: string;
+  year?: number;
+  pmid?: string;          // PubMed ID si applicable
+  doi?: string;
+  url: string;            // lien direct (PubMed, DOI, EFSA…)
+  excerpt?: string;       // citation textuelle si extraite
+}
+
+export type ActualiteCategory =
+  | 'vitamines'
+  | 'mineraux'
+  | 'adaptogenes-plantes'
+  | 'microbiote-nutrition';
+
+export interface ActualiteSection {
+  heading: string;
+  /** Le corps peut référencer des sources : "Le mécanisme [#s1] suggère que…" — le renderer transforme #sX en superscript cliquable. */
+  body: string;
+}
+
+export interface Actualite {
+  slug: string;
+  category: ActualiteCategory;
+  title: string;
+  excerpt: string;
+  intro: string;
+  sections: ActualiteSection[];
+  takeaway: string;       // « À retenir » prudent
+  sources: Source[];
+  publishedAt: string;    // ISO date
+  updatedAt?: string;
+  readingTime: number;    // minutes
+  tags?: string[];
+}
+
 export interface Micronutriment {
   slug: string;
   nom: string;

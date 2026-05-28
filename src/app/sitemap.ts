@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { ALL_ARTICLES } from '@/lib/articles';
 import { CATEGORIES } from '@/lib/categories';
+import { ALL_ACTUALITES, ACTUALITE_CATEGORIES } from '@/lib/actualites';
 
 const SITE = 'https://naturo-nutri.vercel.app';
 
@@ -11,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '',
     '/naturopathie',
     '/nutritherapie',
+    '/actualites',
     '/contact',
     '/naturopathie/temperaments',
     '/naturopathie/temperaments/quiz',
@@ -40,5 +42,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...categoryPages, ...articlePages];
+  const actualiteCategoryPages = ACTUALITE_CATEGORIES.map((c) => ({
+    url: `${SITE}/actualites/categorie/${c.slug}`,
+    lastModified: now,
+    changeFrequency: 'weekly' as const,
+    priority: 0.7,
+  }));
+
+  const actualitePages = ALL_ACTUALITES.map((a) => ({
+    url: `${SITE}/actualites/${a.slug}`,
+    lastModified: a.updatedAt ? new Date(a.updatedAt) : new Date(a.publishedAt),
+    changeFrequency: 'monthly' as const,
+    priority: 0.75,
+  }));
+
+  return [
+    ...staticPages,
+    ...categoryPages,
+    ...articlePages,
+    ...actualiteCategoryPages,
+    ...actualitePages,
+  ];
 }
