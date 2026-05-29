@@ -1,6 +1,7 @@
 import type { Config } from 'tailwindcss';
 
 const config: Config = {
+  darkMode: ['class'],
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
@@ -65,7 +66,8 @@ const config: Config = {
         lymphatique:'#16a085',
       },
       fontFamily: {
-        display: ['var(--font-fjalla)', 'Impact', 'Arial Narrow', 'sans-serif'],
+        display: ['var(--font-playfair)', 'Georgia', 'Cambria', 'serif'],
+        serif:   ['var(--font-playfair)', 'Georgia', 'serif'],
         sans:    ['var(--font-dm-sans)', 'system-ui', 'sans-serif'],
       },
       typography: {
@@ -77,10 +79,22 @@ const config: Config = {
           },
         },
       },
+      borderRadius: {
+        '4xl': '2rem',
+        '5xl': '2.75rem',
+      },
+      boxShadow: {
+        'organic': '0 24px 60px -18px rgba(15,94,55,0.28), 0 8px 24px -12px rgba(15,94,55,0.16)',
+        'soft':    '0 12px 40px -16px rgba(15,94,55,0.22)',
+      },
       animation: {
         'fade-in':  'fadeIn 0.6s ease-out',
         'slide-up': 'slideUp 0.5s ease-out',
         'float':    'float 6s ease-in-out infinite',
+        'blob':     'blobMorph 22s ease-in-out infinite',
+        'blob-slow':'blobMorph 30s ease-in-out infinite',
+        'spin-slow':'spin 28s linear infinite',
+        'sway':     'sway 9s ease-in-out infinite',
       },
       keyframes: {
         fadeIn: {
@@ -94,6 +108,15 @@ const config: Config = {
         float: {
           '0%, 100%': { transform: 'translateY(0px)' },
           '50%':      { transform: 'translateY(-12px)' },
+        },
+        blobMorph: {
+          '0%, 100%': { borderRadius: '42% 58% 70% 30% / 45% 45% 55% 55%' },
+          '33%':      { borderRadius: '63% 37% 38% 62% / 56% 58% 42% 44%' },
+          '66%':      { borderRadius: '38% 62% 55% 45% / 48% 40% 60% 52%' },
+        },
+        sway: {
+          '0%, 100%': { transform: 'rotate(-4deg) translateY(0)' },
+          '50%':      { transform: 'rotate(4deg) translateY(-8px)' },
         },
       },
     },

@@ -1,16 +1,19 @@
 import type { Metadata, Viewport } from 'next';
-import { Fjalla_One, DM_Sans } from 'next/font/google';
+import { Playfair_Display, DM_Sans } from 'next/font/google';
 import './globals.css';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
 import { CookieBanner } from '@/components/CookieBanner';
 import { OrganizationJsonLd, WebSiteJsonLd } from '@/components/JsonLd';
 import { BackToTop } from '@/components/BackToTop';
+import { ThemeScript } from '@/components/ThemeScript';
 
-const fjallaOne = Fjalla_One({
+// Police de titre — serif éditorial élégant (remplace Fjalla One)
+const playfair = Playfair_Display({
   subsets: ['latin'],
-  weight: ['400'],
-  variable: '--font-fjalla',
+  weight: ['400', '500', '600', '700', '800', '900'],
+  style: ['normal', 'italic'],
+  variable: '--font-playfair',
   display: 'swap',
 });
 
@@ -99,8 +102,9 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="fr" className={`${fjallaOne.variable} ${dmSans.variable}`}>
+    <html lang="fr" className={`${playfair.variable} ${dmSans.variable}`} suppressHydrationWarning>
       <head>
+        <ThemeScript />
         <link rel="alternate" type="application/rss+xml" title="Nutriéa — derniers articles" href="/feed.xml" />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://images.pexels.com" crossOrigin="anonymous" />

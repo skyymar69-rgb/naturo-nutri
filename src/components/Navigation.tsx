@@ -6,6 +6,8 @@ import { Menu, X, ChevronDown, Leaf, FlaskConical, Sparkles, Wrench } from 'luci
 import { cn } from '@/lib/utils';
 import { Logo } from '@/components/Logo';
 import { SearchDialog } from '@/components/SearchDialog';
+import { ThemeToggle } from '@/components/ThemeToggle';
+import { AccessibilityMenu } from '@/components/AccessibilityMenu';
 import { MegaMenu, type MegaMenuColumn, type MegaMenuFeature } from '@/components/MegaMenu';
 
 /* ------------------------------------------------------------------ */
@@ -313,26 +315,32 @@ export function Navigation() {
             </ul>
 
             {/* Desktop CTA + search */}
-            <div className="hidden md:flex items-center gap-3">
+            <div className="hidden md:flex items-center gap-1.5">
+              <ThemeToggle className="hidden lg:grid" />
+              <AccessibilityMenu />
               <SearchDialog />
               <Link
                 href="/naturopathie/temperaments/quiz"
-                className="inline-flex items-center gap-2 bg-sage-500 hover:bg-sage-600 text-white text-sm font-bold px-5 py-2.5 rounded-full transition-all shadow-sm hover:shadow-md"
+                className="ml-1.5 inline-flex items-center gap-2 bg-sage-500 hover:bg-sage-600 text-white text-sm font-bold px-5 py-2.5 rounded-full transition-all shadow-sm hover:shadow-md"
               >
                 Faire le quiz
               </Link>
             </div>
 
-            {/* Mobile burger */}
-            <button
-              className="md:hidden grid h-9 w-9 place-items-center rounded-xl text-forest-800 hover:bg-forest-50 transition-colors"
-              onClick={() => setMobileOpen(!mobileOpen)}
-              aria-label={mobileOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
-              aria-expanded={mobileOpen}
-              aria-controls="mobile-menu"
-            >
-              {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
-            </button>
+            {/* Mobile cluster : thème + accessibilité + burger */}
+            <div className="md:hidden flex items-center gap-0.5">
+              <ThemeToggle />
+              <AccessibilityMenu />
+              <button
+                className="grid h-9 w-9 place-items-center rounded-xl text-forest-800 hover:bg-forest-50 transition-colors"
+                onClick={() => setMobileOpen(!mobileOpen)}
+                aria-label={mobileOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
+                aria-expanded={mobileOpen}
+                aria-controls="mobile-menu"
+              >
+                {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+              </button>
+            </div>
           </nav>
 
           {/* ── Mobile menu ── */}

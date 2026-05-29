@@ -56,8 +56,10 @@ export default function PathologiePage({ params }: Props) {
 
   return (
     <>
-      <section className="hero-bg py-10 sm:py-14 border-b border-forest-100">
-        <Container size="prose">
+      {/* ── HERO ── */}
+      <section className="relative mesh-organic grain-overlay overflow-hidden py-12 sm:py-16 border-b border-forest-100/70">
+        <div className="absolute -top-16 -right-16 w-72 h-72 bg-sage-200/40 blob-b animate-blob-slow blur-2xl pointer-events-none" aria-hidden="true" />
+        <Container size="prose" className="relative">
           <nav aria-label="Fil d'Ariane" className="flex items-center gap-1.5 text-sm text-forest-600 mb-6 flex-wrap">
             <Link href="/" className="hover:text-forest-900">Accueil</Link>
             <ChevronRight className="h-3.5 w-3.5 text-forest-400" />
@@ -65,20 +67,51 @@ export default function PathologiePage({ params }: Props) {
             <ChevronRight className="h-3.5 w-3.5 text-forest-400" />
             <span aria-current="page" className="text-forest-400">{p.nom}</span>
           </nav>
-          <div className="flex items-center gap-3 mb-3">
-            <span className="grid place-items-center w-12 h-12 rounded-2xl bg-white/80 text-sage-700">
-              <Stethoscope className="h-6 w-6" aria-hidden="true" />
+
+          <div className="flex items-center gap-4 mb-4">
+            <span className="grid place-items-center w-14 h-14 rounded-2xl bg-forest-700 text-white shadow-soft flex-shrink-0">
+              <Stethoscope className="h-7 w-7" aria-hidden="true" />
             </span>
-            <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl text-forest-900 leading-tight">{p.nom}</h1>
+            <h1 className="font-display text-3xl sm:text-4xl lg:text-5xl text-forest-900 leading-[1.05]">{p.nom}</h1>
           </div>
-          <p className="mt-2 text-lg text-forest-700/85 leading-relaxed">{p.description}</p>
-          <p className="mt-4 text-sm text-forest-600">
-            {groupe && (<span className="inline-flex items-center gap-1.5 bg-white/70 border border-forest-100 rounded-full px-3 py-1 mr-2"><span aria-hidden="true">{groupe.icon}</span>{groupe.nom}</span>)}
-            <span className="text-sage-700 font-semibold">{results.length} ressource{results.length > 1 ? 's' : ''} trouvée{results.length > 1 ? 's' : ''}</span>
-          </p>
+          <p className="text-lg text-forest-700/85 leading-relaxed">{p.description}</p>
+
+          <div className="mt-5 flex flex-wrap items-center gap-2 text-sm">
+            {groupe && (
+              <span className="inline-flex items-center gap-1.5 bg-white/80 backdrop-blur border border-forest-100 rounded-full px-3.5 py-1.5 text-forest-700 font-medium">
+                <span aria-hidden="true">{groupe.icon}</span>{groupe.nom}
+              </span>
+            )}
+            <span className="inline-flex items-center gap-1.5 bg-forest-700 text-white rounded-full px-3.5 py-1.5 font-semibold">
+              {results.length} ressource{results.length > 1 ? 's' : ''} trouvée{results.length > 1 ? 's' : ''}
+            </span>
+          </div>
+
+          {/* Résumé par type — ancres */}
+          {results.length > 0 && (
+            <div className="mt-6 flex flex-wrap gap-2">
+              {TYPE_ORDER.map((type) => {
+                const items = grouped.get(type);
+                if (!items || items.length === 0) return null;
+                const meta = TYPE_META[type];
+                const Icon = meta.icon;
+                return (
+                  <a key={type} href={`#${type}`}
+                    className="inline-flex items-center gap-2 bg-white/80 backdrop-blur border border-forest-100 hover:border-sage-300 hover:bg-white rounded-full pl-2 pr-3.5 py-1.5 text-sm text-forest-700 transition-colors">
+                    <span className={`grid place-items-center w-6 h-6 rounded-lg ${meta.bg} ${meta.color}`}>
+                      <Icon className="h-3.5 w-3.5" aria-hidden="true" />
+                    </span>
+                    <span className="font-medium">{meta.label}{items.length > 1 ? 's' : ''}</span>
+                    <span className="text-forest-400 tabular-nums">{items.length}</span>
+                  </a>
+                );
+              })}
+            </div>
+          )}
         </Container>
       </section>
 
+      {/* ── Avertissement ── */}
       <section className="bg-white pt-10">
         <Container size="prose">
           <Alert variant="warning" title="Cet outil n'est pas un avis médical">
@@ -89,13 +122,19 @@ export default function PathologiePage({ params }: Props) {
         </Container>
       </section>
 
-      <section className="bg-cream-50 py-12">
+      {/* ── Résultats ── */}
+      <section className="mesh-organic py-12 sm:py-16">
         <Container size="wide">
           {results.length === 0 ? (
-            <p className="text-center text-forest-600">
-              Aucun contenu spécifique n'est encore référencé pour cette pathologie. Utilisez la recherche
-              transversale (⌘K) ou explorez par catégorie.
-            </p>
+            <div className="max-w-xl mx-auto text-center bg-white border border-forest-100 rounded-4xl p-10">
+              <span className="grid place-items-center w-14 h-14 rounded-2xl bg-cream-100 mx-auto mb-4">
+                <Stethoscope className="h-7 w-7 text-sage-600" aria-hidden="true" />
+              </span>
+              <p className="text-forest-700 leading-relaxed">
+                Aucun contenu spécifique n'est encore référencé pour cette pathologie. Utilisez la recherche
+                transversale (⌘K) ou explorez par catégorie.
+              </p>
+            </div>
           ) : (
             TYPE_ORDER.map((type) => {
               const items = grouped.get(type);
@@ -103,20 +142,21 @@ export default function PathologiePage({ params }: Props) {
               const meta = TYPE_META[type];
               const Icon = meta.icon;
               return (
-                <section key={type} className="mb-10">
-                  <h2 className="font-display text-2xl text-forest-900 mb-5 flex items-center gap-2">
-                    <span className={`grid place-items-center w-9 h-9 rounded-xl ${meta.bg} ${meta.color}`}>
+                <section key={type} id={type} className="mb-12 scroll-mt-28">
+                  <h2 className="font-display text-2xl sm:text-[1.7rem] text-forest-900 mb-5 flex items-center gap-3">
+                    <span className={`grid place-items-center w-10 h-10 rounded-xl ${meta.bg} ${meta.color}`}>
                       <Icon className="h-5 w-5" aria-hidden="true" />
                     </span>
-                    {meta.label}{items.length > 1 ? 's' : ''} <span className="text-sm font-normal text-forest-500">({items.length})</span>
+                    {meta.label}{items.length > 1 ? 's' : ''}
+                    <span className="text-sm font-normal text-forest-500">({items.length})</span>
                   </h2>
-                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5">
                     {items.map((r) => (
                       <Link key={r.url} href={r.url} className="group block">
-                        <Card hoverable className="h-full flex flex-col">
+                        <Card hoverable className="h-full flex flex-col rounded-4xl">
                           <CardContent className="p-5 flex-1 flex flex-col">
                             {r.badge && (
-                              <span className={`self-start inline-flex items-center text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded mb-2 ${
+                              <span className={`self-start inline-flex items-center text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded mb-2.5 ${
                                 r.badge === 'PubMed' ? 'bg-sage-100 text-sage-700' : 'bg-forest-700 text-white'
                               }`}>
                                 {r.badge}
@@ -136,8 +176,8 @@ export default function PathologiePage({ params }: Props) {
               );
             })
           )}
-          <div className="text-center mt-10">
-            <Link href="/outils/par-pathologie" className="inline-flex items-center gap-2 text-sm font-semibold text-forest-700 hover:text-forest-900">
+          <div className="text-center mt-12">
+            <Link href="/outils/par-pathologie" className="inline-flex items-center gap-2 text-sm font-semibold text-forest-700 hover:text-forest-900 bg-white border border-forest-100 rounded-full px-5 py-3 hover:shadow-sm transition-all">
               <ArrowLeft className="h-4 w-4" /> Toutes les pathologies
             </Link>
           </div>

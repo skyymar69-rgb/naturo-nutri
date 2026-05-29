@@ -35,9 +35,13 @@
 
   h1, h2, h3, h4, h5, h6 {
     @apply font-display text-forest-900;
-    letter-spacing: -0.01em;
+    /* Playfair Display est un serif haut-contraste : tracking quasi neutre,
+       interlignage resserré pour les grands titres éditoriaux */
+    letter-spacing: -0.005em;
+    line-height: 1.08;
     text-wrap: balance;
   }
+  h4, h5, h6 { line-height: 1.2; }
 
   p { text-wrap: pretty; }
 
@@ -136,6 +140,71 @@
       radial-gradient(at 20% 30%, hsla(145,60%,90%,0.5) 0px, transparent 55%),
       radial-gradient(at 85% 10%, hsla(142,50%,93%,0.4) 0px, transparent 50%),
       radial-gradient(at 60% 95%, hsla(145,40%,91%,0.35) 0px, transparent 50%);
+  }
+
+  /* ─── ORGANIC DESIGN SYSTEM (direction « nature vivante ») ─── */
+
+  /* Dégradé maillé vivant — fond clair atmosphérique */
+  .mesh-organic {
+    background-color: #f2fbf4;
+    background-image:
+      radial-gradient(at 8% 12%,  #d2f0db 0px, transparent 50%),
+      radial-gradient(at 92% 8%,  #def7e6 0px, transparent 45%),
+      radial-gradient(at 70% 95%, #c0edce 0px, transparent 55%),
+      radial-gradient(at 25% 88%, #eaf6ec 0px, transparent 50%);
+  }
+
+  /* Dégradé maillé profond — bandeaux forest sombres */
+  .mesh-forest {
+    background-color: #0c4a2c;
+    background-image:
+      radial-gradient(at 12% 18%, #137644 0px, transparent 50%),
+      radial-gradient(at 88% 12%, #0f5e37 0px, transparent 45%),
+      radial-gradient(at 78% 92%, #093a22 0px, transparent 55%),
+      radial-gradient(at 20% 90%, #0f5e37 0px, transparent 50%);
+  }
+
+  /* Grain subtil — texture organique posée en overlay (élément ::before) */
+  .grain-overlay { position: relative; isolation: isolate; }
+  .grain-overlay::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.5;
+    mix-blend-mode: soft-light;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
+  }
+
+  /* Formes organiques (blob) — pour cadres photo & médaillons */
+  .blob-a { border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%; }
+  .blob-b { border-radius: 63% 37% 38% 62% / 56% 58% 42% 44%; }
+  .blob-c { border-radius: 38% 62% 55% 45% / 48% 40% 60% 52%; }
+
+  /* Filet décoratif fin (séparateur éditorial) */
+  .hairline {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(15,94,55,0.25), transparent);
+  }
+
+  /* Lettrine étiquette serif italique — accents éditoriaux */
+  .label-serif {
+    @apply font-display italic text-sage-600;
+  }
+
+  /* Surlignage organique au stabilo (mot-clef accentué) */
+  .marker-sage {
+    background: linear-gradient(120deg, rgba(88,196,127,0.32) 0%, rgba(88,196,127,0.32) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.42em;
+    background-position: 0 78%;
+  }
+  .marker-earth {
+    background: linear-gradient(120deg, rgba(248,176,92,0.4) 0%, rgba(248,176,92,0.4) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.42em;
+    background-position: 0 78%;
   }
 
   /* ─── Image polish ─── */
@@ -370,6 +439,130 @@
     box-shadow: none;
   }
 }
+
+/* ═════════════════════════════════════════
+   THÈME SOMBRE  —  inspiration « two-mode surface architecture »
+   Remap centralisé des utilitaires : aucune édition des composants.
+   L'accent vert reste l'unique accent dans les deux modes.
+═════════════════════════════════════════ */
+.dark {
+  color-scheme: dark;
+  --d-canvas:      #0a0e0c;  /* fond de page */
+  --d-elevated:    #151a18;  /* cartes (ex-blanc) */
+  --d-soft:        #1a221e;  /* surfaces douces (ex-forest-50/cream-100) */
+  --d-chip:        #233029;  /* puces / badges */
+  --d-line:        #2a3832;  /* filet hairline */
+  --d-line-strong: #3b4b43;
+  --d-ink:         #eef3f0;  /* titres / texte fort (ex-forest-900) */
+  --d-body:        #d2dcd6;  /* corps (ex-forest-800) */
+  --d-body2:       #b2c2b8;  /* ex-forest-700 */
+  --d-mute:        #94a89b;  /* ex-forest-600 */
+  --d-mute2:       #7f9387;  /* ex-forest-500 */
+  --d-faint:       #6c8175;  /* ex-forest-400 */
+  --d-green:       #5fce8b;  /* liens/accents verts éclaircis */
+  --d-earth:       #f0a661;  /* accents terre éclaircis */
+}
+
+/* Base */
+.dark body { background-color: var(--d-canvas); color: var(--d-ink); }
+.dark ::selection { background: #2f6b46; color: #eef3f0; }
+.dark ::-webkit-scrollbar-track { background: var(--d-canvas); }
+.dark ::-webkit-scrollbar-thumb { background: #28352e; border-color: var(--d-canvas); }
+.dark ::-webkit-scrollbar-thumb:hover { background: #344a3e; }
+.dark * { scrollbar-color: #28352e var(--d-canvas); }
+
+/* ── Surfaces (bg) ── */
+.dark .bg-white,
+.dark .bg-white\/96, .dark .bg-white\/95, .dark .bg-white\/90,
+.dark .bg-white\/85, .dark .bg-white\/80, .dark .bg-white\/70 { background-color: var(--d-elevated); }
+.dark .bg-cream-50 { background-color: var(--d-canvas); }
+.dark .bg-cream-100, .dark .bg-cream-100\/60, .dark .bg-cream-200 { background-color: var(--d-soft); }
+.dark .bg-forest-50, .dark .bg-forest-50\/60, .dark .bg-forest-50\/80,
+.dark .bg-sage-50, .dark .bg-sage-50\/50, .dark .bg-earth-50, .dark .bg-earth-50\/50, .dark .bg-earth-50\/30 { background-color: var(--d-soft); }
+.dark .bg-forest-100, .dark .bg-sage-100, .dark .bg-sage-100\/70, .dark .bg-sage-100\/60,
+.dark .bg-earth-100, .dark .bg-earth-100\/70, .dark .bg-earth-100\/50 { background-color: var(--d-chip); }
+/* surfaces vertes profondes & CTA : conservées (accent unique) */
+/* Cartes à dégradé clair (piliers) → surface sombre unie */
+.dark .from-forest-50, .dark .from-sage-50, .dark .from-earth-50, .dark .from-cream-100 {
+  background-image: none;
+  background-color: var(--d-soft);
+}
+
+/* ── Texte (flips ink → clair) ── */
+.dark .text-forest-900, .dark .text-forest-900\/90 { color: var(--d-ink); }
+.dark .text-forest-900\/5 { color: rgba(238,243,240,0.07); }
+.dark .text-forest-800, .dark .text-forest-800\/95, .dark .text-forest-800\/90, .dark .text-forest-800\/85 { color: var(--d-body); }
+.dark .text-forest-700, .dark .text-forest-700\/90, .dark .text-forest-700\/85, .dark .text-forest-700\/80, .dark .text-forest-700\/70 { color: var(--d-body2); }
+.dark .text-forest-600, .dark .text-forest-600\/80 { color: var(--d-mute); }
+.dark .text-forest-500, .dark .text-forest-500\/70 { color: var(--d-mute2); }
+.dark .text-forest-400, .dark .text-forest-400\/70 { color: var(--d-faint); }
+.dark .text-sage-700, .dark .text-sage-600, .dark .text-sage-800, .dark .text-sage-900 { color: var(--d-green); }
+.dark .text-earth-700, .dark .text-earth-600 { color: var(--d-earth); }
+/* text-white, text-cream-50, text-sage-200/300, text-forest-100/200/300 : sur surfaces sombres → inchangés */
+
+/* ── Bordures & rings ── */
+.dark .border-forest-100, .dark .border-forest-100\/70, .dark .border-forest-100\/60,
+.dark .border-forest-50, .dark .border-forest-200, .dark .border-forest-300,
+.dark .border-sage-200, .dark .border-sage-300, .dark .border-cream-50 { border-color: var(--d-line); }
+.dark .border-earth-100, .dark .border-earth-200, .dark .border-earth-300 { border-color: #3a2f1e; }
+.dark .ring-forest-100, .dark .ring-forest-200, .dark .ring-sage-200, .dark .ring-sage-300 { --tw-ring-color: var(--d-line); }
+.dark .divide-forest-100 > * { border-color: var(--d-line); }
+
+/* ── Classes custom ── */
+.dark .mesh-organic {
+  background-color: var(--d-canvas);
+  background-image:
+    radial-gradient(at 8% 12%,  rgba(19,118,68,0.16) 0px, transparent 50%),
+    radial-gradient(at 92% 8%,  rgba(15,94,55,0.14) 0px, transparent 45%),
+    radial-gradient(at 70% 95%, rgba(29,147,84,0.12) 0px, transparent 55%),
+    radial-gradient(at 25% 88%, rgba(15,94,55,0.10) 0px, transparent 50%);
+}
+.dark .hero-bg { background: linear-gradient(135deg, #0b110e 0%, #0e1712 45%, #0b110e 100%); }
+.dark .grain-bg {
+  background-color: var(--d-canvas);
+  background-image:
+    radial-gradient(at 20% 30%, rgba(19,118,68,0.14) 0px, transparent 55%),
+    radial-gradient(at 85% 10%, rgba(15,94,55,0.12) 0px, transparent 50%),
+    radial-gradient(at 60% 95%, rgba(29,147,84,0.10) 0px, transparent 50%);
+}
+.dark .grain-overlay::after { opacity: 0.28; mix-blend-mode: overlay; }
+.dark .card-glow:hover {
+  box-shadow: 0 0 0 1px rgba(95,206,139,0.18), 0 20px 60px -10px rgba(0,0,0,0.55), 0 4px 16px rgba(0,0,0,0.4);
+}
+.dark .shadow-sm, .dark .shadow-soft, .dark .shadow-organic { --tw-shadow-color: rgba(0,0,0,0.6); }
+
+/* ═════════════════════════════════════════
+   ACCESSIBILITÉ
+═════════════════════════════════════════ */
+
+/* Animations réduites (préférence utilisateur explicite) */
+.a11y-reduce-motion *, .a11y-reduce-motion *::before, .a11y-reduce-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.01ms !important;
+  scroll-behavior: auto !important;
+}
+.a11y-reduce-motion .animate-blob, .a11y-reduce-motion .animate-blob-slow,
+.a11y-reduce-motion .animate-sway, .a11y-reduce-motion .animate-float,
+.a11y-reduce-motion .dot-pulse, .a11y-reduce-motion .badge-float-1,
+.a11y-reduce-motion .badge-float-2 { animation: none !important; }
+
+/* Texte agrandi (+12.5 %) — n'altère pas le contenu, seulement la taille */
+.a11y-large-text { font-size: 112.5%; }
+
+/* Contraste élevé — renforce texte & bordures, sans changer les polices */
+.a11y-contrast .text-forest-700, .a11y-contrast .text-forest-700\/85,
+.a11y-contrast .text-forest-700\/80, .a11y-contrast .text-forest-700\/70,
+.a11y-contrast .text-forest-800\/90, .a11y-contrast .text-forest-600,
+.a11y-contrast .text-forest-600\/80, .a11y-contrast .text-forest-500 { color: #0c4a2c; }
+.a11y-contrast.dark .text-forest-700, .a11y-contrast.dark .text-forest-700\/85,
+.a11y-contrast.dark .text-forest-700\/80, .a11y-contrast.dark .text-forest-700\/70,
+.a11y-contrast.dark .text-forest-800\/90, .a11y-contrast.dark .text-forest-600,
+.a11y-contrast.dark .text-forest-600\/80, .a11y-contrast.dark .text-forest-500 { color: #ffffff; }
+.a11y-contrast .border-forest-100, .a11y-contrast .border-forest-100\/70,
+.a11y-contrast .border-sage-200 { border-color: #0f5e37; }
+.a11y-contrast.dark .border-forest-100, .a11y-contrast.dark .border-sage-200 { border-color: #5fce8b; }
+.a11y-contrast a { text-decoration: underline; text-underline-offset: 2px; }
 
 /* ─────────────────────────────────────────
    PRINT STYLES

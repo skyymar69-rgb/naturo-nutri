@@ -75,7 +75,7 @@ export function MegaMenu({
     >
       <Link
         href={href}
-        className="flex items-center gap-1 px-4 py-2 text-sm font-semibold text-forest-800 hover:text-forest-600 transition-colors rounded-full hover:bg-forest-50"
+        className="flex items-center gap-1 whitespace-nowrap px-3 lg:px-4 py-2 text-sm font-semibold text-forest-800 hover:text-forest-600 transition-colors rounded-full hover:bg-forest-50"
         aria-expanded={open}
         aria-haspopup="true"
       >
