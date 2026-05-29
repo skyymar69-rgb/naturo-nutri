@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import {
   ArrowRight, Leaf, FlaskConical, BookOpen, Sprout,
-  CheckCircle2, Droplets, Wind, Star, ChevronRight, BookHeart, GlassWater,
+  CheckCircle2, Droplets, Wind, Star, ChevronRight, BookHeart, GlassWater, Quote,
 } from 'lucide-react';
 import { AnimatedSection, StaggerChildren } from '@/components/AnimatedSection';
 import { NewsletterCard } from '@/components/NewsletterCard';
@@ -15,6 +15,7 @@ export default function HomePage() {
       <TwoDomains />
       <StatsBand />
       <WaveDown fill="#f2fbf4" />
+      <VisionBand />
       <WhySection />
       <WaveDown fill="white" />
       <TopicsGrid />
@@ -358,6 +359,80 @@ function StatsBand() {
             </AnimatedSection>
           ))}
         </StaggerChildren>
+      </div>
+    </section>
+  );
+}
+
+/* ─────────────────────────────────────────
+   VISION BAND — manifeste éditorial
+───────────────────────────────────────── */
+function VisionBand() {
+  return (
+    <section className="bg-cream-50 pt-16 sm:pt-24 pb-4 sm:pb-6">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <AnimatedSection animation="fade-up">
+          <figure className="relative">
+
+            {/* Feuilles décoratives */}
+            <svg
+              className="absolute -top-6 -left-2 sm:-top-8 sm:-left-6 w-14 h-14 sm:w-20 sm:h-20 text-sage-300/60 rotate-[-18deg] pointer-events-none"
+              viewBox="0 0 64 64"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path d="M32 4 C32 4, 58 16, 58 38 C58 52, 46 60, 32 60 C32 60, 32 38, 32 4Z" />
+            </svg>
+            <svg
+              className="absolute -bottom-4 -right-2 sm:-bottom-6 sm:-right-6 w-12 h-12 sm:w-16 sm:h-16 text-sage-400/50 rotate-[155deg] pointer-events-none"
+              viewBox="0 0 64 64"
+              fill="currentColor"
+              aria-hidden="true"
+            >
+              <path d="M32 4 C32 4, 58 16, 58 38 C58 52, 46 60, 32 60 C32 60, 32 38, 32 4Z" />
+            </svg>
+
+            {/* Carte centrale */}
+            <div className="relative bg-white rounded-3xl px-6 sm:px-12 lg:px-16 py-10 sm:py-14 shadow-md border border-sage-100 text-center">
+
+              {/* Eyebrow */}
+              <p className="inline-flex items-center gap-2 text-[11px] sm:text-xs font-bold uppercase tracking-[0.2em] text-sage-700 mb-6">
+                <span className="h-px w-6 bg-sage-400" aria-hidden="true" />
+                Notre vision
+                <span className="h-px w-6 bg-sage-400" aria-hidden="true" />
+              </p>
+
+              {/* Guillemet visuel */}
+              <Quote className="mx-auto h-7 w-7 sm:h-8 sm:w-8 text-sage-400/70 mb-4" aria-hidden="true" />
+
+              {/* Citation */}
+              <blockquote>
+                <p className="font-display text-2xl sm:text-3xl lg:text-[2.25rem] leading-snug text-forest-900 text-balance">
+                  Unir la <span className="text-sage-600 italic">rigueur des données scientifiques</span> au{' '}
+                  <span className="text-earth-600 italic">plaisir de la table</span> : telle est notre vision d&apos;une
+                  nutrition <span className="underline decoration-sage-300 decoration-2 underline-offset-[6px]">systémique</span>,
+                  respectueuse de l&apos;humain et de son écosystème.
+                </p>
+              </blockquote>
+
+              {/* Trois mots-clefs visuels */}
+              <div className="mt-9 flex flex-wrap justify-center gap-2.5 sm:gap-3">
+                <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-forest-700 bg-sage-50 border border-sage-200 px-3 py-1.5 rounded-full">
+                  <FlaskConical className="h-3.5 w-3.5 text-sage-600" aria-hidden="true" />
+                  Science
+                </span>
+                <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-forest-700 bg-cream-100 border border-earth-200 px-3 py-1.5 rounded-full">
+                  <BookHeart className="h-3.5 w-3.5 text-earth-600" aria-hidden="true" />
+                  Plaisir
+                </span>
+                <span className="inline-flex items-center gap-1.5 text-xs font-semibold text-forest-700 bg-forest-50 border border-forest-200 px-3 py-1.5 rounded-full">
+                  <Leaf className="h-3.5 w-3.5 text-forest-600" aria-hidden="true" />
+                  Écosystème
+                </span>
+              </div>
+            </div>
+          </figure>
+        </AnimatedSection>
       </div>
     </section>
   );
