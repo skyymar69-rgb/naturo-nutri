@@ -19,6 +19,8 @@ import { JUS_CATEGORIES, getJusCategory } from '@/lib/jus-categories';
 import { ALL_JUS, getJus, getJusByCategory } from '@/lib/jus';
 import { getArticleImage } from '@/lib/article-images';
 import { ArrowLeft, ChevronRight, Sprout, Clock, ListChecks, Hammer, BookOpen } from 'lucide-react';
+import { ReferenceLivreInline } from '@/components/LivresReferences';
+import { LIVRE_WALKER_JUS } from '@/lib/references-livres';
 
 const SITE = 'https://naturo-nutri.vercel.app';
 
@@ -143,11 +145,7 @@ export default function JusPage({ params }: Props) {
         </div>
 
         {j.walkerReference && (
-          <Alert variant="info" title="Référence Walker">
-            <p className="text-sm">
-              <strong>Source :</strong> {j.walkerReference}
-            </p>
-          </Alert>
+          <ReferenceLivreInline livre={LIVRE_WALKER_JUS} />
         )}
 
         <section>

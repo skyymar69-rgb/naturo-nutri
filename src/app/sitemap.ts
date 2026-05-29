@@ -22,6 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/actualites',
     '/tags',
     '/notre-demarche',
+    '/bibliographie',
     '/contact',
     '/naturopathie/temperaments',
     '/naturopathie/temperaments/quiz',

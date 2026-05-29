@@ -8,6 +8,7 @@ import { JUS_CATEGORIES } from '@/lib/jus-categories';
 import { ALL_JUS, countJusByCategory } from '@/lib/jus';
 import { getArticleImage } from '@/lib/article-images';
 import { ArrowRight, Sprout, BookOpen } from 'lucide-react';
+import { LivresReferences } from '@/components/LivresReferences';
 
 const SITE = 'https://naturo-nutri.vercel.app';
 
@@ -92,7 +93,13 @@ export default function JusPage() {
         </Container>
       </section>
 
-      <section className="bg-white py-14">
+      <section className="bg-white py-12">
+        <Container size="prose">
+          <LivresReferences domaine="jus" title="Sources éditoriales — Norman W. Walker et au-delà" />
+        </Container>
+      </section>
+
+      <section className="bg-white pb-14">
         <Container size="wide">
           <h2 className="font-display text-3xl text-forest-900 mb-8">Toutes les recettes</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">

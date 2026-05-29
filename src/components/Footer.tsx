@@ -46,6 +46,7 @@ const FOOTER_NAV = [
       { label: 'Actualités sourcées',   href: '/actualites' },
       { label: 'Quiz tempérament',      href: '/naturopathie/temperaments/quiz' },
       { label: 'Notre démarche',        href: '/notre-demarche' },
+      { label: 'Bibliographie',         href: '/bibliographie' },
       { label: 'Tous les tags',         href: '/tags' },
       { label: 'Flux RSS',              href: '/feed.xml' },
       { label: 'Contact',               href: '/contact' },

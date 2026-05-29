@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/Badge';
 import { SectionHeading } from '@/components/ui/SectionHeading';
 import { NUTRI_CATEGORIES } from '@/lib/categories';
 import { countByCategory } from '@/lib/articles';
+import { LivresReferences } from '@/components/LivresReferences';
 
 export const metadata: Metadata = {
   title: 'Nutrithérapie : compléments et micronutriments',
@@ -101,6 +102,10 @@ export default function NutritherapieHubPage() {
                 </Link>
               );
             })}
+          </div>
+
+          <div className="mt-12 pt-12 border-t border-forest-100">
+            <LivresReferences domaine="nutritherapie" title="Sources éditoriales — la nutrithérapie francophone" />
           </div>
         </Container>
       </section>
