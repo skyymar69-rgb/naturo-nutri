@@ -7,6 +7,7 @@ import { ACTUALITES_ADAPTOGENES } from './adaptogenes-plantes';
 import { ACTUALITES_ADAPTOGENES_2 } from './adaptogenes-plantes-2';
 import { ACTUALITES_MICROBIOTE } from './microbiote-nutrition';
 import { ACTUALITES_MICROBIOTE_2 } from './microbiote-nutrition-2';
+import { ACTUALITES_BATCH3_PUBMED } from './batch3-pubmed';
 
 export const ALL_ACTUALITES: Actualite[] = [
   ...ACTUALITES_VITAMINES,
@@ -17,6 +18,7 @@ export const ALL_ACTUALITES: Actualite[] = [
   ...ACTUALITES_ADAPTOGENES_2,
   ...ACTUALITES_MICROBIOTE,
   ...ACTUALITES_MICROBIOTE_2,
+  ...ACTUALITES_BATCH3_PUBMED,
 ].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
 
 export const ACTUALITE_CATEGORIES: { slug: ActualiteCategory; nom: string; icon: string; description: string }[] = [

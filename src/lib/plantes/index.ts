@@ -7,6 +7,8 @@ import { PLANTES_CIRCULATION } from './circulation';
 import { PLANTES_RESPIRATION } from './respiration';
 import { PLANTES_PEAU_ARTICULATIONS } from './peau-articulations';
 import { PLANTES_FEMININ } from './feminin';
+import { PLANTES_BATCH2_MIXED } from './batch2-sommeil-digestion-stress';
+import { PLANTES_BATCH2_SYSTEME } from './batch2-systeme';
 
 export const ALL_PLANTES: Plante[] = [
   ...PLANTES_SOMMEIL,
@@ -17,6 +19,8 @@ export const ALL_PLANTES: Plante[] = [
   ...PLANTES_RESPIRATION,
   ...PLANTES_PEAU_ARTICULATIONS,
   ...PLANTES_FEMININ,
+  ...PLANTES_BATCH2_MIXED,
+  ...PLANTES_BATCH2_SYSTEME,
 ];
 
 export function getPlante(slug: string): Plante | undefined {

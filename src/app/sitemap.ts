@@ -6,6 +6,7 @@ import { ALL_PLANTES } from '@/lib/plantes';
 import { PLANTES_CATEGORIES } from '@/lib/plantes-categories';
 import { ALL_JUS } from '@/lib/jus';
 import { JUS_CATEGORIES } from '@/lib/jus-categories';
+import { PATHOLOGIES } from '@/lib/pathologies';
 import { slugify } from '@/lib/utils';
 
 const SITE = 'https://naturo-nutri.vercel.app';
@@ -23,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/tags',
     '/notre-demarche',
     '/bibliographie',
+    '/outils/par-pathologie',
     '/contact',
     '/naturopathie/temperaments',
     '/naturopathie/temperaments/quiz',
@@ -111,7 +113,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
+  const pathologiePages = PATHOLOGIES.map((p) => ({
+    url: `${SITE}/outils/par-pathologie/${p.slug}`,
+    lastModified: now,
+    changeFrequency: 'weekly' as const,
+    priority: 0.7,
+  }));
+
   return [
+    ...pathologiePages,
     ...staticPages,
     ...categoryPages,
     ...articlePages,

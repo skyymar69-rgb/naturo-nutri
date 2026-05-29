@@ -194,6 +194,15 @@ export function Navigation() {
               </li>
               <li>
                 <Link
+                  href="/outils/par-pathologie"
+                  className="px-4 py-2 text-sm font-semibold text-forest-800 hover:text-forest-600 transition-colors rounded-full hover:bg-forest-50 inline-flex items-center gap-1.5"
+                >
+                  Par pathologie
+                  <span className="text-[10px] font-bold bg-forest-100 text-forest-700 px-1.5 py-0.5 rounded">Outil</span>
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/actualites"
                   className="px-4 py-2 text-sm font-semibold text-forest-800 hover:text-forest-600 transition-colors rounded-full hover:bg-forest-50 inline-flex items-center gap-1.5"
                 >

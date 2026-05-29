@@ -7,6 +7,7 @@ import { JUS_DIGESTION } from './digestion';
 import { JUS_PEAU_CHEVEUX } from './peau-cheveux';
 import { JUS_MINCEUR } from './minceur';
 import { JUS_SPORT } from './sport';
+import { JUS_BATCH2_SAISON_WALKER } from './batch2-saison-walker';
 
 export const ALL_JUS: RecetteJus[] = [
   ...JUS_WALKER,
@@ -17,6 +18,7 @@ export const ALL_JUS: RecetteJus[] = [
   ...JUS_PEAU_CHEVEUX,
   ...JUS_MINCEUR,
   ...JUS_SPORT,
+  ...JUS_BATCH2_SAISON_WALKER,
 ];
 
 export function getJus(slug: string): RecetteJus | undefined {

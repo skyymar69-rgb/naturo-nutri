@@ -44,6 +44,7 @@ const FOOTER_NAV = [
     title: 'Outils & Accès',
     links: [
       { label: 'Actualités sourcées',   href: '/actualites' },
+      { label: 'Par pathologie',        href: '/outils/par-pathologie' },
       { label: 'Quiz tempérament',      href: '/naturopathie/temperaments/quiz' },
       { label: 'Notre démarche',        href: '/notre-demarche' },
       { label: 'Bibliographie',         href: '/bibliographie' },

@@ -16,6 +16,11 @@ import { NUTRI_ANTIOXYDANTS } from './nutritherapie-antioxydants';
 import { NUTRI_PROBIOTIQUES } from './nutritherapie-probiotiques';
 import { NUTRI_ADAPTOGENES } from './nutritherapie-adaptogenes';
 import { NUTRI_OBJECTIFS } from './nutritherapie-objectifs';
+import { NATURO_BATCH3_EMONCTOIRES } from './naturopathie-batch3-emonctoires';
+import { NATURO_BATCH3_VITALITE } from './naturopathie-batch3-vitalite';
+import { NUTRI_BATCH3_PATHOLOGIES } from './nutritherapie-batch3-pathologies';
+import { NUTRI_BATCH3_CARENCES } from './nutritherapie-batch3-carences';
+import { NATURO_BATCH3_TECHNIQUES } from './naturopathie-batch3-techniques';
 
 export const ALL_ARTICLES: Article[] = [
   ...NATURO_JEUNES,
@@ -35,6 +40,11 @@ export const ALL_ARTICLES: Article[] = [
   ...NUTRI_PROBIOTIQUES,
   ...NUTRI_ADAPTOGENES,
   ...NUTRI_OBJECTIFS,
+  ...NATURO_BATCH3_EMONCTOIRES,
+  ...NATURO_BATCH3_VITALITE,
+  ...NUTRI_BATCH3_PATHOLOGIES,
+  ...NUTRI_BATCH3_CARENCES,
+  ...NATURO_BATCH3_TECHNIQUES,
 ];
 
 export function getArticlesByDomain(domain: DomainSlug): Article[] {
