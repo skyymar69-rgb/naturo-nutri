@@ -1,4 +1,4 @@
-import { Sparkles } from 'lucide-react';
+import { ListChecks } from 'lucide-react';
 
 /**
  * Boîte "À retenir" — version améliorée avec design plus marqué.
@@ -13,7 +13,7 @@ export function KeyPointsBox({ items, title = 'À retenir' }: { items: string[];
       className="not-prose bg-gradient-to-br from-sage-50 via-white to-cream-50 border-l-4 border-sage-500 rounded-r-2xl p-6 my-8 shadow-sm"
     >
       <p id="keypoints-title" className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.15em] text-sage-700 mb-4">
-        <Sparkles className="h-3.5 w-3.5" aria-hidden="true" />
+        <ListChecks className="h-3.5 w-3.5" aria-hidden="true" />
         {title}
       </p>
       <ul className="space-y-3">

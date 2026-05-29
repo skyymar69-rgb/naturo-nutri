@@ -19,7 +19,7 @@ import { ArticleJsonLd, BreadcrumbJsonLd } from '@/components/JsonLd';
 import { PLANTES_CATEGORIES, getPlanteCategory } from '@/lib/plantes-categories';
 import { ALL_PLANTES, getPlante, getPlantesByCategory } from '@/lib/plantes';
 import { getArticleImage } from '@/lib/article-images';
-import { ArrowLeft, ChevronRight, BookHeart, Sparkles, ListChecks } from 'lucide-react';
+import { ArrowLeft, ChevronRight, BookHeart, Leaf, ListChecks } from 'lucide-react';
 
 const SITE = 'https://naturo-nutri.vercel.app';
 
@@ -134,7 +134,7 @@ export default function PlantePage({ params }: Props) {
 
         <section>
           <h2 className="font-display text-2xl sm:text-3xl text-forest-900 mb-4 pb-2 border-b border-forest-100 flex items-center gap-2">
-            <Sparkles className="h-5 w-5 text-sage-600" aria-hidden="true" />
+            <Leaf className="h-5 w-5 text-sage-600" aria-hidden="true" />
             Propriétés
           </h2>
           <ul className="space-y-2">

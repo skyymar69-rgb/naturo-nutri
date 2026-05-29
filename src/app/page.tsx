@@ -3,7 +3,7 @@ import Link from 'next/link';
 import {
   ArrowRight, Leaf, FlaskConical, BookOpen, Sprout,
   CheckCircle2, Droplets, Wind, Star, ChevronRight, BookHeart, GlassWater,
-  Quote, Stethoscope, Scale, Sparkles,
+  Quote, Stethoscope, Scale,
 } from 'lucide-react';
 import { AnimatedSection, StaggerChildren } from '@/components/AnimatedSection';
 import { NewsletterCard } from '@/components/NewsletterCard';
@@ -504,7 +504,7 @@ function TopicsGrid() {
     { href: '/naturopathie/purges',              icon: Droplets,     iconBg: 'bg-forest-600', category: 'Naturopathie', title: 'Purges & drainages', desc: 'Huile de ricin, lavement, brossage à sec, argile, bentonite — les grandes méthodes de détox.' },
     { href: '/nutritherapie/mineraux',           icon: FlaskConical, iconBg: 'bg-earth-600',  category: 'Nutrithérapie', title: 'Minéraux & oligoéléments', desc: 'Magnésium, zinc, sélénium, iode — formes chélatées vs oxydes, dosages et interactions.' },
     { href: '/nutritherapie/objectifs',          icon: CheckCircle2, iconBg: 'bg-sage-600',   category: 'Nutrithérapie', title: 'Compléments par objectif', desc: 'Fatigue, anxiété, immunité, articulations, cognition — les bonnes associations par besoin.' },
-    { href: '/naturopathie/temperaments/quiz',   icon: Sparkles,     iconBg: 'bg-forest-700', category: 'Quiz', title: 'Découvrir mon tempérament', desc: '20 questions pour identifier votre profil hippocratique et obtenir un protocole personnalisé.' },
+    { href: '/naturopathie/temperaments/quiz',   icon: Scale,        iconBg: 'bg-forest-700', category: 'Quiz', title: 'Découvrir mon tempérament', desc: '20 questions pour identifier votre profil hippocratique et obtenir un protocole personnalisé.' },
   ];
 
   return (

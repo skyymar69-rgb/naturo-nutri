@@ -1,0 +1,2593 @@
+[
+  {
+    "slug": "jeune-hydrique",
+    "section": "article",
+    "category": "jeunes",
+    "subject": "Le jeûne hydrique : guide complet"
+  },
+  {
+    "slug": "jeune-intermittent",
+    "section": "article",
+    "category": "jeunes",
+    "subject": "Le jeûne intermittent : 16/8, 18/6, OMAD"
+  },
+  {
+    "slug": "jeune-aux-jus",
+    "section": "article",
+    "category": "jeunes",
+    "subject": "Le jeûne aux jus de légumes"
+  },
+  {
+    "slug": "jeune-sec",
+    "section": "article",
+    "category": "jeunes",
+    "subject": "Le jeûne sec : la voie radicale"
+  },
+  {
+    "slug": "methode-buchinger",
+    "section": "article",
+    "category": "jeunes",
+    "subject": "Le jeûne Buchinger : la méthode allemande"
+  },
+  {
+    "slug": "preparation-jeune",
+    "section": "article",
+    "category": "jeunes",
+    "subject": "La descente alimentaire avant le jeûne"
+  },
+  {
+    "slug": "sortie-jeune",
+    "section": "article",
+    "category": "jeunes",
+    "subject": "La sortie de jeûne : la phase à ne pas rater"
+  },
+  {
+    "slug": "crises-guerison",
+    "section": "article",
+    "category": "jeunes",
+    "subject": "Les crises de guérison : comprendre et accompagner"
+  },
+  {
+    "slug": "monodiete-raisin",
+    "section": "article",
+    "category": "jeunes",
+    "subject": "Monodiète de raisin : la reine des cures d'automne"
+  },
+  {
+    "slug": "monodiete-pomme",
+    "section": "article",
+    "category": "jeunes",
+    "subject": "Monodiète de pomme : la cure douce universelle"
+  },
+  {
+    "slug": "monodiete-riz",
+    "section": "article",
+    "category": "jeunes",
+    "subject": "Monodiète de riz semi-complet : la cure d'hiver"
+  },
+  {
+    "slug": "monodiete-pasteque",
+    "section": "article",
+    "category": "jeunes",
+    "subject": "Monodiète de pastèque : la cure d'été"
+  },
+  {
+    "slug": "monodiete-carotte",
+    "section": "article",
+    "category": "jeunes",
+    "subject": "Monodiète de carotte : la cure douce toute saison"
+  },
+  {
+    "slug": "jeune-court-vs-long",
+    "section": "article",
+    "category": "jeunes",
+    "subject": "Jeûne court vs jeûne long : que choisir ?"
+  },
+  {
+    "slug": "restriction-calorique-autophagie",
+    "section": "article",
+    "category": "jeunes",
+    "subject": "Restriction calorique et autophagie : ce que disent les données"
+  },
+  {
+    "slug": "huile-de-ricin",
+    "section": "article",
+    "category": "purges",
+    "subject": "La purge à l'huile de ricin"
+  },
+  {
+    "slug": "lavement-colon",
+    "section": "article",
+    "category": "purges",
+    "subject": "Le lavement intestinal : méthode et indications"
+  },
+  {
+    "slug": "drainage-hepatique-citron",
+    "section": "article",
+    "category": "purges",
+    "subject": "Drainage hépatique : la cure de citron + huile d'olive"
+  },
+  {
+    "slug": "cure-radis-noir",
+    "section": "article",
+    "category": "purges",
+    "subject": "Cure de radis noir : drainage hépato-biliaire intense"
+  },
+  {
+    "slug": "brossage-peau-sec",
+    "section": "article",
+    "category": "purges",
+    "subject": "Le brossage à sec de la peau : drainage lymphatique quotidien"
+  },
+  {
+    "slug": "bentonite-psyllium",
+    "section": "article",
+    "category": "purges",
+    "subject": "Cure bentonite et psyllium : le ménage intestinal profond"
+  },
+  {
+    "slug": "argile-verte-cataplasme",
+    "section": "article",
+    "category": "purges",
+    "subject": "Cataplasmes d'argile verte : drainage par voie cutanée"
+  },
+  {
+    "slug": "bain-derivatif",
+    "section": "article",
+    "category": "purges",
+    "subject": "Le bain dérivatif : drainage profond par le périnée"
+  },
+  {
+    "slug": "sauna-hammam",
+    "section": "article",
+    "category": "purges",
+    "subject": "Sauna et hammam : le drainage par la sueur"
+  },
+  {
+    "slug": "fumeterre-cure-printemps",
+    "section": "article",
+    "category": "purges",
+    "subject": "Cure de fumeterre : drainage hépato-biliaire de printemps"
+  },
+  {
+    "slug": "drainage-lymphatique-manuel",
+    "section": "article",
+    "category": "purges",
+    "subject": "Drainage lymphatique manuel : preuves et limites"
+  },
+  {
+    "slug": "achillee-millefeuille",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Achillée millefeuille"
+  },
+  {
+    "slug": "aubepine",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Aubépine"
+  },
+  {
+    "slug": "artichaut",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Artichaut"
+  },
+  {
+    "slug": "bardane",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Bardane"
+  },
+  {
+    "slug": "boldo",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Boldo"
+  },
+  {
+    "slug": "camomille-romaine",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Camomille romaine"
+  },
+  {
+    "slug": "cassis-bourgeons",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Cassis (bourgeons)"
+  },
+  {
+    "slug": "chardon-marie",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Chardon-Marie"
+  },
+  {
+    "slug": "desmodium",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Desmodium"
+  },
+  {
+    "slug": "echinacee",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Échinacée"
+  },
+  {
+    "slug": "eleutherocoque",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Éleuthérocoque (Ginseng sibérien)"
+  },
+  {
+    "slug": "fenouil",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Fenouil"
+  },
+  {
+    "slug": "gentiane",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Gentiane jaune"
+  },
+  {
+    "slug": "gingembre",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Gingembre"
+  },
+  {
+    "slug": "ginkgo",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Ginkgo biloba"
+  },
+  {
+    "slug": "ginseng",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Ginseng (Panax ginseng)"
+  },
+  {
+    "slug": "harpagophytum",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Harpagophytum (griffe du diable)"
+  },
+  {
+    "slug": "lavande-vraie",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Lavande vraie"
+  },
+  {
+    "slug": "melisse",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Mélisse (Melissa officinalis) : ce que confirment les revues récentes"
+  },
+  {
+    "slug": "menthe-poivree",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Menthe poivrée"
+  },
+  {
+    "slug": "ortie",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Ortie"
+  },
+  {
+    "slug": "passiflore",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Passiflore"
+  },
+  {
+    "slug": "pissenlit",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Pissenlit"
+  },
+  {
+    "slug": "prele-des-champs",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Prêle des champs"
+  },
+  {
+    "slug": "reine-des-pres",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Reine-des-prés"
+  },
+  {
+    "slug": "rhodiole",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Rhodiole"
+  },
+  {
+    "slug": "romarin",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Romarin"
+  },
+  {
+    "slug": "sauge-officinale",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Sauge officinale"
+  },
+  {
+    "slug": "thym",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Thym"
+  },
+  {
+    "slug": "valeriane",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Valériane (Valeriana officinalis) : méta-analyse sur l'insomnie"
+  },
+  {
+    "slug": "millepertuis-hypericum-depression",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Millepertuis (Hypericum perforatum) : antidépresseur naturel reconnu"
+  },
+  {
+    "slug": "5-htp-griffonia-serotonine",
+    "section": "article",
+    "category": "plantes",
+    "subject": "5-HTP (Griffonia simplicifolia) : précurseur de la sérotonine"
+  },
+  {
+    "slug": "safran-crocus-depression",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Safran (Crocus sativus) : antidépresseur naturel émergent"
+  },
+  {
+    "slug": "alimentation-vivante",
+    "section": "article",
+    "category": "alimentation",
+    "subject": "L'alimentation vivante : principes et transition"
+  },
+  {
+    "slug": "graines-germees",
+    "section": "article",
+    "category": "alimentation",
+    "subject": "Les graines germées : super-aliments à 0 €"
+  },
+  {
+    "slug": "lacto-fermentation",
+    "section": "article",
+    "category": "alimentation",
+    "subject": "Lacto-fermentation : ce que la recherche sur le microbiote suggère"
+  },
+  {
+    "slug": "associations-alimentaires",
+    "section": "article",
+    "category": "alimentation",
+    "subject": "Les associations alimentaires : pour une digestion légère"
+  },
+  {
+    "slug": "chrono-nutrition-naturopathique",
+    "section": "article",
+    "category": "alimentation",
+    "subject": "Chrono-nutrition naturopathique : tradition et mises au point récentes"
+  },
+  {
+    "slug": "mastication",
+    "section": "article",
+    "category": "alimentation",
+    "subject": "La mastication : la base oubliée"
+  },
+  {
+    "slug": "hydratation-naturopathique",
+    "section": "article",
+    "category": "alimentation",
+    "subject": "L'hydratation : qualité, quantité, timing"
+  },
+  {
+    "slug": "gluten-laitages",
+    "section": "article",
+    "category": "alimentation",
+    "subject": "Gluten et produits laitiers : faut-il les éviter ?"
+  },
+  {
+    "slug": "sucres-additifs-perturbateurs",
+    "section": "article",
+    "category": "alimentation",
+    "subject": "Sucres, additifs et perturbateurs : les vraies menaces"
+  },
+  {
+    "slug": "mind-diet-cognition",
+    "section": "article",
+    "category": "alimentation",
+    "subject": "MIND diet : alimentation et déclin cognitif"
+  },
+  {
+    "slug": "meal-timing-circadien-metabolique",
+    "section": "article",
+    "category": "alimentation",
+    "subject": "Meal timing : impact métabolique des horaires de repas"
+  },
+  {
+    "slug": "cacao-flavanols-cognition",
+    "section": "article",
+    "category": "alimentation",
+    "subject": "Cacao et flavanols : cognition et profil cardiovasculaire"
+  },
+  {
+    "slug": "cure-printemps",
+    "section": "article",
+    "category": "cures-saisonnieres",
+    "subject": "La cure de printemps : drainage du foie"
+  },
+  {
+    "slug": "cure-ete",
+    "section": "article",
+    "category": "cures-saisonnieres",
+    "subject": "La cure d'été : drainage du cœur et des reins"
+  },
+  {
+    "slug": "cure-automne",
+    "section": "article",
+    "category": "cures-saisonnieres",
+    "subject": "La cure d'automne : préparation à l'hiver"
+  },
+  {
+    "slug": "cure-hiver",
+    "section": "article",
+    "category": "cures-saisonnieres",
+    "subject": "La cure d'hiver : chaleur intérieure et immunité"
+  },
+  {
+    "slug": "luminotherapie-depression-saisonniere",
+    "section": "article",
+    "category": "cures-saisonnieres",
+    "subject": "Luminothérapie et trouble affectif saisonnier : un traitement validé"
+  },
+  {
+    "slug": "douche-ecossaise",
+    "section": "article",
+    "category": "hydrotherapie",
+    "subject": "La douche écossaise : alternance chaud-froid"
+  },
+  {
+    "slug": "bain-chaud-detox",
+    "section": "article",
+    "category": "hydrotherapie",
+    "subject": "Le bain chaud détoxifiant : sel et bicarbonate"
+  },
+  {
+    "slug": "bains-pieds",
+    "section": "article",
+    "category": "hydrotherapie",
+    "subject": "Les bains de pieds : drainage et apaisement"
+  },
+  {
+    "slug": "compresse-chaude-foie",
+    "section": "article",
+    "category": "hydrotherapie",
+    "subject": "La compresse chaude sur le foie : drainage en douceur"
+  },
+  {
+    "slug": "hydrotherapie-colon",
+    "section": "article",
+    "category": "hydrotherapie",
+    "subject": "Hydrothérapie du côlon : la version pro du lavement"
+  },
+  {
+    "slug": "exposition-froid-immersion",
+    "section": "article",
+    "category": "hydrotherapie",
+    "subject": "Exposition au froid : ce que la littérature commence à montrer"
+  },
+  {
+    "slug": "sauna-finlandais-cardiovasculaire",
+    "section": "article",
+    "category": "hydrotherapie",
+    "subject": "Sauna finlandais : données cardiovasculaires solides"
+  },
+  {
+    "slug": "huiles-essentielles-introduction",
+    "section": "article",
+    "category": "aromatherapie",
+    "subject": "Aromathérapie : les bases pour bien commencer"
+  },
+  {
+    "slug": "he-lavande-vraie",
+    "section": "article",
+    "category": "aromatherapie",
+    "subject": "Lavande vraie : l'huile essentielle universelle"
+  },
+  {
+    "slug": "he-arbre-a-the",
+    "section": "article",
+    "category": "aromatherapie",
+    "subject": "Tea tree (Melaleuca alternifolia) : l'antimicrobien le mieux étudié"
+  },
+  {
+    "slug": "he-eucalyptus-radie",
+    "section": "article",
+    "category": "aromatherapie",
+    "subject": "Eucalyptus radié : la voie respiratoire à libérer"
+  },
+  {
+    "slug": "he-ravintsara",
+    "section": "article",
+    "category": "aromatherapie",
+    "subject": "Ravintsara : l'antivirale traditionnelle"
+  },
+  {
+    "slug": "he-menthe-poivree",
+    "section": "article",
+    "category": "aromatherapie",
+    "subject": "Menthe poivrée : tonus mental et anti-nausée"
+  },
+  {
+    "slug": "he-helichryse-italienne",
+    "section": "article",
+    "category": "aromatherapie",
+    "subject": "Hélichryse italienne : l'anti-hématome traditionnel"
+  },
+  {
+    "slug": "he-niaouli",
+    "section": "article",
+    "category": "aromatherapie",
+    "subject": "Niaouli : assainissant cutané et respiratoire"
+  },
+  {
+    "slug": "synergies-aromatherapeutiques",
+    "section": "article",
+    "category": "aromatherapie",
+    "subject": "Synergies d'huiles essentielles : formules traditionnelles"
+  },
+  {
+    "slug": "silexan-lavande-anxiete",
+    "section": "article",
+    "category": "aromatherapie",
+    "subject": "Silexan (lavande orale standardisée) : effet anxiolytique documenté"
+  },
+  {
+    "slug": "aromatherapie-post-operatoire",
+    "section": "article",
+    "category": "aromatherapie",
+    "subject": "Aromathérapie en post-opératoire : ce que disent les RCT récents"
+  },
+  {
+    "slug": "respiration-abdominale",
+    "section": "article",
+    "category": "respiration-sommeil",
+    "subject": "La respiration abdominale : la base oubliée"
+  },
+  {
+    "slug": "respiration-4-7-8",
+    "section": "article",
+    "category": "respiration-sommeil",
+    "subject": "La technique du 4-7-8 : endormissement express"
+  },
+  {
+    "slug": "hygiene-sommeil",
+    "section": "article",
+    "category": "respiration-sommeil",
+    "subject": "Hygiène du sommeil : ce que les méta-analyses confirment"
+  },
+  {
+    "slug": "coherence-cardiaque",
+    "section": "article",
+    "category": "respiration-sommeil",
+    "subject": "Cohérence cardiaque (respiration lente) : effets documentés"
+  },
+  {
+    "slug": "insomnie-naturelle",
+    "section": "article",
+    "category": "respiration-sommeil",
+    "subject": "Insomnie : solutions naturelles selon le type"
+  },
+  {
+    "slug": "melatonine-naturelle",
+    "section": "article",
+    "category": "respiration-sommeil",
+    "subject": "Mélatonine naturelle : la chimie du sommeil"
+  },
+  {
+    "slug": "tryptophane-sommeil",
+    "section": "article",
+    "category": "respiration-sommeil",
+    "subject": "Tryptophane et sommeil : un signal robuste"
+  },
+  {
+    "slug": "stress-chronique-causes",
+    "section": "article",
+    "category": "stress-emotions",
+    "subject": "Stress chronique : comprendre les mécanismes"
+  },
+  {
+    "slug": "meditation-pleine-conscience",
+    "section": "article",
+    "category": "stress-emotions",
+    "subject": "Méditation de pleine conscience : ce que disent les méta-analyses"
+  },
+  {
+    "slug": "fleurs-de-bach",
+    "section": "article",
+    "category": "stress-emotions",
+    "subject": "Fleurs de Bach : les émotions en harmonie"
+  },
+  {
+    "slug": "ecriture-cathartique",
+    "section": "article",
+    "category": "stress-emotions",
+    "subject": "L'écriture cathartique : 20 minutes pour libérer"
+  },
+  {
+    "slug": "bain-foret-shinrin-yoku",
+    "section": "article",
+    "category": "stress-emotions",
+    "subject": "Bain de forêt (Shinrin-Yoku) : signal cortisol confirmé par méta-analyse"
+  },
+  {
+    "slug": "yoga-anti-stress",
+    "section": "article",
+    "category": "stress-emotions",
+    "subject": "Le yoga anti-stress : 4 postures essentielles"
+  },
+  {
+    "slug": "acceptance-commitment-therapie-act",
+    "section": "article",
+    "category": "stress-emotions",
+    "subject": "Thérapie ACT (acceptance and commitment) : effets documentés"
+  },
+  {
+    "slug": "ecriture-expressive-immunite",
+    "section": "article",
+    "category": "stress-emotions",
+    "subject": "Écriture expressive : effets sur l'immunité documentés"
+  },
+  {
+    "slug": "vitamine-a",
+    "section": "article",
+    "category": "vitamines",
+    "subject": "Vitamine A : la vitamine des muqueuses et de la vision"
+  },
+  {
+    "slug": "vitamine-b1",
+    "section": "article",
+    "category": "vitamines",
+    "subject": "Vitamine B1 (thiamine) : la vitamine de l'énergie"
+  },
+  {
+    "slug": "vitamine-b6",
+    "section": "article",
+    "category": "vitamines",
+    "subject": "Vitamine B6 (P5P) : la vitamine du système nerveux"
+  },
+  {
+    "slug": "vitamine-b9",
+    "section": "article",
+    "category": "vitamines",
+    "subject": "Vitamine B9 (méthylfolate) : essentielle, surtout pour les mutations MTHFR"
+  },
+  {
+    "slug": "vitamine-b12",
+    "section": "article",
+    "category": "vitamines",
+    "subject": "Vitamine B12 : la cyanocobalamine est obsolète"
+  },
+  {
+    "slug": "vitamine-c",
+    "section": "article",
+    "category": "vitamines",
+    "subject": "Vitamine C : bien plus qu'un anti-rhume"
+  },
+  {
+    "slug": "vitamine-d",
+    "section": "article",
+    "category": "vitamines",
+    "subject": "Vitamine D3 : la vitamine-hormone de l'hiver"
+  },
+  {
+    "slug": "vitamine-e",
+    "section": "article",
+    "category": "vitamines",
+    "subject": "Vitamine E naturelle : oui, synthétique : non"
+  },
+  {
+    "slug": "vitamine-k2",
+    "section": "article",
+    "category": "vitamines",
+    "subject": "Vitamine K2 (MK-7) : la vitamine méconnue"
+  },
+  {
+    "slug": "vitamine-b2",
+    "section": "article",
+    "category": "vitamines",
+    "subject": "Vitamine B2 (riboflavine) : énergie et migraines"
+  },
+  {
+    "slug": "vitamine-b3",
+    "section": "article",
+    "category": "vitamines",
+    "subject": "Vitamine B3 (niacine) : énergie et cholestérol"
+  },
+  {
+    "slug": "vitamine-b5",
+    "section": "article",
+    "category": "vitamines",
+    "subject": "Vitamine B5 (acide pantothénique) : la vitamine du stress"
+  },
+  {
+    "slug": "magnesium",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Magnésium : le minéral anti-stress n°1"
+  },
+  {
+    "slug": "zinc",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Zinc : immunité, peau, hormones"
+  },
+  {
+    "slug": "fer",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Fer : ferritine avant tout, ne pas supplémenter à l'aveugle"
+  },
+  {
+    "slug": "calcium",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Calcium : l'obsession laitière à nuancer"
+  },
+  {
+    "slug": "iode",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Iode : la thyroïde et bien plus"
+  },
+  {
+    "slug": "selenium",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Sélénium : antioxydant et thyroïde"
+  },
+  {
+    "slug": "chrome",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Chrome : régulation glycémique"
+  },
+  {
+    "slug": "cuivre",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Cuivre : oligo-élément à doser"
+  },
+  {
+    "slug": "silicium",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Silicium organique : collagène et tissus conjonctifs"
+  },
+  {
+    "slug": "manganese",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Manganèse : antioxydant et arthrose"
+  },
+  {
+    "slug": "potassium",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Potassium : sortir du déséquilibre sodium/potassium"
+  },
+  {
+    "slug": "molybdene",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Molybdène : oligo-élément des sulfites"
+  },
+  {
+    "slug": "lithium-oligo",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Lithium oligo : régulation de l'humeur"
+  },
+  {
+    "slug": "bore",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Bore : oligo-élément des os et des hormones"
+  },
+  {
+    "slug": "omega-3-fondamentaux",
+    "section": "article",
+    "category": "acides-gras",
+    "subject": "Oméga-3 : EPA, DHA, ALA — les bases"
+  },
+  {
+    "slug": "omega-3-vegetaux",
+    "section": "article",
+    "category": "acides-gras",
+    "subject": "Oméga-3 végétaux : huiles et graines"
+  },
+  {
+    "slug": "huile-cco-mct",
+    "section": "article",
+    "category": "acides-gras",
+    "subject": "Huile de coco et huile MCT : carburant cétogène"
+  },
+  {
+    "slug": "huiles-cuisson",
+    "section": "article",
+    "category": "acides-gras",
+    "subject": "Bien choisir ses huiles de cuisson"
+  },
+  {
+    "slug": "huile-perilla",
+    "section": "article",
+    "category": "acides-gras",
+    "subject": "Huile de périlla : star japonaise du oméga-3"
+  },
+  {
+    "slug": "ghee-beurre-clarifie",
+    "section": "article",
+    "category": "acides-gras",
+    "subject": "Le ghee : beurre purifié des yogis"
+  },
+  {
+    "slug": "tryptophane",
+    "section": "article",
+    "category": "acides-amines",
+    "subject": "Tryptophane : précurseur de la sérotonine"
+  },
+  {
+    "slug": "tyrosine",
+    "section": "article",
+    "category": "acides-amines",
+    "subject": "Tyrosine : précurseur de la dopamine"
+  },
+  {
+    "slug": "glutamine",
+    "section": "article",
+    "category": "acides-amines",
+    "subject": "L-glutamine : la barrière intestinale"
+  },
+  {
+    "slug": "taurine",
+    "section": "article",
+    "category": "acides-amines",
+    "subject": "Taurine : énergie, vue, sevrage stimulants"
+  },
+  {
+    "slug": "glycine",
+    "section": "article",
+    "category": "acides-amines",
+    "subject": "Glycine : sommeil et collagène"
+  },
+  {
+    "slug": "arginine-citrulline",
+    "section": "article",
+    "category": "acides-amines",
+    "subject": "L-arginine et L-citrulline : NO et circulation"
+  },
+  {
+    "slug": "carnitine-acetyl",
+    "section": "article",
+    "category": "acides-amines",
+    "subject": "L-carnitine et acétyl-L-carnitine : énergie mitochondriale"
+  },
+  {
+    "slug": "glutathion",
+    "section": "article",
+    "category": "antioxydants",
+    "subject": "Glutathion : l'antioxydant maître"
+  },
+  {
+    "slug": "coenzyme-q10-detail",
+    "section": "article",
+    "category": "antioxydants",
+    "subject": "CoQ10 (ubiquinol) : énergie mitochondriale"
+  },
+  {
+    "slug": "resveratrol",
+    "section": "article",
+    "category": "antioxydants",
+    "subject": "Resvératrol : la molécule du vin rouge"
+  },
+  {
+    "slug": "astaxanthine",
+    "section": "article",
+    "category": "antioxydants",
+    "subject": "Astaxanthine : le caroténoïde le plus puissant"
+  },
+  {
+    "slug": "acide-alpha-lipoique",
+    "section": "article",
+    "category": "antioxydants",
+    "subject": "Acide alpha-lipoïque (ALA) : antioxydant universel"
+  },
+  {
+    "slug": "quercetine",
+    "section": "article",
+    "category": "antioxydants",
+    "subject": "Quercétine : anti-allergique naturelle"
+  },
+  {
+    "slug": "polyphenols-fruits-rouges",
+    "section": "article",
+    "category": "antioxydants",
+    "subject": "Anthocyanes : polyphénols des fruits rouges"
+  },
+  {
+    "slug": "microbiote-bases",
+    "section": "article",
+    "category": "probiotiques",
+    "subject": "Microbiote intestinal : ce qu'il faut savoir"
+  },
+  {
+    "slug": "probiotiques-multi-souches",
+    "section": "article",
+    "category": "probiotiques",
+    "subject": "Probiotiques en complément : multi-souches efficaces"
+  },
+  {
+    "slug": "prebiotiques-fibres",
+    "section": "article",
+    "category": "probiotiques",
+    "subject": "Prébiotiques : nourrir les bonnes bactéries"
+  },
+  {
+    "slug": "perméabilité-intestinale",
+    "section": "article",
+    "category": "probiotiques",
+    "subject": "L'hyperperméabilité intestinale (leaky gut)"
+  },
+  {
+    "slug": "candidose-intestinale",
+    "section": "article",
+    "category": "probiotiques",
+    "subject": "Candidose intestinale chronique"
+  },
+  {
+    "slug": "plantes-adaptogenes-introduction",
+    "section": "article",
+    "category": "adaptogenes",
+    "subject": "Les plantes adaptogènes : qu'est-ce que c'est"
+  },
+  {
+    "slug": "ashwagandha",
+    "section": "article",
+    "category": "adaptogenes",
+    "subject": "Ashwagandha (Withania somnifera) : l'adaptogène apaisant"
+  },
+  {
+    "slug": "rhodiole-rhodiola",
+    "section": "article",
+    "category": "adaptogenes",
+    "subject": "Rhodiole (Rhodiola rosea) : adaptogène rapide"
+  },
+  {
+    "slug": "schisandra",
+    "section": "article",
+    "category": "adaptogenes",
+    "subject": "Schisandra (5 saveurs) : adaptogène hépatique"
+  },
+  {
+    "slug": "cordyceps-maitake-champignons",
+    "section": "article",
+    "category": "adaptogenes",
+    "subject": "Champignons médicinaux : cordyceps, reishi, maïtake"
+  },
+  {
+    "slug": "complements-fatigue-chronique",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Compléments pour la fatigue chronique"
+  },
+  {
+    "slug": "complements-anxiete",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Compléments pour l'anxiété"
+  },
+  {
+    "slug": "complements-sommeil",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Compléments pour le sommeil"
+  },
+  {
+    "slug": "complements-immunite",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Compléments pour booster l'immunité"
+  },
+  {
+    "slug": "complements-articulations",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Compléments pour les articulations"
+  },
+  {
+    "slug": "complements-thyroide",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Compléments pour la thyroïde"
+  },
+  {
+    "slug": "complements-peau",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Compléments pour la peau"
+  },
+  {
+    "slug": "complements-sport",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Compléments pour le sportif"
+  },
+  {
+    "slug": "complements-cognition",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Compléments pour la cognition"
+  },
+  {
+    "slug": "complements-cardio",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Compléments cardiovasculaires"
+  },
+  {
+    "slug": "cure-equinoxe-printemps",
+    "section": "article",
+    "category": "cures-saisonnieres",
+    "subject": "La cure équinoxe de printemps : transition cellulaire"
+  },
+  {
+    "slug": "cure-equinoxe-automne",
+    "section": "article",
+    "category": "cures-saisonnieres",
+    "subject": "La cure équinoxe d'automne : reminéralisation et préparation"
+  },
+  {
+    "slug": "transition-saisons-emonctoires",
+    "section": "article",
+    "category": "cures-saisonnieres",
+    "subject": "Pourquoi les changements de saison fatiguent les émonctoires"
+  },
+  {
+    "slug": "cure-printemps-foie-21j",
+    "section": "article",
+    "category": "cures-saisonnieres",
+    "subject": "Le protocole printemps 21 jours pour le foie"
+  },
+  {
+    "slug": "cure-automne-reins-poumons",
+    "section": "article",
+    "category": "cures-saisonnieres",
+    "subject": "Le drainage automnal reins-poumons"
+  },
+  {
+    "slug": "preparation-hiver-immunite",
+    "section": "article",
+    "category": "cures-saisonnieres",
+    "subject": "Préparer l'immunité dès septembre"
+  },
+  {
+    "slug": "emonctoires-foie-vesicule",
+    "section": "article",
+    "category": "purges",
+    "subject": "Le foie et la vésicule, premier émonctoire du naturopathe"
+  },
+  {
+    "slug": "emonctoires-reins-eau",
+    "section": "article",
+    "category": "purges",
+    "subject": "Les reins, filtres et émonctoires d'eau"
+  },
+  {
+    "slug": "emonctoires-intestins-elimination",
+    "section": "article",
+    "category": "purges",
+    "subject": "Les intestins, émonctoires majeurs d'élimination"
+  },
+  {
+    "slug": "emonctoires-peau-sudation",
+    "section": "article",
+    "category": "purges",
+    "subject": "La peau, émonctoire d'urgence par la sudation"
+  },
+  {
+    "slug": "emonctoires-poumons-bronches",
+    "section": "article",
+    "category": "purges",
+    "subject": "Les poumons et bronches, émonctoires d'air"
+  },
+  {
+    "slug": "rotation-emonctoires-protocole",
+    "section": "article",
+    "category": "purges",
+    "subject": "Rotation des émonctoires : protocole sur l'année"
+  },
+  {
+    "slug": "rituel-sommeil-90-minutes",
+    "section": "article",
+    "category": "respiration-sommeil",
+    "subject": "Le rituel des 90 minutes avant coucher"
+  },
+  {
+    "slug": "lumiere-bleue-melatonine",
+    "section": "article",
+    "category": "respiration-sommeil",
+    "subject": "Lumière bleue et mélatonine : comprendre les écrans le soir"
+  },
+  {
+    "slug": "temperature-chambre-sommeil-profond",
+    "section": "article",
+    "category": "respiration-sommeil",
+    "subject": "Température de chambre et sommeil profond (16-18 °C)"
+  },
+  {
+    "slug": "respiration-coherente-quotidien",
+    "section": "article",
+    "category": "respiration-sommeil",
+    "subject": "Intégrer la respiration cohérente au quotidien"
+  },
+  {
+    "slug": "cortisol-rythme-circadien",
+    "section": "article",
+    "category": "stress-emotions",
+    "subject": "Le cortisol et son rythme circadien naturel"
+  },
+  {
+    "slug": "burn-out-phases-naturopathie",
+    "section": "article",
+    "category": "stress-emotions",
+    "subject": "Les 3 phases du burn-out vues par la naturopathie"
+  },
+  {
+    "slug": "gratitude-pratique-quotidienne",
+    "section": "article",
+    "category": "stress-emotions",
+    "subject": "La pratique de gratitude : impact sur la physiologie"
+  },
+  {
+    "slug": "nature-walking-shinrin-yoku",
+    "section": "article",
+    "category": "stress-emotions",
+    "subject": "Le walking en nature : adaptation française du shinrin-yoku"
+  },
+  {
+    "slug": "petit-dejeuner-proteine",
+    "section": "article",
+    "category": "alimentation",
+    "subject": "Le petit-déjeuner protéiné : pourquoi rompre avec le sucré"
+  },
+  {
+    "slug": "cuisson-douce-vitalite",
+    "section": "article",
+    "category": "alimentation",
+    "subject": "Cuisson douce et préservation de la vitalité alimentaire"
+  },
+  {
+    "slug": "masticer-30-fois",
+    "section": "article",
+    "category": "alimentation",
+    "subject": "La règle des 30 mastications : prédigestion et satiété"
+  },
+  {
+    "slug": "eau-citronnee-matin",
+    "section": "article",
+    "category": "alimentation",
+    "subject": "L'eau citronnée du matin : tradition et bénéfices"
+  },
+  {
+    "slug": "syndrome-metabolique-nutritherapie",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Syndrome métabolique : approche nutrithérapeutique"
+  },
+  {
+    "slug": "fibromyalgie-protocole-curtay",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Fibromyalgie : le protocole nutritionnel de Jean-Paul Curtay"
+  },
+  {
+    "slug": "migraine-mg-b2-coq10",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Migraine : magnésium, riboflavine (B2) et coenzyme Q10"
+  },
+  {
+    "slug": "sii-fodmap-glutamine",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Syndrome de l'intestin irritable (SII) : régime FODMAP et glutamine"
+  },
+  {
+    "slug": "thyroidite-hashimoto-selenium",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Thyroïdite de Hashimoto : sélénium, iode et précautions"
+  },
+  {
+    "slug": "menopause-phytoestrogenes",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Ménopause : phyto-œstrogènes, oméga-3 et approche globale"
+  },
+  {
+    "slug": "arthrose-curcuma-collagene",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Arthrose : curcuma, collagène et antioxydants"
+  },
+  {
+    "slug": "depression-tryptophane-omega3",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Dépression légère : tryptophane, oméga-3 et précautions"
+  },
+  {
+    "slug": "insomnie-melatonine-magnesium",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Insomnie : mélatonine, magnésium et hygiène du sommeil"
+  },
+  {
+    "slug": "stress-oxydatif-glutathion",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Stress oxydatif : le rôle pivot du glutathion (approche Lagarde)"
+  },
+  {
+    "slug": "mitochondries-energie-cellulaire",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Mitochondries et énergie cellulaire (approche Lagarde)"
+  },
+  {
+    "slug": "methylation-b9-b12-mthfr",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Méthylation, vitamines B9, B12 et polymorphismes MTHFR"
+  },
+  {
+    "slug": "vitamine-d-supplementation-hiver",
+    "section": "article",
+    "category": "vitamines",
+    "subject": "La supplémentation en vitamine D d'octobre à mars en France"
+  },
+  {
+    "slug": "b9-folates-alimentation-moderne",
+    "section": "article",
+    "category": "vitamines",
+    "subject": "Folates (B9) : les premiers détruits par la cuisson"
+  },
+  {
+    "slug": "b12-vegetariens-supplementation",
+    "section": "article",
+    "category": "vitamines",
+    "subject": "B12 et végétariens : la seule supplémentation non négociable"
+  },
+  {
+    "slug": "vitamine-k2-mk7-os-coeur",
+    "section": "article",
+    "category": "vitamines",
+    "subject": "Vitamine K2 MK7 : le maillon manquant entre calcium, os et artères"
+  },
+  {
+    "slug": "magnesium-bisglycinate-forme",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Magnésium bisglycinate vs oxyde : la forme qui change tout"
+  },
+  {
+    "slug": "zinc-immunite-fertilite",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Zinc, immunité et fertilité : 80% des Français sous le seuil"
+  },
+  {
+    "slug": "fer-bisglycinate-anemie",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Fer bisglycinate : la forme bien tolérée pour l'anémie"
+  },
+  {
+    "slug": "iode-thyroide-france",
+    "section": "article",
+    "category": "mineraux",
+    "subject": "Iode et thyroïde : pourquoi la France reste à la limite des recommandations OMS"
+  },
+  {
+    "slug": "omega-3-epa-dha-ratio",
+    "section": "article",
+    "category": "acides-gras",
+    "subject": "Oméga-3 EPA/DHA : le ratio qui compte pour le cerveau"
+  },
+  {
+    "slug": "omega-6-omega-3-desequilibre",
+    "section": "article",
+    "category": "acides-gras",
+    "subject": "Le déséquilibre oméga-6/oméga-3 dans l'alimentation moderne"
+  },
+  {
+    "slug": "microbiote-lagarde-cellulaire",
+    "section": "article",
+    "category": "probiotiques",
+    "subject": "Microbiote et nutrithérapie cellulaire (approche Lagarde)"
+  },
+  {
+    "slug": "fatigue-chronique-curtay-mitochondrie",
+    "section": "article",
+    "category": "objectifs",
+    "subject": "Fatigue chronique : l'approche Curtay axée mitochondrie"
+  },
+  {
+    "slug": "cure-thermale-tradition",
+    "section": "article",
+    "category": "hydrotherapie",
+    "subject": "Les cures thermales : tradition européenne"
+  },
+  {
+    "slug": "douche-soleil-vivifiante",
+    "section": "article",
+    "category": "hydrotherapie",
+    "subject": "La douche du soleil vivifiante (méthode Kneipp)"
+  },
+  {
+    "slug": "enveloppement-froid-priessnitz",
+    "section": "article",
+    "category": "hydrotherapie",
+    "subject": "L'enveloppement froid de Priessnitz"
+  },
+  {
+    "slug": "cataplasme-argile-applications",
+    "section": "article",
+    "category": "hydrotherapie",
+    "subject": "Le cataplasme d'argile verte : applications classiques"
+  },
+  {
+    "slug": "roll-on-anti-stress-formules",
+    "section": "article",
+    "category": "aromatherapie",
+    "subject": "Roll-on anti-stress : 3 formules à fabriquer chez soi"
+  },
+  {
+    "slug": "diffusion-bureau-concentration",
+    "section": "article",
+    "category": "aromatherapie",
+    "subject": "Diffusion au bureau : huiles essentielles pour la concentration"
+  },
+  {
+    "slug": "olfactotherapie-base",
+    "section": "article",
+    "category": "aromatherapie",
+    "subject": "L'olfactothérapie : utiliser le nerf olfactif comme porte d'entrée"
+  },
+  {
+    "slug": "huile-massage-jambes-lourdes",
+    "section": "article",
+    "category": "aromatherapie",
+    "subject": "Huile de massage maison pour jambes lourdes"
+  },
+  {
+    "slug": "gemmotherapie-bases",
+    "section": "article",
+    "category": "plantes",
+    "subject": "La gemmothérapie : introduction aux macérats glycérinés"
+  },
+  {
+    "slug": "teintures-meres-fabrication",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Fabriquer ses teintures-mères à la maison"
+  },
+  {
+    "slug": "cure-bourgeon-cassis-printemps",
+    "section": "article",
+    "category": "plantes",
+    "subject": "La cure bourgeon de cassis au printemps"
+  },
+  {
+    "slug": "desmodium-foie-renaissance",
+    "section": "article",
+    "category": "plantes",
+    "subject": "Desmodium adscendens : foie et renaissance hépatique"
+  },
+  {
+    "slug": "vitamine-d-mortalite-toute-cause",
+    "section": "actualite",
+    "category": "vitamines",
+    "subject": "Vitamine D et mortalité toute cause : ce que disent les revues 2025-2026"
+  },
+  {
+    "slug": "b12-cognition-personne-agee",
+    "section": "actualite",
+    "category": "vitamines",
+    "subject": "Vitamine B12 et cognition de la personne âgée : la revue 2025"
+  },
+  {
+    "slug": "vitamine-k2-mk7-osteoporose",
+    "section": "actualite",
+    "category": "vitamines",
+    "subject": "Vitamine K2 (MK-7) et os : ce que dit la méta-analyse 2025"
+  },
+  {
+    "slug": "magnesium-syndrome-metabolique",
+    "section": "actualite",
+    "category": "mineraux",
+    "subject": "Magnésium et syndrome métabolique : la méta-analyse 2025"
+  },
+  {
+    "slug": "zinc-fertilite-masculine",
+    "section": "actualite",
+    "category": "mineraux",
+    "subject": "Zinc et fertilité masculine : ce que dit la revue 2025"
+  },
+  {
+    "slug": "selenium-cancer-prevention-update",
+    "section": "actualite",
+    "category": "mineraux",
+    "subject": "Sélénium et prévention du cancer : update 2025"
+  },
+  {
+    "slug": "safran-depression-meta-2024",
+    "section": "actualite",
+    "category": "adaptogenes-plantes",
+    "subject": "Safran et dépression : la méta-analyse GRADE 2026 sur 34 essais"
+  },
+  {
+    "slug": "curcuma-arthrose-genou-update",
+    "section": "actualite",
+    "category": "adaptogenes-plantes",
+    "subject": "Curcuma et arthrose du genou : la revue critique 2025"
+  },
+  {
+    "slug": "rhodiole-fatigue-recente",
+    "section": "actualite",
+    "category": "adaptogenes-plantes",
+    "subject": "Rhodiola rosea et fatigue : essais randomisés récents"
+  },
+  {
+    "slug": "probiotiques-eczema-enfant",
+    "section": "actualite",
+    "category": "microbiote-nutrition",
+    "subject": "Probiotiques et eczéma de l'enfant : l'umbrella review 2026"
+  },
+  {
+    "slug": "mediterraneen-mortalite-cohorte",
+    "section": "actualite",
+    "category": "microbiote-nutrition",
+    "subject": "Régime méditerranéen et mortalité : la méta-analyse italienne 2026"
+  },
+  {
+    "slug": "jeune-intermittent-poids-mortalite",
+    "section": "actualite",
+    "category": "microbiote-nutrition",
+    "subject": "Jeûne intermittent : la revue 2026 chez les seniors"
+  },
+  {
+    "slug": "vitamine-c-non-toxicite-limites",
+    "section": "actualite",
+    "category": "vitamines",
+    "subject": "Vitamine C : que disent vraiment les données sur la toxicité ?"
+  },
+  {
+    "slug": "vitamine-d-supplementation-infections-respiratoires",
+    "section": "actualite",
+    "category": "vitamines",
+    "subject": "Vitamine D : la supplémentation préviendrait-elle vraiment les infections respiratoires ?"
+  },
+  {
+    "slug": "vitamine-b12-vegetariens-deficit",
+    "section": "actualite",
+    "category": "vitamines",
+    "subject": "Vitamine B12 : pourquoi le régime végétarien semblerait insuffisant"
+  },
+  {
+    "slug": "folates-methylfolate-depression",
+    "section": "actualite",
+    "category": "vitamines",
+    "subject": "L-méthylfolate (B9 active) : ce que disent les méta-analyses en dépression"
+  },
+  {
+    "slug": "vitamine-k2-arteres-os",
+    "section": "actualite",
+    "category": "vitamines",
+    "subject": "Vitamine K2 : ce qu'un essai randomisé majeur a conclu sur la calcification"
+  },
+  {
+    "slug": "magnesium-formes-biodisponibilite",
+    "section": "actualite",
+    "category": "mineraux",
+    "subject": "Magnésium : citrate, bisglycinate, oxyde — que dit la littérature ?"
+  },
+  {
+    "slug": "zinc-immunite-infections-respiratoires",
+    "section": "actualite",
+    "category": "mineraux",
+    "subject": "Zinc et immunité : où en sont les méta-analyses récentes ?"
+  },
+  {
+    "slug": "fer-bisglycinate-vs-sulfate",
+    "section": "actualite",
+    "category": "mineraux",
+    "subject": "Fer : le bisglycinate serait-il vraiment mieux toléré que le sulfate ?"
+  },
+  {
+    "slug": "iode-thyroide-carence",
+    "section": "actualite",
+    "category": "mineraux",
+    "subject": "Iode et thyroïde : la carence reste-t-elle un enjeu en Europe ?"
+  },
+  {
+    "slug": "selenium-hashimoto-thyroidite",
+    "section": "actualite",
+    "category": "mineraux",
+    "subject": "Sélénium et thyroïdite de Hashimoto : le point sur les méta-analyses"
+  },
+  {
+    "slug": "ashwagandha-stress-cortisol",
+    "section": "actualite",
+    "category": "adaptogenes-plantes",
+    "subject": "Ashwagandha et stress : que disent les essais randomisés ?"
+  },
+  {
+    "slug": "rhodiole-fatigue-performance-mentale",
+    "section": "actualite",
+    "category": "adaptogenes-plantes",
+    "subject": "Rhodiola rosea : ce qu'on a appris depuis l'étude SHR-5"
+  },
+  {
+    "slug": "curcuma-piperine-biodisponibilite",
+    "section": "actualite",
+    "category": "adaptogenes-plantes",
+    "subject": "Curcuma : pourquoi la pipérine semblerait incontournable"
+  },
+  {
+    "slug": "ginseng-fatigue-meta-analyses",
+    "section": "actualite",
+    "category": "adaptogenes-plantes",
+    "subject": "Ginseng et fatigue : ce que disent les méta-analyses récentes"
+  },
+  {
+    "slug": "cordyceps-performance-sportive",
+    "section": "actualite",
+    "category": "adaptogenes-plantes",
+    "subject": "Cordyceps militaris : un effet réel sur la performance sportive ?"
+  },
+  {
+    "slug": "probiotiques-axe-intestin-cerveau",
+    "section": "actualite",
+    "category": "microbiote-nutrition",
+    "subject": "Axe intestin-cerveau : les probiotiques agissent-ils vraiment sur l'humeur ?"
+  },
+  {
+    "slug": "omega-3-epa-dha-cardiovasculaire",
+    "section": "actualite",
+    "category": "microbiote-nutrition",
+    "subject": "Oméga-3 EPA/DHA : les méta-analyses convergent-elles enfin ?"
+  },
+  {
+    "slug": "jeune-intermittent-autophagie-metabolisme",
+    "section": "actualite",
+    "category": "microbiote-nutrition",
+    "subject": "Jeûne intermittent : la promesse de l'autophagie tient-elle ses promesses ?"
+  },
+  {
+    "slug": "polyphenols-regime-mediterraneen-cardiovasculaire",
+    "section": "actualite",
+    "category": "microbiote-nutrition",
+    "subject": "Polyphénols et santé cardiovasculaire : ce qu'on tire de l'épidémiologie méditerranéenne"
+  },
+  {
+    "slug": "fibres-prebiotiques-acides-gras-chaine-courte",
+    "section": "actualite",
+    "category": "microbiote-nutrition",
+    "subject": "Fibres prébiotiques et acides gras à chaîne courte : la nouvelle frontière"
+  },
+  {
+    "slug": "vitamine-a-toxicite-retinol",
+    "section": "actualite",
+    "category": "vitamines",
+    "subject": "Vitamine A : la toxicité du rétinol est-elle réellement préoccupante ?"
+  },
+  {
+    "slug": "vitamine-e-alpha-gamma-tocopherol",
+    "section": "actualite",
+    "category": "vitamines",
+    "subject": "Vitamine E : pourquoi le gamma-tocophérol mériterait peut-être plus d'attention"
+  },
+  {
+    "slug": "vitamine-b6-neuropathie-dose-elevee",
+    "section": "actualite",
+    "category": "vitamines",
+    "subject": "Vitamine B6 : à partir de quelle dose la neurotoxicité deviendrait-elle un risque ?"
+  },
+  {
+    "slug": "niacine-vitamine-b3-flush-lipides",
+    "section": "actualite",
+    "category": "vitamines",
+    "subject": "Niacine (vitamine B3) : pourquoi son usage en cardiologie a-t-il diminué ?"
+  },
+  {
+    "slug": "thiamine-wernicke-alcool",
+    "section": "actualite",
+    "category": "vitamines",
+    "subject": "Thiamine (B1) et encéphalopathie de Wernicke : un déficit qui reste sous-diagnostiqué"
+  },
+  {
+    "slug": "calcium-supplementation-cardiovasculaire-controverse",
+    "section": "actualite",
+    "category": "mineraux",
+    "subject": "Calcium en supplément : le débat cardiovasculaire est-il tranché ?"
+  },
+  {
+    "slug": "potassium-tension-arterielle-meta-analyses",
+    "section": "actualite",
+    "category": "mineraux",
+    "subject": "Potassium et tension : l'effet est-il vraiment dose-dépendant ?"
+  },
+  {
+    "slug": "manganese-neurotoxicite-exposition",
+    "section": "actualite",
+    "category": "mineraux",
+    "subject": "Manganèse : un cofacteur indispensable, mais à respecter"
+  },
+  {
+    "slug": "cuivre-zinc-equilibre-ratio",
+    "section": "actualite",
+    "category": "mineraux",
+    "subject": "Zinc et cuivre : pourquoi le ratio compterait autant que la dose"
+  },
+  {
+    "slug": "chrome-picolinate-diabete-type-2",
+    "section": "actualite",
+    "category": "mineraux",
+    "subject": "Chrome picolinate dans le diabète de type 2 : un effet réel ?"
+  },
+  {
+    "slug": "reishi-ganoderma-immunite-cancer",
+    "section": "actualite",
+    "category": "adaptogenes-plantes",
+    "subject": "Reishi (Ganoderma lucidum) : quelle réalité derrière les promesses ?"
+  },
+  {
+    "slug": "maca-lepidium-meyenii-fonction-sexuelle",
+    "section": "actualite",
+    "category": "adaptogenes-plantes",
+    "subject": "Maca (Lepidium meyenii) : effet sur la libido sans modifier la testostérone"
+  },
+  {
+    "slug": "astragale-membranaceus-immunite",
+    "section": "actualite",
+    "category": "adaptogenes-plantes",
+    "subject": "Astragale (Astragalus membranaceus) : modulation immunitaire documentée"
+  },
+  {
+    "slug": "bacopa-monnieri-memoire-cognition",
+    "section": "actualite",
+    "category": "adaptogenes-plantes",
+    "subject": "Bacopa monnieri : signal cognitif modeste mais documenté"
+  },
+  {
+    "slug": "ginkgo-biloba-cognition-dementia",
+    "section": "actualite",
+    "category": "adaptogenes-plantes",
+    "subject": "Ginkgo biloba : ce que les méta-analyses concluent réellement"
+  },
+  {
+    "slug": "probiotiques-prevention-diarrhee-antibiotiques",
+    "section": "actualite",
+    "category": "microbiote-nutrition",
+    "subject": "Probiotiques et antibiothérapie : indication la plus solide"
+  },
+  {
+    "slug": "regime-cetogene-epilepsie-pediatrique",
+    "section": "actualite",
+    "category": "microbiote-nutrition",
+    "subject": "Régime cétogène : l'indication la plus solidement validée reste pédiatrique"
+  },
+  {
+    "slug": "resveratrol-sirtuines-vieillissement",
+    "section": "actualite",
+    "category": "microbiote-nutrition",
+    "subject": "Resvératrol et sirtuines : la promesse anti-vieillissement à l'épreuve des essais"
+  },
+  {
+    "slug": "coq10-myopathie-statines",
+    "section": "actualite",
+    "category": "microbiote-nutrition",
+    "subject": "Coenzyme Q10 et myopathie sous statines : signal réel mais modeste"
+  },
+  {
+    "slug": "nmn-nad-anti-vieillissement",
+    "section": "actualite",
+    "category": "microbiote-nutrition",
+    "subject": "NMN et NAD+ : que disent les premiers essais cliniques humains ?"
+  },
+  {
+    "slug": "valeriane-sommeil",
+    "section": "plante",
+    "category": "sommeil",
+    "subject": "Valériane",
+    "latin": "Valeriana officinalis"
+  },
+  {
+    "slug": "passiflore-sommeil",
+    "section": "plante",
+    "category": "sommeil",
+    "subject": "Passiflore",
+    "latin": "Passiflora incarnata"
+  },
+  {
+    "slug": "melisse-sommeil",
+    "section": "plante",
+    "category": "sommeil",
+    "subject": "Mélisse",
+    "latin": "Melissa officinalis"
+  },
+  {
+    "slug": "tilleul-sommeil",
+    "section": "plante",
+    "category": "sommeil",
+    "subject": "Tilleul",
+    "latin": "Tilia cordata, Tilia platyphyllos"
+  },
+  {
+    "slug": "aubepine-sommeil",
+    "section": "plante",
+    "category": "sommeil",
+    "subject": "Aubépine",
+    "latin": "Crataegus monogyna, Crataegus laevigata"
+  },
+  {
+    "slug": "ashwagandha-stress",
+    "section": "plante",
+    "category": "stress-anxiete",
+    "subject": "Ashwagandha",
+    "latin": "Withania somnifera"
+  },
+  {
+    "slug": "rhodiole-stress",
+    "section": "plante",
+    "category": "stress-anxiete",
+    "subject": "Rhodiole",
+    "latin": "Rhodiola rosea"
+  },
+  {
+    "slug": "basilic-sacre-stress",
+    "section": "plante",
+    "category": "stress-anxiete",
+    "subject": "Basilic sacré (Tulsi)",
+    "latin": "Ocimum tenuiflorum"
+  },
+  {
+    "slug": "eschscholtzia-stress",
+    "section": "plante",
+    "category": "stress-anxiete",
+    "subject": "Eschscholtzia (pavot de Californie)",
+    "latin": "Eschscholzia californica"
+  },
+  {
+    "slug": "artichaut-digestion",
+    "section": "plante",
+    "category": "digestion",
+    "subject": "Artichaut",
+    "latin": "Cynara scolymus L."
+  },
+  {
+    "slug": "chardon-marie-digestion",
+    "section": "plante",
+    "category": "digestion",
+    "subject": "Chardon-Marie",
+    "latin": "Silybum marianum (L.) Gaertn."
+  },
+  {
+    "slug": "romarin-digestion",
+    "section": "plante",
+    "category": "digestion",
+    "subject": "Romarin",
+    "latin": "Rosmarinus officinalis L."
+  },
+  {
+    "slug": "gentiane-digestion",
+    "section": "plante",
+    "category": "digestion",
+    "subject": "Gentiane jaune",
+    "latin": "Gentiana lutea L."
+  },
+  {
+    "slug": "fenouil-digestion",
+    "section": "plante",
+    "category": "digestion",
+    "subject": "Fenouil",
+    "latin": "Foeniculum vulgare Mill."
+  },
+  {
+    "slug": "menthe-poivree-digestion",
+    "section": "plante",
+    "category": "digestion",
+    "subject": "Menthe poivrée",
+    "latin": "Mentha × piperita L."
+  },
+  {
+    "slug": "echinacee-immunite",
+    "section": "plante",
+    "category": "immunite-infections",
+    "subject": "Échinacée pourpre",
+    "latin": "Echinacea purpurea (L.) Moench"
+  },
+  {
+    "slug": "thym-immunite",
+    "section": "plante",
+    "category": "immunite-infections",
+    "subject": "Thym commun",
+    "latin": "Thymus vulgaris L."
+  },
+  {
+    "slug": "sureau-noir-immunite",
+    "section": "plante",
+    "category": "immunite-infections",
+    "subject": "Sureau noir",
+    "latin": "Sambucus nigra L."
+  },
+  {
+    "slug": "propolis-immunite",
+    "section": "plante",
+    "category": "immunite-infections",
+    "subject": "Propolis",
+    "latin": "Propolis (résines de Populus, Betula récoltées par Apis mellifera)"
+  },
+  {
+    "slug": "cypres-immunite",
+    "section": "plante",
+    "category": "immunite-infections",
+    "subject": "Cyprès toujours vert",
+    "latin": "Cupressus sempervirens L."
+  },
+  {
+    "slug": "aubepine-circulation",
+    "section": "plante",
+    "category": "circulation",
+    "subject": "Aubépine",
+    "latin": "Crataegus monogyna Jacq."
+  },
+  {
+    "slug": "vigne-rouge-circulation",
+    "section": "plante",
+    "category": "circulation",
+    "subject": "Vigne rouge",
+    "latin": "Vitis vinifera L."
+  },
+  {
+    "slug": "hamamelis-circulation",
+    "section": "plante",
+    "category": "circulation",
+    "subject": "Hamamélis",
+    "latin": "Hamamelis virginiana L."
+  },
+  {
+    "slug": "marronnier-inde-circulation",
+    "section": "plante",
+    "category": "circulation",
+    "subject": "Marronnier d'Inde",
+    "latin": "Aesculus hippocastanum L."
+  },
+  {
+    "slug": "ginkgo-biloba-circulation",
+    "section": "plante",
+    "category": "circulation",
+    "subject": "Ginkgo biloba",
+    "latin": "Ginkgo biloba L."
+  },
+  {
+    "slug": "eucalyptus-respiration",
+    "section": "plante",
+    "category": "respiration",
+    "subject": "Eucalyptus",
+    "latin": "Eucalyptus globulus"
+  },
+  {
+    "slug": "plantain-lanceole-respiration",
+    "section": "plante",
+    "category": "respiration",
+    "subject": "Plantain lancéolé",
+    "latin": "Plantago lanceolata"
+  },
+  {
+    "slug": "mauve-respiration",
+    "section": "plante",
+    "category": "respiration",
+    "subject": "Mauve",
+    "latin": "Malva sylvestris"
+  },
+  {
+    "slug": "bourgeon-pin-respiration",
+    "section": "plante",
+    "category": "respiration",
+    "subject": "Bourgeon de pin",
+    "latin": "Pinus sylvestris"
+  },
+  {
+    "slug": "hysope-respiration",
+    "section": "plante",
+    "category": "respiration",
+    "subject": "Hysope",
+    "latin": "Hyssopus officinalis"
+  },
+  {
+    "slug": "ortie-articulations",
+    "section": "plante",
+    "category": "peau-articulations",
+    "subject": "Ortie",
+    "latin": "Urtica dioica"
+  },
+  {
+    "slug": "prele-silicium",
+    "section": "plante",
+    "category": "peau-articulations",
+    "subject": "Prêle des champs",
+    "latin": "Equisetum arvense"
+  },
+  {
+    "slug": "harpagophytum-griffe-diable",
+    "section": "plante",
+    "category": "peau-articulations",
+    "subject": "Harpagophytum",
+    "latin": "Harpagophytum procumbens"
+  },
+  {
+    "slug": "curcuma-peau-articulations",
+    "section": "plante",
+    "category": "peau-articulations",
+    "subject": "Curcuma",
+    "latin": "Curcuma longa"
+  },
+  {
+    "slug": "bardane-peau",
+    "section": "plante",
+    "category": "peau-articulations",
+    "subject": "Bardane",
+    "latin": "Arctium lappa"
+  },
+  {
+    "slug": "calendula-peau",
+    "section": "plante",
+    "category": "peau-articulations",
+    "subject": "Calendula (souci)",
+    "latin": "Calendula officinalis"
+  },
+  {
+    "slug": "achillee-millefeuille-feminin",
+    "section": "plante",
+    "category": "feminin",
+    "subject": "Achillée millefeuille",
+    "latin": "Achillea millefolium"
+  },
+  {
+    "slug": "gattilier-vitex-feminin",
+    "section": "plante",
+    "category": "feminin",
+    "subject": "Gattilier",
+    "latin": "Vitex agnus-castus"
+  },
+  {
+    "slug": "alchemille-feminin",
+    "section": "plante",
+    "category": "feminin",
+    "subject": "Alchémille",
+    "latin": "Alchemilla vulgaris"
+  },
+  {
+    "slug": "sauge-officinale-menopause",
+    "section": "plante",
+    "category": "feminin",
+    "subject": "Sauge officinale",
+    "latin": "Salvia officinalis"
+  },
+  {
+    "slug": "framboisier-feuilles-feminin",
+    "section": "plante",
+    "category": "feminin",
+    "subject": "Framboisier (feuilles)",
+    "latin": "Rubus idaeus"
+  },
+  {
+    "slug": "verveine-officinale-sommeil",
+    "section": "plante",
+    "category": "sommeil",
+    "subject": "Verveine officinale",
+    "latin": "Verbena officinalis L."
+  },
+  {
+    "slug": "coquelicot-sommeil",
+    "section": "plante",
+    "category": "sommeil",
+    "subject": "Coquelicot",
+    "latin": "Papaver rhoeas L."
+  },
+  {
+    "slug": "houblon-sommeil",
+    "section": "plante",
+    "category": "sommeil",
+    "subject": "Houblon",
+    "latin": "Humulus lupulus L."
+  },
+  {
+    "slug": "oranger-fleurs-sommeil",
+    "section": "plante",
+    "category": "sommeil",
+    "subject": "Fleurs d'oranger",
+    "latin": "Citrus aurantium L."
+  },
+  {
+    "slug": "pissenlit-digestion",
+    "section": "plante",
+    "category": "digestion",
+    "subject": "Pissenlit",
+    "latin": "Taraxacum officinale F.H. Wigg."
+  },
+  {
+    "slug": "boldo-digestion",
+    "section": "plante",
+    "category": "digestion",
+    "subject": "Boldo",
+    "latin": "Peumus boldus Molina"
+  },
+  {
+    "slug": "radis-noir-digestion",
+    "section": "plante",
+    "category": "digestion",
+    "subject": "Radis noir",
+    "latin": "Raphanus sativus L. var. niger"
+  },
+  {
+    "slug": "angelique-digestion",
+    "section": "plante",
+    "category": "digestion",
+    "subject": "Angélique",
+    "latin": "Angelica archangelica L."
+  },
+  {
+    "slug": "griffonia-stress",
+    "section": "plante",
+    "category": "stress-anxiete",
+    "subject": "Griffonia simplicifolia",
+    "latin": "Griffonia simplicifolia (DC.) Baill."
+  },
+  {
+    "slug": "safran-stress",
+    "section": "plante",
+    "category": "stress-anxiete",
+    "subject": "Safran",
+    "latin": "Crocus sativus L."
+  },
+  {
+    "slug": "magnolia-stress",
+    "section": "plante",
+    "category": "stress-anxiete",
+    "subject": "Magnolia officinalis",
+    "latin": "Magnolia officinalis Rehder & E.H. Wilson"
+  },
+  {
+    "slug": "pavot-de-californie-stress",
+    "section": "plante",
+    "category": "stress-anxiete",
+    "subject": "Pavot de Californie (Eschscholtzia)",
+    "latin": "Eschscholzia californica Cham."
+  },
+  {
+    "slug": "pelargonium-immunite",
+    "section": "plante",
+    "category": "immunite-infections",
+    "subject": "Pélargonium",
+    "latin": "Pelargonium sidoides DC."
+  },
+  {
+    "slug": "sureau-noir-immunite-batch2",
+    "section": "plante",
+    "category": "immunite-infections",
+    "subject": "Sureau noir baies",
+    "latin": "Sambucus nigra L."
+  },
+  {
+    "slug": "astragale-immunite-batch2",
+    "section": "plante",
+    "category": "immunite-infections",
+    "subject": "Astragale",
+    "latin": "Astragalus membranaceus (Fisch.) Bunge"
+  },
+  {
+    "slug": "olivier-circulation",
+    "section": "plante",
+    "category": "circulation",
+    "subject": "Olivier feuilles",
+    "latin": "Olea europaea L."
+  },
+  {
+    "slug": "fragon-petit-houx-circulation",
+    "section": "plante",
+    "category": "circulation",
+    "subject": "Petit houx (fragon)",
+    "latin": "Ruscus aculeatus L."
+  },
+  {
+    "slug": "mélilot-circulation",
+    "section": "plante",
+    "category": "circulation",
+    "subject": "Mélilot",
+    "latin": "Melilotus officinalis (L.) Pall."
+  },
+  {
+    "slug": "lierre-grimpant-respiration",
+    "section": "plante",
+    "category": "respiration",
+    "subject": "Lierre grimpant",
+    "latin": "Hedera helix L."
+  },
+  {
+    "slug": "erysimum-respiration",
+    "section": "plante",
+    "category": "respiration",
+    "subject": "Érysimum",
+    "latin": "Sisymbrium officinale (L.) Scop."
+  },
+  {
+    "slug": "pin-sylvestre-respiration",
+    "section": "plante",
+    "category": "respiration",
+    "subject": "Pin sylvestre",
+    "latin": "Pinus sylvestris L."
+  },
+  {
+    "slug": "vigne-rouge-feminin",
+    "section": "plante",
+    "category": "feminin",
+    "subject": "Vigne rouge feuilles",
+    "latin": "Vitis vinifera L."
+  },
+  {
+    "slug": "gattilier-feminin-batch2",
+    "section": "plante",
+    "category": "feminin",
+    "subject": "Gattilier",
+    "latin": "Vitex agnus-castus L."
+  },
+  {
+    "slug": "actée-à-grappes-feminin",
+    "section": "plante",
+    "category": "feminin",
+    "subject": "Actée à grappes",
+    "latin": "Cimicifuga racemosa (L.) Nutt. (syn. Actaea racemosa)"
+  },
+  {
+    "slug": "jus-carotte-pur-walker",
+    "section": "jus",
+    "category": "walker-fondamentaux",
+    "subject": "Jus de carotte pur (le « roi » selon Walker)"
+  },
+  {
+    "slug": "jus-carotte-celeri-walker",
+    "section": "jus",
+    "category": "walker-fondamentaux",
+    "subject": "Carotte + céleri — formule « équilibre nerveux » de Walker"
+  },
+  {
+    "slug": "jus-carotte-epinards-walker",
+    "section": "jus",
+    "category": "walker-fondamentaux",
+    "subject": "Carotte + épinards — « nourriture des intestins » selon Walker"
+  },
+  {
+    "slug": "jus-carotte-betterave-concombre-walker",
+    "section": "jus",
+    "category": "walker-fondamentaux",
+    "subject": "Carotte + betterave + concombre (ratio 16/3/3 de Walker)"
+  },
+  {
+    "slug": "jus-celeri-pur-walker",
+    "section": "jus",
+    "category": "walker-fondamentaux",
+    "subject": "Jus de céleri-branche pur — la formule « sodium organique »"
+  },
+  {
+    "slug": "jus-carotte-persil-walker",
+    "section": "jus",
+    "category": "walker-fondamentaux",
+    "subject": "Carotte + persil — chlorophylle intensive (max 60 ml de persil)"
+  },
+  {
+    "slug": "jus-epinards-celeri-persil-carotte-walker",
+    "section": "jus",
+    "category": "walker-fondamentaux",
+    "subject": "Épinards + céleri + persil + carotte — la combinaison verte de Walker"
+  },
+  {
+    "slug": "jus-chou-cru-walker",
+    "section": "jus",
+    "category": "walker-fondamentaux",
+    "subject": "Jus de chou cru — tradition stomacale de Walker"
+  },
+  {
+    "slug": "jus-vert-detox-printemps",
+    "section": "jus",
+    "category": "detox",
+    "subject": "Jus vert de printemps — concombre, pomme, épinards, citron"
+  },
+  {
+    "slug": "jus-pissenlit-pomme-citron",
+    "section": "jus",
+    "category": "detox",
+    "subject": "Pissenlit + pomme + citron — drainage hépatique de printemps"
+  },
+  {
+    "slug": "jus-betterave-carotte-gingembre",
+    "section": "jus",
+    "category": "detox",
+    "subject": "Betterave + carotte + gingembre — drainage tonique"
+  },
+  {
+    "slug": "jus-citron-curcuma-matin",
+    "section": "jus",
+    "category": "detox",
+    "subject": "Eau citronnée au curcuma — réveil matinal"
+  },
+  {
+    "slug": "jus-persil-celeri-concombre",
+    "section": "jus",
+    "category": "detox",
+    "subject": "Persil + céleri + concombre — drainage rénal"
+  },
+  {
+    "slug": "jus-radis-noir-pomme-citron",
+    "section": "jus",
+    "category": "detox",
+    "subject": "Radis noir + pomme + citron — cure hépatobiliaire"
+  },
+  {
+    "slug": "jus-chou-kale-pomme-citron",
+    "section": "jus",
+    "category": "detox",
+    "subject": "Kale + pomme + citron — jus vert intense"
+  },
+  {
+    "slug": "jus-gingembre-pomme-citron-matin",
+    "section": "jus",
+    "category": "energie",
+    "subject": "Gingembre + pomme + citron — réveil tonique"
+  },
+  {
+    "slug": "jus-betterave-orange-gingembre-sport",
+    "section": "jus",
+    "category": "energie",
+    "subject": "Betterave + orange + gingembre — avant l'effort"
+  },
+  {
+    "slug": "jus-carotte-orange-citron-booster",
+    "section": "jus",
+    "category": "energie",
+    "subject": "Carotte + orange + citron — booster matinal"
+  },
+  {
+    "slug": "jus-green-energy-pomme-epinards-celeri",
+    "section": "jus",
+    "category": "energie",
+    "subject": "Green energy — pomme, épinards, céleri, citron"
+  },
+  {
+    "slug": "jus-betterave-pomme-carotte-endurance",
+    "section": "jus",
+    "category": "energie",
+    "subject": "Betterave + pomme + carotte — endurance & circulation"
+  },
+  {
+    "slug": "jus-ananas-menthe-gingembre",
+    "section": "jus",
+    "category": "energie",
+    "subject": "Ananas + menthe + gingembre — fraîcheur tropicale"
+  },
+  {
+    "slug": "jus-orange-citron-curcuma-poivre",
+    "section": "jus",
+    "category": "energie",
+    "subject": "Orange + citron + curcuma + poivre — golden shot"
+  },
+  {
+    "slug": "shot-gingembre-curcuma-citron",
+    "section": "jus",
+    "category": "immunite",
+    "subject": "Shot gingembre + curcuma + citron — réveil de saison"
+  },
+  {
+    "slug": "jus-agrumes-orange-pamplemousse-citron",
+    "section": "jus",
+    "category": "immunite",
+    "subject": "Orange + pamplemousse + citron — bombe de vitamine C"
+  },
+  {
+    "slug": "jus-carotte-orange-citron-gingembre-hiver",
+    "section": "jus",
+    "category": "immunite",
+    "subject": "Carotte + orange + citron + gingembre — version hiver"
+  },
+  {
+    "slug": "jus-pomme-cannelle-clou-girofle-hiver",
+    "section": "jus",
+    "category": "immunite",
+    "subject": "Pomme tiède + cannelle + clou de girofle — boisson d'hiver"
+  },
+  {
+    "slug": "shot-ail-citron-miel-prevention",
+    "section": "jus",
+    "category": "immunite",
+    "subject": "Shot ail + citron + miel — formule de prévention"
+  },
+  {
+    "slug": "jus-betterave-grenade-gingembre",
+    "section": "jus",
+    "category": "immunite",
+    "subject": "Betterave + grenade + gingembre — rouge immunité"
+  },
+  {
+    "slug": "jus-chou-pomme-citron-walker-inspired",
+    "section": "jus",
+    "category": "immunite",
+    "subject": "Chou cru + pomme + citron — immunité version Walker"
+  },
+  {
+    "slug": "jus-chou-cru-pomme-walker",
+    "section": "jus",
+    "category": "digestion",
+    "subject": "Jus de chou cru et pomme (style Walker)"
+  },
+  {
+    "slug": "jus-carotte-fenouil-gingembre",
+    "section": "jus",
+    "category": "digestion",
+    "subject": "Jus carotte, fenouil et gingembre"
+  },
+  {
+    "slug": "jus-aloe-citron-pomme",
+    "section": "jus",
+    "category": "digestion",
+    "subject": "Jus aloe vera, citron et pomme"
+  },
+  {
+    "slug": "jus-papaye-ananas-menthe",
+    "section": "jus",
+    "category": "digestion",
+    "subject": "Jus papaye, ananas et menthe"
+  },
+  {
+    "slug": "jus-carotte-gingembre-curcuma",
+    "section": "jus",
+    "category": "digestion",
+    "subject": "Jus carotte, gingembre et curcuma"
+  },
+  {
+    "slug": "jus-pomme-celeri-fenouil",
+    "section": "jus",
+    "category": "digestion",
+    "subject": "Jus pomme, céleri-branche et fenouil"
+  },
+  {
+    "slug": "jus-carotte-concombre-pomme",
+    "section": "jus",
+    "category": "peau-cheveux",
+    "subject": "Jus carotte, concombre et pomme"
+  },
+  {
+    "slug": "jus-betterave-carotte-orange",
+    "section": "jus",
+    "category": "peau-cheveux",
+    "subject": "Jus betterave, carotte et orange"
+  },
+  {
+    "slug": "jus-concombre-pomme-menthe",
+    "section": "jus",
+    "category": "peau-cheveux",
+    "subject": "Jus concombre, pomme verte et menthe"
+  },
+  {
+    "slug": "jus-ortie-pomme-version-douce",
+    "section": "jus",
+    "category": "peau-cheveux",
+    "subject": "Jus d'ortie fraîche et pomme (version douce)"
+  },
+  {
+    "slug": "jus-celeri-epinards-pomme",
+    "section": "jus",
+    "category": "peau-cheveux",
+    "subject": "Jus céleri, épinards et pomme"
+  },
+  {
+    "slug": "jus-persil-carotte-pomme",
+    "section": "jus",
+    "category": "peau-cheveux",
+    "subject": "Jus persil, carotte et pomme"
+  },
+  {
+    "slug": "jus-concombre-celeri-citron-menthe",
+    "section": "jus",
+    "category": "minceur",
+    "subject": "Jus concombre, céleri, citron et menthe"
+  },
+  {
+    "slug": "jus-pomme-verte-epinards-citron",
+    "section": "jus",
+    "category": "minceur",
+    "subject": "Jus pomme verte, épinards et citron"
+  },
+  {
+    "slug": "jus-pamplemousse-citron-menthe",
+    "section": "jus",
+    "category": "minceur",
+    "subject": "Jus pamplemousse, citron et menthe"
+  },
+  {
+    "slug": "jus-kale-concombre-pomme-citron",
+    "section": "jus",
+    "category": "minceur",
+    "subject": "Jus chou kale, concombre, pomme et citron"
+  },
+  {
+    "slug": "jus-ananas-celeri-gingembre-minceur",
+    "section": "jus",
+    "category": "minceur",
+    "subject": "Jus ananas, céleri et gingembre"
+  },
+  {
+    "slug": "jus-carotte-pomme-celeri-citron",
+    "section": "jus",
+    "category": "minceur",
+    "subject": "Jus carotte, pomme, céleri et citron"
+  },
+  {
+    "slug": "jus-betterave-pre-effort",
+    "section": "jus",
+    "category": "sport",
+    "subject": "Jus de betterave pré-effort"
+  },
+  {
+    "slug": "jus-cerises-griottes-post-effort",
+    "section": "jus",
+    "category": "sport",
+    "subject": "Jus de cerises griottes (Montmorency) post-effort"
+  },
+  {
+    "slug": "jus-pasteque-recuperation",
+    "section": "jus",
+    "category": "sport",
+    "subject": "Jus de pastèque (récupération et hydratation)"
+  },
+  {
+    "slug": "jus-orange-curcuma-poivre",
+    "section": "jus",
+    "category": "sport",
+    "subject": "Jus orange, curcuma et poivre noir"
+  },
+  {
+    "slug": "smoothie-banane-epinards-amande-post-effort",
+    "section": "jus",
+    "category": "sport",
+    "subject": "Smoothie banane, épinards et amande post-effort"
+  },
+  {
+    "slug": "jus-ananas-celeri-gingembre-recuperation",
+    "section": "jus",
+    "category": "sport",
+    "subject": "Jus ananas, céleri et gingembre (récupération)"
+  },
+  {
+    "slug": "jus-carotte-betterave-gingembre-pre-seance",
+    "section": "jus",
+    "category": "sport",
+    "subject": "Jus carotte, betterave et gingembre (énergie pré-séance)"
+  },
+  {
+    "slug": "jus-carotte-betterave-walker",
+    "section": "jus",
+    "category": "walker-fondamentaux",
+    "subject": "Jus carotte-betterave (Walker)"
+  },
+  {
+    "slug": "jus-concombre-betterave-walker",
+    "section": "jus",
+    "category": "walker-fondamentaux",
+    "subject": "Jus concombre-betterave (Walker)"
+  },
+  {
+    "slug": "jus-carotte-laitue-alfalfa-walker",
+    "section": "jus",
+    "category": "walker-fondamentaux",
+    "subject": "Jus carotte-laitue-luzerne (Walker, cheveux et peau)"
+  },
+  {
+    "slug": "jus-celeri-persil-walker",
+    "section": "jus",
+    "category": "walker-fondamentaux",
+    "subject": "Jus céleri-persil (Walker)"
+  },
+  {
+    "slug": "jus-pomme-celeri-walker",
+    "section": "jus",
+    "category": "walker-fondamentaux",
+    "subject": "Jus pomme-céleri (Walker, rééquilibrage alcalin)"
+  },
+  {
+    "slug": "jus-printemps-pissenlit-pomme",
+    "section": "jus",
+    "category": "detox",
+    "subject": "Jus de printemps pissenlit-pomme"
+  },
+  {
+    "slug": "jus-ete-pasteque-menthe-citron",
+    "section": "jus",
+    "category": "detox",
+    "subject": "Jus d'été pastèque-menthe-citron"
+  },
+  {
+    "slug": "jus-automne-pomme-cannelle-betterave",
+    "section": "jus",
+    "category": "energie",
+    "subject": "Jus d'automne pomme-cannelle-betterave"
+  },
+  {
+    "slug": "jus-hiver-orange-curcuma-gingembre",
+    "section": "jus",
+    "category": "immunite",
+    "subject": "Jus d'hiver orange-curcuma-gingembre"
+  },
+  {
+    "slug": "jus-equinoxe-vert-cresson",
+    "section": "jus",
+    "category": "detox",
+    "subject": "Jus vert d'équinoxe au cresson"
+  },
+  {
+    "slug": "protocole-jus-21-jours",
+    "section": "jus",
+    "category": "detox",
+    "subject": "Protocole 21 jours : trois semaines de cure jus"
+  },
+  {
+    "slug": "jus-monodiete-raisin-rentree",
+    "section": "jus",
+    "category": "detox",
+    "subject": "Monodiète raisin de rentrée (cure courte)"
+  },
+  {
+    "slug": "jus-bouillon-legumes-soir",
+    "section": "jus",
+    "category": "digestion",
+    "subject": "Bouillon de légumes du soir (alternative au jus cru)"
+  },
+  {
+    "slug": "jus-acerola-camu-camu-shot",
+    "section": "jus",
+    "category": "immunite",
+    "subject": "Shot acérola-camu camu vitamine C"
+  },
+  {
+    "slug": "jus-spiruline-citron-sport",
+    "section": "jus",
+    "category": "sport",
+    "subject": "Jus spiruline-citron pré-effort"
+  }
+]

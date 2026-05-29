@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
-import { Menu, X, ChevronDown, Leaf, FlaskConical, Sparkles, Wrench } from 'lucide-react';
+import { Menu, X, ChevronDown, Leaf, FlaskConical, Sprout, Wrench } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Logo } from '@/components/Logo';
 import { SearchDialog } from '@/components/SearchDialog';
@@ -110,7 +110,7 @@ const PHYTO_COLUMNS: MegaMenuColumn[] = [
       { label: 'Énergie & vitalité',   href: '/jus/energie',             emoji: '⚡' },
       { label: 'Immunité saisonnière', href: '/jus/immunite',            emoji: '🛡️' },
       { label: 'Digestion',            href: '/jus/digestion',           emoji: '🌿' },
-      { label: 'Peau & cheveux',       href: '/jus/peau-cheveux',        emoji: '✨' },
+      { label: 'Peau & cheveux',       href: '/jus/peau-cheveux',        emoji: '🌸' },
       { label: 'Sport & récupération', href: '/jus/sport',               emoji: '💪' },
     ],
   },
@@ -240,7 +240,7 @@ export function Navigation() {
             href="/naturopathie/temperaments/quiz"
             className="font-bold text-sage-300 hover:text-white transition-colors flex items-center gap-1.5"
           >
-            <span aria-hidden="true">✦</span>
+            <Leaf className="h-3 w-3" aria-hidden="true" />
             Quiz tempérament gratuit
             <span aria-hidden="true">→</span>
           </Link>
@@ -280,7 +280,7 @@ export function Navigation() {
               <MegaMenu
                 label="Plantes & Jus"
                 href="/plantes"
-                icon={Sparkles}
+                icon={Sprout}
                 accentClass="bg-sage-500"
                 columns={PHYTO_COLUMNS}
                 feature={PHYTO_FEATURE}
@@ -370,7 +370,7 @@ export function Navigation() {
               {/* Accordéon Plantes & Jus */}
               <MobileAccordion
                 label="Plantes & Jus"
-                icon={<Sparkles className="h-4 w-4" />}
+                icon={<Sprout className="h-4 w-4" />}
                 open={openSection === 'phyto'}
                 onToggle={() => toggleSection('phyto')}
                 links={PHYTO_FLAT}

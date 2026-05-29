@@ -53,7 +53,7 @@ export const JUS_CATEGORIES: JusCategoryMeta[] = [
   {
     slug: 'peau-cheveux',
     nom: 'Peau & cheveux',
-    icon: '✨',
+    icon: '🌸',
     description: 'Recettes riches en silice, caroténoïdes et oligo-éléments pour la beauté de la peau et la santé capillaire.',
     order: 6,
   },

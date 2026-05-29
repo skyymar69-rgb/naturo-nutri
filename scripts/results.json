@@ -1,0 +1,2516 @@
+[
+  {
+    "slug": "associations-alimentaires",
+    "src": "/img/associations-alimentaires.jpg",
+    "alt": "Assortiment varié de fruits et légumes disposés sur une table",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Top-view-assortment-exotic-fruits-table.jpg/1280px-Top-view-assortment-exotic-fruits-table.jpg"
+  },
+  {
+    "slug": "chrono-nutrition-naturopathique",
+    "src": "/img/chrono-nutrition-naturopathique.jpg",
+    "alt": "Petit-déjeuner sain disposé sur une table le matin",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Healthy_Breakfast_1_%28Unsplash%29.jpg/1280px-Healthy_Breakfast_1_%28Unsplash%29.jpg"
+  },
+  {
+    "slug": "mastication",
+    "src": "/img/mastication.jpg",
+    "alt": "Femme croquant dans une pomme",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Woman_eating_an_apple.jpg/1280px-Woman_eating_an_apple.jpg"
+  },
+  {
+    "slug": "hydratation-naturopathique",
+    "src": "/img/hydratation-naturopathique.jpg",
+    "alt": "Mains versant de l'eau d'une bouteille dans un verre",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Hands_pour_water_from_a_bottle_into_a_glass.jpg/1280px-Hands_pour_water_from_a_bottle_into_a_glass.jpg"
+  },
+  {
+    "slug": "gluten-laitages",
+    "src": "/img/gluten-laitages.jpg",
+    "alt": "Pain de blé et de seigle",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/A_loaf_of_wheat_and_rye_bread.jpg/1280px-A_loaf_of_wheat_and_rye_bread.jpg"
+  },
+  {
+    "slug": "sucres-additifs-perturbateurs",
+    "src": "/img/sucres-additifs-perturbateurs.jpg",
+    "alt": "Morceaux de sucre blanc en cubes",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/W%C3%BCrfelzucker_--_2018_--_3564.jpg/1280px-W%C3%BCrfelzucker_--_2018_--_3564.jpg"
+  },
+  {
+    "slug": "mind-diet-cognition",
+    "src": "/img/mind-diet-cognition.jpg",
+    "alt": "Épinards et chou kale frais, légumes à feuilles vertes",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Fresh_Spinach_and_Kale_harvest_at_the_farm.jpg/1280px-Fresh_Spinach_and_Kale_harvest_at_the_farm.jpg"
+  },
+  {
+    "slug": "meal-timing-circadien-metabolique",
+    "src": "/img/meal-timing-circadien-metabolique.jpg",
+    "alt": "Horloge murale blanche indiquant l'heure",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/White_Wall_Clock.jpg/1280px-White_Wall_Clock.jpg"
+  },
+  {
+    "slug": "cacao-flavanols-cognition",
+    "src": "/img/cacao-flavanols-cognition.jpg",
+    "alt": "Fèves de cacao séchées",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Dried_cacao_beans.jpg/1280px-Dried_cacao_beans.jpg"
+  },
+  {
+    "slug": "cure-printemps",
+    "src": "/img/cure-printemps.jpg",
+    "alt": "Pissenlits en fleur dans une prairie au printemps",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Dandelion_Meadow_%2832808839%29.jpeg/1280px-Dandelion_Meadow_%2832808839%29.jpeg"
+  },
+  {
+    "slug": "cure-ete",
+    "src": "/img/cure-ete.jpg",
+    "alt": "Pastèque tranchée, fruit rafraîchissant d'été",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Watermelon-summer%27s_delight.JPG/1280px-Watermelon-summer%27s_delight.JPG"
+  },
+  {
+    "slug": "cure-automne",
+    "src": "/img/cure-automne.jpg",
+    "alt": "Grappes de raisin à l'automne",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Grapes_in_Autumn_%2837189546252%29.jpg/1280px-Grapes_in_Autumn_%2837189546252%29.jpg"
+  },
+  {
+    "slug": "cure-hiver",
+    "src": "/img/cure-hiver.jpg",
+    "alt": "Racine de gingembre frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Fresh_Ginger.JPG/1280px-Fresh_Ginger.JPG"
+  },
+  {
+    "slug": "luminotherapie-depression-saisonniere",
+    "src": "/img/luminotherapie-depression-saisonniere.jpg",
+    "alt": "Lampe de luminothérapie devant une fenêtre ensoleillée",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Light_therapy_lamp_and_sunlight.jpg/1280px-Light_therapy_lamp_and_sunlight.jpg"
+  },
+  {
+    "slug": "douche-ecossaise",
+    "src": "/img/douche-ecossaise.jpg",
+    "alt": "Eau s'écoulant d'une pomme de douche",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Water_coming_out_of_a_shower.jpg/1280px-Water_coming_out_of_a_shower.jpg"
+  },
+  {
+    "slug": "bain-chaud-detox",
+    "src": "/img/bain-chaud-detox.jpg",
+    "alt": "Détente dans un bain chaud dans une baignoire",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Bathtub_Bath_Feet_Relax.jpg/1280px-Bathtub_Bath_Feet_Relax.jpg"
+  },
+  {
+    "slug": "bains-pieds",
+    "src": "/img/bains-pieds.jpg",
+    "alt": "Bain de pieds dans une source chaude",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/People_take_a_foot_bath_at_an_outdoor_public_hot_spring_in_Yuseong-gu%2C_Daejeon%2C_Korea.jpg/1280px-People_take_a_foot_bath_at_an_outdoor_public_hot_spring_in_Yuseong-gu%2C_Daejeon%2C_Korea.jpg"
+  },
+  {
+    "slug": "compresse-chaude-foie",
+    "src": "/img/compresse-chaude-foie.jpg",
+    "alt": "Bouillotte d'eau chaude posée sur le ventre",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Hot_water_bottle_for_menstrual_pain.jpg/1280px-Hot_water_bottle_for_menstrual_pain.jpg"
+  },
+  {
+    "slug": "hydrotherapie-colon",
+    "src": "/img/hydrotherapie-colon.jpg",
+    "alt": "Salle de soin d'hydrothérapie du côlon",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Colon_Hydrotherapy_Treatment_Environment.jpg/1280px-Colon_Hydrotherapy_Treatment_Environment.jpg"
+  },
+  {
+    "slug": "exposition-froid-immersion",
+    "src": "/img/exposition-froid-immersion.jpg",
+    "alt": "Baignade en eau froide, immersion hivernale",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/2012_Polar_Bear_Plunge-465.jpg/1280px-2012_Polar_Bear_Plunge-465.jpg"
+  },
+  {
+    "slug": "sauna-finlandais-cardiovasculaire",
+    "src": "/img/sauna-finlandais-cardiovasculaire.jpg",
+    "alt": "Intérieur en bois d'un sauna",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Le_vrai_sauna_des_bains_municipaux_%2849548940813%29.jpg/1280px-Le_vrai_sauna_des_bains_municipaux_%2849548940813%29.jpg"
+  },
+  {
+    "slug": "huiles-essentielles-introduction",
+    "src": "/img/huiles-essentielles-introduction.jpg",
+    "alt": "Flacons d'huiles essentielles",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/6/62/Essential_oil_kit.jpg"
+  },
+  {
+    "slug": "he-lavande-vraie",
+    "src": "/img/he-lavande-vraie.jpg",
+    "alt": "Fleurs de lavande vraie (Lavandula angustifolia)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Lavandula_angustifolia_-_lavender_-_Lavendel_-_01.jpg/1280px-Lavandula_angustifolia_-_lavender_-_Lavendel_-_01.jpg"
+  },
+  {
+    "slug": "he-arbre-a-the",
+    "src": "/img/he-arbre-a-the.jpg",
+    "alt": "Arbre à thé (Melaleuca alternifolia)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Melaleuca_alternifolia_%28Maria_Serena%29.jpg/1280px-Melaleuca_alternifolia_%28Maria_Serena%29.jpg"
+  },
+  {
+    "slug": "he-eucalyptus-radie",
+    "src": "/img/he-eucalyptus-radie.jpg",
+    "alt": "Feuilles d'eucalyptus",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Eucalyptus_punctata_-_adult_leaves.jpg/1280px-Eucalyptus_punctata_-_adult_leaves.jpg"
+  },
+  {
+    "slug": "he-ravintsara",
+    "src": "/img/he-ravintsara.jpg",
+    "alt": "Feuilles de Cinnamomum camphora (ravintsara)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Starr-060429-8044-Cinnamomum_camphora-leaves-Auwahi-Maui_%2824567034310%29.jpg/1280px-Starr-060429-8044-Cinnamomum_camphora-leaves-Auwahi-Maui_%2824567034310%29.jpg"
+  },
+  {
+    "slug": "he-menthe-poivree",
+    "src": "/img/he-menthe-poivree.jpg",
+    "alt": "Plant de menthe poivrée (Mentha piperita)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Peppermint_Plant.jpg/1280px-Peppermint_Plant.jpg"
+  },
+  {
+    "slug": "he-helichryse-italienne",
+    "src": "/img/he-helichryse-italienne.jpg",
+    "alt": "Fleurs d'hélichryse italienne (immortelle)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Helichrysum_italicum_%28immortelle%29.JPG/1280px-Helichrysum_italicum_%28immortelle%29.JPG"
+  },
+  {
+    "slug": "he-niaouli",
+    "src": "/img/he-niaouli.jpg",
+    "alt": "Niaouli (Melaleuca quinquenervia)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Melaleuca_quinquenervia_MHNT.BOT.2010.6.61.jpg/1280px-Melaleuca_quinquenervia_MHNT.BOT.2010.6.61.jpg"
+  },
+  {
+    "slug": "synergies-aromatherapeutiques",
+    "src": "/img/synergies-aromatherapeutiques.jpg",
+    "alt": "Flacon d'huile essentielle et plante aromatique",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Rosemary_Oil_in_a_bottle_and_rosemary_herb.jpg/1280px-Rosemary_Oil_in_a_bottle_and_rosemary_herb.jpg"
+  },
+  {
+    "slug": "silexan-lavande-anxiete",
+    "src": "/img/silexan-lavande-anxiete.jpg",
+    "alt": "Bouquets de lavande",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Lavender_herb_bouquets_%2854844470052%29.jpg/1280px-Lavender_herb_bouquets_%2854844470052%29.jpg"
+  },
+  {
+    "slug": "rotation-emonctoires-protocole",
+    "src": "/img/rotation-emonctoires-protocole.jpg",
+    "alt": "Tisane détox en tasse",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Herbal_tea_in_white_mug.jpg/1280px-Herbal_tea_in_white_mug.jpg"
+  },
+  {
+    "slug": "rituel-sommeil-90-minutes",
+    "src": "/img/rituel-sommeil-90-minutes.jpg",
+    "alt": "Lecture apaisante avant le coucher",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Person_reading_a_book_while_lying_on_a_bed_next_to_a_window_during_a_rainy_day.jpg/1280px-Person_reading_a_book_while_lying_on_a_bed_next_to_a_window_during_a_rainy_day.jpg"
+  },
+  {
+    "slug": "lumiere-bleue-melatonine",
+    "src": "/img/lumiere-bleue-melatonine.jpg",
+    "alt": "Utilisation du smartphone la nuit",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Taking_night_photo_on_phone_%28Unsplash%29.jpg/1280px-Taking_night_photo_on_phone_%28Unsplash%29.jpg"
+  },
+  {
+    "slug": "temperature-chambre-sommeil-profond",
+    "src": "/img/temperature-chambre-sommeil-profond.jpg",
+    "alt": "Chambre à coucher cosy",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Canopy_bed_of_Amantaka_Suite_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg/1280px-Canopy_bed_of_Amantaka_Suite_in_Amantaka_luxury_Resort_%26_Hotel_in_Luang_Prabang_Laos.jpg"
+  },
+  {
+    "slug": "respiration-coherente-quotidien",
+    "src": "/img/respiration-coherente-quotidien.jpg",
+    "alt": "Respiration et méditation au calme",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Meditation_sitting_pose_siddhasana_yoga_Gloria.jpg/1280px-Meditation_sitting_pose_siddhasana_yoga_Gloria.jpg"
+  },
+  {
+    "slug": "cortisol-rythme-circadien",
+    "src": "/img/cortisol-rythme-circadien.jpg",
+    "alt": "Lever de soleil et rythme circadien",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Sunrise_over_Benmore_Range%2C_New_Zealand.jpg/1280px-Sunrise_over_Benmore_Range%2C_New_Zealand.jpg"
+  },
+  {
+    "slug": "burn-out-phases-naturopathie",
+    "src": "/img/burn-out-phases-naturopathie.jpg",
+    "alt": "Épuisement et stress",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/3/31/Work-1015501_1280.jpg"
+  },
+  {
+    "slug": "gratitude-pratique-quotidienne",
+    "src": "/img/gratitude-pratique-quotidienne.jpg",
+    "alt": "Journal de gratitude",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/A_journal_writing_book.jpg/1280px-A_journal_writing_book.jpg"
+  },
+  {
+    "slug": "nature-walking-shinrin-yoku",
+    "src": "/img/nature-walking-shinrin-yoku.jpg",
+    "alt": "Marche en forêt",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Aerial_view_of_path_and_trees%2C_Monsanto_Forest_Park%2C_Lisbon%2C_Portugal_julesvernex2.jpg/1280px-Aerial_view_of_path_and_trees%2C_Monsanto_Forest_Park%2C_Lisbon%2C_Portugal_julesvernex2.jpg"
+  },
+  {
+    "slug": "petit-dejeuner-proteine",
+    "src": "/img/petit-dejeuner-proteine.jpg",
+    "alt": "Petit-déjeuner protéiné aux œufs et avocat",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Liat_Portal_for_Foodie_Disorder_-_Israeli_breakfast_with_soft_egg%2C_avocado_and_salad.jpg/1280px-Liat_Portal_for_Foodie_Disorder_-_Israeli_breakfast_with_soft_egg%2C_avocado_and_salad.jpg"
+  },
+  {
+    "slug": "cuisson-douce-vitalite",
+    "src": "/img/cuisson-douce-vitalite.jpg",
+    "alt": "Cuisson vapeur des légumes",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Steamed_Vegetables.jpg/1280px-Steamed_Vegetables.jpg"
+  },
+  {
+    "slug": "masticer-30-fois",
+    "src": "/img/masticer-30-fois.jpg",
+    "alt": "Mastication d'un fruit",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Woman_eating_an_apple.jpg/1280px-Woman_eating_an_apple.jpg"
+  },
+  {
+    "slug": "eau-citronnee-matin",
+    "src": "/img/eau-citronnee-matin.jpg",
+    "alt": "Verre d'eau citronnée",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Ice_water_with_lemon.jpg"
+  },
+  {
+    "slug": "syndrome-metabolique-nutritherapie",
+    "src": "/img/syndrome-metabolique-nutritherapie.jpg",
+    "alt": "Mesure du tour de taille",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Waist_measurement.jpg"
+  },
+  {
+    "slug": "fibromyalgie-protocole-curtay",
+    "src": "/img/fibromyalgie-protocole-curtay.png",
+    "alt": "Douleur chronique à l'épaule",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Depiction_of_a_person_suffering_from_a_shoulder_problem.png/1280px-Depiction_of_a_person_suffering_from_a_shoulder_problem.png"
+  },
+  {
+    "slug": "migraine-mg-b2-coq10",
+    "src": "/img/migraine-mg-b2-coq10.jpg",
+    "alt": "Migraine et maux de tête",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Migraine.jpg/1280px-Migraine.jpg"
+  },
+  {
+    "slug": "sii-fodmap-glutamine",
+    "src": "/img/sii-fodmap-glutamine.jpg",
+    "alt": "Douleurs abdominales",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Abdominal_pain.jpg/1280px-Abdominal_pain.jpg"
+  },
+  {
+    "slug": "thyroidite-hashimoto-selenium",
+    "src": "/img/thyroidite-hashimoto-selenium.jpg",
+    "alt": "Noix du Brésil, source de sélénium",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/4/47/Bertholletia_excelsa.jpg"
+  },
+  {
+    "slug": "menopause-phytoestrogenes",
+    "src": "/img/menopause-phytoestrogenes.jpg",
+    "alt": "Soja, source de phyto-œstrogènes",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/8/82/Soybean.USDA.jpg"
+  },
+  {
+    "slug": "arthrose-curcuma-collagene",
+    "src": "/img/arthrose-curcuma-collagene.jpg",
+    "alt": "Racines de curcuma",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Curcuma_longa_roots.jpg/1280px-Curcuma_longa_roots.jpg"
+  },
+  {
+    "slug": "depression-tryptophane-omega3",
+    "src": "/img/depression-tryptophane-omega3.jpg",
+    "alt": "Saumon riche en oméga-3",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Grilled_plated_salmon_fillet_%28cropped%29.jpg"
+  },
+  {
+    "slug": "insomnie-melatonine-magnesium",
+    "src": "/img/insomnie-melatonine-magnesium.jpg",
+    "alt": "Réveil lumineux la nuit (insomnie)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Sony_Dream_Machine_at_6_37am.jpg/1280px-Sony_Dream_Machine_at_6_37am.jpg"
+  },
+  {
+    "slug": "stress-oxydatif-glutathion",
+    "src": "/img/stress-oxydatif-glutathion.jpg",
+    "alt": "Légumes colorés antioxydants",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Colorful_winter_Vegetables_-02.jpg/1280px-Colorful_winter_Vegetables_-02.jpg"
+  },
+  {
+    "slug": "mitochondries-energie-cellulaire",
+    "src": "/img/mitochondries-energie-cellulaire.jpg",
+    "alt": "Mitochondries, énergie cellulaire (microscopie)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Mitochondria%2C_mammalian_lung_-_TEM.jpg"
+  },
+  {
+    "slug": "methylation-b9-b12-mthfr",
+    "src": "/img/methylation-b9-b12-mthfr.jpg",
+    "alt": "Épinards, source de folates",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Spinach_leaves.jpg/1280px-Spinach_leaves.jpg"
+  },
+  {
+    "slug": "vitamine-d-supplementation-hiver",
+    "src": "/img/vitamine-d-supplementation-hiver.jpg",
+    "alt": "Comprimés de vitamine D",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Vitamin_D_pills.jpg/1280px-Vitamin_D_pills.jpg"
+  },
+  {
+    "slug": "b9-folates-alimentation-moderne",
+    "src": "/img/b9-folates-alimentation-moderne.jpg",
+    "alt": "Légumes verts à feuilles, riches en folates",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Leafy_Greens_in_Garden_%2849199570918%29.jpg/1280px-Leafy_Greens_in_Garden_%2849199570918%29.jpg"
+  },
+  {
+    "slug": "b12-vegetariens-supplementation",
+    "src": "/img/b12-vegetariens-supplementation.jpg",
+    "alt": "Œufs de saumon, source de vitamine B12",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Salmon_caviar_on_a_spoon.jpg/1280px-Salmon_caviar_on_a_spoon.jpg"
+  },
+  {
+    "slug": "vitamine-k2-mk7-os-coeur",
+    "src": "/img/vitamine-k2-mk7-os-coeur.jpg",
+    "alt": "Natto, source de vitamine K2",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Natto_mixed.jpg"
+  },
+  {
+    "slug": "magnesium-bisglycinate-forme",
+    "src": "/img/magnesium-bisglycinate-forme.jpg",
+    "alt": "Complément de magnésium glycinate",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnesium_glycinate_supplement_Australia.jpg/1280px-Magnesium_glycinate_supplement_Australia.jpg"
+  },
+  {
+    "slug": "zinc-immunite-fertilite",
+    "src": "/img/zinc-immunite-fertilite.jpg",
+    "alt": "Graines de courge, source de zinc",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Pumpkin_Seeds_macro_1.jpg/1280px-Pumpkin_Seeds_macro_1.jpg"
+  },
+  {
+    "slug": "microbiote-bases",
+    "src": "/img/microbiote-bases.jpg",
+    "alt": "Kit d'analyse du microbiote intestinal",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/UBiome_-_Microbiome_Sequencing_Gut_Bacteria_Sample_Kit_%2817400249246%29.jpg/1280px-UBiome_-_Microbiome_Sequencing_Gut_Bacteria_Sample_Kit_%2817400249246%29.jpg"
+  },
+  {
+    "slug": "probiotiques-multi-souches",
+    "src": "/img/probiotiques-multi-souches.jpg",
+    "alt": "Bactéries probiotiques Lactobacillus acidophilus au microscope",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/20101212_205549_LactobacillusAcidophilus.jpg/1280px-20101212_205549_LactobacillusAcidophilus.jpg"
+  },
+  {
+    "slug": "prebiotiques-fibres",
+    "src": "/img/prebiotiques-fibres.jpg",
+    "alt": "Poireaux, légumes riches en fibres prébiotiques",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Rows_of_leek_%28Allium_ampeloprasum_var._porrum%29_in_a_field_-_geograph.org.uk_-_584749.jpg"
+  },
+  {
+    "slug": "perméabilité-intestinale",
+    "src": "/img/perméabilité-intestinale.png",
+    "alt": "Anatomie de l'intestin grêle",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Blausen_0817_SmallIntestine_Anatomy.png/1280px-Blausen_0817_SmallIntestine_Anatomy.png"
+  },
+  {
+    "slug": "candidose-intestinale",
+    "src": "/img/candidose-intestinale.jpg",
+    "alt": "Levures de Candida albicans au microscope",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Yeast_cells_of_Candida_albicans_in_Gram_staining_of_culture_microscopy.jpg/1280px-Yeast_cells_of_Candida_albicans_in_Gram_staining_of_culture_microscopy.jpg"
+  },
+  {
+    "slug": "plantes-adaptogenes-introduction",
+    "src": "/img/plantes-adaptogenes-introduction.jpg",
+    "alt": "Racines de plante adaptogène séchées",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/5/52/%E2%80%9CSafed_Musli_roots_cultivated_in_Gujarat%E2%80%9D.jpg"
+  },
+  {
+    "slug": "ashwagandha",
+    "src": "/img/ashwagandha.jpg",
+    "alt": "Plante d'ashwagandha (Withania somnifera)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Withania_somnifera_MHNT.BOT.2012.10.13.jpg/1280px-Withania_somnifera_MHNT.BOT.2012.10.13.jpg"
+  },
+  {
+    "slug": "rhodiole-rhodiola",
+    "src": "/img/rhodiole-rhodiola.jpg",
+    "alt": "Rhodiole (Rhodiola rosea) en fleur",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Rhodiola_rosea_kz01.jpg/1280px-Rhodiola_rosea_kz01.jpg"
+  },
+  {
+    "slug": "schisandra",
+    "src": "/img/schisandra.jpg",
+    "alt": "Baies de schisandra (Schisandra chinensis)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Schisandra_chinensis_berries.jpg/1280px-Schisandra_chinensis_berries.jpg"
+  },
+  {
+    "slug": "cordyceps-maitake-champignons",
+    "src": "/img/cordyceps-maitake-champignons.jpg",
+    "alt": "Champignon médicinal reishi (Ganoderma lucidum)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ganoderma_lucidum_%2837502564906%29.jpg/1280px-Ganoderma_lucidum_%2837502564906%29.jpg"
+  },
+  {
+    "slug": "complements-fatigue-chronique",
+    "src": "/img/complements-fatigue-chronique.jpg",
+    "alt": "Femme fatiguée devant son ordinateur",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Tired_woman_experiencing_discomfort_while_working_on_her_laptop.jpg/1280px-Tired_woman_experiencing_discomfort_while_working_on_her_laptop.jpg"
+  },
+  {
+    "slug": "complements-anxiete",
+    "src": "/img/complements-anxiete.jpg",
+    "alt": "Femme anxieuse, mains sur le visage près d'une fenêtre",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Tired_woman_stands_by_window_with_her_hands_on_her_face.jpg/1280px-Tired_woman_stands_by_window_with_her_hands_on_her_face.jpg"
+  },
+  {
+    "slug": "complements-sommeil",
+    "src": "/img/complements-sommeil.jpg",
+    "alt": "Chambre avec lit propice au sommeil",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Winchester_Mystery_House_bedroom_with_massive_headboard.jpg/1280px-Winchester_Mystery_House_bedroom_with_massive_headboard.jpg"
+  },
+  {
+    "slug": "complements-immunite",
+    "src": "/img/complements-immunite.jpg",
+    "alt": "Échinacée pourpre, plante immunostimulante",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Echinacea_purpurea%2C_Jard%C3%ADn_Bot%C3%A1nico%2C_M%C3%BAnich%2C_Alemania%2C_2013-09-08%2C_DD_01.jpg/1280px-Echinacea_purpurea%2C_Jard%C3%ADn_Bot%C3%A1nico%2C_M%C3%BAnich%2C_Alemania%2C_2013-09-08%2C_DD_01.jpg"
+  },
+  {
+    "slug": "complements-articulations",
+    "src": "/img/complements-articulations.jpg",
+    "alt": "Complément pour les articulations",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Joint_Hydration_Supplement.jpg/1280px-Joint_Hydration_Supplement.jpg"
+  },
+  {
+    "slug": "complements-thyroide",
+    "src": "/img/complements-thyroide.jpg",
+    "alt": "Glande thyroïde dans le cou",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Illu08_thyroid.jpg"
+  },
+  {
+    "slug": "complements-peau",
+    "src": "/img/complements-peau.jpg",
+    "alt": "Aloe vera, plante pour la peau",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Vahona_-_Aloe_vera_01.jpg/1280px-Vahona_-_Aloe_vera_01.jpg"
+  },
+  {
+    "slug": "complements-sport",
+    "src": "/img/complements-sport.jpg",
+    "alt": "Athlète en course à pied sur la piste",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/6/68/FAMU_athlete_Robert_Hayes_practices_running_on_the_track.jpg"
+  },
+  {
+    "slug": "complements-cognition",
+    "src": "/img/complements-cognition.jpg",
+    "alt": "Illustration du cerveau humain",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/a/a6/NIA_human_brain_drawing.jpg"
+  },
+  {
+    "slug": "complements-cardio",
+    "src": "/img/complements-cardio.jpg",
+    "alt": "Capsules d'oméga-3 (huile de poisson)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Omega_3_Fish_oil_softgel_capsules.jpg/1280px-Omega_3_Fish_oil_softgel_capsules.jpg"
+  },
+  {
+    "slug": "cure-equinoxe-printemps",
+    "src": "/img/cure-equinoxe-printemps.jpg",
+    "alt": "Floraison printanière",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Spring_Blossom_17.jpg/1280px-Spring_Blossom_17.jpg"
+  },
+  {
+    "slug": "cure-equinoxe-automne",
+    "src": "/img/cure-equinoxe-automne.jpg",
+    "alt": "Feuilles d'automne en forêt",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Autumn_leaves%2C_Talcott_Mountain_State_Park.jpg/1280px-Autumn_leaves%2C_Talcott_Mountain_State_Park.jpg"
+  },
+  {
+    "slug": "transition-saisons-emonctoires",
+    "src": "/img/transition-saisons-emonctoires.png",
+    "alt": "Un arbre à travers les quatre saisons",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/%22Four_Seasons_-_Longbridge_Road%22.png/1280px-%22Four_Seasons_-_Longbridge_Road%22.png"
+  },
+  {
+    "slug": "cure-printemps-foie-21j",
+    "src": "/img/cure-printemps-foie-21j.jpg",
+    "alt": "Pissenlit (Taraxacum officinale), plante détox du foie",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Paardenbloem_%28Taraxacum_officinale%29_06.JPG/1280px-Paardenbloem_%28Taraxacum_officinale%29_06.JPG"
+  },
+  {
+    "slug": "cure-automne-reins-poumons",
+    "src": "/img/cure-automne-reins-poumons.png",
+    "alt": "Schéma du système respiratoire",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Respiratory_system_complete_numbered.svg/1280px-Respiratory_system_complete_numbered.svg.png"
+  },
+  {
+    "slug": "preparation-hiver-immunite",
+    "src": "/img/preparation-hiver-immunite.jpg",
+    "alt": "Orange, source de vitamine C",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Fruits_-_An_Orange.jpg/1280px-Fruits_-_An_Orange.jpg"
+  },
+  {
+    "slug": "emonctoires-foie-vesicule",
+    "src": "/img/emonctoires-foie-vesicule.jpg",
+    "alt": "Foie et vésicule biliaire",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Liver_Gallbladder_SI.jpg/1280px-Liver_Gallbladder_SI.jpg"
+  },
+  {
+    "slug": "emonctoires-reins-eau",
+    "src": "/img/emonctoires-reins-eau.jpg",
+    "alt": "Modèle anatomique du rein",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Kidney_anatomy_model.jpg"
+  },
+  {
+    "slug": "emonctoires-intestins-elimination",
+    "src": "/img/emonctoires-intestins-elimination.jpg",
+    "alt": "Anatomie du côlon et du gros intestin",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/d/db/Colon_illustration_lg.jpg"
+  },
+  {
+    "slug": "emonctoires-peau-sudation",
+    "src": "/img/emonctoires-peau-sudation.jpg",
+    "alt": "Sudation sur la peau",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/TranspirationPerspirationCommonsFL.jpg/1280px-TranspirationPerspirationCommonsFL.jpg"
+  },
+  {
+    "slug": "emonctoires-poumons-bronches",
+    "src": "/img/emonctoires-poumons-bronches.png",
+    "alt": "Poumons humains et bronches",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Human_Lungs_%28NIH_BioArt_231_-_630887%29.png"
+  },
+  {
+    "slug": "jeune-hydrique",
+    "src": "/img/jeune-hydrique.jpg",
+    "alt": "Verre d'eau posé sur une table",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Woman_with_a_glass_of_water_sits_at_a_table_in_a_relaxed_cafe_setting.jpg/1280px-Woman_with_a_glass_of_water_sits_at_a_table_in_a_relaxed_cafe_setting.jpg"
+  },
+  {
+    "slug": "jeune-intermittent",
+    "src": "/img/jeune-intermittent.jpg",
+    "alt": "Assiette vide avec couverts sur une table",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Empty_table_setting_plate_fork_knife_%2842585288225%29.jpg/1280px-Empty_table_setting_plate_fork_knife_%2842585288225%29.jpg"
+  },
+  {
+    "slug": "jeune-aux-jus",
+    "src": "/img/jeune-aux-jus.jpg",
+    "alt": "Verre de jus de légumes vert",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/9/97/Celery_juice.jpg"
+  },
+  {
+    "slug": "jeune-sec",
+    "src": "/img/jeune-sec.jpg",
+    "alt": "Verre vide sur fond clair",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Through_empty_drinking_glass_2.jpg/1280px-Through_empty_drinking_glass_2.jpg"
+  },
+  {
+    "slug": "methode-buchinger",
+    "src": "/img/methode-buchinger.jpg",
+    "alt": "Bol de bouillon de légumes fumant",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/DFC_3982_A_steaming_bowl_of_homemade_vegetable_soup_garnished_with_chopped_parsley_served_with_a_slice_of_rustic_brown_bread.jpg/1280px-DFC_3982_A_steaming_bowl_of_homemade_vegetable_soup_garnished_with_chopped_parsley_served_with_a_slice_of_rustic_brown_bread.jpg"
+  },
+  {
+    "slug": "preparation-jeune",
+    "src": "/img/preparation-jeune.jpg",
+    "alt": "Assortiment de légumes frais pour la descente alimentaire",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Fresh_veggie_assortment.jpg/1280px-Fresh_veggie_assortment.jpg"
+  },
+  {
+    "slug": "sortie-jeune",
+    "src": "/img/sortie-jeune.jpg",
+    "alt": "Bol de compote de pommes pour la reprise alimentaire",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Apple-sauce-544676.jpg/1280px-Apple-sauce-544676.jpg"
+  },
+  {
+    "slug": "crises-guerison",
+    "src": "/img/crises-guerison.jpg",
+    "alt": "Personne au repos allongée",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Camille_Pissarro_-_Le_Repos%2C_paysanne_couch%C3%A9e_dans_l%C2%B4herbe%2C_Pontoise_-_1882.jpg/1280px-Camille_Pissarro_-_Le_Repos%2C_paysanne_couch%C3%A9e_dans_l%C2%B4herbe%2C_Pontoise_-_1882.jpg"
+  },
+  {
+    "slug": "monodiete-raisin",
+    "src": "/img/monodiete-raisin.jpg",
+    "alt": "Grappe de raisin",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Bunch_of_grapes_MET_41-160-100.jpg"
+  },
+  {
+    "slug": "monodiete-pomme",
+    "src": "/img/monodiete-pomme.jpg",
+    "alt": "Pommes rouges fraîches",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Tree_with_red_apples_in_Barkedal_4.jpg/1280px-Tree_with_red_apples_in_Barkedal_4.jpg"
+  },
+  {
+    "slug": "monodiete-riz",
+    "src": "/img/monodiete-riz.jpg",
+    "alt": "Bol de riz semi-complet cuit",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Bowl_of_Cooked_Brown_Rice.jpg/1280px-Bowl_of_Cooked_Brown_Rice.jpg"
+  },
+  {
+    "slug": "monodiete-pasteque",
+    "src": "/img/monodiete-pasteque.jpg",
+    "alt": "Tranches de pastèque",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Slices_of_watermelon.jpg"
+  },
+  {
+    "slug": "monodiete-carotte",
+    "src": "/img/monodiete-carotte.jpg",
+    "alt": "Botte de carottes fraîches",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ISS-43_Scott_Kelly_watches_a_bunch_of_fresh_carrots.jpg/1280px-ISS-43_Scott_Kelly_watches_a_bunch_of_fresh_carrots.jpg"
+  },
+  {
+    "slug": "jeune-court-vs-long",
+    "src": "/img/jeune-court-vs-long.jpg",
+    "alt": "Sablier en bois symbolisant la durée du jeûne",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/7/70/Wooden_hourglass_3.jpg"
+  },
+  {
+    "slug": "restriction-calorique-autophagie",
+    "src": "/img/restriction-calorique-autophagie.jpg",
+    "alt": "Bol de salade légère et saine",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Healthy_salad_bowl_%2842231145040%29.jpg/1280px-Healthy_salad_bowl_%2842231145040%29.jpg"
+  },
+  {
+    "slug": "huile-de-ricin",
+    "src": "/img/huile-de-ricin.jpg",
+    "alt": "Mise en bouteille d'huile de ricin",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Bottling_castor_oil._Wellcome_L0005122.jpg/1280px-Bottling_castor_oil._Wellcome_L0005122.jpg"
+  },
+  {
+    "slug": "lavement-colon",
+    "src": "/img/lavement-colon.jpg",
+    "alt": "Matériel d'irrigation pour lavement intestinal",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Irrigators_of_Morosoff_and_Hayes._Wellcome_M0012742.jpg/1280px-Irrigators_of_Morosoff_and_Hayes._Wellcome_M0012742.jpg"
+  },
+  {
+    "slug": "drainage-hepatique-citron",
+    "src": "/img/drainage-hepatique-citron.jpg",
+    "alt": "Citron et huile d'olive",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Lemon_and_Olive_Oil.jpg/1280px-Lemon_and_Olive_Oil.jpg"
+  },
+  {
+    "slug": "cure-radis-noir",
+    "src": "/img/cure-radis-noir.jpg",
+    "alt": "Radis noir entier et coupé",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Raphanus_sativus_var._niger_Rzodkiew_czarna_2022-05-03_01.jpg/1280px-Raphanus_sativus_var._niger_Rzodkiew_czarna_2022-05-03_01.jpg"
+  },
+  {
+    "slug": "bentonite-psyllium",
+    "src": "/img/bentonite-psyllium.jpg",
+    "alt": "Poudre de psyllium",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Psyllium_powder_orange_tast.jpg/1280px-Psyllium_powder_orange_tast.jpg"
+  },
+  {
+    "slug": "argile-verte-cataplasme",
+    "src": "/img/argile-verte-cataplasme.jpg",
+    "alt": "Argile préparée en cataplasme",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Bentonite_Kaolin_Clay_Mask.jpg/1280px-Bentonite_Kaolin_Clay_Mask.jpg"
+  },
+  {
+    "slug": "sauna-hammam",
+    "src": "/img/sauna-hammam.jpg",
+    "alt": "Intérieur en bois d'un sauna",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Wood_stove_of_smoke_sauna_of_Kuusij%C3%A4rvi%2C_Kuninkaanm%C3%A4ki%2C_Vantaa%2C_Finland%2C_2023_April_-_2.jpg/1280px-Wood_stove_of_smoke_sauna_of_Kuusij%C3%A4rvi%2C_Kuninkaanm%C3%A4ki%2C_Vantaa%2C_Finland%2C_2023_April_-_2.jpg"
+  },
+  {
+    "slug": "fumeterre-cure-printemps",
+    "src": "/img/fumeterre-cure-printemps.jpg",
+    "alt": "Fumeterre officinale (Fumaria officinalis)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/%28MHNT%29_Fumaria_officinalis_-_Habit.jpg/1280px-%28MHNT%29_Fumaria_officinalis_-_Habit.jpg"
+  },
+  {
+    "slug": "drainage-lymphatique-manuel",
+    "src": "/img/drainage-lymphatique-manuel.jpg",
+    "alt": "Massage manuel du dos",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Massage_%26_exercises_combined_%281%29.jpg"
+  },
+  {
+    "slug": "achillee-millefeuille",
+    "src": "/img/achillee-millefeuille.jpg",
+    "alt": "Achillée millefeuille en fleurs",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Misumena_vatia_on_Achillea_millefolium_qtl2.jpg/1280px-Misumena_vatia_on_Achillea_millefolium_qtl2.jpg"
+  },
+  {
+    "slug": "aubepine",
+    "src": "/img/aubepine.jpg",
+    "alt": "Aubépine (Crataegus monogyna) en fleurs",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Wei%C3%9Fdornbl%C3%BCte_Crataegus_monogyna_-20220509-RM-104145.jpg/1280px-Wei%C3%9Fdornbl%C3%BCte_Crataegus_monogyna_-20220509-RM-104145.jpg"
+  },
+  {
+    "slug": "artichaut",
+    "src": "/img/artichaut.jpg",
+    "alt": "Plant d'artichaut (Cynara scolymus)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Cynara_cardunculus_var._scolymus_in_Jardin_des_Plante_de_Paris.jpg/1280px-Cynara_cardunculus_var._scolymus_in_Jardin_des_Plante_de_Paris.jpg"
+  },
+  {
+    "slug": "bardane",
+    "src": "/img/bardane.jpg",
+    "alt": "Bardane (Arctium lappa)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Grote_klit_of_grote_klis_%28Arctium_lappa%29_19-01-2026._%28d.j.b.%29.jpg/1280px-Grote_klit_of_grote_klis_%28Arctium_lappa%29_19-01-2026._%28d.j.b.%29.jpg"
+  },
+  {
+    "slug": "boldo",
+    "src": "/img/boldo.jpg",
+    "alt": "Feuilles de boldo (Peumus boldus)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Peumus_boldus_kz1.jpg/1280px-Peumus_boldus_kz1.jpg"
+  },
+  {
+    "slug": "brossage-peau-sec",
+    "src": "/img/brossage-peau-sec.jpg",
+    "alt": "Le brossage à sec de la peau",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/9/95/DandyBrushes.jpg"
+  },
+  {
+    "slug": "camomille-romaine",
+    "src": "/img/camomille-romaine.jpg",
+    "alt": "Camomille romaine",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/%E0%AE%95%E0%AF%80%E0%AE%B4%E0%AE%BE%E0%AE%A8%E0%AF%86%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF_2_%28Phyllanthus_niruri_%29.jpg/1280px-%E0%AE%95%E0%AF%80%E0%AE%B4%E0%AE%BE%E0%AE%A8%E0%AF%86%E0%AE%B2%E0%AF%8D%E0%AE%B2%E0%AE%BF_2_%28Phyllanthus_niruri_%29.jpg"
+  },
+  {
+    "slug": "cassis-bourgeons",
+    "src": "/img/cassis-bourgeons.jpg",
+    "alt": "Cassis (bourgeons)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Seller_of_a_rare_medicinal_herb.jpg/1280px-Seller_of_a_rare_medicinal_herb.jpg"
+  },
+  {
+    "slug": "chardon-marie",
+    "src": "/img/chardon-marie.jpg",
+    "alt": "Chardon-Marie",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Phyllanthus_niruri_.jpg/1280px-Phyllanthus_niruri_.jpg"
+  },
+  {
+    "slug": "desmodium",
+    "src": "/img/desmodium.jpg",
+    "alt": "Desmodium",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Medicinal_herbs_garden_hospital.JPG/1280px-Medicinal_herbs_garden_hospital.JPG"
+  },
+  {
+    "slug": "echinacee",
+    "src": "/img/echinacee.jpg",
+    "alt": "Échinacée",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Plantes_m%C3%A9dicinales_planche_1_-_Medicinal_plants%2C_medical_herbs%2C_botanical_illustrations%2C_plate_1_-_Public_domain_illustration_from_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg/1280px-thumbnail.jpg"
+  },
+  {
+    "slug": "eleutherocoque",
+    "src": "/img/eleutherocoque.jpg",
+    "alt": "Éleuthérocoque (Ginseng sibérien)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/HK_SW_CMMA_%E9%A6%99%E6%B8%AF%E4%B8%AD%E8%97%A5%E8%81%AF%E5%95%86%E6%9C%83_Chinese_Medicine_Merchants_Association_-_%E7%9F%B3%E6%9F%B1%E7%B4%85%E5%8F%83_ShiZhu_Red_Ginseng_Jan-2014.JPG/1280px-HK_SW_CMMA_%E9%A6%99%E6%B8%AF%E4%B8%AD%E8%97%A5%E8%81%AF%E5%95%86%E6%9C%83_Chinese_Medicine_Merchants_Association_-_%E7%9F%B3%E6%9F%B1%E7%B4%85%E5%8F%83_ShiZhu_Red_Ginseng_Jan-2014.JPG"
+  },
+  {
+    "slug": "fenouil",
+    "src": "/img/fenouil.jpg",
+    "alt": "Fenouil",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Medicinal_Herbs_Garden_Museum_in_Barakat_Pharmaceutical_Group.jpg"
+  },
+  {
+    "slug": "gentiane",
+    "src": "/img/gentiane.jpg",
+    "alt": "Gentiane jaune",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/American_medicinal_leaves_and_herbs_%281911%29_%2818130066736%29.jpg/1280px-American_medicinal_leaves_and_herbs_%281911%29_%2818130066736%29.jpg"
+  },
+  {
+    "slug": "gingembre",
+    "src": "/img/gingembre.jpg",
+    "alt": "Gingembre",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Phyllanthus_niruri_closeup.jpg/1280px-Phyllanthus_niruri_closeup.jpg"
+  },
+  {
+    "slug": "ginkgo",
+    "src": "/img/ginkgo.jpg",
+    "alt": "Ginkgo biloba",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Ginkgo_Tree_Ginkgo_biloba_Leaves_Cluster_3008px.jpg/1280px-Ginkgo_Tree_Ginkgo_biloba_Leaves_Cluster_3008px.jpg"
+  },
+  {
+    "slug": "ginseng",
+    "src": "/img/ginseng.jpg",
+    "alt": "Ginseng (Panax ginseng)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Some_information_about_the_great_Chinese_root_%22sang%22_or_ginseng_%28aralia_quinquefolia%29_and_cultural_directions_%281900%29_%2820370213338%29.jpg/1280px-Some_information_about_the_great_Chinese_root_%22sang%22_or_ginseng_%28aralia_quinquefolia%29_and_cultural_directions_%281900%29_%2820370213338%29.jpg"
+  },
+  {
+    "slug": "harpagophytum",
+    "src": "/img/harpagophytum.jpg",
+    "alt": "Harpagophytum (griffe du diable)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Plantes_m%C3%A9dicinales_planche_2_-_Medicinal_plants%2C_medical_herbs%2C_botanical_illustrations%2C_plate_2_-_Public_domain_illustration_from_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg/1280px-thumbnail.jpg"
+  },
+  {
+    "slug": "lavande-vraie",
+    "src": "/img/lavande-vraie.jpg",
+    "alt": "Lavande vraie",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Lavender_field_in_Misato_Town%2C_Akita_20180624b.jpg/1280px-Lavender_field_in_Misato_Town%2C_Akita_20180624b.jpg"
+  },
+  {
+    "slug": "melisse",
+    "src": "/img/melisse.png",
+    "alt": "Mélisse (Melissa officinalis)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/3/39/Deadly_Nightshade-Medicinal_Herbs_Poisonous_Plants-136-80.png"
+  },
+  {
+    "slug": "menthe-poivree",
+    "src": "/img/menthe-poivree.jpg",
+    "alt": "Menthe poivrée",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Chanca_piedra_%28Phyllanthus_niruri%29.jpg"
+  },
+  {
+    "slug": "ortie",
+    "src": "/img/ortie.jpg",
+    "alt": "Ortie",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Plant_35.jpg/1280px-Plant_35.jpg"
+  },
+  {
+    "slug": "passiflore",
+    "src": "/img/passiflore.jpg",
+    "alt": "Passiflore",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/American_medicinal_leaves_and_herbs_%281911%29_%2818130034686%29.jpg/1280px-American_medicinal_leaves_and_herbs_%281911%29_%2818130034686%29.jpg"
+  },
+  {
+    "slug": "pissenlit",
+    "src": "/img/pissenlit.png",
+    "alt": "Pissenlit",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Medicinal_Herbs_Poisonous_Plants-136.png/1280px-Medicinal_Herbs_Poisonous_Plants-136.png"
+  },
+  {
+    "slug": "prele-des-champs",
+    "src": "/img/prele-des-champs.jpg",
+    "alt": "Prêle des champs",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Quebra-Pedra._Phyllanthus_niruri.JPG/1280px-Quebra-Pedra._Phyllanthus_niruri.JPG"
+  },
+  {
+    "slug": "reine-des-pres",
+    "src": "/img/reine-des-pres.png",
+    "alt": "Reine-des-prés",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/7/78/Medicinal_Herbs_Poisonous_Plants-136-80.png"
+  },
+  {
+    "slug": "rhodiole",
+    "src": "/img/rhodiole.jpg",
+    "alt": "Rhodiole",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Rhodiola_rosea_in_flower.JPG/1280px-Rhodiola_rosea_in_flower.JPG"
+  },
+  {
+    "slug": "romarin",
+    "src": "/img/romarin.jpg",
+    "alt": "Romarin",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/An_old_Indian_woman_selling_medicinal_herbs_on_roadside.jpg/1280px-An_old_Indian_woman_selling_medicinal_herbs_on_roadside.jpg"
+  },
+  {
+    "slug": "sauge-officinale",
+    "src": "/img/sauge-officinale.jpg",
+    "alt": "Sauge officinale",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/4/4e/.00_7237_Echte_M%C3%A4des%C3%BC%C3%9F_%28Filipendula_ulmaria%29.jpg"
+  },
+  {
+    "slug": "thym",
+    "src": "/img/thym.jpg",
+    "alt": "Thym",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Plant_35.jpg/1280px-Plant_35.jpg"
+  },
+  {
+    "slug": "valeriane",
+    "src": "/img/valeriane.jpg",
+    "alt": "Valériane (Valeriana officinalis)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Sleep_mood.jpg/1280px-Sleep_mood.jpg"
+  },
+  {
+    "slug": "millepertuis-hypericum-depression",
+    "src": "/img/millepertuis-hypericum-depression.jpg",
+    "alt": "Millepertuis (Hypericum perforatum)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/.00_3738_St._John%27s_wort_%28Hypericum_perforatum%29.jpg/1280px-.00_3738_St._John%27s_wort_%28Hypericum_perforatum%29.jpg"
+  },
+  {
+    "slug": "safran-crocus-depression",
+    "src": "/img/safran-crocus-depression.jpg",
+    "alt": "Safran (Crocus sativus)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Mauli_or_Kalava.jpg/1280px-Mauli_or_Kalava.jpg"
+  },
+  {
+    "slug": "alimentation-vivante",
+    "src": "/img/alimentation-vivante.jpg",
+    "alt": "L'alimentation vivante",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Fresh_vegetables_from_Morocco.jpg/1280px-Fresh_vegetables_from_Morocco.jpg"
+  },
+  {
+    "slug": "5-htp-griffonia-serotonine",
+    "src": "/img/5-htp-griffonia-serotonine.jpg",
+    "alt": "5-HTP (Griffonia simplicifolia)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Phyllanthus_niruri_closeup.jpg/1280px-Phyllanthus_niruri_closeup.jpg"
+  },
+  {
+    "slug": "graines-germees",
+    "src": "/img/graines-germees.jpg",
+    "alt": "Les graines germées",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Growing_bean_sprouts.jpeg/1280px-Growing_bean_sprouts.jpeg"
+  },
+  {
+    "slug": "lacto-fermentation",
+    "src": "/img/lacto-fermentation.jpg",
+    "alt": "Lacto-fermentation",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Apium_graveolens_var._dulce_%28Staudensellerie%29_2023-11-01_%2803%29.jpg/1280px-Apium_graveolens_var._dulce_%28Staudensellerie%29_2023-11-01_%2803%29.jpg"
+  },
+  {
+    "slug": "aromatherapie-post-operatoire",
+    "src": "/img/aromatherapie-post-operatoire.jpg",
+    "alt": "Aromathérapie en post-opératoire",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Taking_rosemary_oil_from_a_bottle.jpg/1280px-Taking_rosemary_oil_from_a_bottle.jpg"
+  },
+  {
+    "slug": "respiration-abdominale",
+    "src": "/img/respiration-abdominale.jpg",
+    "alt": "La respiration abdominale",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Through_south_Westland%2C_a_journey_to_the_Haast_and_Mount_Aspiring%2C_New_Zealand_%281911%29_%2814803359963%29.jpg/1280px-Through_south_Westland%2C_a_journey_to_the_Haast_and_Mount_Aspiring%2C_New_Zealand_%281911%29_%2814803359963%29.jpg"
+  },
+  {
+    "slug": "hygiene-sommeil",
+    "src": "/img/hygiene-sommeil.jpg",
+    "alt": "Hygiène du sommeil",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Master_Bedroom_accent_wall_%282181639201%29.jpg/1280px-Master_Bedroom_accent_wall_%282181639201%29.jpg"
+  },
+  {
+    "slug": "respiration-4-7-8",
+    "src": "/img/respiration-4-7-8.jpg",
+    "alt": "La technique du 4-7-8",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/2008_06_Clearwater%2C_Florida_-_Operation_Sea_Arrgh_406.jpg/1280px-2008_06_Clearwater%2C_Florida_-_Operation_Sea_Arrgh_406.jpg"
+  },
+  {
+    "slug": "coherence-cardiaque",
+    "src": "/img/coherence-cardiaque.jpg",
+    "alt": "Cohérence cardiaque (respiration lente)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/To_the_golden_land%3B_sketches_of_a_trip_to_Southern_California_%281889%29_%2814596576730%29.jpg/1280px-To_the_golden_land%3B_sketches_of_a_trip_to_Southern_California_%281889%29_%2814596576730%29.jpg"
+  },
+  {
+    "slug": "insomnie-naturelle",
+    "src": "/img/insomnie-naturelle.jpg",
+    "alt": "Insomnie",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Sleep_mood.jpg/1280px-Sleep_mood.jpg"
+  },
+  {
+    "slug": "melatonine-naturelle",
+    "src": "/img/melatonine-naturelle.jpg",
+    "alt": "Mélatonine naturelle",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Sleep_mood.jpg/1280px-Sleep_mood.jpg"
+  },
+  {
+    "slug": "meditation-pleine-conscience",
+    "src": "/img/meditation-pleine-conscience.jpg",
+    "alt": "Méditation de pleine conscience",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Guggol%C3%B3_l%C3%A1ny_%28Veszely_Jelena%29%2C_2018_Budapest.jpg/1280px-Guggol%C3%B3_l%C3%A1ny_%28Veszely_Jelena%29%2C_2018_Budapest.jpg"
+  },
+  {
+    "slug": "tryptophane-sommeil",
+    "src": "/img/tryptophane-sommeil.jpg",
+    "alt": "Tryptophane et sommeil",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/2021_roast_turkey.jpg/1280px-2021_roast_turkey.jpg"
+  },
+  {
+    "slug": "stress-chronique-causes",
+    "src": "/img/stress-chronique-causes.jpg",
+    "alt": "Stress chronique",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Lakeside_Palm_Tree_Under_Blue_Sky.jpg/1280px-Lakeside_Palm_Tree_Under_Blue_Sky.jpg"
+  },
+  {
+    "slug": "fleurs-de-bach",
+    "src": "/img/fleurs-de-bach.jpg",
+    "alt": "Fleurs de Bach",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ruhland%2C_Wildblumenwiese_bei_der_Luther-Eiche%2C_Nordnordostansicht%2C_Sp%C3%A4tfr%C3%BChling_2019%2C_02.jpg/1280px-Ruhland%2C_Wildblumenwiese_bei_der_Luther-Eiche%2C_Nordnordostansicht%2C_Sp%C3%A4tfr%C3%BChling_2019%2C_02.jpg"
+  },
+  {
+    "slug": "bain-foret-shinrin-yoku",
+    "src": "/img/bain-foret-shinrin-yoku.jpg",
+    "alt": "Bain de forêt (Shinrin-Yoku)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Sunlight_in_the_forest.jpg/1280px-Sunlight_in_the_forest.jpg"
+  },
+  {
+    "slug": "ecriture-cathartique",
+    "src": "/img/ecriture-cathartique.jpg",
+    "alt": "L'écriture cathartique",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/The_Pen_and_Pencil_%28Weekly_Journal%29_1853%2C_June_25_5_advert.jpg/1280px-The_Pen_and_Pencil_%28Weekly_Journal%29_1853%2C_June_25_5_advert.jpg"
+  },
+  {
+    "slug": "yoga-anti-stress",
+    "src": "/img/yoga-anti-stress.jpg",
+    "alt": "Le yoga anti-stress",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Morning_Yoga_%28134921595%29.jpeg/1280px-Morning_Yoga_%28134921595%29.jpeg"
+  },
+  {
+    "slug": "acceptance-commitment-therapie-act",
+    "src": "/img/acceptance-commitment-therapie-act.jpg",
+    "alt": "Thérapie ACT (acceptance and commitment)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Meditation_at_the_bank_of_river.jpg/1280px-Meditation_at_the_bank_of_river.jpg"
+  },
+  {
+    "slug": "ecriture-expressive-immunite",
+    "src": "/img/ecriture-expressive-immunite.jpg",
+    "alt": "Écriture expressive",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/The_Pen_and_Pencil_%28Weekly_Journal%29_1853%2C_June_25_2-3.jpg/1280px-The_Pen_and_Pencil_%28Weekly_Journal%29_1853%2C_June_25_2-3.jpg"
+  },
+  {
+    "slug": "vitamine-a",
+    "src": "/img/vitamine-a.jpg",
+    "alt": "Vitamine A",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Fresh_carrots%2C_cucumbers_and_salad_%F0%9F%A5%97.jpg/1280px-Fresh_carrots%2C_cucumbers_and_salad_%F0%9F%A5%97.jpg"
+  },
+  {
+    "slug": "vitamine-b6",
+    "src": "/img/vitamine-b6.jpg",
+    "alt": "Vitamine B6 (P5P)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/A_bunch_of_bananas_02.jpg/1280px-A_bunch_of_bananas_02.jpg"
+  },
+  {
+    "slug": "vitamine-b1",
+    "src": "/img/vitamine-b1.jpg",
+    "alt": "Vitamine B1 (thiamine)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Pork_liver_pate_with_mushrooms%2C_pickled_garlic%2C_and_capers%2C_on_whole_grain_bread_-_Massachusetts.jpg/1280px-Pork_liver_pate_with_mushrooms%2C_pickled_garlic%2C_and_capers%2C_on_whole_grain_bread_-_Massachusetts.jpg"
+  },
+  {
+    "slug": "vitamine-b12",
+    "src": "/img/vitamine-b12.jpg",
+    "alt": "Vitamine B12",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/2020-05-04_23_47_21_A_slice_of_Sara_Lee_white_whole_grain_bread_covered_with_Jif_peanut_butter_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg/1280px-thumbnail.jpg"
+  },
+  {
+    "slug": "vitamine-b9",
+    "src": "/img/vitamine-b9.jpg",
+    "alt": "Vitamine B9 (méthylfolate)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Fresh_Spinach_leaves.jpg/1280px-Fresh_Spinach_leaves.jpg"
+  },
+  {
+    "slug": "vitamine-c",
+    "src": "/img/vitamine-c.jpg",
+    "alt": "Vitamine C",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Ambersweet_oranges.jpg/1280px-Ambersweet_oranges.jpg"
+  },
+  {
+    "slug": "vitamine-d",
+    "src": "/img/vitamine-d.jpg",
+    "alt": "Vitamine D3",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Bottle_of_Super-D_oil_capsules%2C_London%2C_England%2C_1940-1945_Wellcome_L0057855.jpg/1280px-Bottle_of_Super-D_oil_capsules%2C_London%2C_England%2C_1940-1945_Wellcome_L0057855.jpg"
+  },
+  {
+    "slug": "vitamine-e",
+    "src": "/img/vitamine-e.jpg",
+    "alt": "Vitamine E naturelle",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Pecans%2C_hazelnuts%2C_walnuts%2C_almonds%2C_Brazil_nuts_on_a_table_with_logs_5.jpg/1280px-Pecans%2C_hazelnuts%2C_walnuts%2C_almonds%2C_Brazil_nuts_on_a_table_with_logs_5.jpg"
+  },
+  {
+    "slug": "vitamine-k2",
+    "src": "/img/vitamine-k2.jpg",
+    "alt": "Vitamine K2 (MK-7)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/7/79/006_Cheese_store_in_Amsterdam%2C_Netherlands_-_kaaswinkel.jpg"
+  },
+  {
+    "slug": "vitamine-b2",
+    "src": "/img/vitamine-b2.jpg",
+    "alt": "Vitamine B2 (riboflavine)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Eggs_%26_milk_%28331496955%29.jpg/1280px-Eggs_%26_milk_%28331496955%29.jpg"
+  },
+  {
+    "slug": "vitamine-b3",
+    "src": "/img/vitamine-b3.jpg",
+    "alt": "Vitamine B3 (niacine)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Vespula_germanica_Cutting_Meat_for_the_Colony_03.jpg/1280px-Vespula_germanica_Cutting_Meat_for_the_Colony_03.jpg"
+  },
+  {
+    "slug": "magnesium",
+    "src": "/img/magnesium.jpg",
+    "alt": "Magnésium",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/B_vitamin_supplement_tablets.jpg/1280px-B_vitamin_supplement_tablets.jpg"
+  },
+  {
+    "slug": "zinc",
+    "src": "/img/zinc.jpg",
+    "alt": "Zinc",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Pumpkin_seed._img_025.jpg/1280px-Pumpkin_seed._img_025.jpg"
+  },
+  {
+    "slug": "fer",
+    "src": "/img/fer.png",
+    "alt": "Fer",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/3_types_of_lentil.png/1280px-3_types_of_lentil.png"
+  },
+  {
+    "slug": "calcium",
+    "src": "/img/calcium.jpg",
+    "alt": "Calcium",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Fried_goat_cheese%2C_Johannisberg.jpg/1280px-Fried_goat_cheese%2C_Johannisberg.jpg"
+  },
+  {
+    "slug": "vitamine-b5",
+    "src": "/img/vitamine-b5.jpg",
+    "alt": "Vitamine B5 (acide pantothénique)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/New_Reference_Material_Can_Improve_testing_of_Multivitamin_Tablets_%285880985736%29.jpg/1280px-New_Reference_Material_Can_Improve_testing_of_Multivitamin_Tablets_%285880985736%29.jpg"
+  },
+  {
+    "slug": "iode",
+    "src": "/img/iode.jpg",
+    "alt": "Iode",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Seaweed_%28mild_and_dried%29.jpg/1280px-Seaweed_%28mild_and_dried%29.jpg"
+  },
+  {
+    "slug": "selenium",
+    "src": "/img/selenium.jpg",
+    "alt": "Sélénium",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Bertholletia_excelsa_compose.jpg/1280px-Bertholletia_excelsa_compose.jpg"
+  },
+  {
+    "slug": "chrome",
+    "src": "/img/chrome.jpg",
+    "alt": "Chrome",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Baskets_of_broccoli_and_cauliflower.jpg/1280px-Baskets_of_broccoli_and_cauliflower.jpg"
+  },
+  {
+    "slug": "cuivre",
+    "src": "/img/cuivre.jpg",
+    "alt": "Cuivre",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Dried_oysters_in_Yuen_Long.jpg/1280px-Dried_oysters_in_Yuen_Long.jpg"
+  },
+  {
+    "slug": "silicium",
+    "src": "/img/silicium.jpg",
+    "alt": "Silicium organique",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Table_salt_with_salt_shaker_V1.jpg/1280px-Table_salt_with_salt_shaker_V1.jpg"
+  },
+  {
+    "slug": "manganese",
+    "src": "/img/manganese.jpg",
+    "alt": "Manganèse",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Three_Pecans_%2840748558074%29.jpg/1280px-Three_Pecans_%2840748558074%29.jpg"
+  },
+  {
+    "slug": "potassium",
+    "src": "/img/potassium.jpg",
+    "alt": "Potassium",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Pot_of_Fruits_%28Banana%2C_Watermelon_%26_Avocado%29.jpg/1280px-Pot_of_Fruits_%28Banana%2C_Watermelon_%26_Avocado%29.jpg"
+  },
+  {
+    "slug": "molybdene",
+    "src": "/img/molybdene.jpg",
+    "alt": "Molybdène",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Black_beans%2C_cheese%2C_tortilla_close-up.jpg/1280px-Black_beans%2C_cheese%2C_tortilla_close-up.jpg"
+  },
+  {
+    "slug": "omega-3-fondamentaux",
+    "src": "/img/omega-3-fondamentaux.jpg",
+    "alt": "Oméga-3",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Raw_salmon_fillets.jpg/1280px-Raw_salmon_fillets.jpg"
+  },
+  {
+    "slug": "bore",
+    "src": "/img/bore.jpg",
+    "alt": "Bore",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Sunmaid-Raisin-Pile.jpg/1280px-Sunmaid-Raisin-Pile.jpg"
+  },
+  {
+    "slug": "lithium-oligo",
+    "src": "/img/lithium-oligo.jpg",
+    "alt": "Lithium oligo",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Kangso_Mineral_Water_Bottling_Factory_-_04.jpg/1280px-Kangso_Mineral_Water_Bottling_Factory_-_04.jpg"
+  },
+  {
+    "slug": "omega-3-vegetaux",
+    "src": "/img/omega-3-vegetaux.png",
+    "alt": "Oméga-3 végétaux",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Atlantic_Salmon.png"
+  },
+  {
+    "slug": "huiles-cuisson",
+    "src": "/img/huiles-cuisson.jpg",
+    "alt": "Bien choisir ses huiles de cuisson",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/4/42/Ferrari_Olive_Oil_Company.jpg"
+  },
+  {
+    "slug": "huile-perilla",
+    "src": "/img/huile-perilla.jpg",
+    "alt": "Huile de périlla",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Perilla_frutescens_395473187.jpg/1280px-Perilla_frutescens_395473187.jpg"
+  },
+  {
+    "slug": "huile-cco-mct",
+    "src": "/img/huile-cco-mct.jpg",
+    "alt": "Huile de coco et huile MCT",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/9129Processing_and_cooking_of_coconut_healing_oil_in_the_Philippines_53.jpg/1280px-9129Processing_and_cooking_of_coconut_healing_oil_in_the_Philippines_53.jpg"
+  },
+  {
+    "slug": "tryptophane",
+    "src": "/img/tryptophane.jpg",
+    "alt": "Tryptophane",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Roasted_Turkey_and_Roast_Prime_Rib_at_carving_table.jpg/1280px-Roasted_Turkey_and_Roast_Prime_Rib_at_carving_table.jpg"
+  },
+  {
+    "slug": "ghee-beurre-clarifie",
+    "src": "/img/ghee-beurre-clarifie.jpg",
+    "alt": "Le ghee",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/2/27/Dalda_Vegetable_Ghee.jpg"
+  },
+  {
+    "slug": "tyrosine",
+    "src": "/img/tyrosine.jpg",
+    "alt": "Tyrosine",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/%22Eat_More_Cottage_Cheese...You%27ll_Need_Less_Meat...A_Postal_Card_Will_Bring_Recipes...Cottage_Cheese_or_Meat%5E_Ask..._-_NARA_-_512542.jpg/1280px-%22Eat_More_Cottage_Cheese...You%27ll_Need_Less_Meat...A_Postal_Card_Will_Bring_Recipes...Cottage_Cheese_or_Meat%5E_Ask..._-_NARA_-_512542.jpg"
+  },
+  {
+    "slug": "glutamine",
+    "src": "/img/glutamine.jpg",
+    "alt": "L-glutamine",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/02025_0014_collagen_bone_broth.jpg/1280px-02025_0014_collagen_bone_broth.jpg"
+  },
+  {
+    "slug": "taurine",
+    "src": "/img/taurine.jpg",
+    "alt": "Taurine",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Headshot_energy_drink_365ml_200mg_cafeine_and_L_Tyrosine.jpg"
+  },
+  {
+    "slug": "arginine-citrulline",
+    "src": "/img/arginine-citrulline.jpg",
+    "alt": "L-arginine et L-citrulline",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Grilled_watermelon.JPG/1280px-Grilled_watermelon.JPG"
+  },
+  {
+    "slug": "glycine",
+    "src": "/img/glycine.jpg",
+    "alt": "Glycine",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Tissues_-_Collagen_--_Smart-Servier.jpg/1280px-Tissues_-_Collagen_--_Smart-Servier.jpg"
+  },
+  {
+    "slug": "carnitine-acetyl",
+    "src": "/img/carnitine-acetyl.jpg",
+    "alt": "L-carnitine et acétyl-L-carnitine",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/HK_food_ingredient_red_meat_frozen_pork_chop_raw_butt_steak_October_2021_SS2_018.jpg/1280px-HK_food_ingredient_red_meat_frozen_pork_chop_raw_butt_steak_October_2021_SS2_018.jpg"
+  },
+  {
+    "slug": "glutathion",
+    "src": "/img/glutathion.jpg",
+    "alt": "Glutathion",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Trout%2C_broccoli%2C_and_potatoes_-_Twickenham%2C_UK.jpg/1280px-Trout%2C_broccoli%2C_and_potatoes_-_Twickenham%2C_UK.jpg"
+  },
+  {
+    "slug": "resveratrol",
+    "src": "/img/resveratrol.jpg",
+    "alt": "Resvératrol",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Red_and_green_grapes_in_a_bowl_02.JPG/1280px-Red_and_green_grapes_in_a_bowl_02.JPG"
+  },
+  {
+    "slug": "coenzyme-q10-detail",
+    "src": "/img/coenzyme-q10-detail.jpg",
+    "alt": "CoQ10 (ubiquinol)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Oweston_sting_fish_for_sale_at_Tsukiji_Fishmarket%2C_Tokyo-30.jpg/1280px-Oweston_sting_fish_for_sale_at_Tsukiji_Fishmarket%2C_Tokyo-30.jpg"
+  },
+  {
+    "slug": "astaxanthine",
+    "src": "/img/astaxanthine.jpg",
+    "alt": "Astaxanthine",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Enjoying_a_lunch_of_locally_wild-caught_Alaska_salmon_%2817237365222%29.jpg/1280px-Enjoying_a_lunch_of_locally_wild-caught_Alaska_salmon_%2817237365222%29.jpg"
+  },
+  {
+    "slug": "acide-alpha-lipoique",
+    "src": "/img/acide-alpha-lipoique.jpg",
+    "alt": "Acide alpha-lipoïque (ALA)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Spinacia_oleracea_Breedblad_scherpzaad.jpg/1280px-Spinacia_oleracea_Breedblad_scherpzaad.jpg"
+  },
+  {
+    "slug": "quercetine",
+    "src": "/img/quercetine.jpg",
+    "alt": "Quercétine",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Red_onions_-_San_Francisco%2C_CA.jpg/1280px-Red_onions_-_San_Francisco%2C_CA.jpg"
+  },
+  {
+    "slug": "fer-bisglycinate-anemie",
+    "src": "/img/fer-bisglycinate-anemie.jpg",
+    "alt": "Fer bisglycinate",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Bowl_of_lentil_soup_with_green_and_red_lentils.jpg/1280px-Bowl_of_lentil_soup_with_green_and_red_lentils.jpg"
+  },
+  {
+    "slug": "polyphenols-fruits-rouges",
+    "src": "/img/polyphenols-fruits-rouges.jpg",
+    "alt": "Anthocyanes",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/A_Circle_mousse_cake_with_mixed_berries_and_some_fruits_from_Mall_Cafe.jpg/1280px-A_Circle_mousse_cake_with_mixed_berries_and_some_fruits_from_Mall_Cafe.jpg"
+  },
+  {
+    "slug": "iode-thyroide-france",
+    "src": "/img/iode-thyroide-france.jpg",
+    "alt": "Iode et thyroïde",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Dried_seaweed_round_bricks.jpg/1280px-Dried_seaweed_round_bricks.jpg"
+  },
+  {
+    "slug": "omega-3-epa-dha-ratio",
+    "src": "/img/omega-3-epa-dha-ratio.jpg",
+    "alt": "Oméga-3 EPA/DHA",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Salmon_%284413729710%29.jpg/1280px-Salmon_%284413729710%29.jpg"
+  },
+  {
+    "slug": "omega-6-omega-3-desequilibre",
+    "src": "/img/omega-6-omega-3-desequilibre.jpg",
+    "alt": "Le déséquilibre oméga-6/oméga-3 dans l'alimentation moderne",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Salmon_Fillet_%2830910417061%29.jpg/1280px-Salmon_Fillet_%2830910417061%29.jpg"
+  },
+  {
+    "slug": "microbiote-lagarde-cellulaire",
+    "src": "/img/microbiote-lagarde-cellulaire.jpg",
+    "alt": "Microbiote et nutrithérapie cellulaire (approche Lagarde)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Yoghurt_and_spoon.jpg/1280px-Yoghurt_and_spoon.jpg"
+  },
+  {
+    "slug": "fatigue-chronique-curtay-mitochondrie",
+    "src": "/img/fatigue-chronique-curtay-mitochondrie.jpg",
+    "alt": "Fatigue chronique",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Spirulina_Capsules.jpg"
+  },
+  {
+    "slug": "douche-soleil-vivifiante",
+    "src": "/img/douche-soleil-vivifiante.jpg",
+    "alt": "La douche du soleil vivifiante (méthode Kneipp)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/France-001966_-_Shower_Time_%2815554891310%29.jpg/1280px-France-001966_-_Shower_Time_%2815554891310%29.jpg"
+  },
+  {
+    "slug": "cure-thermale-tradition",
+    "src": "/img/cure-thermale-tradition.jpg",
+    "alt": "Les cures thermales",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Lime_residue_thermal_water_Katlanovo_spa_2.jpg/1280px-Lime_residue_thermal_water_Katlanovo_spa_2.jpg"
+  },
+  {
+    "slug": "roll-on-anti-stress-formules",
+    "src": "/img/roll-on-anti-stress-formules.jpg",
+    "alt": "Roll-on anti-stress",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Somewhere_in_the_Kampinos.jpg/1280px-Somewhere_in_the_Kampinos.jpg"
+  },
+  {
+    "slug": "enveloppement-froid-priessnitz",
+    "src": "/img/enveloppement-froid-priessnitz.jpg",
+    "alt": "L'enveloppement froid de Priessnitz",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Spa_interiors_-_1.jpg/1280px-Spa_interiors_-_1.jpg"
+  },
+  {
+    "slug": "diffusion-bureau-concentration",
+    "src": "/img/diffusion-bureau-concentration.jpg",
+    "alt": "Diffusion au bureau",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/3/38/Essential_for_the_new_home.jpg"
+  },
+  {
+    "slug": "cataplasme-argile-applications",
+    "src": "/img/cataplasme-argile-applications.jpg",
+    "alt": "Le cataplasme d'argile verte",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Essentuki_Spa%2C_Mineral_water_drinking_gallery%2C_Russia.jpg/1280px-Essentuki_Spa%2C_Mineral_water_drinking_gallery%2C_Russia.jpg"
+  },
+  {
+    "slug": "olfactotherapie-base",
+    "src": "/img/olfactotherapie-base.jpg",
+    "alt": "L'olfactothérapie",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Eucalyptus_Oil_Bottles_Inglewood.jpg/1280px-Eucalyptus_Oil_Bottles_Inglewood.jpg"
+  },
+  {
+    "slug": "gemmotherapie-bases",
+    "src": "/img/gemmotherapie-bases.jpg",
+    "alt": "La gemmothérapie",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Plantes_m%C3%A9dicinales_planche_2_-_Medicinal_plants%2C_medical_herbs%2C_botanical_illustrations%2C_plate_2_-_Public_domain_illustration_from_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg/1280px-thumbnail.jpg"
+  },
+  {
+    "slug": "huile-massage-jambes-lourdes",
+    "src": "/img/huile-massage-jambes-lourdes.png",
+    "alt": "Huile de massage maison pour jambes lourdes",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/d/d9/SesameSeedOil.png"
+  },
+  {
+    "slug": "teintures-meres-fabrication",
+    "src": "/img/teintures-meres-fabrication.jpg",
+    "alt": "Fabriquer ses teintures-mères à la maison",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Plantes_m%C3%A9dicinales_planche_2_-_Medicinal_plants%2C_medical_herbs%2C_botanical_illustrations%2C_plate_2_-_Public_domain_illustration_from_Larousse_du_XX%C3%A8me_si%C3%A8cle_1932.jpg/1280px-thumbnail.jpg"
+  },
+  {
+    "slug": "cure-bourgeon-cassis-printemps",
+    "src": "/img/cure-bourgeon-cassis-printemps.jpg",
+    "alt": "La cure bourgeon de cassis au printemps",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/An_old_Indian_woman_selling_medicinal_herbs_on_roadside.jpg/1280px-An_old_Indian_woman_selling_medicinal_herbs_on_roadside.jpg"
+  },
+  {
+    "slug": "desmodium-foie-renaissance",
+    "src": "/img/desmodium-foie-renaissance.jpg",
+    "alt": "Desmodium adscendens",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Frozen_salmon_fillet.jpg/1280px-Frozen_salmon_fillet.jpg"
+  },
+  {
+    "slug": "vitamine-d-mortalite-toute-cause",
+    "src": "/img/vitamine-d-mortalite-toute-cause.jpg",
+    "alt": "Vitamine D et mortalité toute cause",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Bottle_of_Super-D_oil_capsules%2C_London%2C_England%2C_1940-1945_Wellcome_L0057855.jpg/1280px-Bottle_of_Super-D_oil_capsules%2C_London%2C_England%2C_1940-1945_Wellcome_L0057855.jpg"
+  },
+  {
+    "slug": "b12-cognition-personne-agee",
+    "src": "/img/b12-cognition-personne-agee.jpg",
+    "alt": "Vitamine B12 et cognition de la personne âgée",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/2023_Gold-Vit.jpg/1280px-2023_Gold-Vit.jpg"
+  },
+  {
+    "slug": "vitamine-k2-mk7-osteoporose",
+    "src": "/img/vitamine-k2-mk7-osteoporose.jpg",
+    "alt": "Vitamine K2 (MK-7) et os",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Unapproved_Parmigiano-Reggiano_wheel_on_shelf.JPG/1280px-Unapproved_Parmigiano-Reggiano_wheel_on_shelf.JPG"
+  },
+  {
+    "slug": "magnesium-syndrome-metabolique",
+    "src": "/img/magnesium-syndrome-metabolique.jpg",
+    "alt": "Magnésium et syndrome métabolique",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/2023_Magne-B6_Max_%28suplement_diety%29.jpg/1280px-2023_Magne-B6_Max_%28suplement_diety%29.jpg"
+  },
+  {
+    "slug": "selenium-cancer-prevention-update",
+    "src": "/img/selenium-cancer-prevention-update.jpg",
+    "alt": "Sélénium et prévention du cancer",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Bertholletia_Excelsa_-_Plaque.jpg/1280px-Bertholletia_Excelsa_-_Plaque.jpg"
+  },
+  {
+    "slug": "zinc-fertilite-masculine",
+    "src": "/img/zinc-fertilite-masculine.jpg",
+    "alt": "Zinc et fertilité masculine",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Pumpkin_seed._img_028.jpg/1280px-Pumpkin_seed._img_028.jpg"
+  },
+  {
+    "slug": "safran-depression-meta-2024",
+    "src": "/img/safran-depression-meta-2024.jpg",
+    "alt": "Safran et dépression",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Rakhi...jpg/1280px-Rakhi...jpg"
+  },
+  {
+    "slug": "rhodiole-fatigue-recente",
+    "src": "/img/rhodiole-fatigue-recente.jpg",
+    "alt": "Rhodiola rosea et fatigue",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/b/be/Rhodiola_rosea_a4.jpg"
+  },
+  {
+    "slug": "curcuma-arthrose-genou-update",
+    "src": "/img/curcuma-arthrose-genou-update.jpg",
+    "alt": "Curcuma et arthrose du genou",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Chlorofeel_Spices_Turmeric%2C_Coriander_and_Cumin_Powder.jpg/1280px-Chlorofeel_Spices_Turmeric%2C_Coriander_and_Cumin_Powder.jpg"
+  },
+  {
+    "slug": "probiotiques-eczema-enfant",
+    "src": "/img/probiotiques-eczema-enfant.jpg",
+    "alt": "Probiotiques et eczéma de l'enfant",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Yogurt_layers_with_fruit_in_tall_personalized_glasses_raspberries_blueberries_strawberries_in_bowls_on_table_and_spoons_%2815759719804%29.jpg/1280px-Yogurt_layers_with_fruit_in_tall_personalized_glasses_raspberries_blueberries_strawberries_in_bowls_on_table_and_spoons_%2815759719804%29.jpg"
+  },
+  {
+    "slug": "mediterraneen-mortalite-cohorte",
+    "src": "/img/mediterraneen-mortalite-cohorte.jpg",
+    "alt": "Régime méditerranéen et mortalité",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Liat_Portal_for_Foodie_Disorder_-_Cooked_Lentils_with_Caramelized_Onions.jpg/1280px-Liat_Portal_for_Foodie_Disorder_-_Cooked_Lentils_with_Caramelized_Onions.jpg"
+  },
+  {
+    "slug": "vitamine-d-supplementation-infections-respiratoires",
+    "src": "/img/vitamine-d-supplementation-infections-respiratoires.jpg",
+    "alt": "Vitamine D",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Bottle_of_Super-D_oil_capsules%2C_London%2C_England%2C_1940-1945_Wellcome_L0057855.jpg/1280px-Bottle_of_Super-D_oil_capsules%2C_London%2C_England%2C_1940-1945_Wellcome_L0057855.jpg"
+  },
+  {
+    "slug": "jeune-intermittent-poids-mortalite",
+    "src": "/img/jeune-intermittent-poids-mortalite.jpg",
+    "alt": "Jeûne intermittent",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Water_Droplets_on_a_Traveler%27s_Glass_Window.jpg/1280px-Water_Droplets_on_a_Traveler%27s_Glass_Window.jpg"
+  },
+  {
+    "slug": "vitamine-c-non-toxicite-limites",
+    "src": "/img/vitamine-c-non-toxicite-limites.jpg",
+    "alt": "Vitamine C",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Orange_fruit_%28Citrus_%C3%97_sinensis%29.jpg/1280px-Orange_fruit_%28Citrus_%C3%97_sinensis%29.jpg"
+  },
+  {
+    "slug": "vitamine-b12-vegetariens-deficit",
+    "src": "/img/vitamine-b12-vegetariens-deficit.jpg",
+    "alt": "Vitamine B12",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/2020-05-04_23_49_16_A_peanut_butter_and_jelly_sandwich_composed_of_two_slices_of_Sara_Lee_white_whole_grain_bread%2C_Welch%27s_concord_grape_jelly_and_Jif_peanut_butter_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg/1280px-thumbnail.jpg"
+  },
+  {
+    "slug": "folates-methylfolate-depression",
+    "src": "/img/folates-methylfolate-depression.jpg",
+    "alt": "L-méthylfolate (B9 active)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Spinach_harvesting_at_the_farm.jpg/1280px-Spinach_harvesting_at_the_farm.jpg"
+  },
+  {
+    "slug": "vitamine-k2-arteres-os",
+    "src": "/img/vitamine-k2-arteres-os.jpg",
+    "alt": "Vitamine K2",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/3/3c/200-pound_cheese_wheel_Meule_de_fromage_de_200_livres_%2840021621171%29.jpg"
+  },
+  {
+    "slug": "magnesium-formes-biodisponibilite",
+    "src": "/img/magnesium-formes-biodisponibilite.jpg",
+    "alt": "Magnésium",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Magnesium_Glycinate.jpg/1280px-Magnesium_Glycinate.jpg"
+  },
+  {
+    "slug": "zinc-immunite-infections-respiratoires",
+    "src": "/img/zinc-immunite-infections-respiratoires.jpg",
+    "alt": "Zinc et immunité",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Pumpkin_seed._img_031.jpg/1280px-Pumpkin_seed._img_031.jpg"
+  },
+  {
+    "slug": "fer-bisglycinate-vs-sulfate",
+    "src": "/img/fer-bisglycinate-vs-sulfate.jpg",
+    "alt": "Fer",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Home_made_Dal_vorta_%28Mashed_lentil%29.jpg/1280px-Home_made_Dal_vorta_%28Mashed_lentil%29.jpg"
+  },
+  {
+    "slug": "iode-thyroide-carence",
+    "src": "/img/iode-thyroide-carence.jpg",
+    "alt": "Iode et thyroïde",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Dried_purple_seaweed_cakes.jpg/1280px-Dried_purple_seaweed_cakes.jpg"
+  },
+  {
+    "slug": "selenium-hashimoto-thyroidite",
+    "src": "/img/selenium-hashimoto-thyroidite.jpg",
+    "alt": "Sélénium et thyroïdite de Hashimoto",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Yonghui_dried_seaweed_cakes.jpg/1280px-Yonghui_dried_seaweed_cakes.jpg"
+  },
+  {
+    "slug": "ashwagandha-stress-cortisol",
+    "src": "/img/ashwagandha-stress-cortisol.jpg",
+    "alt": "Ashwagandha et stress",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/0/00/SalmonFillet.jpg"
+  },
+  {
+    "slug": "rhodiole-fatigue-performance-mentale",
+    "src": "/img/rhodiole-fatigue-performance-mentale.jpg",
+    "alt": "Rhodiola rosea",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Rhodiola_rosea_%28male_flower_s2%29.jpg/1280px-Rhodiola_rosea_%28male_flower_s2%29.jpg"
+  },
+  {
+    "slug": "curcuma-piperine-biodisponibilite",
+    "src": "/img/curcuma-piperine-biodisponibilite.jpg",
+    "alt": "Curcuma",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Lakadong_Turmeric_Powder_final_product.jpg"
+  },
+  {
+    "slug": "ginseng-fatigue-meta-analyses",
+    "src": "/img/ginseng-fatigue-meta-analyses.jpg",
+    "alt": "Ginseng et fatigue",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Insam_%28ginseng%29.jpg/1280px-Insam_%28ginseng%29.jpg"
+  },
+  {
+    "slug": "probiotiques-axe-intestin-cerveau",
+    "src": "/img/probiotiques-axe-intestin-cerveau.jpg",
+    "alt": "Axe intestin-cerveau",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Yoghurt_and_Soy_Yoghurt_red.JPG/1280px-Yoghurt_and_Soy_Yoghurt_red.JPG"
+  },
+  {
+    "slug": "omega-3-epa-dha-cardiovasculaire",
+    "src": "/img/omega-3-epa-dha-cardiovasculaire.jpg",
+    "alt": "Oméga-3 EPA/DHA",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Crispy_skin_salmon_fillet_with_caper_crushed_potato_at_Hunter_%26_Scout_Caf%C3%A9%2C_Graceville%2C_Queensland.jpg/1280px-Crispy_skin_salmon_fillet_with_caper_crushed_potato_at_Hunter_%26_Scout_Caf%C3%A9%2C_Graceville%2C_Queensland.jpg"
+  },
+  {
+    "slug": "cordyceps-performance-sportive",
+    "src": "/img/cordyceps-performance-sportive.jpg",
+    "alt": "Cordyceps militaris",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/20130608_Plitvice_Lakes_National_Park_059.jpg/1280px-20130608_Plitvice_Lakes_National_Park_059.jpg"
+  },
+  {
+    "slug": "jeune-intermittent-autophagie-metabolisme",
+    "src": "/img/jeune-intermittent-autophagie-metabolisme.jpg",
+    "alt": "Jeûne intermittent",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Water_droplets_on_blue_glass_surface.jpg/1280px-Water_droplets_on_blue_glass_surface.jpg"
+  },
+  {
+    "slug": "polyphenols-regime-mediterraneen-cardiovasculaire",
+    "src": "/img/polyphenols-regime-mediterraneen-cardiovasculaire.jpg",
+    "alt": "Polyphénols et santé cardiovasculaire",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Sabayon_with_mixed_berries_served%2C_March_2011.jpg/1280px-Sabayon_with_mixed_berries_served%2C_March_2011.jpg"
+  },
+  {
+    "slug": "vitamine-a-toxicite-retinol",
+    "src": "/img/vitamine-a-toxicite-retinol.jpg",
+    "alt": "Vitamine A",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Man_cleaning_fresh_carrots_from_farm.jpg/1280px-Man_cleaning_fresh_carrots_from_farm.jpg"
+  },
+  {
+    "slug": "fibres-prebiotiques-acides-gras-chaine-courte",
+    "src": "/img/fibres-prebiotiques-acides-gras-chaine-courte.jpg",
+    "alt": "Fibres prébiotiques et acides gras à chaîne courte",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Artichoke_ready_to_cook.jpg"
+  },
+  {
+    "slug": "vitamine-e-alpha-gamma-tocopherol",
+    "src": "/img/vitamine-e-alpha-gamma-tocopherol.jpg",
+    "alt": "Vitamine E",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Strawberry_salad_ingredients_strawberries_sliced_cucumber_lemon_wedges_almonds_nuts_fruit_%2828769513975%29.jpg/1280px-Strawberry_salad_ingredients_strawberries_sliced_cucumber_lemon_wedges_almonds_nuts_fruit_%2828769513975%29.jpg"
+  },
+  {
+    "slug": "vitamine-b6-neuropathie-dose-elevee",
+    "src": "/img/vitamine-b6-neuropathie-dose-elevee.jpg",
+    "alt": "Vitamine B6",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/A_Bunch_of_Bananas_displayed_by_a_roadside_seller_01.jpg/1280px-A_Bunch_of_Bananas_displayed_by_a_roadside_seller_01.jpg"
+  },
+  {
+    "slug": "niacine-vitamine-b3-flush-lipides",
+    "src": "/img/niacine-vitamine-b3-flush-lipides.jpg",
+    "alt": "Niacine (vitamine B3)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Chicken_Gravy_%22Jhol%22.jpg/1280px-Chicken_Gravy_%22Jhol%22.jpg"
+  },
+  {
+    "slug": "thiamine-wernicke-alcool",
+    "src": "/img/thiamine-wernicke-alcool.jpg",
+    "alt": "Thiamine (B1) et encéphalopathie de Wernicke",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Vegan_no-knead_whole_wheat_bread_loaf%2C_September_2010.jpg/1280px-Vegan_no-knead_whole_wheat_bread_loaf%2C_September_2010.jpg"
+  },
+  {
+    "slug": "calcium-supplementation-cardiovasculaire-controverse",
+    "src": "/img/calcium-supplementation-cardiovasculaire-controverse.jpg",
+    "alt": "Calcium en supplément",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Goat_cheese_dish%2C_Goldatzel.jpg/1280px-Goat_cheese_dish%2C_Goldatzel.jpg"
+  },
+  {
+    "slug": "potassium-tension-arterielle-meta-analyses",
+    "src": "/img/potassium-tension-arterielle-meta-analyses.jpg",
+    "alt": "Potassium et tension",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Sexy_fruit_art_of_avocado_and_banana_by_Dainis_Graveris_on_www.sexualalpha.com_%2851100804076%29.jpg/1280px-Sexy_fruit_art_of_avocado_and_banana_by_Dainis_Graveris_on_www.sexualalpha.com_%2851100804076%29.jpg"
+  },
+  {
+    "slug": "manganese-neurotoxicite-exposition",
+    "src": "/img/manganese-neurotoxicite-exposition.jpg",
+    "alt": "Manganèse",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Pecans.jpg/1280px-Pecans.jpg"
+  },
+  {
+    "slug": "cuivre-zinc-equilibre-ratio",
+    "src": "/img/cuivre-zinc-equilibre-ratio.jpg",
+    "alt": "Zinc et cuivre",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Pumpkin_seed._img_020.jpg/1280px-Pumpkin_seed._img_020.jpg"
+  },
+  {
+    "slug": "chrome-picolinate-diabete-type-2",
+    "src": "/img/chrome-picolinate-diabete-type-2.jpg",
+    "alt": "Chrome picolinate dans le diabète de type 2",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Romanesco_broccoli_%28Brassica_oleracea%29.jpg/1280px-Romanesco_broccoli_%28Brassica_oleracea%29.jpg"
+  },
+  {
+    "slug": "reishi-ganoderma-immunite-cancer",
+    "src": "/img/reishi-ganoderma-immunite-cancer.jpg",
+    "alt": "Reishi (Ganoderma lucidum)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Mojazaf.jpg/1280px-Mojazaf.jpg"
+  },
+  {
+    "slug": "ginkgo-biloba-cognition-dementia",
+    "src": "/img/ginkgo-biloba-cognition-dementia.jpg",
+    "alt": "Ginkgo biloba",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Alfombra_con_follas_de_Ginkgo_biloba_secas._Alameda_de_Santiago_de_Compostela._Galiza.jpg/1280px-Alfombra_con_follas_de_Ginkgo_biloba_secas._Alameda_de_Santiago_de_Compostela._Galiza.jpg"
+  },
+  {
+    "slug": "bacopa-monnieri-memoire-cognition",
+    "src": "/img/bacopa-monnieri-memoire-cognition.jpg",
+    "alt": "Bacopa monnieri",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Bacopa_monnieri_kz03.jpg/1280px-Bacopa_monnieri_kz03.jpg"
+  },
+  {
+    "slug": "astragale-membranaceus-immunite",
+    "src": "/img/astragale-membranaceus-immunite.png",
+    "alt": "Astragale (Astragalus membranaceus)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Medicinal_Herbs_Poisonous_Plants-151.png/1280px-Medicinal_Herbs_Poisonous_Plants-151.png"
+  },
+  {
+    "slug": "probiotiques-prevention-diarrhee-antibiotiques",
+    "src": "/img/probiotiques-prevention-diarrhee-antibiotiques.jpg",
+    "alt": "Probiotiques et antibiothérapie",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/A_table_spoon_Mishti_doi_in_Kolkata.jpg/1280px-A_table_spoon_Mishti_doi_in_Kolkata.jpg"
+  },
+  {
+    "slug": "maca-lepidium-meyenii-fonction-sexuelle",
+    "src": "/img/maca-lepidium-meyenii-fonction-sexuelle.png",
+    "alt": "Maca (Lepidium meyenii)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Medicinal_Herbs_Poisonous_Plants-067a.png"
+  },
+  {
+    "slug": "resveratrol-sirtuines-vieillissement",
+    "src": "/img/resveratrol-sirtuines-vieillissement.jpg",
+    "alt": "Resvératrol et sirtuines",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/2021-07-11_13_07_30_Red_table_grapes_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg/1280px-2021-07-11_13_07_30_Red_table_grapes_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg"
+  },
+  {
+    "slug": "coq10-myopathie-statines",
+    "src": "/img/coq10-myopathie-statines.jpg",
+    "alt": "Coenzyme Q10 et myopathie sous statines",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Sardina_pilchardus.jpg/1280px-Sardina_pilchardus.jpg"
+  },
+  {
+    "slug": "valeriane-sommeil",
+    "src": "/img/valeriane-sommeil.jpg",
+    "alt": "Valériane",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Valeriana_officinalis_15-p.bot-vale.offi-17.jpg/1280px-Valeriana_officinalis_15-p.bot-vale.offi-17.jpg"
+  },
+  {
+    "slug": "nmn-nad-anti-vieillissement",
+    "src": "/img/nmn-nad-anti-vieillissement.jpg",
+    "alt": "NMN et NAD+",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Pai_Chai%2C_chemical_laboratory%2C_%28s.d.%29_%28Taylor_paichai12%29.jpg/1280px-Pai_Chai%2C_chemical_laboratory%2C_%28s.d.%29_%28Taylor_paichai12%29.jpg"
+  },
+  {
+    "slug": "passiflore-sommeil",
+    "src": "/img/passiflore-sommeil.jpg",
+    "alt": "Passiflore",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Passiflora_incarnata_004.JPG/1280px-Passiflora_incarnata_004.JPG"
+  },
+  {
+    "slug": "aubepine-sommeil",
+    "src": "/img/aubepine-sommeil.jpg",
+    "alt": "Aubépine",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Crataegi1.JPG/1280px-Crataegi1.JPG"
+  },
+  {
+    "slug": "tilleul-sommeil",
+    "src": "/img/tilleul-sommeil.jpg",
+    "alt": "Tilleul",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Oscillant_on_Common_Lime_-_empty.jpg/1280px-Oscillant_on_Common_Lime_-_empty.jpg"
+  },
+  {
+    "slug": "ashwagandha-stress",
+    "src": "/img/ashwagandha-stress.jpg",
+    "alt": "Ashwagandha",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Withania_somnifera_Witania_ospa%C5%82a_2021-08-08_04.jpg/1280px-Withania_somnifera_Witania_ospa%C5%82a_2021-08-08_04.jpg"
+  },
+  {
+    "slug": "melisse-sommeil",
+    "src": "/img/melisse-sommeil.jpg",
+    "alt": "Mélisse",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Lemon_balm_plant.jpg/1280px-Lemon_balm_plant.jpg"
+  },
+  {
+    "slug": "rhodiole-stress",
+    "src": "/img/rhodiole-stress.jpg",
+    "alt": "Rhodiole",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Rhodiola_rosea_and_Potentilla_matsumurae.jpg/1280px-Rhodiola_rosea_and_Potentilla_matsumurae.jpg"
+  },
+  {
+    "slug": "basilic-sacre-stress",
+    "src": "/img/basilic-sacre-stress.jpg",
+    "alt": "Basilic sacré (Tulsi)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Holy_Basil_%28Ocimum_tenuiflorum%29_1.jpg/1280px-Holy_Basil_%28Ocimum_tenuiflorum%29_1.jpg"
+  },
+  {
+    "slug": "eschscholtzia-stress",
+    "src": "/img/eschscholtzia-stress.jpg",
+    "alt": "Eschscholtzia (pavot de Californie)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Eschscholzia_californica_095332.jpg/1280px-Eschscholzia_californica_095332.jpg"
+  },
+  {
+    "slug": "artichaut-digestion",
+    "src": "/img/artichaut-digestion.jpg",
+    "alt": "Artichaut",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/-2022-07-30_Flowering_globe_artichoke_plant%2C_Trimingham%2C_Norfolk.JPG/1280px--2022-07-30_Flowering_globe_artichoke_plant%2C_Trimingham%2C_Norfolk.JPG"
+  },
+  {
+    "slug": "chardon-marie-digestion",
+    "src": "/img/chardon-marie-digestion.jpg",
+    "alt": "Chardon-Marie",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Mediterranean_Milk_Thistle_%286377340055%29.jpg/1280px-Mediterranean_Milk_Thistle_%286377340055%29.jpg"
+  },
+  {
+    "slug": "gentiane-digestion",
+    "src": "/img/gentiane-digestion.jpg",
+    "alt": "Gentiane jaune",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Atlas_der_Alpenflora_%2810192520176%29.jpg/1280px-Atlas_der_Alpenflora_%2810192520176%29.jpg"
+  },
+  {
+    "slug": "romarin-digestion",
+    "src": "/img/romarin-digestion.jpg",
+    "alt": "Romarin",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Wedang_Jahe_Sari_Jahe_Afna_Penara.jpg/1280px-Wedang_Jahe_Sari_Jahe_Afna_Penara.jpg"
+  },
+  {
+    "slug": "fenouil-digestion",
+    "src": "/img/fenouil-digestion.jpg",
+    "alt": "Fenouil",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Foeniculum_vulgare_Mill._%28AM_AK299404-2%29.jpg/1280px-Foeniculum_vulgare_Mill._%28AM_AK299404-2%29.jpg"
+  },
+  {
+    "slug": "echinacee-immunite",
+    "src": "/img/echinacee-immunite.jpg",
+    "alt": "Échinacée pourpre",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Sonnenhut_%28Rudbeckia%29_Raureif-20241201-RM-103828.jpg/1280px-Sonnenhut_%28Rudbeckia%29_Raureif-20241201-RM-103828.jpg"
+  },
+  {
+    "slug": "menthe-poivree-digestion",
+    "src": "/img/menthe-poivree-digestion.jpg",
+    "alt": "Menthe poivrée",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Makilala_Cotabato_coconut_sugar_ginger_tea_coconut_nectar_honey1.jpg/1280px-Makilala_Cotabato_coconut_sugar_ginger_tea_coconut_nectar_honey1.jpg"
+  },
+  {
+    "slug": "thym-immunite",
+    "src": "/img/thym-immunite.jpg",
+    "alt": "Thym commun",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Thymus_vulgaris_L._%28AM_AK345689%29.jpg/1280px-Thymus_vulgaris_L._%28AM_AK345689%29.jpg"
+  },
+  {
+    "slug": "sureau-noir-immunite",
+    "src": "/img/sureau-noir-immunite.jpg",
+    "alt": "Sureau noir",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg/1280px-Pieter_Brueghel_the_Elder_-_The_Dutch_Proverbs_-_Google_Art_Project.jpg"
+  },
+  {
+    "slug": "cypres-immunite",
+    "src": "/img/cypres-immunite.jpg",
+    "alt": "Cyprès toujours vert",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Il_momento_delle_ombre_lunghe_in_Val_d%27Orcia.jpg/1280px-Il_momento_delle_ombre_lunghe_in_Val_d%27Orcia.jpg"
+  },
+  {
+    "slug": "propolis-immunite",
+    "src": "/img/propolis-immunite.jpg",
+    "alt": "Propolis",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Pears_and_lime_zest_%288293307310%29.jpg"
+  },
+  {
+    "slug": "aubepine-circulation",
+    "src": "/img/aubepine-circulation.jpg",
+    "alt": "Aubépine",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Crataegus_monogyna_%2813774338343%29.jpg/1280px-Crataegus_monogyna_%2813774338343%29.jpg"
+  },
+  {
+    "slug": "vigne-rouge-circulation",
+    "src": "/img/vigne-rouge-circulation.jpg",
+    "alt": "Vigne rouge",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Vitis_vinifera_L._%28AM_AK323040-3%29_%28cropped%29.jpg/1280px-Vitis_vinifera_L._%28AM_AK323040-3%29_%28cropped%29.jpg"
+  },
+  {
+    "slug": "ginkgo-biloba-circulation",
+    "src": "/img/ginkgo-biloba-circulation.jpg",
+    "alt": "Ginkgo biloba",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Ginkgo_%28Ginkgo_biloba_L.%29_%E2%99%80_%2C_Botanic_Garden_of_the_Jagiellonian_University%2C_27_Kopernika_street%2C_Krak%C3%B3w%2C_Poland.jpg/1280px-Ginkgo_%28Ginkgo_biloba_L.%29_%E2%99%80_%2C_Botanic_Garden_of_the_Jagiellonian_University%2C_27_Kopernika_street%2C_Krak%C3%B3w%2C_Poland.jpg"
+  },
+  {
+    "slug": "marronnier-inde-circulation",
+    "src": "/img/marronnier-inde-circulation.jpg",
+    "alt": "Marronnier d'Inde",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Horse_Chestnut_Tree_at_Moffatt-Ladd_House%2C_Portsmouth%2C_NH_%28February_2025%29.jpg/1280px-Horse_Chestnut_Tree_at_Moffatt-Ladd_House%2C_Portsmouth%2C_NH_%28February_2025%29.jpg"
+  },
+  {
+    "slug": "hamamelis-circulation",
+    "src": "/img/hamamelis-circulation.jpg",
+    "alt": "Hamamélis",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Applied_and_economic_botany_for_students_in_technical_and_agricultural_schools%2C_pharmaceutical_and_medical_colleges%2C_for_chemists%2C_food_analysts_and_for_those_engaged_in_the_morphological_and_%2819721532566%29.jpg/1280px-thumbnail.jpg"
+  },
+  {
+    "slug": "eucalyptus-respiration",
+    "src": "/img/eucalyptus-respiration.jpg",
+    "alt": "Eucalyptus",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Eucalyptus_globulus_01.jpg/1280px-Eucalyptus_globulus_01.jpg"
+  },
+  {
+    "slug": "plantain-lanceole-respiration",
+    "src": "/img/plantain-lanceole-respiration.jpg",
+    "alt": "Plantain lancéolé",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Plantago_lanceolata_%28inflorescense%29.jpg/1280px-Plantago_lanceolata_%28inflorescense%29.jpg"
+  },
+  {
+    "slug": "mauve-respiration",
+    "src": "/img/mauve-respiration.jpg",
+    "alt": "Mauve",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Malva_sylvestris_Conwy_1.jpg/1280px-Malva_sylvestris_Conwy_1.jpg"
+  },
+  {
+    "slug": "bourgeon-pin-respiration",
+    "src": "/img/bourgeon-pin-respiration.jpg",
+    "alt": "Bourgeon de pin",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Delleboersterheide%2C_natuurgebied_van_het_It_Fryske_Gea._05-02-2025._%28actm.%29_11.jpg/1280px-Delleboersterheide%2C_natuurgebied_van_het_It_Fryske_Gea._05-02-2025._%28actm.%29_11.jpg"
+  },
+  {
+    "slug": "hysope-respiration",
+    "src": "/img/hysope-respiration.jpg",
+    "alt": "Hysope",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Hyssopus_officinalis_Hyzop_lekarski_2019-07-18_03.jpg/1280px-Hyssopus_officinalis_Hyzop_lekarski_2019-07-18_03.jpg"
+  },
+  {
+    "slug": "ortie-articulations",
+    "src": "/img/ortie-articulations.jpg",
+    "alt": "Ortie",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Brandnetel%2C_Urtica_dioica%2C_Locatie%2C_Famberhorst.jpg/1280px-Brandnetel%2C_Urtica_dioica%2C_Locatie%2C_Famberhorst.jpg"
+  },
+  {
+    "slug": "prele-silicium",
+    "src": "/img/prele-silicium.jpg",
+    "alt": "Prêle des champs",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Equisetum_arvense_subsp._arvense_sl5.jpg/1280px-Equisetum_arvense_subsp._arvense_sl5.jpg"
+  },
+  {
+    "slug": "harpagophytum-griffe-diable",
+    "src": "/img/harpagophytum-griffe-diable.jpg",
+    "alt": "Harpagophytum",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/PSM_V19_D371_Harpagophyton_procumbens_and_martynia_proboscidea.jpg/1280px-PSM_V19_D371_Harpagophyton_procumbens_and_martynia_proboscidea.jpg"
+  },
+  {
+    "slug": "curcuma-peau-articulations",
+    "src": "/img/curcuma-peau-articulations.jpg",
+    "alt": "Curcuma",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Organic_Turmeric_Rhizome_%28Root%29.jpg/1280px-Organic_Turmeric_Rhizome_%28Root%29.jpg"
+  },
+  {
+    "slug": "bardane-peau",
+    "src": "/img/bardane-peau.jpg",
+    "alt": "Bardane",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Arctium_lappa_%C5%81opian_wi%C4%99kszy_2019-05-05_01.jpg/1280px-Arctium_lappa_%C5%81opian_wi%C4%99kszy_2019-05-05_01.jpg"
+  },
+  {
+    "slug": "calendula-peau",
+    "src": "/img/calendula-peau.jpg",
+    "alt": "Calendula (souci)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Calendula_officinalis_in_Catalonia_%282%29.jpg/1280px-Calendula_officinalis_in_Catalonia_%282%29.jpg"
+  },
+  {
+    "slug": "achillee-millefeuille-feminin",
+    "src": "/img/achillee-millefeuille-feminin.jpg",
+    "alt": "Achillée millefeuille",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Achillea_millefolium_vallee-de-grace-amiens_80_22062007_1.jpg/1280px-Achillea_millefolium_vallee-de-grace-amiens_80_22062007_1.jpg"
+  },
+  {
+    "slug": "gattilier-vitex-feminin",
+    "src": "/img/gattilier-vitex-feminin.jpg",
+    "alt": "Gattilier",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Vitex_agnus-castus_Niepokalanek_pieprzowy_2020-07-31_03.jpg/1280px-Vitex_agnus-castus_Niepokalanek_pieprzowy_2020-07-31_03.jpg"
+  },
+  {
+    "slug": "alchemille-feminin",
+    "src": "/img/alchemille-feminin.jpg",
+    "alt": "Alchémille",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/2020_year._Herbarium._Alchemilla_vulgaris._img-016.jpg/1280px-2020_year._Herbarium._Alchemilla_vulgaris._img-016.jpg"
+  },
+  {
+    "slug": "verveine-officinale-sommeil",
+    "src": "/img/verveine-officinale-sommeil.jpg",
+    "alt": "Verveine officinale",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Verbena_officinalis_kz05.jpg/1280px-Verbena_officinalis_kz05.jpg"
+  },
+  {
+    "slug": "framboisier-feuilles-feminin",
+    "src": "/img/framboisier-feuilles-feminin.jpg",
+    "alt": "Framboisier (feuilles)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/2020_year._Herbarium._Rubus_idaeus._img-016.jpg/1280px-2020_year._Herbarium._Rubus_idaeus._img-016.jpg"
+  },
+  {
+    "slug": "sauge-officinale-menopause",
+    "src": "/img/sauge-officinale-menopause.jpg",
+    "alt": "Sauge officinale",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Salvia_officinalis_Sza%C5%82wia_lekarska_2019-04-28_04.jpg/1280px-Salvia_officinalis_Sza%C5%82wia_lekarska_2019-04-28_04.jpg"
+  },
+  {
+    "slug": "houblon-sommeil",
+    "src": "/img/houblon-sommeil.jpg",
+    "alt": "Houblon",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Humulus_lupulus_sl22.jpg/1280px-Humulus_lupulus_sl22.jpg"
+  },
+  {
+    "slug": "coquelicot-sommeil",
+    "src": "/img/coquelicot-sommeil.jpg",
+    "alt": "Coquelicot",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Papaver_rhoeas_LC0050.jpg/1280px-Papaver_rhoeas_LC0050.jpg"
+  },
+  {
+    "slug": "pissenlit-digestion",
+    "src": "/img/pissenlit-digestion.jpg",
+    "alt": "Pissenlit",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Gesloten_bloem_van_de_paardenbloem_%28Taraxacum_officinale%29_09-05-2021._%28d.j.b%29_02.jpg/1280px-Gesloten_bloem_van_de_paardenbloem_%28Taraxacum_officinale%29_09-05-2021._%28d.j.b%29_02.jpg"
+  },
+  {
+    "slug": "oranger-fleurs-sommeil",
+    "src": "/img/oranger-fleurs-sommeil.jpg",
+    "alt": "Fleurs d'oranger",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Naturalis_Biodiversity_Center_-_RMNH.ART.633_-_Citrus_aurantium_-_Y%C5%ABshi_Ishizaki_-_Cock_Blomhoff_Collection_-_pencil_drawing_-_water_colour.jpg/1280px-Naturalis_Biodiversity_Center_-_RMNH.ART.633_-_Citrus_aurantium_-_Y%C5%ABshi_Ishizaki_-_Cock_Blomhoff_Collection_-_pencil_drawing_-_water_colour.jpg"
+  },
+  {
+    "slug": "angelique-digestion",
+    "src": "/img/angelique-digestion.jpg",
+    "alt": "Angélique",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Angelica_archangelica_2_RF.jpg/1280px-Angelica_archangelica_2_RF.jpg"
+  },
+  {
+    "slug": "boldo-digestion",
+    "src": "/img/boldo-digestion.jpg",
+    "alt": "Boldo",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Wedang_Jahe.jpg/1280px-Wedang_Jahe.jpg"
+  },
+  {
+    "slug": "griffonia-stress",
+    "src": "/img/griffonia-stress.jpg",
+    "alt": "Griffonia simplicifolia",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Calm_nature_in_evening.jpg/1280px-Calm_nature_in_evening.jpg"
+  },
+  {
+    "slug": "radis-noir-digestion",
+    "src": "/img/radis-noir-digestion.jpg",
+    "alt": "Radis noir",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Wedang_Ronde_Ape.jpg/1280px-Wedang_Ronde_Ape.jpg"
+  },
+  {
+    "slug": "magnolia-stress",
+    "src": "/img/magnolia-stress.jpg",
+    "alt": "Magnolia officinalis",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Magnolia_officinalis_biloba_Rehder_and_E.H.Wilson_%28AM_AK376283-2%29.jpg/1280px-Magnolia_officinalis_biloba_Rehder_and_E.H.Wilson_%28AM_AK376283-2%29.jpg"
+  },
+  {
+    "slug": "safran-stress",
+    "src": "/img/safran-stress.jpg",
+    "alt": "Safran",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Crocus_sativus%2C_saffron_%2829%29.jpg/1280px-Crocus_sativus%2C_saffron_%2829%29.jpg"
+  },
+  {
+    "slug": "pelargonium-immunite",
+    "src": "/img/pelargonium-immunite.jpg",
+    "alt": "Pélargonium",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Medicinal_Plants_-_US_Botanic_Gardens_28.jpg/1280px-Medicinal_Plants_-_US_Botanic_Gardens_28.jpg"
+  },
+  {
+    "slug": "pavot-de-californie-stress",
+    "src": "/img/pavot-de-californie-stress.jpg",
+    "alt": "Pavot de Californie (Eschscholtzia)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/California_Poppy_%28Eschscholzia_californica%29_in_Gila_River_Valley.jpg/1280px-California_Poppy_%28Eschscholzia_californica%29_in_Gila_River_Valley.jpg"
+  },
+  {
+    "slug": "sureau-noir-immunite-batch2",
+    "src": "/img/sureau-noir-immunite-batch2.jpg",
+    "alt": "Sureau noir baies",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/European_Black_Elderberry_%28Sambucus_nigra%29_-_B%C3%A6rum%2C_Norway_2021-06-16.jpg/1280px-European_Black_Elderberry_%28Sambucus_nigra%29_-_B%C3%A6rum%2C_Norway_2021-06-16.jpg"
+  },
+  {
+    "slug": "astragale-immunite-batch2",
+    "src": "/img/astragale-immunite-batch2.jpg",
+    "alt": "Astragale",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Sushi%21_%28305539594%29.jpg/1280px-Sushi%21_%28305539594%29.jpg"
+  },
+  {
+    "slug": "fragon-petit-houx-circulation",
+    "src": "/img/fragon-petit-houx-circulation.jpg",
+    "alt": "Petit houx (fragon)",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Illustration_Ruscus_aculeatus0.jpg/1280px-Illustration_Ruscus_aculeatus0.jpg"
+  },
+  {
+    "slug": "mélilot-circulation",
+    "src": "/img/mélilot-circulation.jpg",
+    "alt": "Mélilot",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Melilotus_officinalis_kz16.jpg/1280px-Melilotus_officinalis_kz16.jpg"
+  },
+  {
+    "slug": "olivier-circulation",
+    "src": "/img/olivier-circulation.jpg",
+    "alt": "Olivier feuilles",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Olea_europaea_cuspidata_L._%28AM_AK306375%29.jpg/1280px-Olea_europaea_cuspidata_L._%28AM_AK306375%29.jpg"
+  },
+  {
+    "slug": "lierre-grimpant-respiration",
+    "src": "/img/lierre-grimpant-respiration.jpg",
+    "alt": "Lierre grimpant",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Hedera_helix_2_RF.jpg/1280px-Hedera_helix_2_RF.jpg"
+  },
+  {
+    "slug": "erysimum-respiration",
+    "src": "/img/erysimum-respiration.jpg",
+    "alt": "Érysimum",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Sisymbrium_officinale_%28L.%29_Scop._%28AM_AK347553%29.jpg/1280px-Sisymbrium_officinale_%28L.%29_Scop._%28AM_AK347553%29.jpg"
+  },
+  {
+    "slug": "vigne-rouge-feminin",
+    "src": "/img/vigne-rouge-feminin.jpg",
+    "alt": "Vigne rouge feuilles",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Grape_vine.jpg/1280px-Grape_vine.jpg"
+  },
+  {
+    "slug": "pin-sylvestre-respiration",
+    "src": "/img/pin-sylvestre-respiration.jpg",
+    "alt": "Pin sylvestre",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Pinus_sylvestris_young_female_cone_-_Keila.jpg/1280px-Pinus_sylvestris_young_female_cone_-_Keila.jpg"
+  },
+  {
+    "slug": "gattilier-feminin-batch2",
+    "src": "/img/gattilier-feminin-batch2.jpg",
+    "alt": "Gattilier",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Vitex_agnus-castus_Niepokalanek_pieprzowy_2020-07-31_04.jpg/1280px-Vitex_agnus-castus_Niepokalanek_pieprzowy_2020-07-31_04.jpg"
+  },
+  {
+    "slug": "actée-à-grappes-feminin",
+    "src": "/img/actée-à-grappes-feminin.jpg",
+    "alt": "Actée à grappes",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Jewel_Beetle_on_Pink_Tea-tree_%2811046439283%29.jpg/1280px-Jewel_Beetle_on_Pink_Tea-tree_%2811046439283%29.jpg"
+  },
+  {
+    "slug": "jus-carotte-pur-walker",
+    "src": "/img/jus-carotte-pur-walker.jpg",
+    "alt": "Jus de carotte pur — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Big_and_fresh_carrots.jpg/1280px-Big_and_fresh_carrots.jpg"
+  },
+  {
+    "slug": "jus-carotte-celeri-walker",
+    "src": "/img/jus-carotte-celeri-walker.jpg",
+    "alt": "Carotte + céleri — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Fresh_Veggies_%28Unsplash%29.jpg/1280px-Fresh_Veggies_%28Unsplash%29.jpg"
+  },
+  {
+    "slug": "jus-carotte-epinards-walker",
+    "src": "/img/jus-carotte-epinards-walker.jpg",
+    "alt": "Carotte + épinards — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Liat_Portal_for_Foodie_Disorder_-_Linguine_with_Heavy_Whipping_Cream_and_Spinach%2C_with_Salad.jpg/1280px-Liat_Portal_for_Foodie_Disorder_-_Linguine_with_Heavy_Whipping_Cream_and_Spinach%2C_with_Salad.jpg"
+  },
+  {
+    "slug": "jus-carotte-betterave-concombre-walker",
+    "src": "/img/jus-carotte-betterave-concombre-walker.jpg",
+    "alt": "Carotte + betterave + concombre — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Fresh_carrots_and_green_beans_and_cucumbers.jpg/1280px-Fresh_carrots_and_green_beans_and_cucumbers.jpg"
+  },
+  {
+    "slug": "jus-celeri-pur-walker",
+    "src": "/img/jus-celeri-pur-walker.jpg",
+    "alt": "Jus de céleri-branche pur — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/2017-10-04_21_29_29_Honey-barbecue_boneless_buffalo_wings_with_ranch_dressing_and_celery_stalks_at_the_Applebee%27s_on_Virginia_State_Route_7_%28Harry_Byrd_Highway%29_in_Countryside%2C_Loudoun_County%2C_Virginia.jpg/1280px-thumbnail.jpg"
+  },
+  {
+    "slug": "jus-carotte-persil-walker",
+    "src": "/img/jus-carotte-persil-walker.jpg",
+    "alt": "Carotte + persil — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Fresh_carrots_and_cucumbers_01.jpg/1280px-Fresh_carrots_and_cucumbers_01.jpg"
+  },
+  {
+    "slug": "jus-epinards-celeri-persil-carotte-walker",
+    "src": "/img/jus-epinards-celeri-persil-carotte-walker.jpg",
+    "alt": "Épinards + céleri + persil + carotte — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Liat_Portal_for_Foodie_Disorder_-_Fresh_spinach_leaves.jpg/1280px-Liat_Portal_for_Foodie_Disorder_-_Fresh_spinach_leaves.jpg"
+  },
+  {
+    "slug": "jus-chou-cru-walker",
+    "src": "/img/jus-chou-cru-walker.jpg",
+    "alt": "Jus de chou cru — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Fresh_cabbages_from_the_field.jpg/1280px-Fresh_cabbages_from_the_field.jpg"
+  },
+  {
+    "slug": "jus-vert-detox-printemps",
+    "src": "/img/jus-vert-detox-printemps.jpg",
+    "alt": "Jus vert de printemps — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Spring_rolls_and_lychee_juice_at_restaurant_Nam_Nam_in_Munich.jpg/1280px-Spring_rolls_and_lychee_juice_at_restaurant_Nam_Nam_in_Munich.jpg"
+  },
+  {
+    "slug": "jus-pissenlit-pomme-citron",
+    "src": "/img/jus-pissenlit-pomme-citron.jpg",
+    "alt": "Pissenlit + pomme + citron — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Fresh_Summer_Fruits_in_Dish_%2848405356437%29.jpg/1280px-Fresh_Summer_Fruits_in_Dish_%2848405356437%29.jpg"
+  },
+  {
+    "slug": "jus-betterave-carotte-gingembre",
+    "src": "/img/jus-betterave-carotte-gingembre.jpg",
+    "alt": "Betterave + carotte + gingembre — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Beets_-_9690511364.jpg/1280px-Beets_-_9690511364.jpg"
+  },
+  {
+    "slug": "jus-citron-curcuma-matin",
+    "src": "/img/jus-citron-curcuma-matin.jpg",
+    "alt": "Eau citronnée au curcuma — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Liat_Portal_for_Foodie_Disorder_-_Avocado_open_sandwich_with_vegetables_and_orange_juice%2C_San_Francisco.jpg/1280px-Liat_Portal_for_Foodie_Disorder_-_Avocado_open_sandwich_with_vegetables_and_orange_juice%2C_San_Francisco.jpg"
+  },
+  {
+    "slug": "jus-persil-celeri-concombre",
+    "src": "/img/jus-persil-celeri-concombre.jpg",
+    "alt": "Persil + céleri + concombre — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Crispy_fried_salt_and_pepper_calamari_with_spicy_anchovy_aioli%2C_fresh_parsley%2C_grilled_lemon%2C_and_shallot_rings.jpg/1280px-Crispy_fried_salt_and_pepper_calamari_with_spicy_anchovy_aioli%2C_fresh_parsley%2C_grilled_lemon%2C_and_shallot_rings.jpg"
+  },
+  {
+    "slug": "jus-radis-noir-pomme-citron",
+    "src": "/img/jus-radis-noir-pomme-citron.jpg",
+    "alt": "Radis noir + pomme + citron — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/FRESH_CROP_WASTED_-_RADISH.jpg/1280px-FRESH_CROP_WASTED_-_RADISH.jpg"
+  },
+  {
+    "slug": "jus-chou-kale-pomme-citron",
+    "src": "/img/jus-chou-kale-pomme-citron.jpg",
+    "alt": "Kale + pomme + citron — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Fresh_Azorean_cabbage_feels_crunchy_like_kale_%2849034044796%29.jpg/1280px-Fresh_Azorean_cabbage_feels_crunchy_like_kale_%2849034044796%29.jpg"
+  },
+  {
+    "slug": "jus-gingembre-pomme-citron-matin",
+    "src": "/img/jus-gingembre-pomme-citron-matin.jpg",
+    "alt": "Gingembre + pomme + citron — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Fresh_ginger_on_the_ground_on_sale_at_the_Monday_Market_in_Kakuri%2C_Kaduna_02.jpg/1280px-Fresh_ginger_on_the_ground_on_sale_at_the_Monday_Market_in_Kakuri%2C_Kaduna_02.jpg"
+  },
+  {
+    "slug": "jus-betterave-orange-gingembre-sport",
+    "src": "/img/jus-betterave-orange-gingembre-sport.jpg",
+    "alt": "Betterave + orange + gingembre — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Beetroot_peeled.jpg/1280px-Beetroot_peeled.jpg"
+  },
+  {
+    "slug": "jus-carotte-orange-citron-booster",
+    "src": "/img/jus-carotte-orange-citron-booster.jpg",
+    "alt": "Carotte + orange + citron — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Fresh_orange_carrots.jpg"
+  },
+  {
+    "slug": "jus-green-energy-pomme-epinards-celeri",
+    "src": "/img/jus-green-energy-pomme-epinards-celeri.jpg",
+    "alt": "Green energy — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/DFC_2242_Chilled_glass_noodle_salad_tossed_with_shrimp_fresh_herbs_crunchy_cabbage_and_a_zesty_chili-lime_dressing.jpg/1280px-DFC_2242_Chilled_glass_noodle_salad_tossed_with_shrimp_fresh_herbs_crunchy_cabbage_and_a_zesty_chili-lime_dressing.jpg"
+  },
+  {
+    "slug": "jus-betterave-pomme-carotte-endurance",
+    "src": "/img/jus-betterave-pomme-carotte-endurance.jpg",
+    "alt": "Betterave + pomme + carotte — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Beta_vulgaris.JPG/1280px-Beta_vulgaris.JPG"
+  },
+  {
+    "slug": "jus-ananas-menthe-gingembre",
+    "src": "/img/jus-ananas-menthe-gingembre.jpg",
+    "alt": "Ananas + menthe + gingembre — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/c/cf/In_suite_breakfast_experience_%283119861609%29.jpg"
+  },
+  {
+    "slug": "jus-orange-citron-curcuma-poivre",
+    "src": "/img/jus-orange-citron-curcuma-poivre.jpg",
+    "alt": "Orange + citron + curcuma + poivre — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Cutting_fresh_orange_on_wooden_board_in_kitchen.jpg/1280px-Cutting_fresh_orange_on_wooden_board_in_kitchen.jpg"
+  },
+  {
+    "slug": "shot-gingembre-curcuma-citron",
+    "src": "/img/shot-gingembre-curcuma-citron.jpg",
+    "alt": "Shot gingembre + curcuma + citron — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Fresh_gingers.jpg/1280px-Fresh_gingers.jpg"
+  },
+  {
+    "slug": "jus-agrumes-orange-pamplemousse-citron",
+    "src": "/img/jus-agrumes-orange-pamplemousse-citron.jpg",
+    "alt": "Orange + pamplemousse + citron — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Ice_cubes_in_grapefruit_juice.jpg"
+  },
+  {
+    "slug": "jus-carotte-orange-citron-gingembre-hiver",
+    "src": "/img/jus-carotte-orange-citron-gingembre-hiver.jpg",
+    "alt": "Carotte + orange + citron + gingembre — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Fresh_carrots%2C_cucumber%2C_salad_and_green_beans.jpg/1280px-Fresh_carrots%2C_cucumber%2C_salad_and_green_beans.jpg"
+  },
+  {
+    "slug": "jus-pomme-cannelle-clou-girofle-hiver",
+    "src": "/img/jus-pomme-cannelle-clou-girofle-hiver.jpg",
+    "alt": "Pomme tiède + cannelle + clou de girofle — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Fresh_crab_apple_Jelly.jpg/1280px-Fresh_crab_apple_Jelly.jpg"
+  },
+  {
+    "slug": "shot-ail-citron-miel-prevention",
+    "src": "/img/shot-ail-citron-miel-prevention.jpg",
+    "alt": "Shot ail + citron + miel — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/HK_Sai_Kung_District_%E5%B0%87%E8%BB%8D%E6%BE%B3_TKO_%E5%BA%B7%E5%9F%8E%E8%B7%AF1%E8%99%9F_Lohas_Park_Road_Montara_LOHAS_Park_%E6%97%A5%E5%87%BA%E5%BA%B7%E5%9F%8E%E5%95%86%E5%A0%B4_The_Lohas_Shopping_Mall_shop_FRESH_%E6%96%B0%E9%AE%AE%E7%94%9F%E6%B4%BB_Supermarket_cooked_food_October_2022_Px3_01.jpg/1280px-thumbnail.jpg"
+  },
+  {
+    "slug": "jus-betterave-grenade-gingembre",
+    "src": "/img/jus-betterave-grenade-gingembre.jpg",
+    "alt": "Betterave + grenade + gingembre — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Krubki_Gorki_schab%2C_buraczki%2C_ziemniaczki_%28pork_loin%2C_beetroot%2C_potatoes%29.jpg/1280px-Krubki_Gorki_schab%2C_buraczki%2C_ziemniaczki_%28pork_loin%2C_beetroot%2C_potatoes%29.jpg"
+  },
+  {
+    "slug": "jus-chou-pomme-citron-walker-inspired",
+    "src": "/img/jus-chou-pomme-citron-walker-inspired.jpg",
+    "alt": "Chou cru + pomme + citron — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Fresh_salads_03.jpg/1280px-Fresh_salads_03.jpg"
+  },
+  {
+    "slug": "jus-chou-cru-pomme-walker",
+    "src": "/img/jus-chou-cru-pomme-walker.jpg",
+    "alt": "Jus de chou cru et pomme — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Trailer_with_ready-for-sale_white_cabbage_and_a_banner_reading_%22fresh_strawberries%22.jpg/1280px-Trailer_with_ready-for-sale_white_cabbage_and_a_banner_reading_%22fresh_strawberries%22.jpg"
+  },
+  {
+    "slug": "jus-carotte-fenouil-gingembre",
+    "src": "/img/jus-carotte-fenouil-gingembre.jpg",
+    "alt": "Jus carotte, fenouil et gingembre — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Fresh_carrots_and_green_beans_and_cucumbers_01.jpg/1280px-Fresh_carrots_and_green_beans_and_cucumbers_01.jpg"
+  },
+  {
+    "slug": "jus-aloe-citron-pomme",
+    "src": "/img/jus-aloe-citron-pomme.png",
+    "alt": "Jus aloe vera, citron et pomme — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Chocolate_shake.png/1280px-Chocolate_shake.png"
+  },
+  {
+    "slug": "jus-papaye-ananas-menthe",
+    "src": "/img/jus-papaye-ananas-menthe.jpg",
+    "alt": "Jus papaye, ananas et menthe — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/A_Natural_Air_Filter.jpg/1280px-A_Natural_Air_Filter.jpg"
+  },
+  {
+    "slug": "jus-carotte-gingembre-curcuma",
+    "src": "/img/jus-carotte-gingembre-curcuma.jpg",
+    "alt": "Jus carotte, gingembre et curcuma — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/0/03/Fresh_organic_Carrots.jpg"
+  },
+  {
+    "slug": "jus-pomme-celeri-fenouil",
+    "src": "/img/jus-pomme-celeri-fenouil.jpg",
+    "alt": "Jus pomme, céleri-branche et fenouil — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Fresh_Green_apples.jpg/1280px-Fresh_Green_apples.jpg"
+  },
+  {
+    "slug": "jus-carotte-concombre-pomme",
+    "src": "/img/jus-carotte-concombre-pomme.jpg",
+    "alt": "Jus carotte, concombre et pomme — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Fresh_Carrots_02.jpg/1280px-Fresh_Carrots_02.jpg"
+  },
+  {
+    "slug": "jus-betterave-carotte-orange",
+    "src": "/img/jus-betterave-carotte-orange.jpg",
+    "alt": "Jus betterave, carotte et orange — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Rote-Beete-IMG_2406.JPG/1280px-Rote-Beete-IMG_2406.JPG"
+  },
+  {
+    "slug": "jus-concombre-pomme-menthe",
+    "src": "/img/jus-concombre-pomme-menthe.jpg",
+    "alt": "Jus concombre, pomme verte et menthe — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Fresh_carrots_and_green_beans_and_cucumbers_03.jpg/1280px-Fresh_carrots_and_green_beans_and_cucumbers_03.jpg"
+  },
+  {
+    "slug": "jus-ortie-pomme-version-douce",
+    "src": "/img/jus-ortie-pomme-version-douce.jpg",
+    "alt": "Jus d'ortie fraîche et pomme — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Ripley%27s_Aquarium_of_Canada%2C_Toronto%2C_Ontario_%2829920083431%29.jpg/1280px-Ripley%27s_Aquarium_of_Canada%2C_Toronto%2C_Ontario_%2829920083431%29.jpg"
+  },
+  {
+    "slug": "jus-celeri-epinards-pomme",
+    "src": "/img/jus-celeri-epinards-pomme.jpg",
+    "alt": "Jus céleri, épinards et pomme — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Liat_Portal_for_Foodie_Disorder_-_Celery_from_San_Francisco_Farmers_Market.jpg/1280px-Liat_Portal_for_Foodie_Disorder_-_Celery_from_San_Francisco_Farmers_Market.jpg"
+  },
+  {
+    "slug": "jus-persil-carotte-pomme",
+    "src": "/img/jus-persil-carotte-pomme.jpg",
+    "alt": "Jus persil, carotte et pomme — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Fresh_Parsley_leaves.jpg/1280px-Fresh_Parsley_leaves.jpg"
+  },
+  {
+    "slug": "jus-concombre-celeri-citron-menthe",
+    "src": "/img/jus-concombre-celeri-citron-menthe.jpg",
+    "alt": "Jus concombre, céleri, citron et menthe — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Cucumber_pachadi-_My_home_Bangalore_-Karnataka_-pic_08.jpg/1280px-Cucumber_pachadi-_My_home_Bangalore_-Karnataka_-pic_08.jpg"
+  },
+  {
+    "slug": "jus-pomme-verte-epinards-citron",
+    "src": "/img/jus-pomme-verte-epinards-citron.jpg",
+    "alt": "Jus pomme verte, épinards et citron — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Fresh_apple_chai_-_KEEK_lunchroom_2024-11-28.jpg/1280px-Fresh_apple_chai_-_KEEK_lunchroom_2024-11-28.jpg"
+  },
+  {
+    "slug": "jus-pamplemousse-citron-menthe",
+    "src": "/img/jus-pamplemousse-citron-menthe.jpg",
+    "alt": "Jus pamplemousse, citron et menthe — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Liat_Portal_for_Foodie_Disorder_-_Red_grapefruit_segments.jpg/1280px-Liat_Portal_for_Foodie_Disorder_-_Red_grapefruit_segments.jpg"
+  },
+  {
+    "slug": "jus-kale-concombre-pomme-citron",
+    "src": "/img/jus-kale-concombre-pomme-citron.jpg",
+    "alt": "Jus chou kale, concombre, pomme et citron — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Fresh_beans%2C_water_melons%2C_cabbage%2C_green_vegetables_and_oranges.jpg/1280px-Fresh_beans%2C_water_melons%2C_cabbage%2C_green_vegetables_and_oranges.jpg"
+  },
+  {
+    "slug": "jus-ananas-celeri-gingembre-minceur",
+    "src": "/img/jus-ananas-celeri-gingembre-minceur.jpg",
+    "alt": "Jus ananas, céleri et gingembre — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Green_Bananas_and_Fresh_Pineapples_%2804-15-2021%29.jpg/1280px-Green_Bananas_and_Fresh_Pineapples_%2804-15-2021%29.jpg"
+  },
+  {
+    "slug": "jus-carotte-pomme-celeri-citron",
+    "src": "/img/jus-carotte-pomme-celeri-citron.jpg",
+    "alt": "Jus carotte, pomme, céleri et citron — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Fresh_carrots.jpg/1280px-Fresh_carrots.jpg"
+  },
+  {
+    "slug": "jus-betterave-pre-effort",
+    "src": "/img/jus-betterave-pre-effort.jpg",
+    "alt": "Jus de betterave pré-effort — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Half_dried_beetroot.jpg/1280px-Half_dried_beetroot.jpg"
+  },
+  {
+    "slug": "jus-cerises-griottes-post-effort",
+    "src": "/img/jus-cerises-griottes-post-effort.jpg",
+    "alt": "Jus de cerises griottes — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Liat_Portal_for_Foodie_Disorder_-_Cherry_tomatoes_on_the_vine.jpg/1280px-Liat_Portal_for_Foodie_Disorder_-_Cherry_tomatoes_on_the_vine.jpg"
+  },
+  {
+    "slug": "jus-pasteque-recuperation",
+    "src": "/img/jus-pasteque-recuperation.jpg",
+    "alt": "Jus de pastèque — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Fresh_fruits_and_vegetables_in_2020_02.jpg/1280px-Fresh_fruits_and_vegetables_in_2020_02.jpg"
+  },
+  {
+    "slug": "jus-orange-curcuma-poivre",
+    "src": "/img/jus-orange-curcuma-poivre.jpg",
+    "alt": "Jus orange, curcuma et poivre noir — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Fresh_orange_juice_at_Asklepion%2C_Kos%2C_Greece_%285653558102%29.jpg/1280px-Fresh_orange_juice_at_Asklepion%2C_Kos%2C_Greece_%285653558102%29.jpg"
+  },
+  {
+    "slug": "smoothie-banane-epinards-amande-post-effort",
+    "src": "/img/smoothie-banane-epinards-amande-post-effort.jpg",
+    "alt": "Smoothie banane, épinards et amande post-effort — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Fresh_farm_bananas.jpg/1280px-Fresh_farm_bananas.jpg"
+  },
+  {
+    "slug": "jus-ananas-celeri-gingembre-recuperation",
+    "src": "/img/jus-ananas-celeri-gingembre-recuperation.jpg",
+    "alt": "Jus ananas, céleri et gingembre — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Pineapple_and_accessories_%28Unsplash%29.jpg/1280px-Pineapple_and_accessories_%28Unsplash%29.jpg"
+  },
+  {
+    "slug": "jus-carotte-betterave-gingembre-pre-seance",
+    "src": "/img/jus-carotte-betterave-gingembre-pre-seance.jpg",
+    "alt": "Jus carotte, betterave et gingembre — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Fresh_green_beans_and_carrots.jpg/1280px-Fresh_green_beans_and_carrots.jpg"
+  },
+  {
+    "slug": "jus-carotte-betterave-walker",
+    "src": "/img/jus-carotte-betterave-walker.jpg",
+    "alt": "Jus carotte-betterave — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Controlled_Farming_Fresh_Bio_Carrot_%28164926863%29.jpeg/1280px-Controlled_Farming_Fresh_Bio_Carrot_%28164926863%29.jpeg"
+  },
+  {
+    "slug": "jus-concombre-betterave-walker",
+    "src": "/img/jus-concombre-betterave-walker.jpg",
+    "alt": "Jus concombre-betterave — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/7/78/Cucumber-raita.jpg"
+  },
+  {
+    "slug": "jus-carotte-laitue-alfalfa-walker",
+    "src": "/img/jus-carotte-laitue-alfalfa-walker.jpg",
+    "alt": "Jus carotte-laitue-luzerne — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Carrot_trader.jpg/1280px-Carrot_trader.jpg"
+  },
+  {
+    "slug": "jus-celeri-persil-walker",
+    "src": "/img/jus-celeri-persil-walker.jpg",
+    "alt": "Jus céleri-persil — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Allen_Judge_shoveling_celery_-_DPLA_-_7842835c244a9077e160cf68a510a7ec_%28page_2%29.jpg/1280px-Allen_Judge_shoveling_celery_-_DPLA_-_7842835c244a9077e160cf68a510a7ec_%28page_2%29.jpg"
+  },
+  {
+    "slug": "jus-pomme-celeri-walker",
+    "src": "/img/jus-pomme-celeri-walker.jpg",
+    "alt": "Jus pomme-céleri — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Fresh_baked_apple_crisp_02.jpg/1280px-Fresh_baked_apple_crisp_02.jpg"
+  },
+  {
+    "slug": "jus-printemps-pissenlit-pomme",
+    "src": "/img/jus-printemps-pissenlit-pomme.jpg",
+    "alt": "Jus de printemps pissenlit-pomme — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Colorful_Vegetable_Display_at_Wadi_Kaam_Market.jpg/1280px-Colorful_Vegetable_Display_at_Wadi_Kaam_Market.jpg"
+  },
+  {
+    "slug": "jus-ete-pasteque-menthe-citron",
+    "src": "/img/jus-ete-pasteque-menthe-citron.jpg",
+    "alt": "Jus d'été pastèque-menthe-citron — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Fresh_%26_Juicy_Watermelon.jpg/1280px-Fresh_%26_Juicy_Watermelon.jpg"
+  },
+  {
+    "slug": "jus-automne-pomme-cannelle-betterave",
+    "src": "/img/jus-automne-pomme-cannelle-betterave.jpg",
+    "alt": "Jus d'automne pomme-cannelle-betterave — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Fresh_Apple_%2839827721832%29.jpg/1280px-Fresh_Apple_%2839827721832%29.jpg"
+  },
+  {
+    "slug": "jus-hiver-orange-curcuma-gingembre",
+    "src": "/img/jus-hiver-orange-curcuma-gingembre.jpg",
+    "alt": "Jus d'hiver orange-curcuma-gingembre — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Tiya_drinking_fresh_orange_juice.jpg/1280px-Tiya_drinking_fresh_orange_juice.jpg"
+  },
+  {
+    "slug": "jus-equinoxe-vert-cresson",
+    "src": "/img/jus-equinoxe-vert-cresson.jpg",
+    "alt": "Jus vert d'équinoxe au cresson — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Market%2C_vegetables%2C_egg%2C_umbrella%2C_flower%2C_cabbage%2C_colorful_Fortepan_75518.jpg/1280px-Market%2C_vegetables%2C_egg%2C_umbrella%2C_flower%2C_cabbage%2C_colorful_Fortepan_75518.jpg"
+  },
+  {
+    "slug": "protocole-jus-21-jours",
+    "src": "/img/protocole-jus-21-jours.jpg",
+    "alt": "Protocole 21 jours — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Colorful_vegetables_03.jpg/1280px-Colorful_vegetables_03.jpg"
+  },
+  {
+    "slug": "jus-monodiete-raisin-rentree",
+    "src": "/img/jus-monodiete-raisin-rentree.jpg",
+    "alt": "Monodiète raisin de rentrée — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Liat_Portal_for_Foodie_Disorder_-_Red_grape_tomatoes.jpg/1280px-Liat_Portal_for_Foodie_Disorder_-_Red_grape_tomatoes.jpg"
+  },
+  {
+    "slug": "jus-bouillon-legumes-soir",
+    "src": "/img/jus-bouillon-legumes-soir.jpg",
+    "alt": "Bouillon de légumes du soir — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Delicious_grilled_chicken_served_on_a_bed_of_colorful_vegetables_with_rich_sauce_undefined.jpg/1280px-Delicious_grilled_chicken_served_on_a_bed_of_colorful_vegetables_with_rich_sauce_undefined.jpg"
+  },
+  {
+    "slug": "jus-acerola-camu-camu-shot",
+    "src": "/img/jus-acerola-camu-camu-shot.jpg",
+    "alt": "Shot acérola-camu camu vitamine C — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Tanzania-_Vegetables_are_also_colorful_%2821139822269%29.jpg/1280px-Tanzania-_Vegetables_are_also_colorful_%2821139822269%29.jpg"
+  },
+  {
+    "slug": "jus-spiruline-citron-sport",
+    "src": "/img/jus-spiruline-citron-sport.jpg",
+    "alt": "Jus spiruline-citron pré-effort — jus frais",
+    "srcRemote": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/British_fresh-water_algae%2C_exclusive_of_Desmidieae_and_Diatomaceae_%281882-1884%29_%2820230222908%29.jpg/1280px-British_fresh-water_algae%2C_exclusive_of_Desmidieae_and_Diatomaceae_%281882-1884%29_%2820230222908%29.jpg"
+  }
+]

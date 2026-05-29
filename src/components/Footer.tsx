@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { BookOpen, ExternalLink, Heart, Sparkles, FlaskConical, Leaf, Wrench } from 'lucide-react';
+import { BookOpen, ExternalLink, Heart, Sprout, FlaskConical, Leaf, Wrench } from 'lucide-react';
 import { Logo } from '@/components/Logo';
 
 interface FooterColumn {
@@ -42,7 +42,7 @@ const FOOTER_NAV: FooterColumn[] = [
   },
   {
     title: 'Plantes & Jus',
-    icon: <Sparkles className="h-3.5 w-3.5" aria-hidden="true" />,
+    icon: <Sprout className="h-3.5 w-3.5" aria-hidden="true" />,
     accent: 'text-sage-300',
     links: [
       { label: 'Les plantes qui soignent', href: '/plantes' },
@@ -103,7 +103,7 @@ export function Footer() {
               </span>
               <span className="hidden sm:inline text-white/30">•</span>
               <span className="inline-flex items-center gap-2 text-white/75">
-                <Sparkles className="h-4 w-4 text-earth-300" aria-hidden="true" />
+                <FlaskConical className="h-4 w-4 text-earth-300" aria-hidden="true" />
                 <span>Actualités sourcées PubMed</span>
               </span>
             </div>

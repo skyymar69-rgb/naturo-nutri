@@ -1,5 +1,5 @@
 import { cn } from '@/lib/utils';
-import { Info, AlertCircle, CheckCircle2, Sparkles } from 'lucide-react';
+import { Info, AlertCircle, CheckCircle2, Lightbulb } from 'lucide-react';
 import type { ReactNode } from 'react';
 
 type Variant = 'info' | 'success' | 'tip' | 'warning';
@@ -11,7 +11,7 @@ const VARIANTS: Record<Variant, {
 }> = {
   info:    { container: 'bg-sage-50 border-sage-200 text-forest-900', icon: 'text-sage-600',  Icon: Info },
   success: { container: 'bg-sage-50 border-sage-200 text-forest-900', icon: 'text-sage-600',  Icon: CheckCircle2 },
-  tip:     { container: 'bg-earth-50 border-earth-200 text-forest-900', icon: 'text-earth-500', Icon: Sparkles },
+  tip:     { container: 'bg-earth-50 border-earth-200 text-forest-900', icon: 'text-earth-500', Icon: Lightbulb },
   warning: { container: 'bg-amber-50 border-amber-200 text-amber-900', icon: 'text-amber-600', Icon: AlertCircle },
 };
 

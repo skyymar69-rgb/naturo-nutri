@@ -86,8 +86,6 @@ export function AccessibilityMenu({ className }: { className?: string }) {
           <div className="space-y-1">
             <Toggle label="Animations réduites" checked={mounted && prefs.reduceMotion}
               onChange={(v) => update({ reduceMotion: v })} />
-            <Toggle label="Contraste élevé" checked={mounted && prefs.highContrast}
-              onChange={(v) => update({ highContrast: v })} />
             <Toggle label="Texte agrandi" checked={mounted && prefs.largeText}
               onChange={(v) => update({ largeText: v })} />
           </div>

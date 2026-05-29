@@ -8,6 +8,9 @@ const nextConfig = {
     // attribution obligatoire — https://www.pexels.com/license/).
     remotePatterns: [
       { protocol: 'https', hostname: 'images.pexels.com' },
+      // Photos par-article : Wikimedia Commons (licences libres / domaine public,
+      // URLs réelles vérifiées — voir scripts/fetch-images.workflow.js)
+      { protocol: 'https', hostname: 'upload.wikimedia.org' },
     ],
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 60 * 60 * 24 * 30, // 30 jours

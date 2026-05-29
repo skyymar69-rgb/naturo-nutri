@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, ArrowRight, Check, RotateCcw, Sparkles, Scale, Clock, Gift } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Check, RotateCcw, Leaf, Scale, Clock, Gift } from 'lucide-react';
 import { QUIZ_QUESTIONS, computeQuizResult, type QuizResult } from '@/lib/quiz-data';
 import { TEMPERAMENTS, TEMPERAMENT_SLUGS } from '@/lib/temperaments';
 import { Container } from '@/components/ui/Container';
@@ -198,7 +198,7 @@ function Result({ result, onRestart }: { result: QuizResult; onRestart: () => vo
     <Container size="prose" className="py-12 sm:py-16">
       <div className="text-center mb-10 animate-fade-in">
         <div className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.18em] text-sage-700 font-bold mb-5">
-          <Sparkles className="h-4 w-4 text-sage-500" /> Votre résultat
+          <Leaf className="h-4 w-4 text-sage-500" /> Votre résultat
         </div>
         <h1 className="font-display text-[2.6rem] sm:text-5xl lg:text-[3.4rem] text-forest-900 leading-[1.05] text-balance">
           Vous êtes <span className="italic" style={{ color: dominant.couleurHex }}>{dominant.nom.toLowerCase()}</span>
@@ -231,7 +231,7 @@ function Result({ result, onRestart }: { result: QuizResult; onRestart: () => vo
             <h3 className="font-display text-lg text-forest-900 mb-3">Vos forces</h3>
             <ul className="space-y-2 text-sm text-forest-800/90">
               {dominant.forces.slice(0, 4).map((f) => (
-                <li key={f} className="flex gap-2.5"><span className="text-sage-600 mt-0.5">✦</span><span>{f}</span></li>
+                <li key={f} className="flex gap-2.5"><span className="text-sage-600 mt-0.5">●</span><span>{f}</span></li>
               ))}
             </ul>
           </div>

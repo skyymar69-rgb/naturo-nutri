@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Container } from '@/components/ui/Container';
 import { ButtonLink } from '@/components/ui/Button';
-import { ArrowRight, Home, Sparkles, BookOpen } from 'lucide-react';
+import { ArrowRight, Home, Leaf, BookOpen } from 'lucide-react';
 import { NATURO_CATEGORIES, NUTRI_CATEGORIES } from '@/lib/categories';
 
 export const metadata = {
@@ -20,7 +20,7 @@ export default function NotFound() {
     <Container size="prose" className="py-20 sm:py-28 text-center">
       <div className="relative inline-block mb-6">
         <p className="font-display text-[7rem] sm:text-[10rem] leading-none text-sage-100 select-none">404</p>
-        <Sparkles className="absolute top-4 right-0 h-8 w-8 text-sage-500" aria-hidden="true" />
+        <Leaf className="absolute top-4 right-0 h-8 w-8 text-sage-500 -rotate-12" aria-hidden="true" />
       </div>
 
       <h1 className="font-display text-3xl sm:text-4xl text-forest-900 mb-3 text-balance">
