@@ -30,11 +30,21 @@ const FOOTER_NAV = [
     ],
   },
   {
+    title: 'Plantes & Jus',
+    links: [
+      { label: 'Les plantes qui soignent', href: '/plantes' },
+      { label: 'Sommeil & nervosité',      href: '/plantes/sommeil' },
+      { label: 'Stress & anxiété',         href: '/plantes/stress-anxiete' },
+      { label: 'Digestion & foie',         href: '/plantes/digestion' },
+      { label: 'Les recettes de jus',      href: '/jus' },
+      { label: 'Méthode Walker',           href: '/jus/walker-fondamentaux' },
+    ],
+  },
+  {
     title: 'Outils & Accès',
     links: [
       { label: 'Actualités sourcées',   href: '/actualites' },
       { label: 'Quiz tempérament',      href: '/naturopathie/temperaments/quiz' },
-      { label: 'Principes de qualité',  href: '/nutritherapie/principes' },
       { label: 'Notre démarche',        href: '/notre-demarche' },
       { label: 'Tous les tags',         href: '/tags' },
       { label: 'Flux RSS',              href: '/feed.xml' },

@@ -4,7 +4,7 @@ export type Niveau = 'debutant' | 'intermediaire' | 'avance';
 
 export type Saison = 'printemps' | 'ete' | 'automne' | 'hiver';
 
-export type DomainSlug = 'naturopathie' | 'nutritherapie';
+export type DomainSlug = 'naturopathie' | 'nutritherapie' | 'plantes' | 'jus';
 
 export interface Temperament {
   slug: TemperamentSlug;
@@ -109,6 +109,69 @@ export interface Category {
   description: string;
   icon: string;
   order: number;
+}
+
+/* ─────────────────────────────────────────
+   PLANTES — section "Les plantes qui soignent"
+───────────────────────────────────────── */
+
+export interface Plante {
+  slug: string;
+  category: string;
+  nom: string;
+  nomLatin: string;
+  partieUtilisee: string;
+  excerpt: string;
+  intro: string;
+  proprietes: string[];
+  indications: string[];
+  posologie: string[];
+  contre_indications?: string[];
+  associations?: string[];      // plantes complémentaires
+  precautions?: string;
+  tradition?: string;            // usage historique
+  tags?: string[];
+  evidence_level?: EvidenceLevel;
+  sources?: Source[];
+  updatedAt?: string;
+}
+
+/* ─────────────────────────────────────────
+   JUS — section "Les recettes de jus" (Walker & adaptations)
+───────────────────────────────────────── */
+
+export type JusCategory =
+  | 'detox'
+  | 'energie'
+  | 'immunite'
+  | 'digestion'
+  | 'peau-cheveux'
+  | 'minceur'
+  | 'sport'
+  | 'walker-fondamentaux';
+
+export interface RecetteJus {
+  slug: string;
+  category: JusCategory;
+  nom: string;
+  excerpt: string;
+  intro: string;
+  /** Liste des ingrédients avec quantités */
+  ingredients: { item: string; quantite: string }[];
+  /** Étapes de préparation */
+  preparation: string[];
+  /** Bénéfices traditionnellement attribués */
+  benefices: string[];
+  /** Conseil de fréquence d'usage */
+  frequence: string;
+  /** Type d'appareil recommandé : extracteur ou centrifugeuse */
+  appareil: 'extracteur' | 'centrifugeuse' | 'les-deux' | 'mortier';
+  /** Référence Walker si applicable */
+  walkerReference?: string;
+  contre_indications?: string[];
+  tradition?: string;
+  tags?: string[];
+  updatedAt?: string;
 }
 
 /* ─────────────────────────────────────────

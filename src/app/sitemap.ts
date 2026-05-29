@@ -2,6 +2,10 @@ import type { MetadataRoute } from 'next';
 import { ALL_ARTICLES } from '@/lib/articles';
 import { CATEGORIES } from '@/lib/categories';
 import { ALL_ACTUALITES, ACTUALITE_CATEGORIES } from '@/lib/actualites';
+import { ALL_PLANTES } from '@/lib/plantes';
+import { PLANTES_CATEGORIES } from '@/lib/plantes-categories';
+import { ALL_JUS } from '@/lib/jus';
+import { JUS_CATEGORIES } from '@/lib/jus-categories';
 import { slugify } from '@/lib/utils';
 
 const SITE = 'https://naturo-nutri.vercel.app';
@@ -13,8 +17,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '',
     '/naturopathie',
     '/nutritherapie',
+    '/plantes',
+    '/jus',
     '/actualites',
     '/tags',
+    '/notre-demarche',
     '/contact',
     '/naturopathie/temperaments',
     '/naturopathie/temperaments/quiz',
@@ -77,12 +84,42 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.5,
     }));
 
+  const plantesCategoryPages = PLANTES_CATEGORIES.map((c) => ({
+    url: `${SITE}/plantes/${c.slug}`,
+    lastModified: now,
+    changeFrequency: 'weekly' as const,
+    priority: 0.7,
+  }));
+  const plantesPages = ALL_PLANTES.map((p) => ({
+    url: `${SITE}/plantes/${p.category}/${p.slug}`,
+    lastModified: p.updatedAt ? new Date(p.updatedAt) : now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }));
+
+  const jusCategoryPages = JUS_CATEGORIES.map((c) => ({
+    url: `${SITE}/jus/${c.slug}`,
+    lastModified: now,
+    changeFrequency: 'weekly' as const,
+    priority: 0.7,
+  }));
+  const jusPages = ALL_JUS.map((j) => ({
+    url: `${SITE}/jus/${j.category}/${j.slug}`,
+    lastModified: j.updatedAt ? new Date(j.updatedAt) : now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }));
+
   return [
     ...staticPages,
     ...categoryPages,
     ...articlePages,
     ...actualiteCategoryPages,
     ...actualitePages,
+    ...plantesCategoryPages,
+    ...plantesPages,
+    ...jusCategoryPages,
+    ...jusPages,
     ...tagPages,
   ];
 }

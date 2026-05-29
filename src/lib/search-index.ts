@@ -6,9 +6,11 @@
 
 import { ALL_ARTICLES } from './articles';
 import { ALL_ACTUALITES } from './actualites';
+import { ALL_PLANTES } from './plantes';
+import { ALL_JUS } from './jus';
 
 export interface SearchEntry {
-  type: 'article' | 'actualite';
+  type: 'article' | 'actualite' | 'plante' | 'jus';
   url: string;
   title: string;
   excerpt: string;
@@ -34,6 +36,22 @@ export const SEARCH_INDEX: SearchEntry[] = [
     excerpt: a.excerpt,
     category: a.category,
     tags: a.tags ?? [],
+  })),
+  ...ALL_PLANTES.map<SearchEntry>((p) => ({
+    type: 'plante',
+    url: `/plantes/${p.category}/${p.slug}`,
+    title: `${p.nom} (${p.nomLatin})`,
+    excerpt: p.excerpt,
+    category: p.category,
+    tags: p.tags ?? [],
+  })),
+  ...ALL_JUS.map<SearchEntry>((j) => ({
+    type: 'jus',
+    url: `/jus/${j.category}/${j.slug}`,
+    title: j.nom,
+    excerpt: j.excerpt,
+    category: j.category,
+    tags: j.tags ?? [],
   })),
 ];
 

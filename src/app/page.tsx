@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import {
   ArrowRight, Leaf, FlaskConical, BookOpen, Sprout,
-  CheckCircle2, Droplets, Wind, Star, ChevronRight,
+  CheckCircle2, Droplets, Wind, Star, ChevronRight, BookHeart, GlassWater,
 } from 'lucide-react';
 import { AnimatedSection, StaggerChildren } from '@/components/AnimatedSection';
 import { NewsletterCard } from '@/components/NewsletterCard';
@@ -192,10 +192,14 @@ function TwoDomains() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <AnimatedSection animation="fade-up" className="text-center mb-14">
-          <p className="text-xs font-bold uppercase tracking-[0.18em] text-sage-600 mb-3">Nos deux piliers</p>
+          <p className="text-xs font-bold uppercase tracking-[0.18em] text-sage-600 mb-3">Nos quatre piliers</p>
           <h2 className="font-display text-4xl sm:text-5xl text-forest-900">
             Choisissez votre approche
           </h2>
+          <p className="mt-4 text-forest-700/85 max-w-2xl mx-auto">
+            Deux disciplines complémentaires — naturopathie et nutrithérapie — augmentées d'une encyclopédie
+            de plantes par indication et d'un recueil de recettes de jus inspiré de Norman W. Walker.
+          </p>
         </AnimatedSection>
 
         <div className="grid lg:grid-cols-2 gap-8">
@@ -254,6 +258,70 @@ function TwoDomains() {
                 </ul>
                 <div className="inline-flex items-center gap-2 bg-earth-500 group-hover:bg-earth-400 text-white font-semibold text-sm px-6 py-3 rounded-full transition-all">
                   Explorer la nutrithérapie
+                  <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                </div>
+              </div>
+            </Link>
+          </AnimatedSection>
+        </div>
+
+        {/* Pilier 3 et 4 — plantes + jus */}
+        <div className="grid lg:grid-cols-2 gap-8 mt-8">
+
+          {/* Plantes qui soignent */}
+          <AnimatedSection animation="slide-left" delay={300}>
+            <Link href="/plantes" className="group block">
+              <div className="bg-sage-50 hover:bg-sage-100 rounded-3xl p-8 lg:p-10 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl border border-sage-200">
+                <div className="w-16 h-16 bg-sage-500 rounded-2xl grid place-items-center mb-6 shadow-md group-hover:bg-sage-600 transition-colors">
+                  <BookHeart className="h-8 w-8 text-white" />
+                </div>
+                <div className="flex items-start justify-between mb-3">
+                  <h3 className="font-display text-3xl sm:text-4xl text-forest-900">Les plantes qui soignent</h3>
+                  <span className="text-xs font-bold uppercase tracking-widest text-sage-700 bg-sage-100 px-3 py-1.5 rounded-full mt-1">Encyclopédie</span>
+                </div>
+                <p className="text-forest-700/85 leading-relaxed mb-7">
+                  Une encyclopédie raisonnée des plantes médicinales, organisée par indication thérapeutique. Niveau de preuve honnête, posologies traditionnelles, contre-indications explicites.
+                </p>
+                <ul className="space-y-2.5 mb-8">
+                  {['Sommeil & nervosité', 'Stress & anxiété', 'Digestion & foie', 'Immunité & infections', 'Circulation & cœur', 'Respiration, peau, sphère féminine'].map((item) => (
+                    <li key={item} className="flex items-center gap-3 text-sm text-forest-800">
+                      <CheckCircle2 className="h-4 w-4 text-sage-600 flex-shrink-0" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+                <div className="inline-flex items-center gap-2 bg-sage-500 group-hover:bg-sage-600 text-white font-semibold text-sm px-6 py-3 rounded-full transition-all">
+                  Découvrir les plantes
+                  <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                </div>
+              </div>
+            </Link>
+          </AnimatedSection>
+
+          {/* Recettes de jus */}
+          <AnimatedSection animation="slide-right" delay={400}>
+            <Link href="/jus" className="group block">
+              <div className="bg-cream-100 hover:bg-cream-200 rounded-3xl p-8 lg:p-10 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl border border-forest-100">
+                <div className="w-16 h-16 bg-forest-700 rounded-2xl grid place-items-center mb-6 shadow-md group-hover:bg-forest-600 transition-colors">
+                  <GlassWater className="h-8 w-8 text-white" />
+                </div>
+                <div className="flex items-start justify-between mb-3">
+                  <h3 className="font-display text-3xl sm:text-4xl text-forest-900">Les recettes de jus</h3>
+                  <span className="text-xs font-bold uppercase tracking-widest text-forest-700 bg-forest-100 px-3 py-1.5 rounded-full mt-1">Walker</span>
+                </div>
+                <p className="text-forest-700/85 leading-relaxed mb-7">
+                  Recettes de jus de légumes et fruits frais, inspirées de l'œuvre de <strong className="text-forest-900">Norman W. Walker</strong> (1936) et adaptées à l'extracteur ou à la centrifugeuse. Organisées par indication.
+                </p>
+                <ul className="space-y-2.5 mb-8">
+                  {['Méthode Walker (fondamentaux)', 'Drainage & dépuration', 'Énergie & vitalité', 'Immunité saisonnière', 'Digestion, peau, sport', 'Hydratation & légèreté'].map((item) => (
+                    <li key={item} className="flex items-center gap-3 text-sm text-forest-800">
+                      <CheckCircle2 className="h-4 w-4 text-forest-700 flex-shrink-0" />
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+                <div className="inline-flex items-center gap-2 bg-forest-700 group-hover:bg-forest-600 text-white font-semibold text-sm px-6 py-3 rounded-full transition-all">
+                  Explorer les recettes
                   <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </div>
               </div>

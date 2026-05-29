@@ -178,10 +178,18 @@ export function Navigation() {
               />
               <li>
                 <Link
-                  href="/naturopathie/temperaments"
+                  href="/plantes"
                   className="px-4 py-2 text-sm font-semibold text-forest-800 hover:text-forest-600 transition-colors rounded-full hover:bg-forest-50"
                 >
-                  Tempéraments
+                  Plantes
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/jus"
+                  className="px-4 py-2 text-sm font-semibold text-forest-800 hover:text-forest-600 transition-colors rounded-full hover:bg-forest-50"
+                >
+                  Jus
                 </Link>
               </li>
               <li>
@@ -277,6 +285,14 @@ export function Navigation() {
               </div>
 
               <div className="mt-2 px-4 space-y-2">
+                <Link href="/plantes" onClick={() => setMobileOpen(false)}
+                  className="block px-4 py-2.5 text-sm font-semibold text-forest-800 hover:bg-forest-50 rounded-xl">
+                  Les plantes qui soignent
+                </Link>
+                <Link href="/jus" onClick={() => setMobileOpen(false)}
+                  className="block px-4 py-2.5 text-sm font-semibold text-forest-800 hover:bg-forest-50 rounded-xl">
+                  Les recettes de jus
+                </Link>
                 <Link href="/naturopathie/temperaments" onClick={() => setMobileOpen(false)}
                   className="block px-4 py-2.5 text-sm font-semibold text-forest-800 hover:bg-forest-50 rounded-xl">
                   Tempéraments
