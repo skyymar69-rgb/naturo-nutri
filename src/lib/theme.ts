@@ -20,7 +20,7 @@ export const STORAGE_KEY = 'nutriea-prefs';
 export const PREFS_EVENT = 'nutriea:prefs-change';
 
 export const DEFAULT_PREFS: Prefs = {
-  theme: 'system',
+  theme: 'dark',
   reduceMotion: false,
   highContrast: false,
   largeText: false,

@@ -6,7 +6,7 @@
 export function ThemeScript() {
   const code = `(function(){try{
     var p=JSON.parse(localStorage.getItem('nutriea-prefs')||'{}');
-    var t=p.theme||'system';
+    var t=p.theme||'dark';
     var dark=t==='dark'||(t==='system'&&matchMedia('(prefers-color-scheme: dark)').matches);
     var c=document.documentElement.classList;
     c.toggle('dark',dark);
